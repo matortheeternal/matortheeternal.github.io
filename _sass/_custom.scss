@@ -16,12 +16,6 @@ section {
     text-align: center;
 }
 
-.overlay {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
-    height: 100%;
-    width: 100%;
-}
-
 #current-interests {
     height: calc(100vh - 62px);
     background: url("https://i.imgur.com/R08GDR1.png");
@@ -31,15 +25,25 @@ section {
 }
 
 .hover-box {
+    border: 1px solid #444;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ddd;
+}
+
+.title-box {
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    font-size: 20px;
+}
+
+.subject-box {
     text-align: left;
     position: absolute;
     width: 25%;
     left: 65%;
     top: 75%;
-    border: 1px solid #444;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #ddd;
     div {
         font-size: 24px;
     }
@@ -53,4 +57,12 @@ section {
     border-bottom: 2px solid #23e;
     width: 300px;
     margin: 60px auto;
+}
+
+.section-comment {
+    font-style: italic;
+    font-size: 18px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
 }
