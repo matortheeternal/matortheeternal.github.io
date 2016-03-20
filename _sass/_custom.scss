@@ -11,6 +11,12 @@ section {
     text-align: center;
 }
 
+.overlay {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+}
+
 #current-interests {
     height: calc(100vh - 62px);
     background: url("https://i.imgur.com/R08GDR1.png");
@@ -33,4 +39,11 @@ section {
     p {
         margin-bottom: 4px;
     }
+}
+
+.page-heading {
+    font-size: 32px;
+    border-bottom: 2px solid #23e;
+    width: 300px;
+    margin: 60px auto;
 }
