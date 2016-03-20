@@ -25,7 +25,7 @@ layout: default
           <img src="{{ project.image }}">
           <h2>{{ project.name }}</h2>
           <p>
-            {{ project.excerpt | remove: '<p>' | remove: '</p>' }}...
+            {{ project.excerpt | remove: '<p>' | remove: '</p>' }}
 
             <a href="{{ project.url }}" class="read-more">Read more</a>
           </p>
@@ -46,7 +46,7 @@ layout: default
           <h2>{{ post.title }}</h2>
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
           <p>
-            {{ post.excerpt | remove: '<p>' | remove: '</p>' }}...
+            {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
 
             <a href="{{ post.url }}" class="read-more">Read more</a>
           </p>
