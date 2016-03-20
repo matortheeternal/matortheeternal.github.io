@@ -4,20 +4,57 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <section id="current-interests">
+    <div class="hover-box">
+      <div>Fractal Mathematics</div>
+      <p>
+        I love how fractals are an infusion of art and 
+        mathematics and how tweaking algorithms and inputs 
+        can yield wildly different results to explore and 
+        discover.
+      </p>
+    </div>
+  </section>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <section id="recent-projects">
+    <h1 class="page-heading">Recent Projects</h1>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <ul class="content-list col-3">
+      {% for project in site.projects | limit: 3 %}
+        <li>
+          <img src="{{ project.image }}">
+          <h2>{{ project.name }}</h2>
+          <p>
+            {{ project.excerpt | remove: '<p>' | remove: '</p>' }}...
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+            <a href="{{ project.url }}" class="read-more">Read more</a>
+          </p>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <a href="/projects">Browse all projects</a>
+  </section>
+
+
+  <section id="recent-posts">
+    <h1 class="page-heading">Recent Blog Posts</h1>
+
+    <ul class="content-list col-2">
+      {% for post in site.posts | limit: 2 %}
+        <li>
+          <h2>{{ post.title }}</h2>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <p>
+            {{ post.excerpt | remove: '<p>' | remove: '</p>' }}...
+
+            <a href="{{ post.url }}" class="read-more">Read more</a>
+          </p>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <a href="/posts">Browse all posts</a>
+  </section>
 
 </div>
