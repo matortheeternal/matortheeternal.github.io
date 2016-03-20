@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.page-content {
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+    text-align: center;
+}
+
+#current-interests {
+    height: calc(100vh - 62px);
+    background: url("https://i.imgur.com/R08GDR1.png");
+    background-position: center;
+}
+
+.hover-box {
+    text-align: left;
+    position: absolute;
+    width: 25%;
+    left: 65%;
+    top: 75%;
+    border: 1px solid #444;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ddd;
+    div {
+        font-size: 24px;
+    }
+    p {
+        margin-bottom: 4px;
+    }
+}
