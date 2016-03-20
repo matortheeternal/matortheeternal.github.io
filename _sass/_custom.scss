@@ -8,6 +8,24 @@
     z-index: 1;
 }
 
+.identity {
+    line-height: 56px;
+    margin-right: 20px;
+}
+
+.site-nav {
+    margin-left: 20px;
+    a  {
+        margin-right: 12px;
+    }
+    .main-item {
+        margin-right: 24px;
+    }
+    .social {
+        float: right;
+    }
+}
+
 .page-content {
     padding: 0;
 }
