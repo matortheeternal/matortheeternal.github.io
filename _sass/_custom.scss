@@ -12,7 +12,7 @@ section {
 }
 
 .overlay {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
     height: 100%;
     width: 100%;
 }
@@ -21,6 +21,8 @@ section {
     height: calc(100vh - 62px);
     background: url("https://i.imgur.com/R08GDR1.png");
     background-position: center;
+    position: relative;
+    box-shadow: 0px 1px 7px 5px #000;
 }
 
 .hover-box {
