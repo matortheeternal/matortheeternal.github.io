@@ -52,7 +52,7 @@ nav {
 }
 
 section {
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
     border-bottom: 2px solid #aaa;
 }
@@ -76,10 +76,11 @@ section {
         bottom: 10px;
         background: rgba(0, 0, 0, 0.7);
         margin: 0;
-        padding: 10px 16px 0 16px;
+        padding: 4px 8px 4 8px;
         left: calc(50% - (138px/2));
         a {
             background-color: #888;
+            overflow: none;
             &:hover {
                 background-color: #fff;
             }
@@ -143,6 +144,7 @@ section {
 .subject-box {
     text-align: left;
     width: 25%;
+    min-width: 400px;
     padding: 20px;
     right: 7%;
     bottom: 10%;
@@ -196,6 +198,7 @@ section {
 .col-3 {
     li {
         width: 30%;
+        min-width: 300px;
         margin-right: 1.5%;
         margin-left: 1.5%;
     }
