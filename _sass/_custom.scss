@@ -50,14 +50,16 @@ nav {
 section {
     height: 100vh;
     text-align: center;
+    border-bottom: 2px solid #aaa;
 }
 
 #current-interests {
-    height: calc(100vh - 62px);
+    height: calc(100vh - 56px);
     background: url("https://i.imgur.com/R08GDR1.png");
     background-position: center;
     position: relative;
     box-shadow: 0px 2px 7px 5px #000;
+    border: 0;
 }
 
 .hover-box {
@@ -106,4 +108,33 @@ section {
     position: absolute;
     top: 10%;
     left: 10%;
+}
+
+.content-list {
+    margin-left: 0;
+    height: 70%;
+    text-align: left;
+    li {
+        list-style: none;
+        border: 1px solid #aaa;
+        display: inline-block;
+        height: 80%;
+        .header {
+            padding: 20px 20px 10px 20px;
+            border-bottom: 1px solid #aaa;
+            .post-meta {
+                float: right;
+            }
+        }
+        .content {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+}
+
+.col-3 {
+    li {
+        width: 25%;
+    }
 }
