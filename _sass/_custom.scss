@@ -1,6 +1,3 @@
-{% assign lvl = page.url | append:'X' | split:'/' | size %}
-{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
-
 * {
     box-sizing: border-box;
 }
@@ -94,30 +91,30 @@ section {
 }
 
 .voxel-graphics {
-    background-image: url("{{ relative }}images/voxel-graphics.jpg");
+    background-image: url("/images/voxel-graphics.jpg");
 }
 
 .backend-development {
-    background-image: url("{{ relative }}images/backend-development.png");
+    background-image: url("/images/backend-development.png");
     background-color: #fff;
 }
 
 .fractal-mathematics {
-    background-image: url("{{ relative }}images/fractal-mathematics.png");
+    background-image: url("/images/fractal-mathematics.png");
     background-size: 100%;
 }
 
 .machine-learning {
-    background-image: url("{{ relative }}images/machine-learning.png");
+    background-image: url("/images/machine-learning.png");
     background-color: #fff;
 }
 
 .procedural-generation {
-    background-image: url("{{ relative }}images/procedural-generation.jpg");
+    background-image: url("/images/procedural-generation.jpg");
 }
 
 .automation {
-    background-image: url("{{ relative }}images/automation.jpg");
+    background-image: url("/images/automation.jpg");
 }
 
 #current-interests {
