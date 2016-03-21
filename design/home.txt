@@ -1,0 +1,36 @@
+Fractal Mathematics
+	- I love how fractals are an infusion of art and mathematics and how tweaking algorithms and inputs can yield wildly different results to explore and discover.
+
+Backend Development
+	- The way that data interacts to form a solution to a problem is really interesting and intuitive for me.  I enjoy working with MySQL and frameworks like Rails to develop clean, innovative solutions for the web.
+
+Voxel Graphics
+	- I think volumetric graphics engines are very interesting, and I'm excited to see how they can be used in the future in game development as well as other areas.
+
+Machine Learning
+	- As we move into the 21st century we're seeing computers capable of doing things we never imagined them being capable of.  I feel that machine learning is at the forefront of ambitious new approaches and solutions to complex problems.
+
+Procedural Generation
+	- I find the notion that most AAA video game studios continue to build huge worlds (mostly) by hand absolutely amazing, and somewhat ridiculous.  I'm looking forward to the rise of procedural generation in the industry.
+
+Automation
+	- Many of the things we do are repetitive and redundant.  Automation through simple scripts or fully-featured GUI applications inspires me, and has driven me to build many solutions over the years.
+
+
+Software Developer
+Thinker
+Innovator
+Automator
+Problem Solver
+Pastaphile
+Builder
+Poet
+Eagle Scout
+Digital Artist
+Gamer
+Teacher
+Scientist
+Hacker
+Modder
+Halo Stunter
+
