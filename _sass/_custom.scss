@@ -76,11 +76,11 @@ section {
         bottom: 10px;
         background: rgba(0, 0, 0, 0.7);
         margin: 0;
-        padding: 4px 8px 4 8px;
+        padding: 4px 8px 4px 8px;
         left: calc(50% - (138px/2));
         a {
             background-color: #888;
-            overflow: none;
+            overflow: hidden;
             &:hover {
                 background-color: #fff;
             }
