@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="projects">
+  <h1 class="page-heading">Projects</h1>
+
+  <ul class="content-list col-3">
+  {% for post in site.categories.projects %}
+    <li>
+      <div class="project-image" style="background-image: url('/images/projects/{{ post.short_name }}.png')">
+      </div>
+      <div class="header">
+        {{ post.title }}
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      </div>
+
+      <div class="content">
+        {{ post.excerpt }}
+
+        <p class="read-more">
+          <a href="{{ post.url }}">Read more</a>
+        </p>
+      </div>
+    </li>
+  {% endfor %}
+  </ul>
+
+</div>
