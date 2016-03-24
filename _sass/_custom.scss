@@ -180,13 +180,14 @@ section {
 .content-list {
     margin-left: 8%;
     margin-right: 8%;
-    height: 70%;
+    min-height: 70vh;
     li {
         text-align: left;
         list-style: none;
         border: 1px solid #333;
         display: inline-block;
-        height: 80%;
+        min-height: 60vh;
+        overflow: hidden;
         .header {
             background-color: #f0f0f0;
             font-size: 21px;
@@ -202,6 +203,13 @@ section {
     }
 }
 
+.project-image {
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
 .read-more {
     text-align: center;
 }
@@ -212,6 +220,14 @@ section {
         min-width: 300px;
         margin-right: 1.5%;
         margin-left: 1.5%;
+        margin-bottom: 60px;
+    }
+}
+
+.projects {
+    text-align: center;
+    .page-heading {
+        width: 170px;
     }
 }
 
