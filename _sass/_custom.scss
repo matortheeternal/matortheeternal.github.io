@@ -44,6 +44,7 @@ nav {
 
 .page-content {
     padding: 0;
+    min-height: calc(100vh - 56px - 163px);
 }
 
 .wrapper {
@@ -200,6 +201,12 @@ section {
         .content {
             margin: 20px;
         }
+    }
+}
+
+#recent-posts {
+    li {
+        min-height: 30vh;
     }
 }
 
