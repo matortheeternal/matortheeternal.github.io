@@ -136,7 +136,7 @@ section {
 
 .title-box {
     padding: 10px;
-    left: 40px;
+    left: 30px;
     top: 20px;
     font-size: 18px;
     font-style: italic;
@@ -157,6 +157,16 @@ section {
     }
     p {
         margin-bottom: 4px;
+    }
+}
+
+.source-box {
+    padding: 5px;
+    left: 20px;
+    bottom: 10px;
+    font-size: 12px;
+    a {
+        color: #fff;
     }
 }
 
