@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Mator Smash"
-short_name: Smash
+short_name: smash
 languages: ['delphi']
 status: Standby
 repository: matortheeternal/smash
