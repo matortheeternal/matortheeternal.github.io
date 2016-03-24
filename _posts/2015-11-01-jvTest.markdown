@@ -1,0 +1,29 @@
+---
+layout: project
+title: "jvTest"
+short_name: jvTest
+languages: ['delphi']
+status: Complete
+repository: matortheeternal/jvTest
+date: 2015-11-01 12:00:00 -0800
+updated: 2016-02-29 12:00:00 -0800
+categories: ['projects']
+tags: ['bethesda games', 'testing', 'skyrim', 'framework']
+---
+jvTest is a testing framework written for Delphi, specifically targetting 
+Delphi scripts executed through the 
+[jvInterpreter](http://jvcl.delphi-jedi.org/JvInterpreter.htm) provided with 
+the [JVCL](http://jvcl.delphi-jedi.org/).  Making scripts for Automation Tools 
+and then working on xEdit scripting libraries like mteFunctions and MXPF made 
+me realize I really shouldn't (and couldn't) keep coding without tests.  
+
+There was no testing framework for the jvInterpreter (to my knowledge), so I 
+made my own!  Due to limitations of the jvInterpreter I couldn't make it quite 
+as clean as I'd like, but it works and it gets the job done.  I built the 
+framework in the style of [Jasmine](https://jasmine.github.io/), the javascript 
+testing framework.
+
+## Development Status
+
+Asides from bug fixes, jvTest is complete.  I don't see myself updating it or 
+adding anything to it in the future unless absolutely necessary.
