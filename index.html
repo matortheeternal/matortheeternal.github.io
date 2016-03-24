@@ -115,20 +115,20 @@ layout: default
     <h1 class="page-heading">Recent Projects</h1>
 
     <ul class="content-list col-3">
-      {% for post in site.categories.projects | limit: 3 %}
+      {% for project in site.categories.projects | limit: 3 %}
         <li>
-          <div class="project-image" style="background-image: url('/images/projects/{{ post.short_name }}.png')">
+          <div class="project-image" style="background-image: url('/images/projects/{{ project.short_name }}.png')">
           </div>
           <div class="header">
-            {{ post.title }}
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            {{ project.title }}
+            <span class="post-meta">{{ project.date | date: "%b %-d, %Y" }}</span>
           </div>
 
           <div class="content">
-            {{ post.excerpt }}
+            {{ project.excerpt }}
 
             <p class="read-more">
-              <a href="{{ post.url }}">Read more</a>
+              <a href="{{ project.url }}">Read more</a>
             </p>
           </div>
         </li>
@@ -143,7 +143,7 @@ layout: default
     <h1 class="page-heading">Recent Blog Posts</h1>
 
     <ul class="content-list col-3">
-      {% for post in site.posts | limit: 3 %}
+      {% for post in site.categories.blog | limit: 3 %}
         <li>
           <div class="header">
             {{ post.title }}
