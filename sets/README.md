@@ -1,1 +1,1 @@
-Copy your '<code>-files' export folders directly into this directory.
+Copy your '\<code\>-files' export folders directly into this directory.
