@@ -1,1 +1,1 @@
-Directory for custom assets, in subdirectories named '<code>-files'.
+Directory for custom assets, in subdirectories named '\<code\>-files'.
