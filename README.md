@@ -34,9 +34,7 @@ Finally, in the bar along the top, select "Fetch origin" to pull the origin into
 
 > :memo: **Note:** This exporter uses the "Title" and "Set code" entered in the "Set info" tab of your MSE set. If those aren't set, the exporter will exhibit strange behavior.
 
-In the resources folder of your cloned repo, you'll find the "magic-egg-allinone" exporter. Copy that into the "data" folder of MSE, then open the program. Open a set you'd like to export, then click File => Export => HTML ... and select Egg's All-in-One. This exporter currently exports two files:
- - \<code>-files directory containing all the files necessary to export the set
- - Draftmancer file used to draft your set
+In the resources folder of your cloned repo, you'll find the "magic-egg-allinone" exporter. Copy that into the "data" folder of MSE, then open the program. Open a set you'd like to export, then click File => Export => HTML ... and select Egg's All-in-One. This will export all of your site files and a .txt file you can use to draft your set on Draftmancer.
 
 You can reference the [Draftmancer export guide](https://docs.google.com/document/d/1xPqa91WrBqJ7t7pFJvXFUgKUDgtPe-Yeem35IOq2Qcc/edit) for more detailed instructions on that half of the exporter, but I'll quickly go over each option:
 - **Export images**: Defaults to "yes". You should do this every time or you might get weird results with some of your site image pages.
@@ -48,6 +46,40 @@ You can reference the [Draftmancer export guide](https://docs.google.com/documen
 Once each of these options is filled out, click OK and save the set file as "\<set_code>.txt". (This should match the "Set code" in your "Set info" tab.) This will take a second as the application exports all your images, and the end result is two outputs:
 - **\<code>.txt**, which is irrelevant.
 - **\<code>-files**, a directory containing all the files necessary to publish your set onto your hub.
+
+## Step 3: Generating the site
+
+Surprisingly, you're almost done! Copy the "\<code>-files" folder (the entire directory) into the "sets" folder of your GitHub checkout. Open Github Desktop, and you should see that directory in the "Changes" sidebar. Click Repository => Open in Terminal (or Command Prompt for Windows machines).
+
+In the opened terminal, execute the following command:
+
+```
+git config --global http.postBuffer 157286400
+```
+
+This updates your buffer so you can upload all of your images with no timeout issues. Otherwise, git sometimes gets tired and quits somewhat arbitrarily. Afterwards, execute:
+
+```
+python3 scripts/build_site.py
+```
+
+This will spit out a bunch of confirmation lines for different site elements being built. The first time it runs, it will take a few minutes to process through each image. Subsequent runs will be much quicker, unless you update the images with new files. After the command finishes, navigate back to Github desktop and you should see plenty of new artifacts in the "Changes" sidebar. In the bottom left, type a title for your change (this is for versioning), then click "Commit to main". Once you've done so, a big "Push origin" button will appear in the middle of the window. Click that, wait for the push to finish, and voila! Your site is deployed.
+
+To track the process of your site deployment, navigate to https://github.com/USERNAME/USERNAME.github.io/actions, replacing USERNAME with your Github username. Each time you push to origin, a deployment action will trigger, and once that's complete your site will be visible at https://\<username>.github.io.
+
+## Appendix
+
+### Updating the site
+
+To update a set, re-export it using Egg's All-in-One exporter, then replace the "\<code>-files" directory in your "sets" folder with the newly generated folder. To add or delete a set, simply add or delete that set's "-files" folder from the "sets" folder. After updating the "sets" folder, rerun `python3 scripts/build_site.py` and deploy your new changes.
+
+### Custom assets
+
+If you want to replace default or generated assets, You can use the "custom" folder in your Github checkout. Put any files you'd like to replace in similarly named directories within "custom". For instance, to replace a set's logo, create "\<code>-files" within your "custom" folder, then put a new "logo.png" within it. Any assets replaced this way will be brought over once you run `build_site.py`.
+
+### HTML addenda
+
+If you want to insert your own custom HTML into a set's preview gallery (for instance, to add images of a Masterpiece series to the end), create your custom HTML file in "custom/\<code>-files/addenda/\<code>-addendum.html". This will be injected at the end of that set's preview gallery once you run `build_site.py`.
 
 ## Future Updates
 
