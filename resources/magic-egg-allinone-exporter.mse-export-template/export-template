@@ -33,6 +33,13 @@ option field:
 	description: name of your github repo (e.g. magictheegg.github.io)
 
 option field:
+	type: choice
+	name: cube
+	choice: no
+	choice: yes
+	description: is this set a cube?
+
+option field:
 	type: text
 	name: rares
 	default: 1
@@ -59,8 +66,8 @@ option field:
 option field:
 	type: choice
 	name: land slot
-	choice: yes
 	choice: no
+	choice: yes
 	description: land slot to replace basic lands (add "landslot" to notes of all cards that should be in this slot)
 
 script:
@@ -121,7 +128,7 @@ script:
 	}
 
 	write_card := {
-		card_name() + "\t" + card_color() + "\t" + card_rarity() + "\t" + card.type + "\t" + card_number() + "\t" + color_identity_statistic() + "\t" + card.casting_cost + "\t" + card.rule_text + "\t" + card.pt + "\t" + card.special_text + "\t" + card.shape + "\t" + set.set_code + (if contains(card.shape, match:"double") or contains(card.shape, match:"adventure") or contains(card.shape, match:"spli") then "\t" + card_name_2() + "\t" + card_color_2() + "\t" + card.type_2 + "\t" + color_identity_statistic() + "\t" + card.casting_cost_2 + "\t" + card.rule_text_2  + "\t" + card.pt_2 + "\t" + card.special_text_2 + "\t" + "REPLACEME" else "REPLACEME")
+		card_name() + "\t" + card_color() + "\t" + (if options.cube == "yes" then "Cube" else card_rarity()) + "\t" + card.type + "\t" + card_number() + "\t" + color_identity_statistic() + "\t" + card.casting_cost + "\t" + card.rule_text + "\t" + card.pt + "\t" + card.special_text + "\t" + card.shape + "\t" + set.set_code + "\t" + card.loyalty + (if contains(card.shape, match:"double") or contains(card.shape, match:"adventure") or contains(card.shape, match:"spli") then "\t" + card_name_2() + "\t" + card_color_2() + "\t" + card.type_2 + "\t" + color_identity_statistic() + "\t" + card.casting_cost_2 + "\t" + card.rule_text_2  + "\t" + card.pt_2 + "\t" + card.special_text_2 + "\t" + "REPLACEME" else "REPLACEME")
 	}
 
 	write_cards := for each card in cards do write_card()
