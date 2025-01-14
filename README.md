@@ -60,6 +60,7 @@ git config --global http.postBuffer 157286400
 This updates your buffer so you can upload all of your images with no timeout issues. Otherwise, git sometimes gets tired and quits somewhat arbitrarily. Afterwards, execute:
 
 ```
+python3 -m pip install pillow
 python3 scripts/build_site.py
 ```
 
@@ -77,10 +78,16 @@ To update a set, re-export it using Egg's All-in-One exporter, then replace the 
 
 If you want to replace default or generated assets, You can use the "custom" folder in your Github checkout. Put any files you'd like to replace in similarly named directories within "custom". For instance, to replace a set's logo, create "\<code>-files" within your "custom" folder, then put a new "logo.png" within it. Any assets replaced this way will be brought over once you run `build_site.py`.
 
+This is specifically useful for backgrounds on preview pages, which are by default blank. If you want a background, add "bg.png" to that set's "custom/\<code>-files" directory and rebuild the site.
+
+### Changing the homepage's background gradient
+
+There are 34 gradients you can choose from on the homepage, which are stored in `resources/gradients.txt`. You can always switch between them using the select in the top left of the homepage. If you'd like to set a new gradient as the default, simply edit `gradients.txt` and move your favorite gradient's row to the top of the text file.
+
 ### HTML addenda
 
 If you want to insert your own custom HTML into a set's preview gallery (for instance, to add images of a Masterpiece series to the end), create your custom HTML file in "custom/\<code>-files/addenda/\<code>-addendum.html". This will be injected at the end of that set's preview gallery once you run `build_site.py`.
 
 ## Future Updates
 
-To get updates to the scripts or resources, from Github Desktop, select "Current branch" in the bar along the top, the at the bottom of the opened menu click "Choose a branch to merge into **main**". On the next modal, select "upstream/main", then click "Create a merge commit". This will bring all new code in the main repo into your forked repo, and it will be ready to push the next time you push the contents of your site to main.
+To get updates to the scripts or resources, from Github Desktop, select "Fetch origin" in the bar along the top and wait for that process to complete. Once it's done, select "Current branch" in the same bar, then at the bottom of the opened menu click "Choose a branch to merge into **main**". On the next modal, select "upstream/main", then click "Create a merge commit". This will bring all new code in the main repo into your forked repo, and it will be ready to push the next time you push the contents of your site to main.
