@@ -80,6 +80,10 @@ If you want to replace default or generated assets, You can use the "custom" fol
 
 This is specifically useful for backgrounds on preview pages, which are by default blank. If you want a background, add "bg.png" to that set's "custom/\<code>-files" directory and rebuild the site.
 
+### Changing the homepage's background gradient
+
+There are 34 gradients you can choose from on the homepage, which are stored in `resources/gradients.txt`. You can always switch between them using the select in the top left of the homepage. If you'd like to set a new gradient as the default, simply edit `gradients.txt` and move your favorite gradient's row to the top of the text file.
+
 ### HTML addenda
 
 If you want to insert your own custom HTML into a set's preview gallery (for instance, to add images of a Masterpiece series to the end), create your custom HTML file in "custom/\<code>-files/addenda/\<code>-addendum.html". This will be injected at the end of that set's preview gallery once you run `build_site.py`.
