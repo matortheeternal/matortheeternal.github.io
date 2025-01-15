@@ -68,6 +68,10 @@ This will spit out a bunch of confirmation lines for different site elements bei
 
 To track the process of your site deployment, navigate to https://github.com/USERNAME/USERNAME.github.io/actions, replacing USERNAME with your Github username. Each time you push to origin, a deployment action will trigger, and once that's complete your site will be visible at https://\<username>.github.io.
 
+## Future Updates
+
+To get updates to the scripts or resources, from Github Desktop, select "Fetch origin" in the bar along the top and wait for that process to complete. Once it's done, select "Current branch" in the same bar, then at the bottom of the opened menu click "Choose a branch to merge into **main**". On the next modal, select "upstream/main", then click "Create a merge commit". This will bring all new code in the main repo into your forked repo, and it will be ready to push the next time you push the contents of your site to main.
+
 ## Appendix
 
 ### Updating the site
@@ -80,6 +84,10 @@ If you want to replace default or generated assets, You can use the "custom" fol
 
 This is specifically useful for backgrounds on preview pages, which are by default blank. If you want a background, add "bg.png" to that set's "custom/\<code>-files" directory and rebuild the site.
 
+### Custom tags
+
+The search page supports custom tags, which can be queried using "tag:\<foo>". In your MSE file, add "!tag \<foo>" to the card notes. The exporter and site builder will do the rest.
+
 ### Changing the homepage's background gradient
 
 There are 34 gradients you can choose from on the homepage, which are stored in `resources/gradients.txt`. You can always switch between them using the select in the top left of the homepage. If you'd like to set a new gradient as the default, simply edit `gradients.txt` and move your favorite gradient's row to the top of the text file.
@@ -87,7 +95,3 @@ There are 34 gradients you can choose from on the homepage, which are stored in 
 ### HTML addenda
 
 If you want to insert your own custom HTML into a set's preview gallery (for instance, to add images of a Masterpiece series to the end), create your custom HTML file in "custom/\<code>-files/addenda/\<code>-addendum.html". This will be injected at the end of that set's preview gallery once you run `build_site.py`.
-
-## Future Updates
-
-To get updates to the scripts or resources, from Github Desktop, select "Fetch origin" in the bar along the top and wait for that process to complete. Once it's done, select "Current branch" in the same bar, then at the bottom of the opened menu click "Choose a branch to merge into **main**". On the next modal, select "upstream/main", then click "Create a merge commit". This will bring all new code in the main repo into your forked repo, and it will be ready to push the next time you push the contents of your site to main.
