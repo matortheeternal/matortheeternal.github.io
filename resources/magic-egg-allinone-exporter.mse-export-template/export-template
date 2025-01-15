@@ -76,15 +76,16 @@ option field:
 	description: land slot to replace basic lands (add "landslot" to notes of all cards that should be in this slot)
 
 script:
-	fix_tm := replace@(match:"™", replace:"TM")
+	#fix_tm := replace@(match:"™", replace:"TM")
+	
 	apos_fix := replace@(match:"’", replace:"'")
 	trail_fix := replace@(match:" +$", replace:"")
 	clean_names := {trail_fix(apos_fix(remove_tags(input)))}
 
-	apos_strip := replace@(match:"'", replace: "")
-	comma_strip := replace@(match:",", replace: "")
+	#apos_strip := replace@(match:"'", replace: "")
+	#comma_strip := replace@(match:",", replace: "")
 	quote_strip := replace@(match:"\"", replace: "")
-	remove_sp_chars := { apos_strip(comma_strip(quote_strip(input))) }
+	#remove_sp_chars := { apos_strip(comma_strip(quote_strip(input))) }
 
 	mana_script := 	replace@(match:"(2|H|W|U|B|R|G|S|C)/(W|U|B|R|G|S|C)", replace:{"\{"+_1+"/"+_2+"\}"})+
 	replace@(match:"(X|Y|Z|W|U|B|R|G|S|C)", in_context:"(?<!\{)(?<!/)<match>", replace:{"\{"+_1+"\}"})+
@@ -139,10 +140,79 @@ script:
 		)
 	}
 
-	write_card := {
-		card_name() + "\t" + card_color() + "\t" + (if options.cube == "yes" then "cube" else card_rarity()) + "\t" + card.type + "\t" + card_number() + "\t" + color_identity_statistic() + "\t" + card.casting_cost + "\t" + card.rule_text + "\t" + card.pt + "\t" + card.special_text + "\t" + card.shape + "\t" + set.set_code + "\t" + card.loyalty + "\t" + (if contains(card.shape, match:"double") or contains(card.shape, match:"adventure") or contains(card.shape, match:"spli") then card_name_2() + "\t" + card_color_2() + "\t" + card.type_2 + "\t" + color_identity_statistic() + "\t" + card.casting_cost_2 + "\t" + card.rule_text_2  + "\t" + card.pt_2 + "\t" + card.special_text_2 + "\t" + card.loyalty_2 + "\t" else "") + card.notes + "REPLACEME"
-	}
+	##Fungustober's notes:
+	#.txt implementation example:
+	#Black Lotus	artifact	cube	Artifact	0000	C	{0}	{T}, Sacrifice this artifact: Add three mana of any one color.			normal	TST		!restricted	VintageREPLACEME
+	#.json with same info:
+	#{"name":"Black Lotus","color":"artifact","rarity":"cube","type":"Artifact","card_number":"0000","color_identity":"C","casting_cost":"{0}","rules_text":"{T}, Sacrifice this artifact: Add three mana of any one color.","shape":"normal",set:"TST",notes:"!restricted Vintage"},
+		#card_number can just be a number instead of a string, because we don't need to add a or b based on which side the card object is.
+		#having the entire DFC be just one card object make this a whole lot easier
+		#loyalty definitely cannot be a number because of the possibility of X or n+X, and PT can't be a number because of the /
+		
+	#dfc example:
+	#.txt implementation:
+	#Delver of Secrets	blue	common	Creature -- Human Wizard	0001	U	{U}	At the beginning of your upkeep, look at the top card of your library. You may reveal that card. If an instant or sorcery card is revealed this way, transform Delver of Secrets.	1/1		double faced	TST		Insectile Aberration	blue	Creature -- Human Insect	U		3/2			no longer legal in standard :(REPLACEME
+	#.json with same info:
+	#{"name":"Delver of Secrets","color":"blue","rarity":"common","type":"Creature -- Human Wizard"card_number:"0001","color_identity":"U","cost":"{U}","rules_text":"{U}	At the beginning of your upkeep, look at the top card of your library. You may reveal that card. If an instant or sorcery card is revealed this way, transform Delver of Secrets.","p/t":"1/1","shape":"double faced","set":"TST","name2":"Insectile Aberration","color2":"blue","type2":"Creature -- Human Insect","rules_text2":"3/2","notes":"no longer legal in standard :("},
+		#color_identity_statistic() uses both sides of a DFC to create the color identity, so calling it twice is redundant.	
+	
+	#now that we understand how write_card works, let's reformat it to fit JSON specifications.
+	#we're also formatting this in vertical chunks so we don't have to scroll to the right to see everything
 
+
+	##various helper functions
+
+	##gets rid of the last comma in the list of card objects
+	remove_final_comma := {
+		if substring(input, begin:length(input)-1) == "," then substring(input, end:length(input)-1) 
+		else input
+	}
+	
+	escape_linebreaks := replace@(match:"\n", replace:"\\\\n")
+
+	write_card := {
+		##opening bracket, name, and color
+		"\{\"name\":\"{card_name()}\",\"color\":\"{card_color()}\","
+			#result: {"name":"Black Lotus","color":"artifact",
+		
+		##rarity, type, and number
+		+"\"rarity\":\"{(if options.cube == "yes" then "cube" else card_rarity())}\",\"type\":\"{card.type}\",\"number\":{card_number()},"
+			#result: "rarity":"cube","type":"Artifact","number":0000,
+		
+		##color identity, casting cost, and rules text
+		+"\"color_identity\":\"{color_identity_statistic()}\",\"cost\":\"{card.casting_cost}\",\"text\":\"{escape_linebreaks(card.rule_text)}\","
+			#result: "color_identity":"C","cost":"{0}","text":"{T}, Sacrifice this artifact: Add three mana of any one color.",
+			#technically we don't *need* the cost or rules text variables, and it could gum up the json file if we have a lot of cards without 
+			#casting costs or rules text. that being said, cards without casting costs are not common, and checking if a json object has a 
+			#variable takes more effort than just putting an empty string into the website
+		
+		##p/t, special text, and shape
+		+"\"pt\":\"{card.pt}\",\"special_text\":\"{escape_linebreaks(card.special_text)}\",\"shape\":\"{card.shape}\","
+			#result: "pt":"1/1","special_text":"","shape":"double faced"
+			#what was said for the previous chunk applies to p/t and special text as well
+		
+		##set code and loyalty; end of the one-faced card section
+		+"\"set\":\"{set.set_code}\",\"loyalty\":\"{card.loyalty}\","
+			#result: "set":"TST","loyalty":""
+		
+		##check if it's a DFC
+		+(if contains(card.shape, match:"double") or contains(card.shape, match:"adventure") or contains(card.shape, match:"spli") then
+			
+			## second name, color, and type
+			"\"name2\":\"{card_name_2()}\",\"color2\":\"{card_color_2()}\",\"type2\":\"{card.type_2}\","
+			
+			##second casting cost, rules text, and pt
+			+"\"cost2\":\"{card.casting_cost_2}\",\"text2\":\"{card.rule_text_2}\",\"pt2\":\"{card.pt_2}\","
+			
+			## second special text and loyalty; end of second face section
+			+"\"special_text2\":\"{card.special_text_2}\",\"loyalty2\":\"{card.loyalty_2}\","
+			
+			else ""
+		)
+		##notes
+		+"\"notes\":\"{card.notes}\"},"
+	}
+	
 	write_cards := for each card in cards do write_card()
 
 	write_draft_header := {
@@ -221,7 +291,9 @@ script:
 		"+ write_draft_landslot() else "" )
 	}
 
-	write_text_file(file: set.set_code + "-raw.txt", to_text(write_cards))
+
+	write_main_file := "\{\"meta\":\{\},\"data\":\{\"{set.set_code}\":\{\"cards\":[" + remove_final_comma(escape_linebreaks(write_cards)) + "]\}\}\}"
+	write_text_file(file: set.set_code + ".json", to_text(write_main_file))
 
 	write_draft_cards := for each card in cards do write_draft_card()
 	write_booster := write_draft_header() + write_draft_cards + write_draft_footer() + write_booster_contents()
