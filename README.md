@@ -68,13 +68,13 @@ This will spit out a bunch of confirmation lines for different site elements bei
 
 To track the process of your site deployment, navigate to https://github.com/USERNAME/USERNAME.github.io/actions, replacing USERNAME with your Github username. Each time you push to origin, a deployment action will trigger, and once that's complete your site will be visible at https://\<username>.github.io.
 
-## Future Updates
+## Future MSE Set Hub Updates
 
 To get updates to the scripts or resources, from Github Desktop, select "Fetch origin" in the bar along the top and wait for that process to complete. Once it's done, select "Current branch" in the same bar, then at the bottom of the opened menu click "Choose a branch to merge into **main**". On the next modal, select "upstream/main", then click "Create a merge commit". This will bring all new code in the main repo into your forked repo, and it will be ready to push the next time you push the contents of your site to main.
 
 ## Appendix
 
-### Updating the site
+### Updating your custom site
 
 To update a set, re-export it using Egg's All-in-One exporter, then replace the "\<code>-files" directory in your "sets" folder with the newly generated folder. To add or delete a set, simply add or delete that set's "-files" folder from the "sets" folder. After updating the "sets" folder, rerun `python3 scripts/build_site.py` and deploy your new changes.
 
