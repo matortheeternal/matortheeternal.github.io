@@ -13,6 +13,8 @@ game: magic
 create directory: true
 file type: *.txt|*.txt|*.*|*.*
 
+#JSON implementation by Fungustober
+
 option field:
 	type: choice
 	name: export images
@@ -170,24 +172,160 @@ script:
 	
 	escape_linebreaks := replace@(match:"\n", replace:"\\\\n")
 
+	##text processing
+
+	##symbol processing
+
+	#adding my symbol processing functions to simplify things down the road
+	#If we make all the symbols {1}{U} here, we won't have to use tokenize/symbolize in the python scripts
+	
+	#all the mana types we need this regex to detect: (css is case-insensitive, so we don't need to worry about making things upper/lowercase)
+	#w
+	#w/p -> every mana type with a slash needs to not have that by the end
+	#u, u/p, b, b/p, r, r/p, g, g/p 
+	#w/u, w/b, u/b, u/r, b/r, b/g, r/w, r/g, g/w, g/u
+	#2/w-g, c/w-g
+	#p
+	#tap-alt (?)
+	#s
+	#q
+	#half
+	#100
+	#1000000
+	#loyalty-up (?)
+	#loyalty-down (?)
+	#loyalty-zero (?)
+	#loyalty-start (?)
+	#loyalty (?)
+	#0-20
+	#x, y, z
+	#c, e
+	#chaos
+	#½
+	#∞
+	symbol_break := break_text@(match:"1000000|100|chaos|[1-2][0-9]|(2|.)(/.)*")
+	phybrid_check := match@(match:"^H/")
+	phy_check := match@(match:"H")
+	replace_slash := replace@(match:"/", replace:"")
+	
+	convert_symbols := {
+		symbol_list := symbol_break(input)
+		temp := ""
+		for each symbol in symbol_list do 
+			##convert any H/? to ?P
+			if phybrid_check(symbol) then
+				temp := temp + "\{" + substring(symbol, begin:2) + P + "\}"
+			else if phy_check(symbol) then
+				temp := temp + "\{P\}"
+			else temp := temp + "\{"+replace_slash(symbol)+"\}"
+		temp
+	}
+	
+	convert_naught := replace@(match:"[\+\-=]", replace: "")
+	
+	##process planeswalker symbols
+	pw_match := match@(match:"[\+\-]([XYZ]|\d*+)")
+	naught_match := match@(match:"[\+\-]0|=[\dXYZ]+")
+	
+	symbol_processing := {
+		if pw_match(input)
+			then "[" + input + "]"
+		else if naught_match(input)
+			then "[" + convert_naught(input) + "]"
+		else convert_symbols(input)
+	}
+	
+	stitch_text := {
+		temp := ""
+		# iterate over the list,
+		# and if there's symbols left (length(sym) == length(text)-1)
+		# then add the text and the symbol onto the end of the string 
+		# otherwise just add the text
+		for i from 0 to length(text)-1 do
+			if i < length(text)-1 then
+				temp := temp + text[i] + sym[i]
+			else
+				temp := temp + text[i]
+		temp
+	}
+	
+	sym_tag_break := break_text@(match:"<sym.*?>.*?sym.*?>")
+	sym_tag_split := split_text@(match:"<sym.*?>.*?sym.*?>")
+	
+	convert_rules_symbols := {
+		## Get all the text, then split and break it with <sym.*?>.*?sym.*?>
+		## break text gets the symbols and puts it in a list
+		RT_symbols := sym_tag_break(input)
+		
+		## split text gets the rest of the rules text and puts it in another list
+		RT_text := sym_tag_split(input)
+		
+		## go through the list and 
+		## 	1. remove the <sym> tags with <.?sym.*?>
+		##	2. process what's left in another function
+		##	3. Put that into a list with []
+		proc_list := for each symbol in RT_symbols do
+			[symbol_processing(remove_tags(symbol))]
+		
+		##weave the two lists together
+		stitched_RT := stitch_text(text: RT_text, sym: proc_list)
+	}
+
+	##italics & bold processing
+	italics_tag_break := break_text@(match:"<i.*?>.*?i.*?>")
+	italics_tag_split := split_text@(match:"<i.*?>.*?i.*?>")
+	
+	bold_tag_break := break_text@(match:"<b.*?>.*?b.*?>")
+	bold_tag_split := split_text@(match:"<b.*?>.*?b.*?>")
+
+	replace_it := {
+		temp := "[i]" + input + "[/i]"
+	}
+	
+	replace_bold := {
+		temp := "[b]" + input + "[/b]"
+	}
+
+	convert_italics := {
+		italics := italics_tag_break(input)
+		regular := italics_tag_split(input)
+		it_list := for each text in italics do
+			[replace_it(remove_tags(text))]
+		
+		stitched := stitch_text(text:regular, sym:it_list)
+	}
+	
+	convert_bold := {
+		bold := bold_tag_break(input)
+		regular := bold_tag_split(input)
+		bold_list := for each text in bold do
+			[replace_bold(remove_tags(text))]
+			
+		stitched := stitch_text(text:regular, sym:bold_list)
+	}
+	
+	convert_style := { convert_bold(convert_italics(input)) }
+	
+	proc_text := { escape_linebreaks(to_text(convert_style(convert_rules_symbols(input)))) }
+
 	write_card := {
 		##opening bracket, name, and color
 		"\{\"name\":\"{card_name()}\",\"color\":\"{card_color()}\","
-			#result: {"name":"Black Lotus","color":"artifact",
+			#result: {"name":"Black Lotus","color":"",
 		
 		##rarity, type, and number
 		+"\"rarity\":\"{(if options.cube == "yes" then "cube" else card_rarity())}\",\"type\":\"{card.type}\",\"number\":{card_number()},"
 			#result: "rarity":"cube","type":"Artifact","number":0000,
 		
 		##color identity, casting cost, and rules text
-		+"\"color_identity\":\"{color_identity_statistic()}\",\"cost\":\"{card.casting_cost}\",\"text\":\"{escape_linebreaks(card.rule_text)}\","
+		+"\"color_identity\":\"{color_identity_statistic()}\",\"cost\":\"{convert_symbols(card.casting_cost)}\",\"text\":\"{proc_text(card.rule_text)}\","
 			#result: "color_identity":"C","cost":"{0}","text":"{T}, Sacrifice this artifact: Add three mana of any one color.",
 			#technically we don't *need* the cost or rules text variables, and it could gum up the json file if we have a lot of cards without 
 			#casting costs or rules text. that being said, cards without casting costs are not common, and checking if a json object has a 
 			#variable takes more effort than just putting an empty string into the website
 		
 		##p/t, special text, and shape
-		+"\"pt\":\"{card.pt}\",\"special_text\":\"{escape_linebreaks(card.special_text)}\",\"shape\":\"{card.shape}\","
+		+"\"pt\":\"{card.pt}\",\"special_text\":\"{proc_text(card.special_text)}\",\"shape\":\"{card.shape}\","
 			#result: "pt":"1/1","special_text":"","shape":"double faced"
 			#what was said for the previous chunk applies to p/t and special text as well
 		

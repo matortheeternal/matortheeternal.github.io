@@ -1,9 +1,14 @@
 import os
 import sys
 
-def generateHTML(code):
-	output_html_file = "sets/" + code + ".html"
+#F = Fungustober's notes for understanding how all this works while she edits this to support JSON files for the main file
+#EDIT = Fungustober's marker for a part of code that needs edited to support JSON file
 
+def generateHTML(code):
+    #F: /sets/SET.html
+	output_html_file = "sets/" + code + ".html"
+    
+    #F: sets/SET-files/SET-fullname.txt
 	with open(os.path.join("sets", code + "-files", code + "-fullname.txt"), encoding='utf-8-sig') as f:
 		set_name = f.read()
 
@@ -208,7 +213,9 @@ def generateHTML(code):
 </style>
 <body>
 	'''
-
+    
+    #F: /resources/snippets/header.txt
+    #F: we've seen this one in print_html_for_spoiler.py already. doesn't need any modifications
 	with open(os.path.join('resources', 'snippets', 'header.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
@@ -220,6 +227,7 @@ def generateHTML(code):
 				<img class="set-logo" src="/sets/''' + code + '''-files/icon.png">
 				<div class="set-title">''' + set_name + '''</div>'''
 
+    #F: sets/SET-files/SET-draft.txt
 	if os.path.exists(os.path.join('sets', code + '-files', code + '-draft.txt')):
 		html_content += '''<a href="/sets/''' + code + '''-files/''' + code + '''-draft.txt" download>Draft me!</a>
 		'''
@@ -249,6 +257,9 @@ def generateHTML(code):
 		snippet = f.read()
 		html_content += snippet
 
+    #F: this uses card_list_arrayified from load-files.txt
+    #EDIT - rework the following section where it uses card_list_arrayified and make it use the JSON structure instead
+    #F: 11 = code, 10 = shape, 3 = type
 	html_content += '''
 
 			for (let i = 0; i < card_list_arrayified.length; i++)
@@ -322,6 +333,9 @@ def generateHTML(code):
 
 		'''
 
+    #F: this is where the previously mentioned compareFunction is from
+    #F: it looks at the shape (10), set code (11), number (4), name (0), cost (6), color (1), and rarity (2) of a card
+    #F: we'll need to do some work to make that compatible with JSON
 	with open(os.path.join('resources', 'snippets', 'compare-function.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
@@ -330,10 +344,16 @@ def generateHTML(code):
 
 		'''
 
+    #F: /resources/snippets/tokenize-symbolize.txt
+    #F: this holds the isDecimal function used in compare-function.txt, as well as something for encoding/decoding symbols
+    #F: the encoding/decoding text symbols one doesn't seem to work here.
+    #F: we probably won't have to use the tokenizing/symbolizing part of tokenize-symbolize if we add the symbol processor into the export-template
+    #F: which should make things a lot easier.
 	with open(os.path.join('resources', 'snippets', 'tokenize-symbolize.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
 
+    #EDIT - modify this to use the JSON structure; 0 = name
 	html_content += '''
 
 		function gridifyCard(card_stats) {
@@ -346,6 +366,25 @@ def generateHTML(code):
 
 		'''
 
+    #F: /resources/snippets/img-container-defs.txt
+    #F: this has more stuff that we need to edit
+    #EDIT - make this use the JSON structure; 0 = name, 6 = color, 3 = type, 7 = , 8 = , 12 = , 10 = shape, 13 = , 17 = , 15 = , 18 = , 
+    #20 = , 19 = , 21 = , 11 = 
+    #F: ah, this is also where symbolize from tokenize-symbolize is used
+    #F: let pattern1 = /([0-9X]*[WUBRGCT/]+)([ :,\.<]|$)/g;
+	#F: let pattern2 = /(?<![a-z] |\/[0-9X]*)([0-9X]+)([:,]| <i>\()/g;
+	#F: let pattern3 = /([Pp]ay[s]* |[Cc]ost[s]* |[Ww]ard )([0-9X])(?! life)/g;
+	#F: let pattern4 = /(Equip [^(<]*)([0-9XWUBRGC/]+)/g;
+    #F: let regexHTML = HTML.replace(pattern1, function (match, group1, group2) { return symbolize(group1) + group2; });
+	#F: regexHTML = regexHTML.replace(pattern2, function (match, group1, group2) { return symbolize(group1) + group2; });
+    #F: regexHTML = regexHTML.replace(pattern3, function (match, group1, group2) { return group1 + symbolize(group2); });
+	#F: regexHTML = regexHTML.replace(pattern4, function (match, group1, group2) { return group1 + symbolize(group2); });
+    #F: yeah, this would be simplified a whole ton if I used the symbol processor I made in the exporter
+    #F: we wouldn't have to do most of this hell, I think we could probably just put the 
+    #F: '<span class="mana mana-cost mana-' and '"></span>' from tokenize-symbolize into the card text during the export process
+    #F: but that wouldn't play well with things like Lackeybot. I think we'll still have to deal with that in img-container-defs
+    #F: however, we can deal with it differently. Instead of looking for all the possible things in text, we can just look for {}
+    #F: in bits of text within the JSON card object.
 	with open(os.path.join('resources', 'snippets', 'img-container-defs.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
@@ -365,6 +404,9 @@ def generateHTML(code):
 
 		'''
 
+    #F: resources/snippets/random-card.txt
+    #F: we've already looked at this in print_html_for_spoiler
+    #F: I think that's everything
 	with open(os.path.join('resources', 'snippets', 'random-card.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
