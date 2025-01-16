@@ -243,13 +243,13 @@ def generateHTML(set_codes):
 			document.addEventListener("DOMContentLoaded", async function () {
 				try {
 					const response = await fetch('./resources/gradients.txt');
-					raw_gradients = await response.text();
+					raw_gradients = await response.json();
 				}
 				catch(error) {
 					console.error('Error:', error);
 				}
 
-				gradients = raw_gradients.split('\\n');
+				gradients = raw_gradients.gradients;
 				prepareGradients();
 
 				'''
@@ -344,11 +344,9 @@ def generateHTML(set_codes):
 			function prepareGradients() {
 				for (const gradient of gradients)
 				{
-					gradientStats = gradient.split('\\t');
-
 					const opt = document.createElement("option");
-					opt.value = gradientStats[0].replace(' ', '-');
-					opt.text = gradientStats[0];
+					opt.value = gradient.name.replace(' ', '-');
+					opt.text = gradient.name;
 					document.getElementById("color-select").appendChild(opt);
 				}
 
@@ -362,11 +360,10 @@ def generateHTML(set_codes):
 				gradBottom = "#FFFFFF";
 				for (const grad of gradients)
 				{
-					gradientStats = grad.split('\\t');
-					if (gradient == gradientStats[0].replace(' ', '-'))
+					if (gradient == grad.name.replace(' ', '-'))
 					{
-						gradTop = gradientStats[1];
-						gradBottom = gradientStats[2];
+						gradTop = grad.color1;
+						gradBottom = grad.color2;
 					}
 				}
 
