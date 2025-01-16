@@ -1,6 +1,9 @@
 import os
 import sys
 
+#F = Fungustober's notes for understanding how all this works while she edits this to support JSON files for the main file
+#EDIT = Fungustober's marker for a part of code that needs edited to support JSON file
+
 def generateHTML(set_codes):
 	output_html_file = "index.html"
 
@@ -221,6 +224,9 @@ def generateHTML(set_codes):
 							</div>
 			'''
 
+    #F: gradients might be another thing we should change from a text file to a JSON file
+    #F: yeah, this is exactly what JSON is for, actually
+    #F: each gradient has a name, a first color, and a second color 
 	html_content += '''				</div>
 				</div>
 				<div class="card-container" id="cotd-image">
@@ -252,6 +258,8 @@ def generateHTML(set_codes):
 		snippet = f.read()
 		html_content += snippet
 
+    #EDIT - replace array indices with appropriate JSON keys
+    #F: 10 = shape, 3 = type, 0 = name, 11 = set, 4 = number
 	html_content += '''
 				card_list_cleaned = [];
 

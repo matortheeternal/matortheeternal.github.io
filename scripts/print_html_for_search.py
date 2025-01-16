@@ -1,6 +1,9 @@
 import os
 import sys
 
+#F = Fungustober's notes for understanding how all this works while she edits this to support JSON files for the main file
+#EDIT = Fungustober's marker for a part of code that needs edited to support JSON file
+
 def generateHTML(codes):
 	output_html_file = "search.html"
 
@@ -324,6 +327,12 @@ def generateHTML(codes):
 		snippet = f.read()
 		html_content += snippet
 
+    #EDIT - we've got some indexes that need changing to JSON keys in this big block
+    #F: 10 = shape, 3 = type, 0 = name
+    #EDIT - searchToken needs some indices made into JSON keys
+    #F: 0 = name, 1 = color, 2 = rarity, 3 = type, 4 = number, 5 = color_identity, 6 = cost, 7 = text, 8 = pt, 9 = special_text, 
+    #10 = shape, 11 = code, 12 = loyalty, 13 = name2, 15 = type2, 18 = text2, 20 = special_text2
+    #EDIT - add checks for the missing backface qualities; color2, cost2, pt2, and loyalty2
 	html_content += '''
 
 		function preSearch(setNewState) {
@@ -874,6 +883,7 @@ def generateHTML(codes):
 		snippet = f.read()
 		html_content += snippet
 
+    #EDIT - replace index with appropriate JSON key, 0 = name
 	html_content += '''
 
 		function gridifyCard(card_stats) {

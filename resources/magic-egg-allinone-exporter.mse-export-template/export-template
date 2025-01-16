@@ -310,8 +310,8 @@ script:
 
 	write_card := {
 		##opening bracket, name, and color
-		"\{\"name\":\"{card_name()}\",\"color\":\"{card_color()}\","
-			#result: {"name":"Black Lotus","color":"",
+		"\{\"card_name\":\"{card_name()}\",\"color\":\"{card_color()}\","
+			#result: {"card_name":"Black Lotus","color":"",
 		
 		##rarity, type, and number
 		+"\"rarity\":\"{(if options.cube == "yes" then "cube" else card_rarity())}\",\"type\":\"{card.type}\",\"number\":{card_number()},"
@@ -337,7 +337,7 @@ script:
 		+(if contains(card.shape, match:"double") or contains(card.shape, match:"adventure") or contains(card.shape, match:"spli") then
 			
 			## second name, color, and type
-			"\"name2\":\"{card_name_2()}\",\"color2\":\"{card_color_2()}\",\"type2\":\"{card.type_2}\","
+			"\"card_name2\":\"{card_name_2()}\",\"color2\":\"{card_color_2()}\",\"type2\":\"{card.type_2}\","
 			
 			##second casting cost, rules text, and pt
 			+"\"cost2\":\"{card.casting_cost_2}\",\"text2\":\"{card.rule_text_2}\",\"pt2\":\"{card.pt_2}\","

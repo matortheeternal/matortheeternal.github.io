@@ -1,7 +1,12 @@
 import os
 import sys
 
+#F = Fungustober's notes for understanding how all this works while she edits this to support JSON files for the main file
+#EDIT = Fungustober's marker for a part of code that needs edited to support JSON file
+
 def generateHTML(card):
+    #EDIT - replace all of the following indices with the appropriate JSON keys
+    #F: 11 = set code, 0 = name, 3 = type, 4 = number
 	code = card.split('\t')[11]
 	card_name = card.split('\t')[0]
 	card_name_cleaned = card_name
@@ -11,12 +16,15 @@ def generateHTML(card):
 	for char in chars:
 		card_name_cleaned = card_name_cleaned.replace(char, '')
 	card_num = card.split('\t')[4]
+    #F: /cards/SET/NUM_NAME.html
 	output_html_file = "cards/" + code + "/" + card_num + "_" + card_name_cleaned + ".html"
-
+    
+    #F: sets/SET-files/SET-fullname.txt
 	with open(os.path.join("sets", code + "-files", code + "-fullname.txt"), encoding='utf-8-sig') as f:
 		set_name = f.read()
 	
 	# Start creating the HTML file content
+    #EDIT - replace the following index with the appropriate JSON key
 	html_content = '''<html>
 <head>
   <title>''' + card.split('\t')[0] + '''</title>
@@ -174,6 +182,7 @@ def generateHTML(card):
 <body>
 	'''
 
+    #F: already reviewed in other python files, I don't need to look at this
 	with open(os.path.join('resources', 'snippets', 'header.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
@@ -193,23 +202,28 @@ def generateHTML(card):
 	'''
 
 	other_printings = []
+    #F: lists/all-cards.txt
+    #EDIT - change this all out to work with the JSON form of all-cards. This will need to go through each set in the data and check if there's a
+    #matching card name in the cards array of that set that isn't in the same set and doesn't have the same number as the card
 	with open(os.path.join('lists', 'all-cards.txt'), encoding='utf-8-sig') as f:
 		cards = f.read()
 	cards = cards.split('\\n')
-	for i in range(len(cards)):
+    for i in range(len(cards)):
 		card_stats = cards[i].split('\t')
+        #F: 0 = name, 3 = type, 11 = code, 4 = num
 		if card_stats[0] == card_name and card_stats[3] == card_type and (card_stats[11] != code or card_stats[4] != card_num) and 'Token' not in card_type:
 			other_printings.append(card_stats)
 	if other_printings != []:
 		html_content += '''<div class="printings" id="other-printings">Other Printings: '''
 		for printing in other_printings:
-			set_code = printing[11]
+			#F: 11 = code, 4 = number
+            set_code = printing[11]
 			html_content += '''<a href="/cards/''' + set_code + '''/''' + printing[4] + '''_''' + card_name_cleaned + '''">''' + set_code + '''</a>'''
 			if printing != other_printings[len(other_printings) - 1]:
 				html_content += ''' • '''
 		html_content += '''</div>
 		'''
-
+    
 	html_content += '''
 	<script>
 		let card_list_arrayified = [];
@@ -218,6 +232,7 @@ def generateHTML(card):
 		document.addEventListener("DOMContentLoaded", async function () {
 			'''
 
+    #F: already looked at this in a different python script
 	with open(os.path.join('resources', 'snippets', 'load-files.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
@@ -238,10 +253,12 @@ def generateHTML(card):
 
 		'''
 
+    #F: already looked at this in a different python script
 	with open(os.path.join('resources', 'snippets', 'tokenize-symbolize.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
 
+    #EDIT - make this consistent with JSON standards, 0 = name
 	html_content += '''
 
 		function gridifyCard(card) {
@@ -249,7 +266,8 @@ def generateHTML(card):
 			const card_name = card_stats[0];
 
 		'''
-
+    
+    #F: already looked at this in a different python script
 	with open(os.path.join('resources', 'snippets', 'img-container-defs.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
@@ -269,6 +287,7 @@ def generateHTML(card):
 
 		'''
 
+    #F: already looked at; and that's the end of this script
 	with open(os.path.join('resources', 'snippets', 'random-card.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet

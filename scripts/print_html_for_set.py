@@ -368,8 +368,8 @@ def generateHTML(code):
 
     #F: /resources/snippets/img-container-defs.txt
     #F: this has more stuff that we need to edit
-    #EDIT - make this use the JSON structure; 0 = name, 6 = color, 3 = type, 7 = , 8 = , 12 = , 10 = shape, 13 = , 17 = , 15 = , 18 = , 
-    #20 = , 19 = , 21 = , 11 = 
+    #EDIT - make this use the JSON structure; 0 = name, 6 = cost, 3 = type, 7 = text, 9 = 8 = pt, 12 = loyalty, 10 = shape, 13 = name2, 
+    #17 = cost2, 15 = type2, 18 = text2, 20 = special_text2, 19 = , 21 = , 11 = set code
     #F: ah, this is also where symbolize from tokenize-symbolize is used
     #F: let pattern1 = /([0-9X]*[WUBRGCT/]+)([ :,\.<]|$)/g;
 	#F: let pattern2 = /(?<![a-z] |\/[0-9X]*)([0-9X]+)([:,]| <i>\()/g;
