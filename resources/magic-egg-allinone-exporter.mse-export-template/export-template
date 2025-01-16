@@ -71,8 +71,8 @@ option field:
 option field:
 	type: choice
 	name: land slot
-	choice: yes
 	choice: no
+	choice: yes
 	description: land slot to replace basic lands (add "landslot" to notes of all cards that should be in this slot)
 
 script:
