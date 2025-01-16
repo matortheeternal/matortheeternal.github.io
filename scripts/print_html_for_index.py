@@ -264,7 +264,7 @@ def generateHTML(set_codes):
 						card_stats.push(card[i].toLowerCase());
 					}
 
-					if (!card_stats[3].includes("token") && !card_stats[3].includes("basic"))
+					if (!card_stats[10].includes("token") && !card_stats[3].includes("basic"))
 					{
 						card_list_cleaned.push(card);
 					}
@@ -284,7 +284,8 @@ def generateHTML(set_codes):
 				const img = document.createElement("img");
 				img.id = "cotd";
 
-				img.src = '/sets/' + card_stats[11] + '-files/img/' + card_stats[4] + '_' + card_stats[0] + '.png';
+
+				img.src = '/sets/' + card_stats[11] + '-files/img/' + card_stats[4] + '_' + card_stats[0] + (card_stats[10].includes('double') ? '_front' : '') + '.png';
 
 				a.append(img);
 				document.getElementById("cotd-image").append(a);
