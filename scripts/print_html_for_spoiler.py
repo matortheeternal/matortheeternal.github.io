@@ -1,32 +1,29 @@
 import os
 import sys
 
-#F = Fungustober's notes for understanding how all this works while she edits this to support JSON files for the main file
-#EDIT = Fungustober's marker for a part of code that needs edited to support JSON file
+#F = Fungustober's notes
 
 def generateHTML(setCode, setCodes):
-    #F: Copy the set codes over into a new variable
+	#F: Copy the set codes over into a new variable
 	codes = setCodes.copy()
-    #F: this is SET-spoiler.html, the file that this outputs to
+	#F: this is SET-spoiler.html, the file that this outputs to
 	output_html_file = setCode + '-spoiler.html'
 	magic_card_back_image = 'img/card_back.png'
 	#F: /sets/SET-files/img/
-    set_img_dir = os.path.join('sets', setCode + '-files', 'img')
-	#F: get rid of the BOM character that shouldn't be there
-    #F: and get all of the files in the image directory
-    previewed = [file[:-4].replace(u'\ufeff', '') for file in os.listdir(set_img_dir)]
+	set_img_dir = os.path.join('sets', setCode + '-files', 'img')
+	#F: get rid of the Byte Order Mark character that shouldn't be there
+	#F: and grab all of the files in the image directory
+	previewed = [file[:-4].replace(u'\ufeff', '') for file in os.listdir(set_img_dir)]
 
-	#F: lists/SET-list.txt, defined in list_to_list.py, get rid of the BOM character that shouldn't be there
-    #F: Should we make the SET-list.txt into a JSON file as well?
-    #F: It's only storing a bunch of names, right? What point would there be in making that into a JSON? It can stay as a .txt
-    with open(os.path.join('lists', setCode + '-list.txt'), encoding='utf-8-sig') as f:
-		cards = [card.replace(u'\ufeff', '').rstrip() for card in f]
+	#F: lists/SET-list.json, defined in list_to_list.py, get rid of the BOM character that shouldn't be there
+	with open(os.path.join('lists', setCode + '-list.json'), encoding='utf-8-sig') as f:
+		cards = json.load(f)
 
 	#F: go over the codes, check if there's a /sets/SET-files/ignore.txt file for it
-    #F: if there is, remove that index from Codes
-    #F: otherwise, increment by one
-    #F: repeat until breaking out of the loop
-    i = 0
+	#F: if there is, remove that index from Codes
+	#F: otherwise, increment by one
+	#F: repeat until breaking out of the loop
+	i = 0
 	while i < len(codes):
 		if os.path.exists(os.path.join('sets', codes[i] + '-files', 'ignore.txt')):
 			del codes[i]
@@ -199,7 +196,7 @@ def generateHTML(setCode, setCodes):
 		
 		'''
 
-    #F: goes to resources/snippets/header.txt and gets a header, inserting it after everything so far
+	#F: goes to resources/snippets/header.txt and gets a header, inserting it after everything so far
 	with open(os.path.join('resources', 'snippets', 'header.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
@@ -208,7 +205,7 @@ def generateHTML(setCode, setCodes):
 
 	<div class="icon-bar">
 	'''
-    
+	
 	for code in codes:
 		prev_path = os.path.join('sets', setCode + '-files', 'prev_icon.png')
 		if codes[0] != code:
@@ -225,31 +222,36 @@ def generateHTML(setCode, setCodes):
 	'''
 
 	# Loop over each image and create an img tag for each one
-	for card_name in cards:
-		#F: in list_to_list.py, the card names are all stitched with a _ and a number
-        #F: I guess we could make a .json file out of SET-list.txt with the only keys being name and number
-        #F: It *would* prevent errors caused by things being out of position
-        #F: is that overkill, though?
-        #F: I mean, it makes this following statement easier, no?
-        #F: And we can have a "shape" key in the JSON too, so we know if something is a token by checking that.
-        #F: That seems like a pretty good reason to switch the .txt to a .json
-        #F: That means we'd have to change a bunch of these things to JSON crawlers & JSON compatible things
-        #F: well, hold on. the card_name that's being included in the other code points is NAME_NUM or NAMEt_NUM
-        #F: changing the .txt to a .json would mean that I would have to adjust these
-        #F: (Couldn't we just make a card_name variable that's the name + if shape == token then "t_" else "" + num?)
-        #F: Yeah, actually, that would work. We'd also have to change the card_name in the for to something like `card`
-        card_num = card_name[:card_name.index('_')] if '_' in card_name else -1
+	for card in cards:
+		#F: originally, in list_to_list.py, the card names were all stitched with a number and a _ (or a number and t_ if it's a token)
+		#F: Since list_to_list.py was retrofitted by me to make the master_list output into a .json file, that process must be done here instead
+		#F: Using a JSON file for SET-list *is* slightly overkill, but it makes the card_num assignment easier.
+		card_name = ""
+		#F: originally, this script would look for a _ in the card name, and if it wasn't there, it was set to -1.
+		#F: (if it was there, it just made everything before the _ be the card number)
+		#F: we can replicate this under the JSON paradigm by having the card num be initialized as -1 and be set only if it's not a blank
+		card_num = -1
+		if card['card_name'] == 'e':
+			card_name = 'e'
+		else if card['card_name'] == 'er':
+			card_name = 'er'
+		else if  'token' in card['shape']:
+			card_name = card['number'] + 't_' + card['card_name']
+			card_num = card['number']
+		else:
+			card_name = card['number'] + '_' + card['card_name']
+			card_num = card['number']
 
 		# used for DFCs only
 		dfc_front_path = card_name + '_front'
 		dfc_back_path = card_name + '_back'
 		dfc_front_img_path = os.path.join('sets', setCode + '-files', 'img', dfc_front_path + '.png')
 		dfc_back_img_path = os.path.join('sets', setCode + '-files', 'img', dfc_back_path + '.png')
-        
-        #F: these flags are used in later parts of the code, including HTML.
-        #F: if the flag is @N, then only the card back is displayed
-        #F: if the flag is @E, then the ability to click it is removed (since it's just a blank image for positioning)
-        #F: if the flag is @X, nothing happens
+		
+		#F: these flags are used in later parts of the code, including the HTML.
+		#F: if the flag is @N, then only the card back is displayed
+		#F: if the flag is @E, then the ability to click it is removed (since it's just a blank image for positioning)
+		#F: if the flag is @X or @XD, nothing happens
 		flag = '@N'
 		if card_name in previewed:
 			flag = '@X'
@@ -260,13 +262,13 @@ def generateHTML(setCode, setCodes):
 			image_dir = 'img'
 			flag = '@E'
 		else:
-            #F: /sets/SET-files/img/
+			#F: /sets/SET-files/img/
 			image_dir = os.path.join('sets', setCode + '-files', 'img')
-        
-        #F: /sets/SET-files/img/NAME.png
+		
+		#F: /sets/SET-files/img/NUMBER(t?)_NAME.png
 		image_path = os.path.join(image_dir, card_name + '.png')
-        
-        #F: if the flag is @XD, add something to html_content to get the front and back images, otherwise add something else
+		
+		#F: if the flag is @XD, add something to html_content to get the front and back images, otherwise add something else
 		if flag == '@XD':
 			html_content += f'			<div class="container"><img data-alt_src="{dfc_back_img_path}" alt="{dfc_front_img_path}" id="{card_num}" data-flag="{flag}" onclick="openSidebar({card_num})"><button class="flip-btn" onclick="imgFlip({card_num})"></button></div>\n'
 		else:
@@ -275,14 +277,14 @@ def generateHTML(setCode, setCodes):
 	# Closing the div and the rest of the HTML
 	html_content += '''	</div>\n'''
 
-    #F: find /sets/SET-files/addenda/SET-addendum.html
-    #F: then add each line of that file to the end of html_content
+	#F: find /sets/SET-files/addenda/SET-addendum.html
+	#F: then add each line of that file to the next bit of html_content
 	add_path = os.path.join('sets', setCode + '-files', 'addenda', setCode + '-addendum.html')
 	if os.path.isfile(add_path):
 		with open(add_path) as f:
 			for line in f:
 				html_content += line
-    
+	
 	html_content += '''</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
@@ -300,13 +302,9 @@ def generateHTML(setCode, setCodes):
 	document.addEventListener('DOMContentLoaded', async function() {
 		'''
 
-    #F: /resources/snippets/load-files.txt
-    #F: load-files.txt's snippet adds something that goes over all the lines of lists/all-cards.txt and puts them into an array
-    #F: it also grabs from resources/replacechars.txt, which just defines all the characters that need to be replaced
-    #F: we'll need to edit that snippet to work with JSON files if we make all-cards.txt into a .json
-    #F: we also need to figure out what uses card_list_arrayified so we can modify those things to use the JSON data as well
-    #F: card_list_arrayified doesn't seem to be used in the HTML from this file
-    #F: but it *is* used in the HTML from random-card.txt, which is used lower down in the document
+	#F: /resources/snippets/load-files.txt
+	#F: load-files.txt's snippet adds something that goes over all the lines of lists/all-cards.txt and puts them into an array
+	#F: it also grabs from resources/replacechars.txt, which just defines all the icky no-good chars that need to be replaced
 	with open(os.path.join('resources', 'snippets', 'load-files.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
@@ -328,10 +326,12 @@ def generateHTML(setCode, setCodes):
 
 		'''
 
+	#F: sets/SET-files/bg.png
+	#F:
 	if os.path.exists(os.path.join('sets', setCode + '-files', 'bg.png')):
 		html_content += '''document.body.style.backgroundImage = 'url(' + document.getElementById("bg").src + ')';'''
 
-    #F: this is the point where the document.addEventListener bit ends
+	#F: this is the point where the DOMContentLoaded bit ends
 	html_content += '''
 		loadImages();
 	});
@@ -431,14 +431,9 @@ def generateHTML(setCode, setCodes):
 		}
 
 		'''
-    
-    #F: /resources/snippets/random-card.txt
-    #F: this will need to be edited to support .json files
-    #F: card_name = card_list_arrayified[i][0]
-    #F: 0 = name
-    #F: window.location = /cards/card_list_arrayified[i][11]/card_list_arrayified[i][4]_NAME
-    #F: 11 = code, 4 = number
-    #F: I think that's everything?
+	
+	#F: /resources/snippets/random-card.txt
+	#F: code that lets you go to a random card
 	with open(os.path.join('resources', 'snippets', 'random-card.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet

@@ -1,35 +1,31 @@
 import os
 import sys
 import re
+import json
 
-#F = Fungustober's notes for understanding how all this works while she edits this to support JSON files for the main file
-#EDIT = Fungustober's marker for a part of code that needs edited to support JSON file
+#F = Fungustober's notes
 
 def convertList(setCode):
-	#F: inputList = sets/SET-files/SET-raw.txt
-    inputList = os.path.join('sets', setCode + '-files', setCode + '-raw.txt') #EDIT - needs changed from .txt to .json
-	#F: outputList = lists/SET-list.txt
-    outputList = os.path.join('lists', setCode + '-list.txt')
+	#F: inputList = sets/SET-files/SET.json
+	inputList = os.path.join('sets', setCode + '-files', setCode + '.json')
+	#F: outputList = lists/SET-list.json
+	outputList = os.path.join('lists', setCode + '-list.json')
+	
+	#create the two blanks as dictionaries so we can fit them into the JSON structure
+	blank1 = {'card_name':'e'}
+	blank2 = {'card_name':'er'}
 	#F: open up the inputList file
-    with open(inputList, errors="ignore") as f:
-		#F: now do the things
-        raw = f.read()
-		cards_raw = raw.replace('\n','NEWLINE').replace('REPLACEME','\\n') #EDIT - won't need this with the JSON file
-	cards_raw = cards_raw.rstrip('\\n') #EDIT - also won't need this with the JSON file
-	cards = cards_raw.split('\\n') #EDIT - will be able to replace this with a JSON crawler
+	with open(inputList, errors="ignore") as f:
+		raw = json.load(f)
+	cards = raw['cards']
 
-    #F: array of cards to skip
+	#F: array of cards to skip
 	skipdex = []
-    #F: This basically gets any alt-arts in a single set and adds their index to a list of cards to skip.
-    #EDIT - we could probably do this a little better by going through the range of j,
-    #and checking if the name of cards[j] == the name of cards[i] + token not in cards[j].shape and Basic not in cards[j].type
-    #and instead of putting j in skipdex, we can put the card number of j in the skipdex, so we'd be able to iterate over the JSON cards array
+	#F: This gets any alt-arts in a single set and adds their card number to a list of cards to skip.
 	for i in range(len(cards)):
-		tmpI = re.sub("\t[0-9]+\t.*", "", cards[i])
 		for j in range(i):
-			tmpJ = re.sub("\t[0-9]+\t.*", "", cards[j])
-			if tmpI == tmpJ and "\ttoken\t" not in tmpJ and "\tBasic" not in tmpJ:
-				skipdex.append(j)
+			if cards[i]['card_name'] == cards[j]['card_name'] and "token" not in cards[j]['shape'] and "Basic" not in cards[j]['type']:
+				skipdex.append(cards[j]['number'])
 	
 	master_list = []
 	cards_mono = []
@@ -38,70 +34,59 @@ def convertList(setCode):
 	cards_land = []
 	cards_basic = []
 	cards_token = []
-    
-    #F: now go over the cards again
-    #EDIT - iterate over the JSON cards array
+	
+	#F: now go over the cards again
 	for i in range(len(cards)):
 		#F: skip the card if it's in the skipdex
-        if i in skipdex:
+		if cards[i]['number'] in skipdex:
 			continue
-		card = cards[i].split('\t') #EDIT - won't need this with a JSON crawler
-		# name to include card number
-        #EDIT - replace the array indices with JSON keys; 0 = name; 4 = card number, 10 = shape
-        #EDIT - we're going to remake this a little, instead of storing the name in the main list, we'll be storing a new json object with
-            #name, number, and shape. I'll be figuring out how to do that once I get to working on updating this
-		card[0] = card[4] + ('t_' if 'token' in card[10] else '_') + card[0]
-		# card number to int
-		card[4] = int(card[4]) #EDIT - we won't need to make it an int, because it will already be one in the JSON file afaik
+		card = cards[i]
 		# filter sorting tags
-		notes = card[len(card) - 1] #EDIT - replace the final index check with the JSON key
+		notes = card['notes']
 		if '!sort' in notes:
-            #F: notes = index of !sort + 6 to the end of the string
-			card[len(card) - 1] = notes[notes.index('!sort') + 6:]
+			#F: notes = index of !sort + 6 to the end of the string
+			card['notes'] = notes[notes.index('!sort') + 6:]
 		else:
-			card[len(card) - 1] = 'zzz'
+			card['notes'] = 'zzz'
 
 		# clean color inputs
-        #EDIT - replace the array index with JSON keys; 1 = color
-		if card[1] == 'WR':
-			card[1] = 'RW'
-		if card[1] == 'WG':
-			card[1] = 'GW'
-		if card[1] == 'UG':
-			card[1] = 'GU'
+		if card['color'] == 'WR':
+			card['color'] = 'RW'
+		if card['color'] == 'WG':
+			card['color'] = 'GW'
+		if card['color'] == 'UG':
+			card['color'] = 'GU'
 
 		# clean color identity inputs
-        #EDIT - replace the array index with JSON keys; 5 = color_identity
-		if card[5] == 'WR':
-			card[5] = 'RW'
-		if card[5] == 'WG':
-			card[5] = 'GW'
-		if card[5] == 'UG':
-			card[5] = 'GU'
+		if card['color_identity'] == 'WR':
+			card['color_identity'] = 'RW'
+		if card['color_identity'] == 'WG':
+			card['color_identity'] = 'GW'
+		if card['color_identity'] == 'UG':
+			card['color_identity'] = 'GU'
 
 		# clean rarities
-        #EDIT - replace the array index with JSON keys; 2 = rarity
-		if card[2] == 'common':
-			card[2] = 4
-		elif card[2] == 'uncommon':
-			card[2] = 3
-		elif card[2] == 'rare':
-			card[2] = 2
-		elif card[2] == 'mythic':
-			card[2] = 1
+		if card['rarity'] == 'common':
+			card['rarity'] = 4
+		elif card['rarity'] == 'uncommon':
+			card['rarity'] = 3
+		elif card['rarity'] == 'rare':
+			card['rarity'] = 2
+		elif card['rarity'] == 'mythic':
+			card['rarity'] = 1
 		else:
-			card[2] = 5
+			card['rarity'] = 5
 
 		# sort types
-        #EDIT - replace the array index with JSON keys; 10 = shape, 1 = color, 3 = type
-		if 'token' in card[10]:
+		#EDIT - replace the array index with JSON keys; 10 = shape, 1 = color, 3 = type
+		if 'token' in card['shape']:
 			cards_token.append(card)
-		elif len(card[1]) > 1:
+		elif len(card['color']) > 1:
 			cards_multi.append(card)
-		elif card[1] == '':
-			if 'Basic' in card[3]:
+		elif card['color'] == '':
+			if 'Basic' in card['type']:
 				cards_basic.append(card)
-			elif 'Land' in card[3]:
+			elif 'Land' in card['type']:
 				cards_land.append(card)
 			else:
 				cards_brown.append(card)
@@ -115,41 +100,38 @@ def convertList(setCode):
 	cards_r = []
 	cards_g = []
 	
-    #EDIT - replace the array index with JSON keys
+	#EDIT - replace the array index with JSON keys
 	for card in cards_mono:
-		if card[1] == 'W':
+		if card['color'] == 'W':
 			cards_w.append(card)
-		if card[1] == 'U':
+		if card['color'] == 'U':
 			cards_u.append(card)
-		if card[1] == 'B':
+		if card['color'] == 'B':
 			cards_b.append(card)
-		if card[1] == 'R':
+		if card['color'] == 'R':
 			cards_r.append(card)
-		if card[1] == 'G':
+		if card['color'] == 'G':
 			cards_g.append(card)
 
-    row_count = max(len(cards_w),len(cards_u),len(cards_b),len(cards_r),len(cards_g))
-    #F: put all the monocolor things into a big array
-    cards_mono_arr = [cards_w, cards_u, cards_b, cards_r, cards_g]
+	row_count = max(len(cards_w),len(cards_u),len(cards_b),len(cards_r),len(cards_g))
+	#F: put all the monocolor things into a big array
+	cards_mono_arr = [cards_w, cards_u, cards_b, cards_r, cards_g]
 	
 	for x in range(len(cards_mono_arr)):
 		card_arr = cards_mono_arr[x]
-        #F: x[2] = rarity, x[len(x) - 1] = notes, x[4] = card number
-        #EDIT - replace them with the appropriate JSON keys
-		cards_mono_arr[x] = sorted(card_arr, key=lambda x : (x[2], x[len(x) - 1], x[4]))
+		cards_mono_arr[x] = sorted(card_arr, key=lambda x : (x['rarity'], x['notes'], x['number']))
 	
-    #F: 'e' and 'er' are references to blank pngs for spoilers
+	#F: 'e' and 'er' are references to blank pngs for spoilers
 	for row in range(row_count):
 		for card_arr in cards_mono_arr:
 			if (row >= len(card_arr)):
-				master_list.append('e')
+				master_list.append(blank1)
 			else:
-				#F: card_arr[row][0] = name
-                #EDIT - replace it with the appropriate JSON key
-                master_list.append(card_arr[row][0])
+				ca = card_arr[row]
+				master_list.append({'card_name':ca['card_name'],'number':ca['number'],'shape':ca['shape']})
 
 	for x in range(5):
-		master_list.append('er')
+		master_list.append(blank2)
 
 	# prepare gold lists
 	cards_wu = []
@@ -163,54 +145,50 @@ def convertList(setCode):
 	cards_ur = []
 	cards_rw = []
 	cards_gold = []
-
-    #EDIT - replace the index with a JSON key
+	
 	for card in cards_multi:
-		if card[1] == 'WU':
+		if card['color'] == 'WU':
 			cards_wu.append(card)
-		elif card[1] == 'UB':
+		elif card['color'] == 'UB':
 			cards_ub.append(card)
-		elif card[1] == 'BR':
+		elif card['color'] == 'BR':
 			cards_br.append(card)
-		elif card[1] == 'RG':
+		elif card['color'] == 'RG':
 			cards_rg.append(card)
-		elif card[1] == 'GW':
+		elif card['color'] == 'GW':
 			cards_gw.append(card)
-		elif card[1] == 'WB':
+		elif card['color'] == 'WB':
 			cards_wb.append(card)
-		elif card[1] == 'BG':
+		elif card['color'] == 'BG':
 			cards_bg.append(card)
-		elif card[1] == 'GU':
+		elif card['color'] == 'GU':
 			cards_gu.append(card)
-		elif card[1] == 'UR':
+		elif card['color'] == 'UR':
 			cards_ur.append(card)
-		elif card[1] == 'RW':
+		elif card['color'] == 'RW':
 			cards_rw.append(card)
 		else:
 			cards_gold.append(card)
-    
+	
 	# ally pairs
 	row_count = max(len(cards_wu),len(cards_ub),len(cards_br),len(cards_rg),len(cards_gw))
 	cards_ally_arr = [cards_wu, cards_ub, cards_br, cards_rg, cards_gw]
 
 	for x in range(len(cards_ally_arr)):
 		card_arr = cards_ally_arr[x]
-        #F: x[2] = rarity, x[len(x) - 1] = notes, x[4] = card number
-        #EDIT - replace them with the appropriate JSON keys
-		cards_ally_arr[x] = sorted(card_arr, key=lambda x : (x[2], x[len(x) - 1], x[4]))
+		cards_ally_arr[x] = sorted(card_arr, key=lambda x : (x['rarity'], x['notes'], x['number']))
 	
-    #F: 'e' and 'er' are references to blank pngs for spoilers
+	#F: 'e' and 'er' are references to blank pngs for spoilers
 	for row in range(row_count):
 		for card_arr in cards_ally_arr:
 			if (row >= len(card_arr)):
-				master_list.append('e')
+				master_list.append(blank1)
 			else:
-				#F: card_arr[row][0] = name
-                #EDIT - replace it with the appropriate JSON key
-				master_list.append(card_arr[row][0])
+				ca = card_arr[row]
+				master_list.append({'card_name':ca['card_name'],'number':ca['number'],'shape':ca['shape']})
 
 	for x in range(5):
-		master_list.append('er')
+		master_list.append(blank2)
 
 	# enemy pairs
 	row_count = max(len(cards_wb),len(cards_bg),len(cards_gu),len(cards_ur),len(cards_rw))
@@ -218,54 +196,45 @@ def convertList(setCode):
 
 	for x in range(len(cards_enemy_arr)):
 		card_arr = cards_enemy_arr[x]
-        #F: x[2] = rarity, x[len(x) - 1] = notes, x[4] = card number
-        #EDIT - replace them with the appropriate JSON keys
-		cards_enemy_arr[x] = sorted(card_arr, key=lambda x : (x[2], x[len(x) - 1], x[4]))
+		cards_enemy_arr[x] = sorted(card_arr, key=lambda x : (x['rarity'], x['notes'], x['number']))
 	
 	for row in range(row_count):
 		for card_arr in cards_enemy_arr:
 			if (row >= len(card_arr)):
-				master_list.append('e')
+				master_list.append(blank1)
 			else:
-				#F: card_arr[row][0] = name
-                #EDIT - replace it with the appropriate JSON key
-				master_list.append(card_arr[row][0])
+				ca = card_arr[row]
+				master_list.append({'card_name':ca['card_name'],'number':ca['number'],'shape':ca['shape']})
 
 	for x in range(5):
-		master_list.append('er')
+		master_list.append(blank2)
 
 	# 3c+ cards
-    #F: x[1] = color, x[2] = rarity, x[len(x) - 1] = notes, x[4] = card number
-    #EDIT - replace them with the appropriate JSON keys
-	cards_gold = sorted(cards_gold, key=lambda x : (len(x[1]), x[2], x[len(x) - 1], x[4]))
-    
+	cards_gold = sorted(cards_gold, key=lambda x : (len(x['color']), x['rarity'], x['notes'], x['number']))
+	
 	for card in cards_gold:
-        #F: card_arr[row][0] = name
-        #EDIT - replace it with the appropriate JSON key
-		master_list.append(card[0])
+		master_list.append({'card_name':card['card_name'],'number':card['number'],'shape':card['shape']})
 
 	if len(cards_gold) % 5 != 0:
 		for x in range(5 - (len(cards_gold) % 5)):
-			master_list.append('e')
+			master_list.append(blank1)
 
 	if len(cards_gold) > 0:
 		for x in range(5):
-			master_list.append('er')
+			master_list.append(blank2)
 
 	# artifacts
-	cards_brown = sorted(cards_brown, key=lambda x : (x[2], x[len(x) - 1], x[4]))
+	cards_brown = sorted(cards_brown, key=lambda x : (x['rarity'], x['notes'], x['number']))
 
 	for card in cards_brown:
-		#F: card_arr[row][0] = name
-        #EDIT - replace it with the appropriate JSON key
-        master_list.append(card[0])
+		master_list.append({'card_name':card['card_name'],'number':card['number'],'shape':card['shape']})
 
 	if len(cards_brown) % 5 != 0:
 		for x in range(5 - (len(cards_brown) % 5)):
-			master_list.append('e')
+			master_list.append(blank1)
 
 	for x in range(5):
-		master_list.append('er')
+		master_list.append(blank2)
 
 	# lands
 	# prepare colored land lists
@@ -285,39 +254,37 @@ def convertList(setCode):
 	lands_ur = []
 	lands_rw = []
 	lands_other = []
-
-    #F: 5 = Color Identity
-    #EDIT - replace them with the proper JSON key
+	
 	for card in cards_land:
-		if card[5] == 'W':
+		if card['color_identity'] == 'W':
 			lands_w.append(card)
-		elif card[5] == 'U':
+		elif card['color_identity'] == 'U':
 			lands_u.append(card)
-		elif card[5] == 'B':
+		elif card['color_identity'] == 'B':
 			lands_b.append(card)
-		elif card[5] == 'R':
+		elif card['color_identity'] == 'R':
 			lands_r.append(card)
-		elif card[5] == 'G':
+		elif card['color_identity'] == 'G':
 			lands_g.append(card)
-		elif card[5] == 'WU':
+		elif card['color_identity'] == 'WU':
 			lands_wu.append(card)
-		elif card[5] == 'UB':
+		elif card['color_identity'] == 'UB':
 			lands_ub.append(card)
-		elif card[5] == 'BR':
+		elif card['color_identity'] == 'BR':
 			lands_br.append(card)
-		elif card[5] == 'RG':
+		elif card['color_identity'] == 'RG':
 			lands_rg.append(card)
-		elif card[5] == 'GW':
+		elif card['color_identity'] == 'GW':
 			lands_gw.append(card)
-		elif card[5] == 'WB':
+		elif card['color_identity'] == 'WB':
 			lands_wb.append(card)
-		elif card[5] == 'BG':
+		elif card['color_identity'] == 'BG':
 			lands_bg.append(card)
-		elif card[5] == 'GU':
+		elif card['color_identity'] == 'GU':
 			lands_gu.append(card)
-		elif card[5] == 'UR':
+		elif card['color_identity'] == 'UR':
 			lands_ur.append(card)
-		elif card[5] == 'RW':
+		elif card['color_identity'] == 'RW':
 			lands_rw.append(card)
 		else:
 			lands_other.append(card)
@@ -327,93 +294,80 @@ def convertList(setCode):
 	lands_mono_arr = [lands_w, lands_u, lands_b, lands_r, lands_g]
 
 	for x in range(len(lands_mono_arr)):
-        #F: x[2] = rarity, x[len(x) - 1] = notes, x[4] = card number
-        #EDIT - replace them with the appropriate JSON keys
 		card_arr = lands_mono_arr[x]
-		lands_mono_arr[x] = sorted(card_arr, key=lambda x : (x[2], x[len(x) - 1], x[4]))
+		lands_mono_arr[x] = sorted(card_arr, key=lambda x : (x['rarity'], x['notes'], x['number']))
 	
 	for row in range(row_count):
 		for card_arr in lands_mono_arr:
 			if (row >= len(card_arr)):
-				master_list.append('e')
+				master_list.append(blank1)
 			else:
-				#F: card_arr[row][0] = name
-                #EDIT - replace it with the appropriate JSON key
-				master_list.append(card_arr[row][0])
+				ca = card_arr[row]
+				master_list.append({'card_name':ca['card_name'],'number':ca['number'],'shape':ca['shape']})
 
 	# ally pairs
 	row_count = max(len(lands_wu),len(lands_ub),len(lands_br),len(lands_rg),len(lands_gw))
 	lands_ally_arr = [lands_wu, lands_ub, lands_br, lands_rg, lands_gw]
 
 	for x in range(len(lands_ally_arr)):
-        #F: x[2] = rarity, x[len(x) - 1] = notes, x[4] = card number
-        #EDIT - replace them with the appropriate JSON keys
 		card_arr = lands_ally_arr[x]
-		lands_ally_arr[x] = sorted(card_arr, key=lambda x : (x[2], x[len(x) - 1], x[4]))
+		lands_ally_arr[x] = sorted(card_arr, key=lambda x : (x['rarity'], x['notes'], x['number']))
 	
 	for row in range(row_count):
 		for card_arr in lands_ally_arr:
 			if (row >= len(card_arr)):
-				master_list.append('e')
+				master_list.append(blank1)
 			else:
-				#F: card_arr[row][0] = name
-                #EDIT - replace it with the appropriate JSON key
-				master_list.append(card_arr[row][0])
+				ca = card_arr[row]
+				master_list.append({'card_name':ca['card_name'],'number':ca['number'],'shape':ca['shape']})
 
 	# enemy pairs
 	row_count = max(len(lands_wb),len(lands_bg),len(lands_gu),len(lands_ur),len(lands_rw))
 	lands_enemy_arr = [lands_wb, lands_bg, lands_gu, lands_ur, lands_rw]
 
 	for x in range(len(lands_enemy_arr)):
-        #F: x[2] = rarity, x[len(x) - 1] = notes, x[4] = card number
-        #EDIT - replace them with the appropriate JSON keys
 		card_arr = lands_enemy_arr[x]
-		lands_enemy_arr[x] = sorted(card_arr, key=lambda x : (x[2], x[len(x) - 1], x[4]))
+		lands_enemy_arr[x] = sorted(card_arr, key=lambda x : (x['rarity'], x['notes'], x['number']))
 	
 	for row in range(row_count):
 		for card_arr in lands_enemy_arr:
 			if (row >= len(card_arr)):
-				master_list.append('e')
+				master_list.append(blank1)
 			else:
-				#F: card_arr[row][0] = name
-                #EDIT - replace it with the appropriate JSON key
-				master_list.append(card_arr[row][0])
+				ca = card_arr[row]
+				master_list.append({'card_name':ca['card_name'],'number':ca['number'],'shape':ca['shape']})
 
 	if len(cards_land) - len(lands_other) > 0:
 		for x in range(5):
-			master_list.append('er')
+			master_list.append(blank2)
 
 	# other lands
-    #F: x[2] = rarity, x[len(x) - 1] = notes, x[4] = card number
-    #EDIT - replace them with the appropriate JSON keys
-	lands_other = sorted(lands_other, key=lambda x : (x[2], x[len(x) - 1], x[4]))
+	lands_other = sorted(lands_other, key=lambda x : (x['rarity'], x['notes'], x['number']))
 
 	for card in lands_other:
-        #F: 0 = name
-        #EDIT - replace it with the appropriate JSON key
-		master_list.append(card[0])
+		master_list.append({'card_name':card['card_name'],'number':card['number'],'shape':card['shape']})
 
 	if len(lands_other) % 5 != 0:
 		for x in range(5 - (len(lands_other) % 5)):
-			master_list.append('e')
+			master_list.append(blank1)
 
 	if len(lands_other) > 0 and (len(cards_basic) > 0 or len(cards_token) > 0):
 		for x in range(5):
-			master_list.append('er')
+			master_list.append(blank2)
 
 	# basic lands
-    #F: x[2] = rarity, x[len(x) - 1] = notes, x[4] = card number
-    #EDIT - replace them with the appropriate JSON keys
-	cards_basic = sorted(cards_basic, key=lambda x : (x[2], x[len(x) - 1], x[4]))
+	#F: x[2] = rarity, x[len(x) - 1] = notes, x[4] = card number
+	#EDIT - replace them with the appropriate JSON keys
+	cards_basic = sorted(cards_basic, key=lambda x : (x['rarity'], x['notes'], x['number']))
 
 	# if you're reading this, leave me alone, I did this in like 2 minutes I know it's bad code
-    #F: well, I probably wouldn't be able to do much better to be completely fair
+	#F: well, I probably wouldn't be able to do much better to be completely fair
 	basic_types = []
 	for card in cards_basic:
-        #F: 3 = type
-        #EDIT - you know the deal
-		if card[3] not in basic_types:
-			basic_types.append(card[3])
+		#F: 3 = type
+		#EDIT - you know the deal
+		if card['type'] not in basic_types:
+			basic_types.append(card['type'])
 
 	if len(basic_types) == 0:
 		land_count = 0
@@ -422,37 +376,36 @@ def convertList(setCode):
 	for n in range(land_count): 
 		for x in range(len(cards_basic)):
 			if (x % land_count == n):
-                #F: 0 = name
-                #EDIT - you know the deal
-				master_list.append(cards_basic[x][0])
+				#F: 0 = name
+				#EDIT - you know the deal
+				ca = cards_basic[x]
+				master_list.append({'card_name':ca['card_name'],'number':ca['number'],'shape':ca['shape']})
 
 	if len(cards_basic) % 5 != 0:
 		for x in range(5 - (len(cards_basic) % 5)):
-			master_list.append('e')
+			master_list.append(blank1)
 
 	if len(cards_basic) > 0:
 		for x in range(5):
-			master_list.append('er')
+			master_list.append(blank2)
 
 	# tokens
-    #F: x[2] = rarity, x[len(x) - 1] = notes, x[4] = card number
-    #EDIT - replace them with the appropriate JSON keys
-	cards_token = sorted(cards_token, key=lambda x : (x[2], x[len(x) - 1], x[4]))
+	#F: x[2] = rarity, x[len(x) - 1] = notes, x[4] = card number
+	#EDIT - replace them with the appropriate JSON keys
+	cards_token = sorted(cards_token, key=lambda x : (x['rarity'], x['notes'], x['number']))
 
 	for card in cards_token:
-        #F: 0 = name
-        #EDIT - you know the deal
-		master_list.append(card[0])
+		#F: 0 = name
+		#EDIT - you know the deal
+		master_list.append({'card_name':card['card_name'],'number':card['number'],'shape':card['shape']})
 
 	if len(cards_token) % 5 != 0:
 		for x in range(5 - (len(cards_token) % 5)):
-			master_list.append('e')
+			master_list.append(blank1)
 
-    #F: lists/SET-list.txt finally comes into play
-    #F: \ufeff is the Byte Order Mark character that, according to Egg, was sneaking into card names and had to be forcibly removed
+	#F: lists/SET-list.txt finally comes into play
 	with open(outputList, 'w') as f:
-		for card_name in master_list:
-			print(card_name.replace(u'\ufeff', ''), file=f)
+		json.dump(master_list, f)
 
 
 

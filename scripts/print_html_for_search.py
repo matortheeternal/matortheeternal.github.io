@@ -1,8 +1,7 @@
 import os
 import sys
 
-#F = Fungustober's notes for understanding how all this works while she edits this to support JSON files for the main file
-#EDIT = Fungustober's marker for a part of code that needs edited to support JSON file
+#F = Fungustober's notes
 
 def generateHTML(codes):
 	output_html_file = "search.html"
@@ -327,12 +326,9 @@ def generateHTML(codes):
 		snippet = f.read()
 		html_content += snippet
 
-    #EDIT - we've got some indexes that need changing to JSON keys in this big block
-    #F: 10 = shape, 3 = type, 0 = name
-    #EDIT - searchToken needs some indices made into JSON keys
-    #F: 0 = name, 1 = color, 2 = rarity, 3 = type, 4 = number, 5 = color_identity, 6 = cost, 7 = text, 8 = pt, 9 = special_text, 
-    #10 = shape, 11 = code, 12 = loyalty, 13 = name2, 15 = type2, 18 = text2, 20 = special_text2
-    #EDIT - add checks for the missing backface qualities; color2, cost2, pt2, and loyalty2
+	#F: I've added in a bunch of additional variables to allow people to search DFCs by info on their back faces
+	#F: For example, let's say I want to find Delver of Secrets by searching for a 3/2 (which is the p/t of Insectile Aberration)
+	#F: Alas, I don't know how to incorporate this into the search, so I will leave that up to other people.
 	html_content += '''
 
 		function preSearch(setNewState) {
@@ -382,12 +378,12 @@ def generateHTML(codes):
 			cardGrid.innerHTML = "";
 
 			for (const card of card_list_arrayified) {
-				if (card[10].includes("token") && !searchTerms.includes("*t:token") && !searchTerms.includes("t:token"))
+				if (card.shape.includes("token") && !searchTerms.includes("*t:token") && !searchTerms.includes("t:token"))
 				{
 					continue;
 				}
 
-				if (card[3].includes("Basic") && !searchTerms.includes("*t:basic") && !searchTerms.includes("t:basic"))
+				if (card.type.includes("Basic") && !searchTerms.includes("*t:basic") && !searchTerms.includes("t:basic"))
 				{
 					continue;
 				}
@@ -458,7 +454,7 @@ def generateHTML(codes):
 		{
 			for (const li of list)
 			{
-				if (li[0] == card[0] && li[3] == card[3])
+				if (li[0] == card.card_name && li[3] == card.type)
 				{
 					return true;
 				}
@@ -549,28 +545,40 @@ def generateHTML(codes):
 				card_stats.push(card[i].toLowerCase());
 			}
 
-			let card_name = card_stats[0];
-			let card_color = card_stats[1] != "" ? card_stats[1] : "c";
-			let card_rarity = card_stats[2];
-			let card_type = card_stats[3];
+			let card_name = card_stats.card_name;
+			let card_color = card_stats.color != "" ? card_stats.color : "c";
+			let card_rarity = card_stats.rarity;
+			let card_type = card_stats.type;
 			// 4: collector number
-			let card_ci = card_stats[5];
-			let card_cost = card_stats[6];
+			let card_ci = card_stats.color_identity;
+			let card_cost = card_stats.cost;
 			let card_mv = (isDecimal(card_cost.charAt(0)) ? parseInt(card_cost) + card_cost.replaceAll('x','').length - 1 : card_cost.replaceAll('x','').length) - ((card_cost.split('/').length - 1) * 2);
-			let card_oracle_text = card_stats[7] != "" ? card_stats[7].replaceAll("NEWLINE", '\\n') : card_stats[9].replaceAll("NEWLINE", '\\n');
-			let card_power = card_stats[8].substring(0,card_stats[8].indexOf('/'));
-			let card_toughness = card_stats[8].substring(card_stats[8].indexOf('/')+1);
-			let card_shape = card_stats[10];
-			let card_set = card_stats[11];
-			let card_loyalty = card_stats[12];
-			let card_notes = card_stats[card_stats.length - 1].replaceAll("NEWLINE", '\\n');
+			//Strip out the lingering [i][/i] and [b][/b] tags while we're searching just in case someone decided to bold something in the
+			//middle of their rules text for some reason
+			let card_oracle_text = card_stats.rules_text != "" ? card_stats.rules_text.replace(/\[(\/)?([ib])\]/g, "") : card_stats.special_text.replace(/\[(\/)?([ib])\]/g, "");
+			let card_power = card_stats.pt.substring(0,card_stats.pt.indexOf('/'));
+			let card_toughness = card_stats.pt.substring(card_stats.pt.indexOf('/')+1);
+			let card_shape = card_stats.shape;
+			let card_set = card_stats.set;
+			let card_loyalty = card_stats.loyalty;
+			let card_notes = card_stats.notes;
+			let card_color_2 = "";
+			let card_cost_2 = "";
+			let card_power_2 = "";
+			let card_toughness_2 = "";
+			let card_loyalty_2 = ""
 
 			// two cards in one
 			if (card_shape.includes("adventure") || card_shape.includes("double") || card_shape.includes("spli"))
 			{
-				card_name = card_name + "	" + card_stats[13];
-				card_type = card_type + "	" + card_stats[15];
-				card_oracle_text = card_oracle_text + "	" + (card_stats[18] != "" ? card_stats[18].replaceAll("NEWLINE", '\\n') : card_stats[20].replaceAll("NEWLINE", '\\n'));
+				card_name = card_name + "	" + card_stats.card_name2;
+				card_type = card_type + "	" + card_stats.type2;
+				card_oracle_text = card_oracle_text + "	" + (card_stats.rules_text2 != "" ? card_stats.rules_text2.replace(/\[(\/)?([ib])\]/g, "") : card_stats.special_text2.replace(/\[(\/)?([ib])\]/g, "");
+				card_color_2 = card_stats.color2 != "" ? card_stats.color2 : "c";
+				card_cost_2 = card_stats.cost2;
+				card_power_2 = card_stats.pt2.substring(0,card_stats.pt2.indexOf('/'));
+				card_toughness_2 = card_stats.pt.substring(card_stats.pt.indexOf('/')+1);
+				card_loyalty_2 = card_stats.loyalty2;
 			}
 
 			token = token.replaceAll("~", card_name).replaceAll("cardname", card_name).replaceAll('"','').replaceAll('/','').replaceAll('“','').replaceAll('”','');
@@ -883,11 +891,10 @@ def generateHTML(codes):
 		snippet = f.read()
 		html_content += snippet
 
-    #EDIT - replace index with appropriate JSON key, 0 = name
 	html_content += '''
 
 		function gridifyCard(card_stats) {
-			const card_name = card_stats[0];
+			const card_name = card_stats.card_name;
 
 			if (displayStyle == "cards-only")
 			{

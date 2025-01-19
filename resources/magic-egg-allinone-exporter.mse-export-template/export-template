@@ -84,11 +84,8 @@ script:
 	trail_fix := replace@(match:" +$", replace:"")
 	clean_names := {trail_fix(apos_fix(remove_tags(input)))}
 
-	#apos_strip := replace@(match:"'", replace: "")
-	#comma_strip := replace@(match:",", replace: "")
 	quote_strip := replace@(match:"\"", replace: "")
-	#remove_sp_chars := { apos_strip(comma_strip(quote_strip(input))) }
-
+	
 	mana_script := 	replace@(match:"(2|H|W|U|B|R|G|S|C)/(W|U|B|R|G|S|C)", replace:{"\{"+_1+"/"+_2+"\}"})+
 	replace@(match:"(X|Y|Z|W|U|B|R|G|S|C)", in_context:"(?<!\{)(?<!/)<match>", replace:{"\{"+_1+"\}"})+
 	replace@(match:"([1-9][0-9])", in_context:"(?<!\{)(?<!/)<match>", replace:{"\{"+_1+"\}"})+
@@ -96,6 +93,9 @@ script:
 
 	exporter_name_filter := filter_text@(match:"!exporte?r?name [^\n]+")
 	exporter_name_grabber := replace@(match:"!exporte?r?name ", replace:"")
+
+	exporter_backname_filter := filter_text@(match:"!backf?a?c?e?name [^\n\<]+")
+	exporter_backname_grabber := replace@(match:"!backf?a?c?e?name ", replace:"")
 
 	tag_filter := filter_text@(match:"!tag .+")
 	card_tag := {
@@ -110,7 +110,7 @@ script:
 	}
 
 	card_name_2 := {
-		test := exporter_name_grabber(exporter_name_filter(card.notes))
+		test := exporter_backname_grabber(exporter_backname_filter(card.notes))
 		quote_strip(clean_names(if test != "" then test else card.name_2))
 	}
 
@@ -206,7 +206,6 @@ script:
 	symbol_break := break_text@(match:"1000000|100|chaos|[1-2][0-9]|(2|.)(/.)*")
 	phybrid_check := match@(match:"^H/")
 	phy_check := match@(match:"H")
-	replace_slash := replace@(match:"/", replace:"")
 	
 	convert_symbols := {
 		symbol_list := symbol_break(input)
@@ -214,7 +213,7 @@ script:
 		for each symbol in symbol_list do 
 			##convert any H/? to ?P
 			if phybrid_check(symbol) then
-				temp := temp + "\{" + substring(symbol, begin:2) + P + "\}"
+				temp := temp + "\{" + substring(symbol, begin:2) + "P\}"
 			else if phy_check(symbol) then
 				temp := temp + "\{P\}"
 			else temp := temp + "\{"+replace_slash(symbol)+"\}"
@@ -308,24 +307,53 @@ script:
 	
 	proc_text := { escape_linebreaks(to_text(convert_style(convert_rules_symbols(input)))) }
 
+	##Slightly more advanced CI function to let the exporter detect land types
+	get_color_identity := {
+		if contains(card.type, match:"Land") then
+			temp := color_identity_statistic()
+			if contains(card.type, match:"Plains") == true and contains(temp, match:"W") == false then
+				temp := temp + "W"
+			if contains(card.type, match:"Island") == true and contains(temp, match:"U") == false then
+				temp := temp + "U"
+			if contains(card.type, match:"Swamp") == true and contains(temp, match:"B") == false then
+				temp := temp + "B"
+			if contains(card.type, match:"Mountain") == true and contains(temp, match:"R") == false then
+				temp := temp + "R"
+			if contains(card.type, match:"Forest") == true and contains(temp, match:"G") == false then
+				temp := temp + "G"
+			temp
+		else
+			color_identity_statistic()
+	}
+
+	##Shape function to deal with all the non-standard shapes
+	get_shape := {
+		if card.shape == "emblem" or card.shape == "counter" or card.shape == "rulestip" or card.shape == "checklist" then 
+			"token"
+		else card.shape
+	}
+
+	#TO DO:
+	#Add set info to the beginning of the json string
+
 	write_card := {
 		##opening bracket, name, and color
 		"\{\"card_name\":\"{card_name()}\",\"color\":\"{card_color()}\","
 			#result: {"card_name":"Black Lotus","color":"",
 		
 		##rarity, type, and number
-		+"\"rarity\":\"{(if options.cube == "yes" then "cube" else card_rarity())}\",\"type\":\"{card.type}\",\"number\":{card_number()},"
+		+"\"rarity\":\"{(if options.cube == "yes" then "cube" else card_rarity())}\",\"type\":\"{trim(to_text(card.type))}\",\"number\":{card_number()},"
 			#result: "rarity":"cube","type":"Artifact","number":0000,
 		
 		##color identity, casting cost, and rules text
-		+"\"color_identity\":\"{color_identity_statistic()}\",\"cost\":\"{convert_symbols(card.casting_cost)}\",\"text\":\"{proc_text(card.rule_text)}\","
+		+"\"color_identity\":\"{get_color_identity()}\",\"cost\":\"{convert_symbols(card.casting_cost)}\",\"rules_text\":\"{proc_text(card.rule_text)}\","
 			#result: "color_identity":"C","cost":"{0}","text":"{T}, Sacrifice this artifact: Add three mana of any one color.",
 			#technically we don't *need* the cost or rules text variables, and it could gum up the json file if we have a lot of cards without 
 			#casting costs or rules text. that being said, cards without casting costs are not common, and checking if a json object has a 
 			#variable takes more effort than just putting an empty string into the website
 		
 		##p/t, special text, and shape
-		+"\"pt\":\"{card.pt}\",\"special_text\":\"{proc_text(card.special_text)}\",\"shape\":\"{card.shape}\","
+		+"\"pt\":\"{card.pt}\",\"special_text\":\"{proc_text(card.special_text)}\",\"shape\":\"{get_shape()}\","
 			#result: "pt":"1/1","special_text":"","shape":"double faced"
 			#what was said for the previous chunk applies to p/t and special text as well
 		
@@ -337,10 +365,10 @@ script:
 		+(if contains(card.shape, match:"double") or contains(card.shape, match:"adventure") or contains(card.shape, match:"spli") then
 			
 			## second name, color, and type
-			"\"card_name2\":\"{card_name_2()}\",\"color2\":\"{card_color_2()}\",\"type2\":\"{card.type_2}\","
+			"\"card_name2\":\"{card_name_2()}\",\"color2\":\"{card_color_2()}\",\"type2\":\"{trim(to_text(card.type_2))}\","
 			
 			##second casting cost, rules text, and pt
-			+"\"cost2\":\"{card.casting_cost_2}\",\"text2\":\"{card.rule_text_2}\",\"pt2\":\"{card.pt_2}\","
+			+"\"cost2\":\"{card.casting_cost_2}\",\"rules_text2\":\"{card.rule_text_2}\",\"pt2\":\"{card.pt_2}\","
 			
 			## second special text and loyalty; end of second face section
 			+"\"special_text2\":\"{card.special_text_2}\",\"loyalty2\":\"{card.loyalty_2}\","
@@ -430,7 +458,7 @@ script:
 	}
 
 
-	write_main_file := "\{\"meta\":\{\},\"data\":\{\"{set.set_code}\":\{\"cards\":[" + remove_final_comma(escape_linebreaks(write_cards)) + "]\}\}\}"
+	write_main_file := "\{\"cards\":[" + remove_final_comma(write_cards) + "]\}"
 	write_text_file(file: set.set_code + ".json", to_text(write_main_file))
 
 	write_draft_cards := for each card in cards do write_draft_card()

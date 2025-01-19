@@ -1,9 +1,6 @@
 import os
 import sys
 
-#F = Fungustober's notes for understanding how all this works while she edits this to support JSON files for the main file
-#EDIT = Fungustober's marker for a part of code that needs edited to support JSON file
-
 def generateHTML(set_codes):
 	output_html_file = "index.html"
 
@@ -223,10 +220,7 @@ def generateHTML(set_codes):
 								<div class="set-icon-name">''' + set_name + '''</div></a>
 							</div>
 			'''
-
-    #F: gradients might be another thing we should change from a text file to a JSON file
-    #F: yeah, this is exactly what JSON is for, actually
-    #F: each gradient has a name, a first color, and a second color 
+	
 	html_content += '''				</div>
 				</div>
 				<div class="card-container" id="cotd-image">
@@ -257,9 +251,7 @@ def generateHTML(set_codes):
 	with open(os.path.join('resources', 'snippets', 'load-files.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
-
-    #EDIT - replace array indices with appropriate JSON keys
-    #F: 10 = shape, 3 = type, 0 = name, 11 = set, 4 = number
+	
 	html_content += '''
 				card_list_cleaned = [];
 
@@ -272,7 +264,7 @@ def generateHTML(set_codes):
 						card_stats.push(card[i].toLowerCase());
 					}
 
-					if (!card_stats[10].includes("token") && !card_stats[3].includes("basic"))
+					if (!card_stats.shape.includes("token") && !card_stats.type.includes("basic"))
 					{
 						card_list_cleaned.push(card);
 					}
@@ -282,18 +274,18 @@ def generateHTML(set_codes):
 				const card_stats = card_list_cleaned[cotd];
 
 				const a = document.createElement("a");
-				let card_name = card_stats[0];
+				let card_name = card_stats.card_name;
 				for (const char of specialchars)
 				{
 					card_name = card_name.replaceAll(char, "");
 				}
-				a.href = '/cards/' + card_stats[11] + '/' + card_stats[4] + '_' + card_name;
+				a.href = '/cards/' + card_stats.set + '/' + card_stats.number + '_' + card_name;
 
 				const img = document.createElement("img");
 				img.id = "cotd";
 
 
-				img.src = '/sets/' + card_stats[11] + '-files/img/' + card_stats[4] + '_' + card_stats[0] + (card_stats[10].includes('double') ? '_front' : '') + '.png';
+				img.src = '/sets/' + card_stats.set + '-files/img/' + card_stats.number + '_' + card_stats.card_name + (card_stats.shape.includes('double') ? '_front' : '') + '.png';
 
 				a.append(img);
 				document.getElementById("cotd-image").append(a);
