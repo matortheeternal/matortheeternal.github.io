@@ -42,7 +42,7 @@ function isDecimal(char) {
 			//	symText = symText + "{" + token + "}";
 			//}
 
-			return formatTextHTML(symText);
+			return formatTextHTML(text);
 		}
 
 		function formatTextHTML(str) {

@@ -22,16 +22,16 @@
 			let card_effects = "";
 			if (card_stats.rules_text != "")
 			{
-				card_effects = card_stats.rules_text;
+				card_effects = card_stats.rules_text.split("\n");
 			}
 			else
 			{
-				card_effects = card_stats.special_text;
+				card_effects = card_stats.special_text.split("\n");
 			}
 			effect.innerHTML += prettifyEffects(card_effects);
 			text.appendChild(effect);
 
-			if(card_stats.pt != ""))
+			if(card_stats.pt != "")
 			{
 				const pt = document.createElement("div");
 				pt.className = "pt";
@@ -64,16 +64,16 @@
 				let card_effects_2 = "";
 				if (card_stats.rules_text2 != "")
 				{
-					card_effects_2 = card_stats.rules_text2.split("NEWLINE");
+					card_effects_2 = card_stats.rules_text2.split("\n");
 				}
 				else
 				{
-					card_effects_2 = card_stats.special_text2.split("NEWLINE");
+					card_effects_2 = card_stats.special_text2.split("\n");
 				}
 				effect_2.innerHTML += prettifyEffects(card_effects_2);
 				text.appendChild(effect_2);
 
-				if(card_stats.pt2 != ""))
+				if(card_stats.pt2 != "")
 				{
 					const pt_2 = document.createElement("div");
 					pt_2.className = "pt";
@@ -146,8 +146,10 @@
 
 			for (let i = 0; i < card_effects.length; i++)
 			{
-				let styled_effect = card_effects[i].replace(/\[(\/)?([ib])\]/g, function(matched, _1, _2) {
-					return '<' + _1 + _2 + '>'
+				let styled_effect = card_effects[i].replace(/\[i\]([^\]]+)\[\/i\]/g, function(matched, _1) {
+					return '<i>' + _1 + '</i>'
+				}).replace(/\[b\]([^\]]+)\[\/b\]/g, function(matched, _1) {
+					return '<b>' + _1 + '</b>'
 				})
 				
 				HTML += styled_effect;

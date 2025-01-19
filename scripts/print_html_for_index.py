@@ -1,5 +1,6 @@
 import os
 import sys
+import json
 
 def generateHTML(set_codes):
 	output_html_file = "index.html"
@@ -259,9 +260,16 @@ def generateHTML(set_codes):
 				{
 					let card_stats = [];
 
-					for (let i = 0; i < card.length; i++)
+					for (var key in card)
 					{
-						card_stats.push(card[i].toLowerCase());
+						if (isNaN(card[key]))
+						{
+							card_stats[key] = card[key].toLowerCase();
+						}
+						else
+						{
+							card_stats[key] = card[key];
+						}
 					}
 
 					if (!card_stats.shape.includes("token") && !card_stats.type.includes("basic"))

@@ -1,5 +1,6 @@
 import os
 import sys
+import json
 
 #F = Fungustober's notes
 
@@ -233,13 +234,13 @@ def generateHTML(setCode, setCodes):
 		card_num = -1
 		if card['card_name'] == 'e':
 			card_name = 'e'
-		else if card['card_name'] == 'er':
+		elif card['card_name'] == 'er':
 			card_name = 'er'
-		else if  'token' in card['shape']:
-			card_name = card['number'] + 't_' + card['card_name']
+		elif  'token' in card['shape']:
+			card_name = str(card['number']) + 't_' + card['card_name']
 			card_num = card['number']
 		else:
-			card_name = card['number'] + '_' + card['card_name']
+			card_name = str(card['number']) + '_' + card['card_name']
 			card_num = card['number']
 
 		# used for DFCs only

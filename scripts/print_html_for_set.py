@@ -1,8 +1,8 @@
 import os
 import sys
+import json
 
-#F = Fungustober's notes for understanding how all this works while she edits this to support JSON files for the main file
-#EDIT = Fungustober's marker for a part of code that needs edited to support JSON file
+#F = Fungustober's notes
 
 def generateHTML(code):
 	#F: /sets/SET.html

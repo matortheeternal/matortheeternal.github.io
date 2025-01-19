@@ -1,5 +1,6 @@
 import os
 import sys
+import json
 
 #F = Fungustober's notes
 
@@ -7,14 +8,14 @@ def generateHTML(card):
 	code = card['set']
 	card_name = card['card_name']
 	card_name_cleaned = card_name
-	card_type = card.split['type']
+	card_type = card['type']
 	with open(os.path.join('resources', 'replacechars.txt'), encoding='utf-8-sig') as f:
 		chars = f.read()
 	for char in chars:
 		card_name_cleaned = card_name_cleaned.replace(char, '')
 	card_num = card['number']
 	#F: /cards/SET/NUM_NAME.html
-	output_html_file = "cards/" + code + "/" + card_num + "_" + card_name_cleaned + ".html"
+	output_html_file = "cards/" + code + "/" + str(card_num) + "_" + card_name_cleaned + ".html"
 	
 	#F: sets/SET-files/SET-fullname.txt
 	with open(os.path.join("sets", code + "-files", code + "-fullname.txt"), encoding='utf-8-sig') as f:
@@ -199,7 +200,7 @@ def generateHTML(card):
 	other_printings = []
 	#F: lists/all-cards.json
 	with open(os.path.join('lists', 'all-cards.json'), encoding='utf-8-sig') as f:
-		cards = f.read()
+		cards = json.load(f)
 	cards = cards['cards']
 	for i in range(len(cards)):
 		card_stats = cards[i]
@@ -209,7 +210,7 @@ def generateHTML(card):
 		html_content += '''<div class="printings" id="other-printings">Other Printings: '''
 		for printing in other_printings:
 			set_code = printing['set']
-			html_content += '''<a href="/cards/''' + set_code + '''/''' + printing['number'] + '''_''' + card_name_cleaned + '''">''' + set_code + '''</a>'''
+			html_content += '''<a href="/cards/''' + set_code + '''/''' + str(printing['number']) + '''_''' + card_name_cleaned + '''">''' + set_code + '''</a>'''
 			if printing != other_printings[len(other_printings) - 1]:
 				html_content += ''' • '''
 		html_content += '''</div>
@@ -229,10 +230,10 @@ def generateHTML(card):
 		html_content += snippet
 	
 	html_content += '''
-			await fetch('/cards/''' + code + '''/''' + card_num + '''_''' + card_name_cleaned + '''.json')
-				.then(response => response.text())
-				.then(text => {
-					card = text;
+			await fetch('/cards/''' + code + '''/''' + str(card_num) + '''_''' + card_name_cleaned + '''.json')
+				.then(response => response.json())
+				.then(json => {
+					card = json;
 			}).catch(error => console.error('Error:', error));
 
 			document.getElementById("grid").appendChild(gridifyCard(card));

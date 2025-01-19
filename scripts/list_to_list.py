@@ -15,7 +15,7 @@ def convertList(setCode):
 	blank1 = {'card_name':'e'}
 	blank2 = {'card_name':'er'}
 	#F: open up the inputList file
-	with open(inputList, errors="ignore") as f:
+	with open(inputList, encoding='utf-8-sig') as f:
 		raw = json.load(f)
 	cards = raw['cards']
 
@@ -404,7 +404,7 @@ def convertList(setCode):
 			master_list.append(blank1)
 
 	#F: lists/SET-list.txt finally comes into play
-	with open(outputList, 'w') as f:
+	with open(outputList, 'w', encoding="utf-8-sig") as f:
 		json.dump(master_list, f)
 
 

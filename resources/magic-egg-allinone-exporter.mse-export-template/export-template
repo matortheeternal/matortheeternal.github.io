@@ -206,6 +206,7 @@ script:
 	symbol_break := break_text@(match:"1000000|100|chaos|[1-2][0-9]|(2|.)(/.)*")
 	phybrid_check := match@(match:"^H/")
 	phy_check := match@(match:"H")
+	replace_slash := replace@(match:"/", replace:"")
 	
 	convert_symbols := {
 		symbol_list := symbol_break(input)
@@ -309,19 +310,14 @@ script:
 
 	##Slightly more advanced CI function to let the exporter detect land types
 	get_color_identity := {
-		if contains(card.type, match:"Land") then
+		if contains(card.type, match:"Land") then (
 			temp := color_identity_statistic()
-			if contains(card.type, match:"Plains") == true and contains(temp, match:"W") == false then
-				temp := temp + "W"
-			if contains(card.type, match:"Island") == true and contains(temp, match:"U") == false then
-				temp := temp + "U"
-			if contains(card.type, match:"Swamp") == true and contains(temp, match:"B") == false then
-				temp := temp + "B"
-			if contains(card.type, match:"Mountain") == true and contains(temp, match:"R") == false then
-				temp := temp + "R"
-			if contains(card.type, match:"Forest") == true and contains(temp, match:"G") == false then
-				temp := temp + "G"
-			temp
+			if contains(card.type, match:"Plains") == true and contains(temp, match:"W") == false then temp := replace(temp, match:"C", replace:"") + "W"
+			if contains(card.type, match:"Island") == true and contains(temp, match:"U") == false then temp := replace(temp, match:"C", replace:"") + "U"
+			if contains(card.type, match:"Swamp") == true and contains(temp, match:"B") == false then temp := replace(temp, match:"C", replace:"") + "B"
+			if contains(card.type, match:"Mountain") == true and contains(temp, match:"R") == false then temp := replace(temp, match:"C", replace:"") + "R"
+			if contains(card.type, match:"Forest") == true and contains(temp, match:"G") == false then temp := replace(temp, match:"C", replace:"") + "G"
+			)
 		else
 			color_identity_statistic()
 	}
@@ -368,10 +364,10 @@ script:
 			"\"card_name2\":\"{card_name_2()}\",\"color2\":\"{card_color_2()}\",\"type2\":\"{trim(to_text(card.type_2))}\","
 			
 			##second casting cost, rules text, and pt
-			+"\"cost2\":\"{card.casting_cost_2}\",\"rules_text2\":\"{card.rule_text_2}\",\"pt2\":\"{card.pt_2}\","
+			+"\"cost2\":\"{convert_symbols(card.casting_cost_2)}\",\"rules_text2\":\"{proc_text(card.rule_text_2)}\",\"pt2\":\"{card.pt_2}\","
 			
 			## second special text and loyalty; end of second face section
-			+"\"special_text2\":\"{card.special_text_2}\",\"loyalty2\":\"{card.loyalty_2}\","
+			+"\"special_text2\":\"{proc_text(card.special_text_2)}\",\"loyalty2\":\"{card.loyalty_2}\","
 			
 			else ""
 		)

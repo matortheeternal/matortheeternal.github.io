@@ -1,5 +1,6 @@
 import os
 import sys
+import json
 
 #F = Fungustober's notes
 
@@ -540,9 +541,16 @@ def generateHTML(codes):
 		{
 			let card_stats = [];
 
-			for (let i = 0; i < card.length; i++)
+			for (var key in card)
 			{
-				card_stats.push(card[i].toLowerCase());
+				if (isNaN(card[key]))
+				{
+					card_stats[key] = card[key].toLowerCase();
+				}
+				else
+				{
+					card_stats[key] = card[key];
+				}
 			}
 
 			let card_name = card_stats.card_name;
@@ -573,7 +581,7 @@ def generateHTML(codes):
 			{
 				card_name = card_name + "	" + card_stats.card_name2;
 				card_type = card_type + "	" + card_stats.type2;
-				card_oracle_text = card_oracle_text + "	" + (card_stats.rules_text2 != "" ? card_stats.rules_text2.replace(/\[(\/)?([ib])\]/g, "") : card_stats.special_text2.replace(/\[(\/)?([ib])\]/g, "");
+				card_oracle_text = card_oracle_text + "	" + (card_stats.rules_text2 != "" ? card_stats.rules_text2.replace(/\[(\/)?([ib])\]/g, "") : card_stats.special_text2.replace(/\[(\/)?([ib])\]/g, ""));
 				card_color_2 = card_stats.color2 != "" ? card_stats.color2 : "c";
 				card_cost_2 = card_stats.cost2;
 				card_power_2 = card_stats.pt2.substring(0,card_stats.pt2.indexOf('/'));

@@ -1,7 +1,7 @@
 await fetch('/lists/all-cards.json')
 					.then(response => response.json())
-					.then((data) => {
-						card_list = data;
+					.then(json => {
+						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
 				await fetch('/resources/replacechars.txt')

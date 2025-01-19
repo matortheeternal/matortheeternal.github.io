@@ -25,7 +25,7 @@ def genAllCards(codes):
 			raw = json.load(f)
 			for card in raw['cards']:
 				card['type'] = card['type'].replace('—', '-')
-				fileinput['cards'].append(card)
+				file_input['cards'].append(card)
 	#F: opens a path,
 	with open(os.path.join('lists', 'all-cards.json'), 'w', encoding='utf-8-sig') as f:
 		#F: turns the dictionary into a json object, and puts it into the all-cards.json file
