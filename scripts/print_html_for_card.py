@@ -224,7 +224,6 @@ def generateHTML(card):
 		document.addEventListener("DOMContentLoaded", async function () {
 			'''
 
-	#F: already looked at this in a different python script
 	with open(os.path.join('resources', 'snippets', 'load-files.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet

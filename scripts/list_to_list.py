@@ -407,15 +407,3 @@ def convertList(setCode):
 	with open(outputList, 'w', encoding="utf-8-sig") as f:
 		json.dump(master_list, f)
 
-
-
-
-
-
-
-#F: why are there so many blank lines down here
-
-
-
-
-

@@ -35,7 +35,7 @@ def genAllCards(codes):
 	#F: opens a path,
 	with open(os.path.join('lists', 'all-cards.json'), 'w', encoding='utf-8-sig') as f:
 		#F: turns the dictionary into a json object, and puts it into the all-cards.json file
-		#F: json.dump actually preserves the /n's and the //'s and whatnot, so we won't have to 
+		#F: json.dump actually preserves the \n's and the \\'s and whatnot, so we won't have to escape them ourselves
 		json.dump(file_input, f)
 
 #F: first, get all the set codes
@@ -55,8 +55,6 @@ set_codes.sort()
 
 genAllCards(set_codes)
 
-#F: once that's done, it checks if a directory exists, ???, then makes that directory
-
 if os.path.isdir('cards'):
 	shutil.rmtree('cards')
 os.mkdir('cards')
@@ -66,19 +64,14 @@ for code in set_codes:
 	#F: it makes a directory at cards/SET
 	os.mkdir(os.path.join('cards', code))
 
-	#F: does something to all the images
 	image_flip.flipImages(code)
-	#F: makes a var = SET-files
 	set_dir = code + '-files'
-	#F: then look at /sets/SET-files/SET-trimmed.txt which is usually "false" and nothing else
 	with open(os.path.join('sets', set_dir, code + '-trimmed.txt'), encoding='utf-8-sig') as f:
 		trimmed = f.read()
 		if trimmed == "false":
-			#F: it makes sure it's false, then does something to the images
 			card_edge_trimmer.batch_process_images(code)
 			with open(os.path.join('sets', set_dir, code + '-trimmed.txt'), 'w') as file:
 				file.write("true")
-	#F: then sets it to "true", overwriting the old file
 
 	#F: list_to_list.convertList is a long and important function
 	list_to_list.convertList(code)
