@@ -24,7 +24,13 @@ def genAllCards(codes):
 			#F: puts its card data into a temp dictionary,
 			raw = json.load(f)
 			for card in raw['cards']:
-				card['type'] = card['type'].replace('—', '-')
+				card['type'] = card['type'].replace('—', '–')
+				card['rules_text'] = card['rules_text'].replace('—', '–')
+				card['special_text'] = card['special_text'].replace('—', '–')
+				if 'type2' in card:
+					card['type2'] = card['type2'].replace('—', '–')
+					card['rules_text2'] = card['rules_text2'].replace('—', '–')
+					card['special_text2'] = card['special_text2'].replace('—', '–')
 				file_input['cards'].append(card)
 	#F: opens a path,
 	with open(os.path.join('lists', 'all-cards.json'), 'w', encoding='utf-8-sig') as f:
