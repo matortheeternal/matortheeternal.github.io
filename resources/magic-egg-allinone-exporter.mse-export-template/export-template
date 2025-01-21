@@ -89,7 +89,7 @@ script:
 	trail_fix := replace@(match:" +$", replace:"")
 	clean_names := {trail_fix(apos_fix(remove_tags(input)))}
 
-	quote_strip := replace@(match:"\"", replace: "")
+	quote_strip := replace@(match:"\"", replace:"")
 	
 	mana_script := 	replace@(match:"(2|H|W|U|B|R|G|S|C)/(W|U|B|R|G|S|C)", replace:{"\{"+_1+"/"+_2+"\}"})+
 	replace@(match:"(X|Y|Z|W|U|B|R|G|S|C)", in_context:"(?<!\{)(?<!/)<match>", replace:{"\{"+_1+"\}"})+
@@ -377,7 +377,7 @@ script:
 			else ""
 		)
 		##notes
-		+"\"notes\":\"{proc_text(card.notes)}\"},"
+		+"\"notes\":\"{proc_text(quote_strip(card.notes))}\"},"
 	}
 	
 	write_cards := for each card in cards do write_card()
