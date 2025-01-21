@@ -1,0 +1,2616 @@
+﻿[CustomCards]
+	[	{
+			"name": "Warlock",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Human Warlock ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/2_Warlock.png"
+			}
+		},
+		{
+			"name": "Search the Forest",
+			"rarity": "common",
+			"mana_cost": "{1}{G/W}",
+			"type": "Instant",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/183_Search the Forest.png"
+			}
+		},
+		{
+			"name": "Corrupted Kirali",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/9_Corrupted Kirali_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://uiwow7.github.io/sets/SHS-files/img/9_Corrupted Kirali_back.png"
+				}
+			}
+		},
+		{
+			"name": "Frostpath Traveler",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/14_Frostpath Traveler_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://uiwow7.github.io/sets/SHS-files/img/14_Frostpath Traveler_back.png"
+				}
+			}
+		},
+		{
+			"name": "Desert Commander",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Human Warrior Ally ",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/12_Desert Commander.png"
+			}
+		},
+		{
+			"name": "New Recruit",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Warrior Ally ",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/19_New Recruit.png"
+			}
+		},
+		{
+			"name": "Head of Recruitment",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Warrior Ally ",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/15_Head of Recruitment.png"
+			}
+		},
+		{
+			"name": "Shattered Swordsman",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/25_Shattered Swordsman_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://uiwow7.github.io/sets/SHS-files/img/25_Shattered Swordsman_back.png"
+				}
+			}
+		},
+		{
+			"name": "Aqiman Charger",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Warrior Ally ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/6_Aqiman Charger.png"
+			}
+		},
+		{
+			"name": "Crafty Escape",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/10_Crafty Escape.png"
+			}
+		},
+		{
+			"name": "Shattered Swordbearer",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Demon Soldier ",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/24_Shattered Swordbearer.png"
+			}
+		},
+		{
+			"name": "Frostpath Soldier",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Demon Soldier ",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/13_Frostpath Soldier.png"
+			}
+		},
+		{
+			"name": "Alnak Blade Student",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/3_Alnak Blade Student_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://uiwow7.github.io/sets/SHS-files/img/3_Alnak Blade Student_back.png"
+				}
+			}
+		},
+		{
+			"name": "Spirit Strike",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/26_Spirit Strike.png"
+			}
+		},
+		{
+			"name": "Soul Drain",
+			"rarity": "common",
+			"mana_cost": "{1}{W/B}",
+			"type": "Instant",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/186_Soul Drain.png"
+			}
+		},
+		{
+			"name": "Prophetic Crystal",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Artifact — Clue ",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/49_Prophetic Crystal_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://uiwow7.github.io/sets/SHS-files/img/49_Prophetic Crystal_back.png"
+				}
+			}
+		},
+		{
+			"name": "Seek Answers",
+			"rarity": "common",
+			"mana_cost": "{U/R}",
+			"type": "Instant",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/184_Seek Answers.png"
+			}
+		},
+		{
+			"name": "Call of Control",
+			"rarity": "common",
+			"mana_cost": "{1}{W/U}",
+			"type": "Instant",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/175_Call of Control.png"
+			}
+		},
+		{
+			"name": "Icefire Bolt",
+			"rarity": "common",
+			"mana_cost": "{1}{U/R}",
+			"type": "Instant",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/179_Icefire Bolt.png"
+			}
+		},
+		{
+			"name": "Shattered Sword Iceblade",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/54_Shattered Sword Iceblade.png"
+			}
+		},
+		{
+			"name": "Lightning Retort",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/46_Lightning Retort_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://uiwow7.github.io/sets/SHS-files/img/46_Lightning Retort_back.png"
+				}
+			}
+		},
+		{
+			"name": "Enchanting of Stones",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/41_Enchanting of Stones.png"
+			}
+		},
+		{
+			"name": "Learn Through Repetition",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/45_Learn Through Repetition.png"
+			}
+		},
+		{
+			"name": "Sage of Aenir's Reclamation",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Wizard Ally ",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/50_Sage of Aenir's Reclamation.png"
+			}
+		},
+		{
+			"name": "Window to Lost Souls",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/58_Window to Lost Souls.png"
+			}
+		},
+		{
+			"name": "Answer Seeker",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/34_Answer Seeker.png"
+			}
+		},
+		{
+			"name": "Darkness Searcher",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/38_Darkness Searcher.png"
+			}
+		},
+		{
+			"name": "Icy Aurora",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/43_Icy Aurora.png"
+			}
+		},
+		{
+			"name": "Alanar Teacher",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Human Wizard Ally ",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/32_Alanar Teacher.png"
+			}
+		},
+		{
+			"name": "Shattered Sword Warlock",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/81_Shattered Sword Warlock.png"
+			}
+		},
+		{
+			"name": "Into the Cave",
+			"rarity": "common",
+			"mana_cost": "{1}{U/B}",
+			"type": "Instant",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/181_Into the Cave.png"
+			}
+		},
+		{
+			"name": "Explore the Depths",
+			"rarity": "common",
+			"mana_cost": "{1}{B/G}",
+			"type": "Instant",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/178_Explore the Depths.png"
+			}
+		},
+		{
+			"name": "Corrupted Grounds",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/62_Corrupted Grounds.png"
+			}
+		},
+		{
+			"name": "Warlock of the Tower",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/86_Warlock of the Tower.png"
+			}
+		},
+		{
+			"name": "Soul Whisperer",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/82_Soul Whisperer_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://uiwow7.github.io/sets/SHS-files/img/82_Soul Whisperer_back.png"
+				}
+			}
+		},
+		{
+			"name": "Shattered Sword Soldier",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Soldier Warlock ",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/80_Shattered Sword Soldier_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://uiwow7.github.io/sets/SHS-files/img/80_Shattered Sword Soldier_back.png"
+				}
+			}
+		},
+		{
+			"name": "Seek the Depths",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/76_Seek the Depths.png"
+			}
+		},
+		{
+			"name": "One With Shadows",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Instant",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/74_One With Shadows.png"
+			}
+		},
+		{
+			"name": "Irkian Mindrender",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Demon Warlock ",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/71_Irkian Mindrender.png"
+			}
+		},
+		{
+			"name": "Darkmoon Aurora",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/64_Darkmoon Aurora.png"
+			}
+		},
+		{
+			"name": "Witch of Thirak",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/88_Witch of Thirak.png"
+			}
+		},
+		{
+			"name": "Undying Shadowblade",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/83_Undying Shadowblade.png"
+			}
+		},
+		{
+			"name": "Altar of Lost Shadows",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Artifact",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/61_Altar of Lost Shadows.png"
+			}
+		},
+		{
+			"name": "Corrupting Fire",
+			"rarity": "common",
+			"mana_cost": "{1}{B/R}",
+			"type": "Instant",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/176_Corrupting Fire.png"
+			}
+		},
+		{
+			"name": "Immolating Smite",
+			"rarity": "common",
+			"mana_cost": "{1}{R/W}",
+			"type": "Instant",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/180_Immolating Smite.png"
+			}
+		},
+		{
+			"name": "Crimson Lights",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/98_Crimson Lights.png"
+			}
+		},
+		{
+			"name": "Kangal Martyr",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Warrior Ally ",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/106_Kangal Martyr.png"
+			}
+		},
+		{
+			"name": "Fellfire Restoration",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Sorcery",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/101_Fellfire Restoration.png"
+			}
+		},
+		{
+			"name": "Dealer of Dark Fire",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Demon Warlock ",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/99_Dealer of Dark Fire.png"
+			}
+		},
+		{
+			"name": "Brave Strike",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{R/W}",
+			"type": "Instant",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/173_Brave Strike.png"
+			}
+		},
+		{
+			"name": "Mesa Spearman",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Warrior Ally ",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/108_Mesa Spearman.png"
+			}
+		},
+		{
+			"name": "Spearman of the Alliance",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Warrior Ally ",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/115_Spearman of the Alliance.png"
+			}
+		},
+		{
+			"name": "Thalur Firewizard",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Wizard Ally ",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/117_Thalur Firewizard.png"
+			}
+		},
+		{
+			"name": "Butcher of Graves",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Warrior Ally ",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/95_Butcher of Graves.png"
+			}
+		},
+		{
+			"name": "Night Rider of Fire",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Demon Knight ",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/110_Night Rider of Fire.png"
+			}
+		},
+		{
+			"name": "Jungle Adept",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Wizard Ally ",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/105_Jungle Adept.png"
+			}
+		},
+		{
+			"name": "Icefire Ally",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Wizard Ally ",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/103_Icefire Ally.png"
+			}
+		},
+		{
+			"name": "Burning of the Ground",
+			"rarity": "common",
+			"mana_cost": "{1}{R/G}",
+			"type": "Instant",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/174_Burning of the Ground.png"
+			}
+		},
+		{
+			"name": "Wisdom of the Sea",
+			"rarity": "common",
+			"mana_cost": "{1}{G/U}",
+			"type": "Instant",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/189_Wisdom of the Sea.png"
+			}
+		},
+		{
+			"name": "Lost Sanctuary",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Enchantment",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/137_Lost Sanctuary.png"
+			}
+		},
+		{
+			"name": "Iriatu Explorer",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Scout ",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/131_Iriatu Explorer.png"
+			}
+		},
+		{
+			"name": "Deep-Jungle Bear",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Bear ",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/126_Deep-Jungle Bear.png"
+			}
+		},
+		{
+			"name": "Ruins of Decay",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/141_Ruins of Decay.png"
+			}
+		},
+		{
+			"name": "Dark Forest Surveyor",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Scout Ally ",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/125_Dark Forest Surveyor.png"
+			}
+		},
+		{
+			"name": "Southern Expedition",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Enchantment",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/145_Southern Expedition.png"
+			}
+		},
+		{
+			"name": "Last Watch of Alanar",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Human Warrior Ally ",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/134_Last Watch of Alanar.png"
+			}
+		},
+		{
+			"name": "Scout of the West",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Scout ",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/143_Scout of the West.png"
+			}
+		},
+		{
+			"name": "Iriatu Healer",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Wizard Ally ",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/132_Iriatu Healer.png"
+			}
+		},
+		{
+			"name": "Lost Forest Relic",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Artifact",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/135_Lost Forest Relic.png"
+			}
+		},
+		{
+			"name": "Dark Forest Fighter",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Warrior Scout ",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/124_Dark Forest Fighter.png"
+			}
+		},
+		{
+			"name": "Jungle Scout",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Scout Ally ",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/133_Jungle Scout.png"
+			}
+		},
+		{
+			"name": "Recruit Trainer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Ally ",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/20_Recruit Trainer.png"
+			}
+		},
+		{
+			"name": "Armored Windblade",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/7_Armored Windblade_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://uiwow7.github.io/sets/SHS-files/img/7_Armored Windblade_back.png"
+				}
+			}
+		},
+		{
+			"name": "Shattered Sword Cleaver",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Demon Soldier ",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/22_Shattered Sword Cleaver_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://uiwow7.github.io/sets/SHS-files/img/22_Shattered Sword Cleaver_back.png"
+				}
+			}
+		},
+		{
+			"name": "Dark Dredging",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{B/G}",
+			"type": "Enchantment",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/177_Dark Dredging.png"
+			}
+		},
+		{
+			"name": "Lit Meteorite",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/17_Lit Meteorite.png"
+			}
+		},
+		{
+			"name": "Thirak Commander",
+			"rarity": "rare",
+			"mana_cost": "{6}{W}",
+			"type": "Creature — Human Warrior Ally ",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/29_Thirak Commander.png"
+			}
+		},
+		{
+			"name": "Thalur Recruiter",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Human Warrior Ally ",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/28_Thalur Recruiter.png"
+			}
+		},
+		{
+			"name": "Dark Thought-Thief",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/11_Dark Thought-Thief_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://uiwow7.github.io/sets/SHS-files/img/11_Dark Thought-Thief_back.png"
+				}
+			}
+		},
+		{
+			"name": "Unchained Nightwatcher",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/30_Unchained Nightwatcher_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://uiwow7.github.io/sets/SHS-files/img/30_Unchained Nightwatcher_back.png"
+				}
+			}
+		},
+		{
+			"name": "Beyond the Tower",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Enchantment",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/35_Beyond the Tower.png"
+			}
+		},
+		{
+			"name": "Seek the World of Dreams",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U/R}",
+			"type": "Instant",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/185_Seek the World of Dreams.png"
+			}
+		},
+		{
+			"name": "Dreams of Color",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/40_Dreams of Color.png"
+			}
+		},
+		{
+			"name": "Corrupter of Magic",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/36_Corrupter of Magic.png"
+			}
+		},
+		{
+			"name": "Servant to Magius",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/52_Servant to Magius.png"
+			}
+		},
+		{
+			"name": "Shattered Sword Duplicator",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/53_Shattered Sword Duplicator.png"
+			}
+		},
+		{
+			"name": "Dark Summoner",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/37_Dark Summoner_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://uiwow7.github.io/sets/SHS-files/img/37_Dark Summoner_back.png"
+				}
+			}
+		},
+		{
+			"name": "Adaptive Mage",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Human Wizard Ally ",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/31_Adaptive Mage.png"
+			}
+		},
+		{
+			"name": "Oracle of Wisps",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/48_Oracle of Wisps.png"
+			}
+		},
+		{
+			"name": "Shattered Sword Assassin",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Demon Assassin ",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/78_Shattered Sword Assassin_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://uiwow7.github.io/sets/SHS-files/img/78_Shattered Sword Assassin_back.png"
+				}
+			}
+		},
+		{
+			"name": "Destruction Circle",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Instant",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/68_Destruction Circle.png"
+			}
+		},
+		{
+			"name": "Cosmic Manipulator",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/63_Cosmic Manipulator.png"
+			}
+		},
+		{
+			"name": "Horror of the Bog",
+			"rarity": "common",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Horror ",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/70_Horror of the Bog.png"
+			}
+		},
+		{
+			"name": "Shadow Duplication",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/77_Shadow Duplication.png"
+			}
+		},
+		{
+			"name": "Western Army Commander",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Demon Soldier ",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/87_Western Army Commander.png"
+			}
+		},
+		{
+			"name": "Lost Crypt",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Artifact",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/73_Lost Crypt.png"
+			}
+		},
+		{
+			"name": "Angel of Darkened Faith",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W/B}",
+			"type": "Creature — Angel Horror ",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/172_Angel of Darkened Faith.png"
+			}
+		},
+		{
+			"name": "Shattered Sword Brainwasher",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Demon ",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/79_Shattered Sword Brainwasher.png"
+			}
+		},
+		{
+			"name": "Arid Attacker",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Warrior Ally ",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/91_Arid Attacker.png"
+			}
+		},
+		{
+			"name": "Rage of Fiery Darkness",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/112_Rage of Fiery Darkness.png"
+			}
+		},
+		{
+			"name": "Altar of Lost Fire",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/90_Altar of Lost Fire.png"
+			}
+		},
+		{
+			"name": "Firelight Duelist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Human Warrior Ally ",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/102_Firelight Duelist.png"
+			}
+		},
+		{
+			"name": "Arid Forest Venturer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Human Scout Ally ",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/92_Arid Forest Venturer.png"
+			}
+		},
+		{
+			"name": "Conjurer of Lost Joy",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Wizard Ally ",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/97_Conjurer of Lost Joy.png"
+			}
+		},
+		{
+			"name": "Irkian Flagbearer",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Warrior Ally ",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/104_Irkian Flagbearer.png"
+			}
+		},
+		{
+			"name": "Desert Admiral",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Demon Soldier ",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/100_Desert Admiral.png"
+			}
+		},
+		{
+			"name": "Shattered Sword Punisher",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Demon Warlock Soldier ",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/113_Shattered Sword Punisher.png"
+			}
+		},
+		{
+			"name": "River Scout",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{G/U}",
+			"type": "Creature — Human Scout Ally ",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/182_River Scout.png"
+			}
+		},
+		{
+			"name": "Undiscovered Depths Scout",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Scout ",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/146_Undiscovered Depths Scout.png"
+			}
+		},
+		{
+			"name": "Reclaimer of Aenir",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Scout Ally ",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/140_Reclaimer of Aenir.png"
+			}
+		},
+		{
+			"name": "Marsh Explorer",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{G}",
+			"type": "Creature — Human Wizard Scout ",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/138_Marsh Explorer.png"
+			}
+		},
+		{
+			"name": "Alanar Forest Fighter",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Warrior  ",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/118_Alanar Forest Fighter.png"
+			}
+		},
+		{
+			"name": "Druid of Iriatu",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Wizard Ally ",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/127_Druid of Iriatu.png"
+			}
+		},
+		{
+			"name": "Blade of Verdant Exploration",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Artifact",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/120_Blade of Verdant Exploration.png"
+			}
+		},
+		{
+			"name": "Scout of Attunement",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Human Scout Ally ",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/142_Scout of Attunement.png"
+			}
+		},
+		{
+			"name": "Cloud Invocation",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Enchantment",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/123_Cloud Invocation.png"
+			}
+		},
+		{
+			"name": "Sunrise Savant",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Human Wizard Ally ",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/27_Sunrise Savant.png"
+			}
+		},
+		{
+			"name": "Mind Healer",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Cleric Ally ",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/18_Mind Healer.png"
+			}
+		},
+		{
+			"name": "Shattered Sword Defender",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/23_Shattered Sword Defender_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://uiwow7.github.io/sets/SHS-files/img/23_Shattered Sword Defender_back.png"
+				}
+			}
+		},
+		{
+			"name": "Angel of Pure Faith",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Angel ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/5_Angel of Pure Faith.png"
+			}
+		},
+		{
+			"name": "Journey's End",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/16_Journey's End.png"
+			}
+		},
+		{
+			"name": "Allied Reinforcements",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/2_Allied Reinforcements.png"
+			}
+		},
+		{
+			"name": "The Icelord",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Human Warrior ",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/42_The Icelord.png"
+			}
+		},
+		{
+			"name": "Wielder of Stars",
+			"rarity": "rare",
+			"mana_cost": "{9}{U}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/57_Wielder of Stars.png"
+			}
+		},
+		{
+			"name": "Kanil, Night Rider of Ice",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Knight ",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/44_Kanil, Night Rider of Ice.png"
+			}
+		},
+		{
+			"name": "Seek Prosperity",
+			"rarity": "rare",
+			"mana_cost": "{X}{U}{U}",
+			"type": "Instant",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/51_Seek Prosperity.png"
+			}
+		},
+		{
+			"name": "Whimsical Spellcaster",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Wizard Ally ",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/56_Whimsical Spellcaster.png"
+			}
+		},
+		{
+			"name": "Wizard of Aenir",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/59_Wizard of Aenir.png"
+			}
+		},
+		{
+			"name": "Warlock of Dark Power",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/85_Warlock of Dark Power_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://uiwow7.github.io/sets/SHS-files/img/85_Warlock of Dark Power_back.png"
+				}
+			}
+		},
+		{
+			"name": "Demonic Studies",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/67_Demonic Studies.png"
+			}
+		},
+		{
+			"name": "Grand Warlock Talnir",
+			"rarity": "rare",
+			"mana_cost": "{6}{B}{B}",
+			"type": "Legendary Creature — Demon Warlock ",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/69_Grand Warlock Talnir.png"
+			}
+		},
+		{
+			"name": "Deal With Ravens",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/65_Deal With Ravens.png"
+			}
+		},
+		{
+			"name": "Villainous Fiend",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}{B}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/84_Villainous Fiend_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://uiwow7.github.io/sets/SHS-files/img/84_Villainous Fiend_back.png"
+				}
+			}
+		},
+		{
+			"name": "Demonic Bloodlord",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Demon Warlock ",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/66_Demonic Bloodlord.png"
+			}
+		},
+		{
+			"name": "Bloodstained Moon",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/94_Bloodstained Moon.png"
+			}
+		},
+		{
+			"name": "Lava Lance",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Instant",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/107_Lava Lance.png"
+			}
+		},
+		{
+			"name": "Barbarian of the West",
+			"rarity": "rare",
+			"mana_cost": "{R}{R}",
+			"type": "Creature — Human Barbarian Ally ",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/93_Barbarian of the West.png"
+			}
+		},
+		{
+			"name": "Southern Fireblade",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Warrior Ally ",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/114_Southern Fireblade.png"
+			}
+		},
+		{
+			"name": "Nebula's Impulse",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/109_Nebula's Impulse.png"
+			}
+		},
+		{
+			"name": "Demonic Protector",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Creature — Demon Soldier ",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/158_Demonic Protector.png"
+			}
+		},
+		{
+			"name": "Intrepid Rootwalla",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Creature — Lizard ",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/130_Intrepid Rootwalla.png"
+			}
+		},
+		{
+			"name": "Chromatic Attunement",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/122_Chromatic Attunement.png"
+			}
+		},
+		{
+			"name": "Shifting Roots",
+			"rarity": "rare",
+			"mana_cost": "{G}{G}",
+			"type": "Enchantment",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/144_Shifting Roots.png"
+			}
+		},
+		{
+			"name": "Forest Giant",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Giant ",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/128_Forest Giant.png"
+			}
+		},
+		{
+			"name": "Mountaineer Scout",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Human Scout  ",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/139_Mountaineer Scout.png"
+			}
+		},
+		{
+			"name": "Lost Forest Shrine",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Artifact",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/136_Lost Forest Shrine.png"
+			}
+		},
+		{
+			"name": "Battle of the Tower",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/8_Battle of the Tower.png"
+			}
+		},
+		{
+			"name": "Sacred Emissary",
+			"rarity": "mythic",
+			"mana_cost": "{W}{W}",
+			"type": "Creature — Human Cleric ",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/21_Sacred Emissary.png"
+			}
+		},
+		{
+			"name": "Turn Back Time",
+			"rarity": "mythic",
+			"mana_cost": "{4}{U}{U}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/55_Turn Back Time.png"
+			}
+		},
+		{
+			"name": "Zirlir, Prodigious Decipherer",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Human ",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/60_Zirlir, Prodigious Decipherer.png"
+			}
+		},
+		{
+			"name": "Profane Emissary",
+			"rarity": "mythic",
+			"mana_cost": "{B}{B}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/75_Profane Emissary.png"
+			}
+		},
+		{
+			"name": "Jklamdiel, Xirok's Chosen",
+			"rarity": "mythic",
+			"mana_cost": "{5}{B}",
+			"type": "Legendary Creature — Demon ",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/72_Jklamdiel, Xirok's Chosen.png"
+			}
+		},
+		{
+			"name": "The Night Riders' Bane",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Legendary Planeswalker — Winmeari ",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/111_The Night Riders' Bane.png"
+			}
+		},
+		{
+			"name": "Drorix's Sword",
+			"rarity": "mythic",
+			"mana_cost": "{4}",
+			"type": "Legendary Artifact — Equipment ",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/191_Drorix's Sword.png"
+			}
+		},
+		{
+			"name": "In Search of Brilliance",
+			"rarity": "mythic",
+			"mana_cost": "{G}",
+			"type": "Enchantment",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/129_In Search of Brilliance.png"
+			}
+		},
+		{
+			"name": "Verdant Reclamation",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/147_Verdant Reclamation.png"
+			}
+		},
+		{
+			"name": "Mind Thief",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/163_Mind Thief.png"
+			}
+		},
+		{
+			"name": "Corrupted Ritualist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/155_Corrupted Ritualist.png"
+			}
+		},
+		{
+			"name": "Corrupter of Nature",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{R}",
+			"type": "Creature — Demon Horror ",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/156_Corrupter of Nature.png"
+			}
+		},
+		{
+			"name": "Autumn Mage",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Creature — Human Wizard Ally ",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/151_Autumn Mage.png"
+			}
+		},
+		{
+			"name": "Armored Recruiter",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Creature — Human Ally ",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/149_Armored Recruiter.png"
+			}
+		},
+		{
+			"name": "Ironrun Soldier",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/162_Ironrun Soldier.png"
+			}
+		},
+		{
+			"name": "Volcano Sage",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{R}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/169_Volcano Sage.png"
+			}
+		},
+		{
+			"name": "Corrupted Forester",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Creature — Demon Warlock ",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/154_Corrupted Forester.png"
+			}
+		},
+		{
+			"name": "Allied Commander",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Creature — Human Warrior Ally ",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/148_Allied Commander.png"
+			}
+		},
+		{
+			"name": "Alanar Water Mage",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G/U}{U}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/171_Alanar Water Mage.png"
+			}
+		},
+		{
+			"name": "Cave of Ice",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Enchantment",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/152_Cave of Ice.png"
+			}
+		},
+		{
+			"name": "The Circle of Ash",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}",
+			"type": "Enchantment",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/153_The Circle of Ash.png"
+			}
+		},
+		{
+			"name": "Erki, Blade of Darkness",
+			"rarity": "rare",
+			"mana_cost": "{B}{R}",
+			"type": "Legendary Creature — Demon Soldier ",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/160_Erki, Blade of Darkness.png"
+			}
+		},
+		{
+			"name": "Attuned Landscape",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{G}",
+			"type": "Enchantment",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/150_Attuned Landscape.png"
+			}
+		},
+		{
+			"name": "Unending Reinforcements",
+			"rarity": "rare",
+			"mana_cost": "{G/W}",
+			"type": "Creature — Human Warrior Ally ",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/187_Unending Reinforcements.png"
+			}
+		},
+		{
+			"name": "Return the Sword",
+			"rarity": "rare",
+			"mana_cost": "{W}{B}",
+			"type": "Sorcery",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/167_Return the Sword.png"
+			}
+		},
+		{
+			"name": "Relive Rage",
+			"rarity": "rare",
+			"mana_cost": "{U}{R}",
+			"type": "Sorcery",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/166_Relive Rage.png"
+			}
+		},
+		{
+			"name": "Recoiling Regrowth",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Sorcery",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/165_Recoiling Regrowth.png"
+			}
+		},
+		{
+			"name": "Raziq, Desert Hero",
+			"rarity": "rare",
+			"mana_cost": "{R}{W}",
+			"type": "Legendary Creature — Human Warrior Ally ",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/164_Raziq, Desert Hero.png"
+			}
+		},
+		{
+			"name": "Verdant Discovery",
+			"rarity": "rare",
+			"mana_cost": "{G/U}",
+			"type": "Instant",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/188_Verdant Discovery.png"
+			}
+		},
+		{
+			"name": "Attuned Spellcharger",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/190_Attuned Spellcharger.png"
+			}
+		},
+		{
+			"name": "Stone of Darkness",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/193_Stone of Darkness.png"
+			}
+		},
+		{
+			"name": "Gate to the Tower",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/192_Gate to the Tower.png"
+			}
+		},
+		{
+			"name": "Altar of Lost Colors",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Artifact",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/119_Altar of Lost Colors.png"
+			}
+		},
+		{
+			"name": "Altar of Lost Light",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Artifact",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/4_Altar of Lost Light.png"
+			}
+		},
+		{
+			"name": "Altar of Lost Curiosity",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Artifact",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/33_Altar of Lost Curiosity.png"
+			}
+		},
+		{
+			"name": "Evolving Wilds",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/195_Evolving Wilds.png"
+			}
+		},
+		{
+			"name": "Marraq",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Desert ",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/200_Marraq.png"
+			}
+		},
+		{
+			"name": "Lephyx's Crystal",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/199_Lephyx's Crystal.png"
+			}
+		},
+		{
+			"name": "Verdant Cliffside",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/201_Verdant Cliffside.png"
+			}
+		},
+		{
+			"name": "The Ice Wastes",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/196_The Ice Wastes.png"
+			}
+		},
+		{
+			"name": "Iriatu Falls",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/197_Iriatu Falls.png"
+			}
+		},
+		{
+			"name": "Kiral, Desert Village",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land — Desert ",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/198_Kiral, Desert Village.png"
+			}
+		},
+		{
+			"name": "The Corrupted Lands",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/194_The Corrupted Lands.png"
+			}
+		},
+		{
+			"name": "Valley of Paradise",
+			"rarity": "mythic",
+			"mana_cost": "{G}{G}{U}{U}",
+			"type": "Enchantment",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/168_Valley of Paradise.png"
+			}
+		},
+		{
+			"name": "Akali Lava Giant",
+			"rarity": "mythic",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Giant ",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/89_Akali Lava Giant.png"
+			}
+		},
+		{
+			"name": "Xirok, the Shattered One",
+			"rarity": "mythic",
+			"mana_cost": "{4}{U}{B}{B}",
+			"type": "Legendary Creature — Demon Warlock ",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/170_Xirok, the Shattered One.png"
+			}
+		},
+		{
+			"name": "Galranok, Oracle of Magic",
+			"rarity": "mythic",
+			"mana_cost": "{U}{R}",
+			"type": "Legendary Creature — Human Wizard ",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/161_Galranok, Oracle of Magic_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://uiwow7.github.io/sets/SHS-files/img/161_Galranok, Oracle of Magic_back.png"
+				}
+			}
+		},
+		{
+			"name": "Drorix, Drakoli Outcast",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Legendary Planeswalker — Drorix ",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/159_Drorix, Drakoli Outcast.png"
+			}
+		},
+		{
+			"name": "Ally",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Ally ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/1_Ally.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains ",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/202_Plains.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island ",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/203_Island.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp ",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/204_Swamp.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain ",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/205_Mountain.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest ",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/206_Forest.png"
+			}
+		},
+		{
+			"name": "Alliance Medic",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Cleric Ally ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/1_Alliance Medic.png"
+			}
+		},
+		{
+			"name": "Lost Servant",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Wizard Ally ",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/47_Lost Servant.png"
+			}
+		},
+		{
+			"name": "Call of Answers",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Enchantment",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/96_Call of Answers.png"
+			}
+		},
+		{
+			"name": "Drain the Lands",
+			"rarity": "rare",
+			"mana_cost": "{5}{U}",
+			"type": "Instant",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/39_Drain the Lands.png"
+			}
+		},
+		{
+			"name": "Take Back the Lands",
+			"rarity": "rare",
+			"mana_cost": "{5}{R}",
+			"type": "Sorcery",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/116_Take Back the Lands.png"
+			}
+		},
+		{
+			"name": "Brilliant Aurora",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/121_Brilliant Aurora.png"
+			}
+		},
+		{
+			"name": "Darkness Unchained",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}",
+			"type": "Instant",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/157_Darkness Unchained.png"
+			}
+		},
+		]
+	[RareSlot(1)]
+	2 Seek the Depths
+		2 Armored Windblade
+		2 Thirak Commander
+		2 Cosmic Manipulator
+		2 Sunrise Savant
+		2 Shattered Sword Defender
+		2 Journey's End
+		2 Allied Reinforcements
+		2 The Icelord
+		2 Wielder of Stars
+		2 Kanil, Night Rider of Ice
+		2 Seek Prosperity
+		2 Whimsical Spellcaster
+		2 Wizard of Aenir
+		2 Warlock of Dark Power
+		2 Grand Warlock Talnir
+		2 Deal With Ravens
+		2 Villainous Fiend
+		2 Demonic Bloodlord
+		2 Bloodstained Moon
+		2 Lava Lance
+		2 Barbarian of the West
+		2 Southern Fireblade
+		2 Nebula's Impulse
+		2 Demonic Protector
+		2 Intrepid Rootwalla
+		2 Chromatic Attunement
+		2 Shifting Roots
+		2 Forest Giant
+		2 Mountaineer Scout
+		2 Lost Forest Shrine
+		2 Cave of Ice
+		2 The Circle of Ash
+		2 Erki, Blade of Darkness
+		2 Attuned Landscape
+		2 Unending Reinforcements
+		2 Return the Sword
+		2 Relive Rage
+		2 Recoiling Regrowth
+		2 Raziq, Desert Hero
+		2 Verdant Discovery
+		2 Attuned Spellcharger
+		2 Verdant Cliffside
+		2 Kiral, Desert Village
+		2 The Corrupted Lands
+		2 Drain the Lands
+		2 Take Back the Lands
+		2 Brilliant Aurora
+		2 Darkness Unchained
+		1 Battle of the Tower
+		1 Sacred Emissary
+		1 Turn Back Time
+		1 Zirlir, Prodigious Decipherer
+		1 Profane Emissary
+		1 Jklamdiel, Xirok's Chosen
+		1 The Night Riders' Bane
+		1 Drorix's Sword
+		1 In Search of Brilliance
+		1 Verdant Reclamation
+		1 Valley of Paradise
+		1 Akali Lava Giant
+		1 Xirok, the Shattered One
+		1 Galranok, Oracle of Magic
+		1 Drorix, Drakoli Outcast
+		[UncommonSlot(3)]
+	9 Sage of Aenir's Reclamation
+		9 One With Shadows
+		9 Altar of Lost Shadows
+		9 Brave Strike
+		9 Mesa Spearman
+		9 Recruit Trainer
+		9 Shattered Sword Cleaver
+		9 Dark Dredging
+		9 Lit Meteorite
+		9 Thalur Recruiter
+		9 Dark Thought-Thief
+		9 Unchained Nightwatcher
+		9 Beyond the Tower
+		9 Seek the World of Dreams
+		9 Dreams of Color
+		9 Corrupter of Magic
+		9 Shattered Sword Duplicator
+		9 Dark Summoner
+		9 Adaptive Mage
+		9 Oracle of Wisps
+		9 Shattered Sword Assassin
+		9 Destruction Circle
+		9 Western Army Commander
+		9 Lost Crypt
+		9 Angel of Darkened Faith
+		9 Shattered Sword Brainwasher
+		9 Rage of Fiery Darkness
+		9 Altar of Lost Fire
+		9 Firelight Duelist
+		9 Arid Forest Venturer
+		9 Conjurer of Lost Joy
+		9 Desert Admiral
+		9 Shattered Sword Punisher
+		9 River Scout
+		9 Undiscovered Depths Scout
+		9 Reclaimer of Aenir
+		9 Marsh Explorer
+		9 Alanar Forest Fighter
+		9 Druid of Iriatu
+		9 Blade of Verdant Exploration
+		9 Scout of Attunement
+		9 Cloud Invocation
+		9 Mind Healer
+		9 Angel of Pure Faith
+		9 Demonic Studies
+		9 Mind Thief
+		9 Corrupted Ritualist
+		9 Corrupter of Nature
+		9 Autumn Mage
+		9 Armored Recruiter
+		9 Ironrun Soldier
+		9 Volcano Sage
+		9 Corrupted Forester
+		9 Allied Commander
+		9 Alanar Water Mage
+		9 Gate to the Tower
+		9 Altar of Lost Colors
+		9 Altar of Lost Light
+		9 Altar of Lost Curiosity
+		9 Marraq
+		9 Lephyx's Crystal
+		9 The Ice Wastes
+		9 Iriatu Falls
+		[CommonSlot(10)]
+	30 Search the Forest
+		30 Corrupted Kirali
+		30 Frostpath Traveler
+		30 Desert Commander
+		30 New Recruit
+		30 Head of Recruitment
+		30 Shattered Swordsman
+		30 Aqiman Charger
+		30 Crafty Escape
+		30 Shattered Swordbearer
+		30 Frostpath Soldier
+		30 Alnak Blade Student
+		30 Spirit Strike
+		30 Soul Drain
+		30 Prophetic Crystal
+		30 Seek Answers
+		30 Call of Control
+		30 Icefire Bolt
+		30 Shattered Sword Iceblade
+		30 Lightning Retort
+		30 Enchanting of Stones
+		30 Learn Through Repetition
+		30 Window to Lost Souls
+		30 Answer Seeker
+		30 Darkness Searcher
+		30 Icy Aurora
+		30 Alanar Teacher
+		30 Shattered Sword Warlock
+		30 Into the Cave
+		30 Explore the Depths
+		30 Corrupted Grounds
+		30 Warlock of the Tower
+		30 Soul Whisperer
+		30 Shattered Sword Soldier
+		30 Irkian Mindrender
+		30 Darkmoon Aurora
+		30 Witch of Thirak
+		30 Undying Shadowblade
+		30 Corrupting Fire
+		30 Immolating Smite
+		30 Crimson Lights
+		30 Kangal Martyr
+		30 Fellfire Restoration
+		30 Dealer of Dark Fire
+		30 Spearman of the Alliance
+		30 Thalur Firewizard
+		30 Butcher of Graves
+		30 Night Rider of Fire
+		30 Jungle Adept
+		30 Icefire Ally
+		30 Burning of the Ground
+		30 Wisdom of the Sea
+		30 Lost Sanctuary
+		30 Iriatu Explorer
+		30 Deep-Jungle Bear
+		30 Ruins of Decay
+		30 Dark Forest Surveyor
+		30 Southern Expedition
+		30 Last Watch of Alanar
+		30 Scout of the West
+		30 Iriatu Healer
+		30 Lost Forest Relic
+		30 Dark Forest Fighter
+		30 Jungle Scout
+		30 Servant to Magius
+		30 Horror of the Bog
+		30 Shadow Duplication
+		30 Arid Attacker
+		30 Irkian Flagbearer
+		30 Stone of Darkness
+		30 Evolving Wilds
+		30 Alliance Medic
+		30 Lost Servant
+		30 Call of Answers
+		[WildcardSlot(1)]
+	10 Search the Forest
+	10 Corrupted Kirali
+	10 Frostpath Traveler
+	10 Desert Commander
+	10 New Recruit
+	10 Head of Recruitment
+	10 Shattered Swordsman
+	10 Aqiman Charger
+	10 Crafty Escape
+	10 Shattered Swordbearer
+	10 Frostpath Soldier
+	10 Alnak Blade Student
+	10 Spirit Strike
+	10 Soul Drain
+	10 Prophetic Crystal
+	10 Seek Answers
+	10 Call of Control
+	10 Icefire Bolt
+	10 Shattered Sword Iceblade
+	10 Lightning Retort
+	10 Enchanting of Stones
+	10 Learn Through Repetition
+	10 Sage of Aenir's Reclamation
+	10 Window to Lost Souls
+	10 Answer Seeker
+	10 Darkness Searcher
+	10 Icy Aurora
+	10 Alanar Teacher
+	10 Shattered Sword Warlock
+	10 Into the Cave
+	10 Explore the Depths
+	10 Corrupted Grounds
+	10 Warlock of the Tower
+	10 Soul Whisperer
+	10 Shattered Sword Soldier
+	10 Seek the Depths
+	10 One With Shadows
+	10 Irkian Mindrender
+	10 Darkmoon Aurora
+	10 Witch of Thirak
+	10 Undying Shadowblade
+	10 Altar of Lost Shadows
+	10 Corrupting Fire
+	10 Immolating Smite
+	10 Crimson Lights
+	10 Kangal Martyr
+	10 Fellfire Restoration
+	10 Dealer of Dark Fire
+	10 Brave Strike
+	10 Mesa Spearman
+	10 Spearman of the Alliance
+	10 Thalur Firewizard
+	10 Butcher of Graves
+	10 Night Rider of Fire
+	10 Jungle Adept
+	10 Icefire Ally
+	10 Burning of the Ground
+	10 Wisdom of the Sea
+	10 Lost Sanctuary
+	10 Iriatu Explorer
+	10 Deep-Jungle Bear
+	10 Ruins of Decay
+	10 Dark Forest Surveyor
+	10 Southern Expedition
+	10 Last Watch of Alanar
+	10 Scout of the West
+	10 Iriatu Healer
+	10 Lost Forest Relic
+	10 Dark Forest Fighter
+	10 Jungle Scout
+	10 Recruit Trainer
+	10 Armored Windblade
+	10 Shattered Sword Cleaver
+	10 Dark Dredging
+	10 Lit Meteorite
+	10 Thirak Commander
+	10 Thalur Recruiter
+	10 Dark Thought-Thief
+	10 Unchained Nightwatcher
+	10 Beyond the Tower
+	10 Seek the World of Dreams
+	10 Dreams of Color
+	10 Corrupter of Magic
+	10 Servant to Magius
+	10 Shattered Sword Duplicator
+	10 Dark Summoner
+	10 Adaptive Mage
+	10 Oracle of Wisps
+	10 Shattered Sword Assassin
+	10 Destruction Circle
+	10 Cosmic Manipulator
+	10 Horror of the Bog
+	10 Shadow Duplication
+	10 Western Army Commander
+	10 Lost Crypt
+	10 Angel of Darkened Faith
+	10 Shattered Sword Brainwasher
+	10 Arid Attacker
+	10 Rage of Fiery Darkness
+	10 Altar of Lost Fire
+	10 Firelight Duelist
+	10 Arid Forest Venturer
+	10 Conjurer of Lost Joy
+	10 Irkian Flagbearer
+	10 Desert Admiral
+	10 Shattered Sword Punisher
+	10 River Scout
+	10 Undiscovered Depths Scout
+	10 Reclaimer of Aenir
+	10 Marsh Explorer
+	10 Alanar Forest Fighter
+	10 Druid of Iriatu
+	10 Blade of Verdant Exploration
+	10 Scout of Attunement
+	10 Cloud Invocation
+	10 Sunrise Savant
+	10 Mind Healer
+	10 Shattered Sword Defender
+	10 Angel of Pure Faith
+	10 Journey's End
+	10 Allied Reinforcements
+	10 The Icelord
+	10 Wielder of Stars
+	10 Kanil, Night Rider of Ice
+	10 Seek Prosperity
+	10 Whimsical Spellcaster
+	10 Wizard of Aenir
+	10 Warlock of Dark Power
+	10 Demonic Studies
+	10 Grand Warlock Talnir
+	10 Deal With Ravens
+	10 Villainous Fiend
+	10 Demonic Bloodlord
+	10 Bloodstained Moon
+	10 Lava Lance
+	10 Barbarian of the West
+	10 Southern Fireblade
+	10 Nebula's Impulse
+	10 Demonic Protector
+	10 Intrepid Rootwalla
+	10 Chromatic Attunement
+	10 Shifting Roots
+	10 Forest Giant
+	10 Mountaineer Scout
+	10 Lost Forest Shrine
+	10 Battle of the Tower
+	10 Sacred Emissary
+	10 Turn Back Time
+	10 Zirlir, Prodigious Decipherer
+	10 Profane Emissary
+	10 Jklamdiel, Xirok's Chosen
+	10 The Night Riders' Bane
+	10 Drorix's Sword
+	10 In Search of Brilliance
+	10 Verdant Reclamation
+	10 Mind Thief
+	10 Corrupted Ritualist
+	10 Corrupter of Nature
+	10 Autumn Mage
+	10 Armored Recruiter
+	10 Ironrun Soldier
+	10 Volcano Sage
+	10 Corrupted Forester
+	10 Allied Commander
+	10 Alanar Water Mage
+	10 Cave of Ice
+	10 The Circle of Ash
+	10 Erki, Blade of Darkness
+	10 Attuned Landscape
+	10 Unending Reinforcements
+	10 Return the Sword
+	10 Relive Rage
+	10 Recoiling Regrowth
+	10 Raziq, Desert Hero
+	10 Verdant Discovery
+	10 Attuned Spellcharger
+	10 Stone of Darkness
+	10 Gate to the Tower
+	10 Altar of Lost Colors
+	10 Altar of Lost Light
+	10 Altar of Lost Curiosity
+	10 Evolving Wilds
+	10 Marraq
+	10 Lephyx's Crystal
+	10 Verdant Cliffside
+	10 The Ice Wastes
+	10 Iriatu Falls
+	10 Kiral, Desert Village
+	10 The Corrupted Lands
+	10 Valley of Paradise
+	10 Akali Lava Giant
+	10 Xirok, the Shattered One
+	10 Galranok, Oracle of Magic
+	10 Drorix, Drakoli Outcast
+	10 Alliance Medic
+	10 Lost Servant
+	10 Call of Answers
+	10 Drain the Lands
+	10 Take Back the Lands
+	10 Brilliant Aurora
+	10 Darkness Unchained
+	[LandSlot(1)]
+	
