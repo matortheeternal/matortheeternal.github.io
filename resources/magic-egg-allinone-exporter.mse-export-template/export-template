@@ -211,13 +211,13 @@ script:
 		else
 			options.v_mana_replacement
 	}
-	inline_replacement := replace@(match:"<sym(-auto)?>([^<]+)</sym(-auto)?>", replace:{mana_cost_replacement_css_css(_2)})
+	inline_replacement := replace@(match:"<sym(-auto)?>([^<]+)</sym(-auto)?>", replace:{mana_cost_replacement_css(_2)})
 	mana_cost_replacement := replace@(match:"([+=-])([0-9X])", replace:{ if _2 == "0" or _2 == "=" then "["+_2+"]" else "["+_1+_2+"]"})+
 		replace@(match:"(1?[0-9HWUBRGSCV])/([WUBRGCSV])(/([WUBRGCSV]))?", replace:{"\{"+_1+"/"+_2+_3+"\}"})+
 		replace@(match:"([½∞XYZWUBRGCSTQVJFENAH])", in_context:"(?<![\{[+-])(?<!/)<match>", replace:{"\{"+_1+"\}"})+
 		replace@(match:"([1-9]?[0-9]+)", in_context:"(?<![\{[+-])(?<!\\/)<match>", replace:{"\{"+_1+"\}"})+
 		replace@(match:"V", replace:{v_rep("V")})
-	mana_cost_replacement_css := + mana_cost_replacement +
+	mana_cost_replacement_css := mana_cost_replacement +
 		replace@(match:"/", replace:"") +
 		replace@(match:"\{H([^}]*)}", replace:{"\{"+_1+"P\}"})
 	
@@ -279,13 +279,13 @@ script:
 			"{q}color_identity{q}: {q}{get_color_identity()}{q}",
 			"{q}cost{q}: {q}{mana_cost_replacement_css(card.casting_cost)}{q}",
 			"{q}rules_text{q}: {q}{format_textbox(card.rule_text)}{q}",
-			#"{q}flavor_text{q}: {q}{format_textbox(card.flavor_text)}{q}",
+			"{q}flavor_text{q}: {q}{format_textbox(card.flavor_text)}{q}",
 			"{q}pt{q}: {q}{sanitize(card.pt)}{q}",
 			"{q}special_text{q}: {q}{format_textbox(card.special_text)}{q}",
 			"{q}shape{q}: {q}{get_shape()}{q}",
 			"{q}set{q}: {q}{adj_setcode()}{q}",
 			"{q}loyalty{q}: {q}{sanitize(card.loyalty)}{q}",
-			#"{q}artist{q}: {q}{sanitize(card.illustrator)}{q}"
+			"{q}artist{q}: {q}{sanitize(card.illustrator)}{q}"
 		]
 		if is_double_card(card.shape) then strings := strings + [
 			"{q}card_name2{q}: {q}{card_name_2()}{q}",
@@ -293,11 +293,11 @@ script:
 			"{q}type2{q}: {q}{sanitize(card.type_2)}{q}",
 			"{q}cost2{q}: {q}{mana_cost_replacement_css(card.casting_cost_2)}{q}",
 			"{q}rules_text2{q}: {q}{format_textbox(card.rule_text_2)}{q}",
-			#"{q}flavor_text2{q}: {q}{format_textbox(card.flavor_text_2)}{q}",
+			"{q}flavor_text2{q}: {q}{format_textbox(card.flavor_text_2)}{q}",
 			"{q}pt2{q}: {q}{sanitize(sanitize(card.pt_2))}{q}",
 			"{q}special_text2{q}: {q}{format_textbox(card.special_text_2)}{q}",
 			"{q}loyalty2{q}: {q}{sanitize(card.loyalty_2)}{q}",
-			#"{q}artist2{q}: {q}{sanitize(card.illustrator_2)}{q}"
+			"{q}artist2{q}: {q}{sanitize(card.illustrator_2)}{q}"
 		]
 		strings := strings + [
 			"{q}notes{q}: {q}{sanitize(card.notes)}{q}"
