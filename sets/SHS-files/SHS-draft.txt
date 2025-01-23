@@ -508,7 +508,7 @@
 		{
 			"name": "Crimson Lights",
 			"rarity": "common",
-			"mana_cost": "{1}{R}",
+			"mana_cost": "{2}{R}",
 			"type": "Instant",
 			"collector_number": "98",
 			"image_uris": {
@@ -1062,9 +1062,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{W/B}",
 			"type": "Creature — Angel Horror ",
-			"collector_number": "172",
+			"collector_number": "171",
 			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/172_Angel of Darkened Faith.png"
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/171_Angel of Darkened Faith.png"
 			}
 		},
 		{
@@ -1337,7 +1337,7 @@
 		{
 			"name": "Wielder of Stars",
 			"rarity": "rare",
-			"mana_cost": "{9}{U}",
+			"mana_cost": "{8}{U}",
 			"type": "Creature — Human Warlock ",
 			"collector_number": "57",
 			"image_uris": {
@@ -1357,7 +1357,7 @@
 		{
 			"name": "Seek Prosperity",
 			"rarity": "rare",
-			"mana_cost": "{X}{U}{U}",
+			"mana_cost": "{X}{U}{U}{U}",
 			"type": "Instant",
 			"collector_number": "51",
 			"image_uris": {
@@ -1513,9 +1513,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{R}",
 			"type": "Creature — Demon Soldier ",
-			"collector_number": "158",
+			"collector_number": "157",
 			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/158_Demonic Protector.png"
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/157_Demonic Protector.png"
 			}
 		},
 		{
@@ -1683,9 +1683,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{U}",
 			"type": "Creature — Human Warlock ",
-			"collector_number": "163",
+			"collector_number": "162",
 			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/163_Mind Thief.png"
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/162_Mind Thief.png"
 			}
 		},
 		{
@@ -1693,9 +1693,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{B}",
 			"type": "Creature — Human Warlock ",
-			"collector_number": "155",
+			"collector_number": "154",
 			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/155_Corrupted Ritualist.png"
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/154_Corrupted Ritualist.png"
 			}
 		},
 		{
@@ -1703,9 +1703,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}{R}",
 			"type": "Creature — Demon Horror ",
-			"collector_number": "156",
+			"collector_number": "155",
 			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/156_Corrupter of Nature.png"
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/155_Corrupter of Nature.png"
 			}
 		},
 		{
@@ -1713,9 +1713,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{G}",
 			"type": "Creature — Human Wizard Ally ",
-			"collector_number": "151",
+			"collector_number": "150",
 			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/151_Autumn Mage.png"
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/150_Autumn Mage.png"
 			}
 		},
 		{
@@ -1733,9 +1733,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Creature — Human Soldier ",
-			"collector_number": "162",
+			"collector_number": "161",
 			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/162_Ironrun Soldier.png"
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/161_Ironrun Soldier.png"
 			}
 		},
 		{
@@ -1743,9 +1743,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}{R}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "169",
+			"collector_number": "168",
 			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/169_Volcano Sage.png"
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/168_Volcano Sage.png"
 			}
 		},
 		{
@@ -1753,9 +1753,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{G}",
 			"type": "Creature — Demon Warlock ",
-			"collector_number": "154",
+			"collector_number": "153",
 			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/154_Corrupted Forester.png"
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/153_Corrupted Forester.png"
 			}
 		},
 		{
@@ -1773,9 +1773,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{G/U}{U}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "171",
+			"collector_number": "170",
 			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/171_Alanar Water Mage.png"
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/170_Alanar Water Mage.png"
 			}
 		},
 		{
@@ -1783,9 +1783,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{U}",
 			"type": "Enchantment",
-			"collector_number": "152",
+			"collector_number": "151",
 			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/152_Cave of Ice.png"
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/151_Cave of Ice.png"
 			}
 		},
 		{
@@ -1793,9 +1793,9 @@
 			"rarity": "rare",
 			"mana_cost": "{U}{B}",
 			"type": "Enchantment",
-			"collector_number": "153",
+			"collector_number": "152",
 			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/153_The Circle of Ash.png"
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/152_The Circle of Ash.png"
 			}
 		},
 		{
@@ -1803,19 +1803,19 @@
 			"rarity": "rare",
 			"mana_cost": "{B}{R}",
 			"type": "Legendary Creature — Demon Soldier ",
-			"collector_number": "160",
+			"collector_number": "159",
 			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/160_Erki, Blade of Darkness.png"
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/159_Erki, Blade of Darkness.png"
 			}
 		},
 		{
 			"name": "Attuned Landscape",
 			"rarity": "rare",
-			"mana_cost": "{3}{R}{G}",
+			"mana_cost": "{R}{R/G}{G}",
 			"type": "Enchantment",
-			"collector_number": "150",
+			"collector_number": "172",
 			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/150_Attuned Landscape.png"
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/172_Attuned Landscape.png"
 			}
 		},
 		{
@@ -1833,9 +1833,9 @@
 			"rarity": "rare",
 			"mana_cost": "{W}{B}",
 			"type": "Sorcery",
-			"collector_number": "167",
+			"collector_number": "166",
 			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/167_Return the Sword.png"
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/166_Return the Sword.png"
 			}
 		},
 		{
@@ -1843,9 +1843,9 @@
 			"rarity": "rare",
 			"mana_cost": "{U}{R}",
 			"type": "Sorcery",
-			"collector_number": "166",
+			"collector_number": "165",
 			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/166_Relive Rage.png"
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/165_Relive Rage.png"
 			}
 		},
 		{
@@ -1853,9 +1853,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{G}",
 			"type": "Sorcery",
-			"collector_number": "165",
+			"collector_number": "164",
 			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/165_Recoiling Regrowth.png"
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/164_Recoiling Regrowth.png"
 			}
 		},
 		{
@@ -1863,9 +1863,9 @@
 			"rarity": "rare",
 			"mana_cost": "{R}{W}",
 			"type": "Legendary Creature — Human Warrior Ally ",
-			"collector_number": "164",
+			"collector_number": "163",
 			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/164_Raziq, Desert Hero.png"
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/163_Raziq, Desert Hero.png"
 			}
 		},
 		{
@@ -2021,11 +2021,11 @@
 		{
 			"name": "Valley of Paradise",
 			"rarity": "mythic",
-			"mana_cost": "{G}{G}{U}{U}",
+			"mana_cost": "{1}{G}{G}{U}{U}",
 			"type": "Enchantment",
-			"collector_number": "168",
+			"collector_number": "167",
 			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/168_Valley of Paradise.png"
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/167_Valley of Paradise.png"
 			}
 		},
 		{
@@ -2043,9 +2043,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{4}{U}{B}{B}",
 			"type": "Legendary Creature — Demon Warlock ",
-			"collector_number": "170",
+			"collector_number": "169",
 			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/170_Xirok, the Shattered One.png"
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/169_Xirok, the Shattered One.png"
 			}
 		},
 		{
@@ -2053,26 +2053,16 @@
 			"rarity": "mythic",
 			"mana_cost": "{U}{R}",
 			"type": "Legendary Creature — Human Wizard ",
-			"collector_number": "161",
+			"collector_number": "160",
 			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/161_Galranok, Oracle of Magic_front.png"
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/160_Galranok, Oracle of Magic_front.png"
 			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://uiwow7.github.io/sets/SHS-files/img/161_Galranok, Oracle of Magic_back.png"
+					"en": "https://uiwow7.github.io/sets/SHS-files/img/160_Galranok, Oracle of Magic_back.png"
 				}
-			}
-		},
-		{
-			"name": "Drorix, Drakoli Outcast",
-			"rarity": "mythic",
-			"mana_cost": "{2}{R}{G}",
-			"type": "Legendary Planeswalker — Drorix ",
-			"collector_number": "159",
-			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/159_Drorix, Drakoli Outcast.png"
 			}
 		},
 		{
@@ -2200,9 +2190,19 @@
 			"rarity": "rare",
 			"mana_cost": "{U}{B}",
 			"type": "Instant",
-			"collector_number": "157",
+			"collector_number": "156",
 			"image_uris": {
-				"en": "https://uiwow7.github.io/sets/SHS-files/img/157_Darkness Unchained.png"
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/156_Darkness Unchained.png"
+			}
+		},
+		{
+			"name": "Drorix, Divine Outcast",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Legendary Planeswalker — Drorix ",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/SHS-files/img/158_Drorix, Divine Outcast.png"
 			}
 		},
 		]
@@ -2256,6 +2256,7 @@
 		2 Take Back the Lands
 		2 Brilliant Aurora
 		2 Darkness Unchained
+		2 Drorix, Divine Outcast
 		1 Battle of the Tower
 		1 Sacred Emissary
 		1 Turn Back Time
@@ -2270,7 +2271,6 @@
 		1 Akali Lava Giant
 		1 Xirok, the Shattered One
 		1 Galranok, Oracle of Magic
-		1 Drorix, Drakoli Outcast
 		[UncommonSlot(3)]
 	9 Sage of Aenir's Reclamation
 		9 One With Shadows
@@ -2604,7 +2604,6 @@
 	10 Akali Lava Giant
 	10 Xirok, the Shattered One
 	10 Galranok, Oracle of Magic
-	10 Drorix, Drakoli Outcast
 	10 Alliance Medic
 	10 Lost Servant
 	10 Call of Answers
@@ -2612,5 +2611,6 @@
 	10 Take Back the Lands
 	10 Brilliant Aurora
 	10 Darkness Unchained
+	10 Drorix, Divine Outcast
 	[LandSlot(1)]
 	
