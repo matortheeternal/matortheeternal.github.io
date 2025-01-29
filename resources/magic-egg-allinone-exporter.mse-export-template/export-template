@@ -24,6 +24,13 @@ option field:
 
 option field:
 	type: choice
+	name: image type
+	choice: jpg
+	choice: png
+	description: Image type
+
+option field:
+	type: choice
 	name: export draft file
 	choice: yes
 	choice: no
@@ -338,13 +345,13 @@ script:
 				+ "\t\t\t\t{q}name{q}: {q}{q},\n"
 				+ "\t\t\t\t{q}type{q}: {q}{q},\n"
 				+ "\t\t\t\t{q}image_uris{q}: \{\n"
-				+ "\t\t\t\t\t{q}en{q}: {q}{github_img_path()}{card_number()}_{card_name()}_back.png{q}\n"
+				+ "\t\t\t\t\t{q}en{q}: {q}{github_img_path()}{card_number()}_{card_name()}_back.{options.image_type}{q}\n"
 				+"\t\t\t\t}\n"
 				+ "\t\t\t},\n"
 		)
 		+ "\t\t\t{q}image_uris{q}: \{\n"
 			+ "\t\t\t\t{q}en{q}: {q}" + github_img_path() + card_number() + "_" + card_name()
-			+ (if contains(card.shape, match:"double") then "_front" else "") + ".png{q}\n"
+			+ (if contains(card.shape, match:"double") then "_front" else "") + ".{options.image_type}{q}\n"
 		+ "\t\t\t}\n"
 		+ "\t\t}"
 	}
@@ -383,9 +390,9 @@ script:
 	write_all_images := {
 		for each card in cards do
 			if contains(card.shape, match:"double") then
-			if contains(card.type, match:"Battle") then write_image_file(crop(input: to_card_image(card), width: 523, height: 375, offset_x: 0, offset_y: 0), file: "img/" + card_number() + "_" + card_name() + "_front" + ".png") + write_image_file(crop(input: to_card_image(card), width: 375, height: 523, offset_x: 525, offset_y: 0), file: "img/" + card_number() + "_" + card_name() + "_back" + ".png")
-			else write_image_file(crop(input: to_card_image(card), width: 375, height: 523, offset_x: 0, offset_y: 0), file: "img/" + card_number() + "_" + card_name() + "_front" + ".png") + write_image_file(crop(input: to_card_image(card), width: 375, height: 523, offset_x: 377, offset_y: 0), file: "img/" + card_number() + "_" + card_name() + "_back" + ".png")
-			else write_image_file(card, file: "img/" + card_number() + (if contains(card.shape, match:"token") then "t_" else "_") + card_name() + ".png")
+			if contains(card.type, match:"Battle") then write_image_file(crop(input: to_card_image(card), width: 523, height: 375, offset_x: 0, offset_y: 0), file: "img/" + card_number() + "_" + card_name() + "_front" + ".{options.image_type}") + write_image_file(crop(input: to_card_image(card), width: 375, height: 523, offset_x: 525, offset_y: 0), file: "img/" + card_number() + "_" + card_name() + "_back" + ".{options.image_type}")
+			else write_image_file(crop(input: to_card_image(card), width: 375, height: 523, offset_x: 0, offset_y: 0), file: "img/" + card_number() + "_" + card_name() + "_front" + ".{options.image_type}") + write_image_file(crop(input: to_card_image(card), width: 375, height: 523, offset_x: 377, offset_y: 0), file: "img/" + card_number() + "_" + card_name() + "_back" + ".{options.image_type}")
+			else write_image_file(card, file: "img/" + card_number() + (if contains(card.shape, match:"token") then "t_" else "_") + card_name() + ".{options.image_type}")
 	}
 
 	write_booster_contents := {
@@ -401,6 +408,7 @@ script:
 		"{q}name{q}: {q}{set.title}{q}",
 		"{q}formats{q}: {q}{options.formats}{q}",
 		"{q}trimmed{q}: {q}n{q}",
+		"{q}image_type{q}: {q}{options.image_type}{q}"
 		"{q}cards{q}: [{write_cards()}]"
 	]
 	write_text_file(file: adj_setcode() + ".json", "\{" + join(main_keys) + "}")
