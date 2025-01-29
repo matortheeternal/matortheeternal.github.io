@@ -250,14 +250,18 @@ def generateHTML(setCode):
 		card_num = ''
 		if card['card_name'] == 'e':
 			card_name = 'e'
+			image_type = 'png'
 		elif card['card_name'] == 'er':
 			card_name = 'er'
+			image_type = 'png'
 		elif 'token' in card['shape']:
 			card_name = str(card['number']) + 't_' + card['card_name']
 			card_num = str(card['number']) + 't'
 		else:
 			card_name = str(card['number']) + '_' + card['card_name']
 			card_num = str(card['number'])
+
+		card_name_cleaned = card_name.replace('\'','')
 
 		# used for DFCs only
 		dfc_front_path = card_name + '_front'
@@ -288,9 +292,9 @@ def generateHTML(setCode):
 		
 		#F: if the flag is @XD, add something to html_content to get the front and back images, otherwise add something else
 		if flag == '@XD':
-			html_content += f'			<div class="container"><img data-alt_src="{dfc_back_img_path}" alt="{dfc_front_img_path}" id="{card_num}" data-flag="{flag}" onclick="openSidebar({card_num},{rotated})"><button class="flip-btn" onclick="imgFlip({card_num})"></button></div>\n'
+			html_content += f'			<div class="container"><img data-alt_src="{dfc_back_img_path}" alt="{dfc_front_img_path}" id="{card_name_cleaned}" data-flag="{flag}" onclick="openSidebar(\'{card_name_cleaned}\',{rotated})"><button class="flip-btn" onclick="imgFlip({card_name_cleaned})"></button></div>\n'
 		else:
-			html_content += f'			<div class="container"><img alt="{image_path}" id="{card_num}" data-flag="{flag}" onclick="openSidebar(\'{card_num}\',{rotated})"></div>\n'
+			html_content += f'			<div class="container"><img alt="{image_path}" id="{card_name_cleaned}" data-flag="{flag}" onclick="openSidebar(\'{card_name_cleaned}\',{rotated})"></div>\n'
 
 	# Closing the div and the rest of the HTML
 	html_content += '''	</div>\n'''
