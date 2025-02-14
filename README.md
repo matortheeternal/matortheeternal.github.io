@@ -101,7 +101,10 @@ If you want cards to sort to the same row, add "!sort <foo>" to their notes. If 
 
 ### Set splash pages
 
-Sets now support splash pages written in markdown! If you want to add one, add `splash.md` to your "custom/sets/\<code>-files" directory. It will automatically show up as the default view on the set's page.
+Sets now support splash pages written in markdown! If you want to add one, add `splash.md` to your "custom/sets/\<code>-files" directory. It will automatically show up as the default view on the set's page. You can shortcut adding set logos/icons and card images by putting their name between `%` symbols. It'll look something like this:
+```
+![alt text](%Card Name Goes Here% "hover-over text")
+```
 
 ### Designer Notes
 
