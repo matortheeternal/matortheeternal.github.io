@@ -188,8 +188,8 @@ def convertList(setCode):
 
 		if (row_count > 0):
 			for x in range(len(cards_arr)):
-				if 'Basic' not in cards_arr[x][0]['type']:
-					cards_arr[x] = sorted(cards_arr[x], key=lambda x : (x['rarity'], x['notes'], x['number']))
+				if len(cards_arr[x]) > 0 and 'Basic' not in cards_arr[x][0]['type']:
+					cards_arr[x] = sorted(cards_arr[x], key=lambda x : (len(x['color']), x['rarity'], x['notes'], x['number'])) # start with len() for 3+c cards
 					# otherwise, preserve order of basics from set file
 
 			for row in range(row_count):
