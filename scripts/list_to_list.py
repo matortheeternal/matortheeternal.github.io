@@ -187,7 +187,7 @@ def convertList(setCode):
 			cards_arr.append(cards_sorted[index])
 
 		if (row_count > 0):
-			if 'title' in r:
+			if 'title' in r and len(final_list) > 0:
 				del final_list[-1]
 				final_list.append('a->' + r['title'])
 			for x in range(len(cards_arr)):
