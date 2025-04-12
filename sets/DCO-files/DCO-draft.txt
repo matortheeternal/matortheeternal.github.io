@@ -1,0 +1,1533 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "In Search of Eternity",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Enchantment",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/120_In Search of Eternity.jpg"
+			}
+		},
+		{
+			"name": "The Arbiter's Watcher",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment Creature — Avatar ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/7_The Arbiter's Watcher.jpg"
+			}
+		},
+		{
+			"name": "Icedroid",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/38_Icedroid.jpg"
+			}
+		},
+		{
+			"name": "Lost Ghast",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Demon Spirit ",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/67_Lost Ghast.jpg"
+			}
+		},
+		{
+			"name": "The Avatar's Warden",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment Creature — Avatar ",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/79_The Avatar's Warden.jpg"
+			}
+		},
+		{
+			"name": "Twisting Nebulas",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Enchantment",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/128_Twisting Nebulas.jpg"
+			}
+		},
+		{
+			"name": "Last Light of Naroz",
+			"rarity": "rare",
+			"mana_cost": "{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/15_Last Light of Naroz.jpg"
+			}
+		},
+		{
+			"name": "Stack Popper",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}{U}",
+			"type": "Creature — Wizard ",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/49_Stack Popper.jpg"
+			}
+		},
+		{
+			"name": "Ghost of Fallen Angels",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Angel Demon Spirit ",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/63_Ghost of Fallen Angels.jpg"
+			}
+		},
+		{
+			"name": "Recursive Pyromage",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Soldier Wizard ",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/91_Recursive Pyromage.jpg"
+			}
+		},
+		{
+			"name": "Chosen of the Grand Oracles",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Avatar ",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/29_Chosen of the Grand Oracles.jpg"
+			}
+		},
+		{
+			"name": "Buffer Underflow",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/28_Buffer Underflow.jpg"
+			}
+		},
+		{
+			"name": "Package Manager",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Avatar ",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/131_Package Manager.jpg"
+			}
+		},
+		{
+			"name": "Stack Overflow",
+			"rarity": "rare",
+			"mana_cost": "{X}{R}",
+			"type": "Sorcery",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/95_Stack Overflow.jpg"
+			}
+		},
+		{
+			"name": "Circular Import",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Instant",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/55_Circular Import.jpg"
+			}
+		},
+		{
+			"name": "Unexpected Token",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/129_Unexpected Token.jpg"
+			}
+		},
+		{
+			"name": "Drorix, Cosmic Outcast",
+			"rarity": "rare",
+			"mana_cost": "{W}{B}{G}",
+			"type": "Legendary Planeswalker — Drorix ",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/103_Drorix, Cosmic Outcast.jpg"
+			}
+		},
+		{
+			"name": "Luminescent Golem",
+			"rarity": "rare",
+			"mana_cost": "{8}{W}",
+			"type": "Artifact Creature — Golem ",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/16_Luminescent Golem.jpg"
+			}
+		},
+		{
+			"name": "Human Token",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Enchantment Creature — Human ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/1_Human Token.jpg"
+			}
+		},
+		{
+			"name": "The Final Frontier",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Enchantment Land",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/133_The Final Frontier.jpg"
+			}
+		},
+		{
+			"name": "Cavesplitter",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Enchantment Creature — Dragon ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/2_Cavesplitter.jpg"
+			}
+		},
+		{
+			"name": "Sava's Last Eclipse",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Instant",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/104_Sava's Last Eclipse.jpg"
+			}
+		},
+		{
+			"name": "Cosmically Centered",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/111_Cosmically Centered.jpg"
+			}
+		},
+		{
+			"name": "Otherworldly Wayfarer",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Creature — Spirit ",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/19_Otherworldly Wayfarer.jpg"
+			}
+		},
+		{
+			"name": "The Arbiter's Raider",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Enchantment Creature — Avatar ",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/78_The Arbiter's Raider.jpg"
+			}
+		},
+		{
+			"name": "NAME LATER",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/70_NAME LATER.jpg"
+			}
+		},
+		{
+			"name": "Arane Oracle",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/102_Arane Oracle.jpg"
+			}
+		},
+		{
+			"name": "Unfathomable Exploration",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Sorcery",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/105_Unfathomable Exploration.jpg"
+			}
+		},
+		{
+			"name": "Stack Pusher",
+			"rarity": "rare",
+			"mana_cost": "{R}{R}{R}",
+			"type": "Creature — Wizard ",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/96_Stack Pusher.jpg"
+			}
+		},
+		{
+			"name": "Containment Dome",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Artifact",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/9_Containment Dome.jpg"
+			}
+		},
+		{
+			"name": "Ocean Watcher",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Creature — Human ",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/47_Ocean Watcher.jpg"
+			}
+		},
+		{
+			"name": "Sunset",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/97_Sunset.jpg"
+			}
+		},
+		{
+			"name": "Fungal Raze",
+			"rarity": "rare",
+			"mana_cost": "{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/116_Fungal Raze.jpg"
+			}
+		},
+		{
+			"name": "Traversing the Paths",
+			"rarity": "rare",
+			"mana_cost": "{5}{W}",
+			"type": "Enchantment",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/24_Traversing the Paths.jpg"
+			}
+		},
+		{
+			"name": "Narokan Collision",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/45_Narokan Collision.jpg"
+			}
+		},
+		{
+			"name": "Touch the Hallowed Grounds",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/75_Touch the Hallowed Grounds.jpg"
+			}
+		},
+		{
+			"name": "Boatman of Kala",
+			"rarity": "rare",
+			"mana_cost": "{R}{R}",
+			"type": "Creature — Demon ",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/80_Boatman of Kala.jpg"
+			}
+		},
+		{
+			"name": "Depths Giant",
+			"rarity": "rare",
+			"mana_cost": "{5}{G}",
+			"type": "Artifact Creature — Construct Giant ",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/113_Depths Giant.jpg"
+			}
+		},
+		{
+			"name": "Eldo, Abyssal City",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land — Island ",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/132_Eldo, Abyssal City.jpg"
+			}
+		},
+		{
+			"name": "Night Rummager",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/72_Night Rummager.jpg"
+			}
+		},
+		{
+			"name": "Karan Assassin",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Demon Warrior ",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/65_Karan Assassin.jpg"
+			}
+		},
+		{
+			"name": "The Arbiter's Informer",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Enchantment Creature — Avatar ",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/106_The Arbiter's Informer.jpg"
+			}
+		},
+		{
+			"name": "The Arbiter's Protector",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment Creature — Avatar ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/5_The Arbiter's Protector.jpg"
+			}
+		},
+		{
+			"name": "Guardian of Laba",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Enchantment Creature — Avatar ",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/36_Guardian of Laba.jpg"
+			}
+		},
+		{
+			"name": "Summoner of True Light",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Avatar Wizard ",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/22_Summoner of True Light.jpg"
+			}
+		},
+		{
+			"name": "Cosmic Watcher",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Eye ",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/30_Cosmic Watcher.jpg"
+			}
+		},
+		{
+			"name": "Corruption From Beyond",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Horror ",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/56_Corruption From Beyond.jpg"
+			}
+		},
+		{
+			"name": "Hellfire Wyrm",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Demon Dragon ",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/83_Hellfire Wyrm.jpg"
+			}
+		},
+		{
+			"name": "Preserver of Voro",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Treefolk ",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/125_Preserver of Voro.jpg"
+			}
+		},
+		{
+			"name": "NAME LATER",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Enchantment",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/18_NAME LATER.jpg"
+			}
+		},
+		{
+			"name": "Memory Leak",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/43_Memory Leak.jpg"
+			}
+		},
+		{
+			"name": "Demon of Dark Loss",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Demon ",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/58_Demon of Dark Loss.jpg"
+			}
+		},
+		{
+			"name": "The Arbiter's Marauder",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Enchantment Creature — Avatar ",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/77_The Arbiter's Marauder.jpg"
+			}
+		},
+		{
+			"name": "Harmony of Voro",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/118_Harmony of Voro.jpg"
+			}
+		},
+		{
+			"name": "Mindless Control",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/17_Mindless Control.jpg"
+			}
+		},
+		{
+			"name": "NAME LATER",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/44_NAME LATER.jpg"
+			}
+		},
+		{
+			"name": "Look Accross the Lake",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/66_Look Accross the Lake.jpg"
+			}
+		},
+		{
+			"name": "NAME LATER",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/87_NAME LATER.jpg"
+			}
+		},
+		{
+			"name": "Titan of Sunrise",
+			"rarity": "rare",
+			"mana_cost": "{6}{G}",
+			"type": "Creature — Spirit Giant ",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/127_Titan of Sunrise.jpg"
+			}
+		},
+		{
+			"name": "Destiny Diviner",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Cleric ",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/114_Destiny Diviner.jpg"
+			}
+		},
+		{
+			"name": "Moonlight Spellbinder",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/69_Moonlight Spellbinder.jpg"
+			}
+		},
+		{
+			"name": "The Arbiter's Whisperer",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment Creature — Avatar ",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/27_The Arbiter's Whisperer.jpg"
+			}
+		},
+		{
+			"name": "Scorcher",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/93_Scorcher.jpg"
+			}
+		},
+		{
+			"name": "Dutiful Companion",
+			"rarity": "rare",
+			"mana_cost": "{W}{W}",
+			"type": "Creature — Fox ",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/13_Dutiful Companion.jpg"
+			}
+		},
+		{
+			"name": "Griffin of Serenity",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}",
+			"type": "Creature — Griffin ",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/35_Griffin of Serenity.jpg"
+			}
+		},
+		{
+			"name": "Unchained Karan",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}",
+			"type": "Creature — Demon Warrior ",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/76_Unchained Karan.jpg"
+			}
+		},
+		{
+			"name": "Kala Eradicator",
+			"rarity": "rare",
+			"mana_cost": "{R}{R}",
+			"type": "Creature — Demon  ",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/85_Kala Eradicator.jpg"
+			}
+		},
+		{
+			"name": "Yuku Mystic",
+			"rarity": "rare",
+			"mana_cost": "{G}{G}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/130_Yuku Mystic.jpg"
+			}
+		},
+		{
+			"name": "Warp Gateway",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/26_Warp Gateway.jpg"
+			}
+		},
+		{
+			"name": "Denial of Service",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/32_Denial of Service.jpg"
+			}
+		},
+		{
+			"name": "Rite of the Grand Oracles",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/73_Rite of the Grand Oracles.jpg"
+			}
+		},
+		{
+			"name": "Marring Flames",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/86_Marring Flames.jpg"
+			}
+		},
+		{
+			"name": "Byte Down",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/109_Byte Down.jpg"
+			}
+		},
+		{
+			"name": "Sunrise Lookout",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Dragon ",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/23_Sunrise Lookout.jpg"
+			}
+		},
+		{
+			"name": "Intellect From Beyond",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Creature — Horror ",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/39_Intellect From Beyond.jpg"
+			}
+		},
+		{
+			"name": "Behemoth Beckoner",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/53_Behemoth Beckoner.jpg"
+			}
+		},
+		{
+			"name": "Savan Veteran",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/92_Savan Veteran.jpg"
+			}
+		},
+		{
+			"name": "Sentinel of Sanctuaries",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Human Cleric ",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/126_Sentinel of Sanctuaries.jpg"
+			}
+		},
+		{
+			"name": "Shindu, Gleaming City",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land — Plains ",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/136_Shindu, Gleaming City.jpg"
+			}
+		},
+		{
+			"name": "Zidan, Shadowy City",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land — Swamp ",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/138_Zidan, Shadowy City.jpg"
+			}
+		},
+		{
+			"name": "Kama, Shattered City",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land — Mountain ",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/134_Kama, Shattered City.jpg"
+			}
+		},
+		{
+			"name": "Toshin, Verdant City",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land — Forest ",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/137_Toshin, Verdant City.jpg"
+			}
+		},
+		{
+			"name": "Collected Entrancing",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/8_Collected Entrancing.jpg"
+			}
+		},
+		{
+			"name": "Power Off",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Enchantment",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/48_Power Off.jpg"
+			}
+		},
+		{
+			"name": "Crystalized Dread",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/57_Crystalized Dread.jpg"
+			}
+		},
+		{
+			"name": "Pillar of Fury",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Instant",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/88_Pillar of Fury.jpg"
+			}
+		},
+		{
+			"name": "Firmness of Toshin",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/115_Firmness of Toshin.jpg"
+			}
+		},
+		{
+			"name": "Counterfeit Tranquility",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Sorcery",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/10_Counterfeit Tranquility.jpg"
+			}
+		},
+		{
+			"name": "Final Arrival",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/33_Final Arrival.jpg"
+			}
+		},
+		{
+			"name": "Door to Eternity",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Artifact",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/59_Door to Eternity.jpg"
+			}
+		},
+		{
+			"name": "Rage of Sava",
+			"rarity": "rare",
+			"mana_cost": "{7}{R}",
+			"type": "Creature — Demon Dragon Spirit ",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/90_Rage of Sava.jpg"
+			}
+		},
+		{
+			"name": "Moonrise",
+			"rarity": "rare",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/122_Moonrise.jpg"
+			}
+		},
+		{
+			"name": "Shadowmare",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Nightmare Horse ",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/74_Shadowmare.jpg"
+			}
+		},
+		{
+			"name": "Heartless Executor",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Creature — Soldier ",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/14_Heartless Executor.jpg"
+			}
+		},
+		{
+			"name": "Kernel Infiltration",
+			"rarity": "rare",
+			"mana_cost": "{5}{U}",
+			"type": "Enchantment",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/40_Kernel Infiltration.jpg"
+			}
+		},
+		{
+			"name": "Fragments of Times Past",
+			"rarity": "rare",
+			"mana_cost": "{5}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/62_Fragments of Times Past.jpg"
+			}
+		},
+		{
+			"name": "Warmth of a Thousand Souls",
+			"rarity": "rare",
+			"mana_cost": "{6}{R}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/100_Warmth of a Thousand Souls.jpg"
+			}
+		},
+		{
+			"name": "Overgrowth of Voro",
+			"rarity": "rare",
+			"mana_cost": "{6}{G}{G}",
+			"type": "Enchantment",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/123_Overgrowth of Voro.jpg"
+			}
+		},
+		{
+			"name": "The Arbiter's Sight",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Enchantment Creature — Eye Avatar ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/6_The Arbiter's Sight.jpg"
+			}
+		},
+		{
+			"name": "Naroz Sentinel",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/46_Naroz Sentinel.jpg"
+			}
+		},
+		{
+			"name": "Vicious Fiend",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Demon Warrior ",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/98_Vicious Fiend.jpg"
+			}
+		},
+		{
+			"name": "Artificial Ferocity",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/108_Artificial Ferocity.jpg"
+			}
+		},
+		{
+			"name": "Dreary Voyager",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Human Scout ",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/12_Dreary Voyager.jpg"
+			}
+		},
+		{
+			"name": "Leviathan Caller",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/41_Leviathan Caller.jpg"
+			}
+		},
+		{
+			"name": "Malignant Hexer",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/68_Malignant Hexer.jpg"
+			}
+		},
+		{
+			"name": "Herald of Sparks",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/84_Herald of Sparks.jpg"
+			}
+		},
+		{
+			"name": "Phantom Stag",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elk Spirit ",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/124_Phantom Stag.jpg"
+			}
+		},
+		{
+			"name": "Undefined Reference",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/25_Undefined Reference.jpg"
+			}
+		},
+		{
+			"name": "List Indexer",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/42_List Indexer.jpg"
+			}
+		},
+		{
+			"name": "Abyssal Callback",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Instant",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/52_Abyssal Callback.jpg"
+			}
+		},
+		{
+			"name": "Race Against Omnipotence",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/89_Race Against Omnipotence.jpg"
+			}
+		},
+		{
+			"name": "The Arbiter's Strength",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment Creature — Avatar ",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/107_The Arbiter's Strength.jpg"
+			}
+		},
+		{
+			"name": "Adrift Surveyor",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Scout ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/3_Adrift Surveyor.jpg"
+			}
+		},
+		{
+			"name": "Wistful Observer",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human ",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/51_Wistful Observer.jpg"
+			}
+		},
+		{
+			"name": "Cache Recovery",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/54_Cache Recovery.jpg"
+			}
+		},
+		{
+			"name": "Vulpine Sage",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Fox ",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/99_Vulpine Sage.jpg"
+			}
+		},
+		{
+			"name": "Deepgrowth Drake",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Elk Dragon ",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/112_Deepgrowth Drake.jpg"
+			}
+		},
+		{
+			"name": "Segmentation",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land — Fault ",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/135_Segmentation.jpg"
+			}
+		},
+		{
+			"name": "The Arbiter's Elite",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}",
+			"type": "Enchantment Creature — Avatar ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/4_The Arbiter's Elite.jpg"
+			}
+		},
+		{
+			"name": "Ghastly Wanderer",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Spirit Wizard ",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/34_Ghastly Wanderer.jpg"
+			}
+		},
+		{
+			"name": "Fallen of Kara",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Spirit ",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/61_Fallen of Kara.jpg"
+			}
+		},
+		{
+			"name": "Splintering Fire",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/94_Splintering Fire.jpg"
+			}
+		},
+		{
+			"name": "Lost to the Storm",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/121_Lost to the Storm.jpg"
+			}
+		},
+		{
+			"name": "Paths of Stolen Life",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Enchantment",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/20_Paths of Stolen Life.jpg"
+			}
+		},
+		{
+			"name": "Herald of Naroz",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Creature — Druid ",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/37_Herald of Naroz.jpg"
+			}
+		},
+		{
+			"name": "Nausea From Beyond",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Horror ",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/71_Nausea From Beyond.jpg"
+			}
+		},
+		{
+			"name": "Gazing Rage",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Eye ",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/82_Gazing Rage.jpg"
+			}
+		},
+		{
+			"name": "Chapion of Drakol",
+			"rarity": "rare",
+			"mana_cost": "{G}{G}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/110_Chapion of Drakol.jpg"
+			}
+		},
+		{
+			"name": "The Arbiter",
+			"rarity": "rare",
+			"mana_cost": "{15}",
+			"type": "Legendary Enchantment Creature — God ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/1_The Arbiter.jpg"
+			}
+		},
+		{
+			"name": "Peaceful Charmer",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Cleric ",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/21_Peaceful Charmer.jpg"
+			}
+		},
+		{
+			"name": "Twilight Revelation",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/50_Twilight Revelation.jpg"
+			}
+		},
+		{
+			"name": "Drakoli Piracy",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/60_Drakoli Piracy.jpg"
+			}
+		},
+		{
+			"name": "Wisps of Flaming Brilliance",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/101_Wisps of Flaming Brilliance.jpg"
+			}
+		},
+		{
+			"name": "Goliath Assailant",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/117_Goliath Assailant.jpg"
+			}
+		},
+		{
+			"name": "Doomteller Adept",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/11_Doomteller Adept.jpg"
+			}
+		},
+		{
+			"name": "Cultist of Cold Fate",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/31_Cultist of Cold Fate.jpg"
+			}
+		},
+		{
+			"name": "Harbinger of Demise",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/64_Harbinger of Demise.jpg"
+			}
+		},
+		{
+			"name": "Demon of Ruinous Fire",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Demon Warlock ",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/81_Demon of Ruinous Fire.jpg"
+			}
+		},
+		{
+			"name": "Illuminating Augur",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://uiwow7.github.io/sets/DCO-files/img/119_Illuminating Augur.jpg"
+			}
+		}
+	]
+[RareSlot(15)]
+2 In Search of Eternity
+2 The Arbiter's Watcher
+2 Icedroid
+2 Lost Ghast
+2 The Avatar's Warden
+2 Twisting Nebulas
+2 Last Light of Naroz
+2 Stack Popper
+2 Ghost of Fallen Angels
+2 Recursive Pyromage
+2 Chosen of the Grand Oracles
+2 Buffer Underflow
+2 Package Manager
+2 Stack Overflow
+2 Circular Import
+2 Unexpected Token
+2 Drorix, Cosmic Outcast
+2 Luminescent Golem
+2 The Final Frontier
+2 Cavesplitter
+2 Sava's Last Eclipse
+2 Cosmically Centered
+2 Otherworldly Wayfarer
+2 The Arbiter's Raider
+2 NAME LATER
+2 Arane Oracle
+2 Unfathomable Exploration
+2 Stack Pusher
+2 Containment Dome
+2 Ocean Watcher
+2 Sunset
+2 Fungal Raze
+2 Traversing the Paths
+2 Narokan Collision
+2 Touch the Hallowed Grounds
+2 Boatman of Kala
+2 Depths Giant
+2 Eldo, Abyssal City
+2 Night Rummager
+2 Karan Assassin
+2 The Arbiter's Informer
+2 The Arbiter's Protector
+2 Guardian of Laba
+2 Summoner of True Light
+2 Cosmic Watcher
+2 Corruption From Beyond
+2 Hellfire Wyrm
+2 Preserver of Voro
+2 NAME LATER
+2 Memory Leak
+2 Demon of Dark Loss
+2 The Arbiter's Marauder
+2 Harmony of Voro
+2 Mindless Control
+2 NAME LATER
+2 Look Accross the Lake
+2 NAME LATER
+2 Titan of Sunrise
+2 Destiny Diviner
+2 Moonlight Spellbinder
+2 The Arbiter's Whisperer
+2 Scorcher
+2 Dutiful Companion
+2 Griffin of Serenity
+2 Unchained Karan
+2 Kala Eradicator
+2 Yuku Mystic
+2 Warp Gateway
+2 Denial of Service
+2 Rite of the Grand Oracles
+2 Marring Flames
+2 Byte Down
+2 Sunrise Lookout
+2 Intellect From Beyond
+2 Behemoth Beckoner
+2 Savan Veteran
+2 Sentinel of Sanctuaries
+2 Shindu, Gleaming City
+2 Zidan, Shadowy City
+2 Kama, Shattered City
+2 Toshin, Verdant City
+2 Collected Entrancing
+2 Power Off
+2 Crystalized Dread
+2 Pillar of Fury
+2 Firmness of Toshin
+2 Counterfeit Tranquility
+2 Final Arrival
+2 Door to Eternity
+2 Rage of Sava
+2 Moonrise
+2 Shadowmare
+2 Heartless Executor
+2 Kernel Infiltration
+2 Fragments of Times Past
+2 Warmth of a Thousand Souls
+2 Overgrowth of Voro
+2 The Arbiter's Sight
+2 Naroz Sentinel
+2 Vicious Fiend
+2 Artificial Ferocity
+2 Dreary Voyager
+2 Leviathan Caller
+2 Malignant Hexer
+2 Herald of Sparks
+2 Phantom Stag
+2 Undefined Reference
+2 List Indexer
+2 Abyssal Callback
+2 Race Against Omnipotence
+2 The Arbiter's Strength
+2 Adrift Surveyor
+2 Wistful Observer
+2 Cache Recovery
+2 Vulpine Sage
+2 Deepgrowth Drake
+2 Segmentation
+2 The Arbiter's Elite
+2 Ghastly Wanderer
+2 Fallen of Kara
+2 Splintering Fire
+2 Lost to the Storm
+2 Paths of Stolen Life
+2 Herald of Naroz
+2 Nausea From Beyond
+2 Gazing Rage
+2 Chapion of Drakol
+2 The Arbiter
+2 Peaceful Charmer
+2 Twilight Revelation
+2 Drakoli Piracy
+2 Wisps of Flaming Brilliance
+2 Goliath Assailant
+2 Doomteller Adept
+2 Cultist of Cold Fate
+2 Harbinger of Demise
+2 Demon of Ruinous Fire
+2 Illuminating Augur
+[LandSlot(1)]

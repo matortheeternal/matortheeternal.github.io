@@ -6,6 +6,10 @@
   <link rel="stylesheet" href="/resources/header.css">
 </head>
 <style>
+		@font-face {
+			font-family: 'Beleren Small Caps';
+			src: url('/resources/beleren-caps.ttf');
+		}
 	@font-face {
 		font-family: Beleren;
 		src: url('/resources/beleren.ttf');
@@ -15,10 +19,16 @@
 		overscroll-behavior: none;
 		margin: 0px;
 		background-color: #f3f3f3;
+		background-position: center;
+		background-attachment: fixed;
+		background-size: cover;
+		background-image: url('/sets/SHS-files/bg.png');
+
 	}
 	.banner {
 		width: 100%;
 		background-color: #bbbbbb;
+		border-bottom: 3px solid black;
 	}
 	.banner-container {
 		width: 85%;
@@ -41,6 +51,7 @@
 		padding-bottom: 10px;
 		justify-self: left;
 		width: 100%;
+		white-space: nowrap;
 	}
 	.set-banner img {
 		width: 50px;
@@ -73,6 +84,31 @@
 		font-size: 13px;
 		height: 30px;
 	}
+	.button-container {
+		width: 50%;
+		max-width: 900px;
+		margin: auto;
+		padding: 15px 0 5px 0;
+		border-bottom: 2px solid #171717;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.button-container button {
+		font-family: Beleren;
+		font-size: 30px;
+		width: 100%;
+		justify-self: center;
+		border: none;
+		background: none;
+		cursor: pointer;
+	}
+	.button-container button:hover {
+		color: #797979;
+	}
+	.button-container button:disabled {
+		color: #797979;
+		cursor: auto;
+	}
 	.grid-container {
 		display: grid;
 		grid-template-columns: auto;
@@ -80,6 +116,12 @@
 		padding-bottom: 30px;
 		max-width: 1200px;
 		margin: auto;
+	}
+	.splash-container {
+		width: 70%;
+		max-width: 1200px;
+		margin: auto;
+		justify-items: center;
 	}
 	.image-grid-container {
 		display: grid;
@@ -188,6 +230,16 @@
 		font-size: .97vw;
 		color: rgba(0, 0, 0, 0);
 	}
+	h1 {
+		font-family: 'Beleren Small Caps';
+		font-size: 48px;
+		margin: 24px 0;
+	}
+	h2 {
+		font-family: 'Beleren';
+		font-size: 30px;
+		margin: 15px 0;
+	}
 </style>
 <body>
 	<div class="header">
@@ -209,6 +261,14 @@
 			</div>
 			<div class="select-text">Cards displayed as<select name="display" id="display"><option value="cards-only">Cards Only</option><option value="cards-text">Cards + Text</option></select>sorted by<select name="sort-by" id="sort-by"><option value="set-code">Set Number</option><option value="name">Name</option><option value="mv">Mana Value</option><option value="color">Color</option><option value="rarity">Rarity</option></select> : <select name="sort-order" id="sort-order"><option value="ascending">Asc</option><option value="descending">Desc</option></select></div>
 		</div>
+	</div>
+
+	<div class="button-container" id="buttons">
+		<button style="border-right: 1px solid #171717;" onclick="switchView('splash')" id="splash-button">Splash</button><button onclick="switchView('cards')"id="cards-button">Cards</button>
+	</div>
+
+	<div class="splash-container" id="splash">
+	
 	</div>
 
 	<div class="grid-container" id="grid">
@@ -246,8 +306,8 @@
 					set_list_arrayified.push(card_list_arrayified[i]);
 				}
 			}
-
-			setCardView();
+					buttons.style.display = 'none';
+		setCardView();
 		});
 
 		document.getElementById("sort-by").onchange = displayChangeListener;
@@ -258,9 +318,26 @@
 			setCardView();
 		}
 
+		function switchView(view) {
+			if (view == "splash")
+			{
+				splash.style.display = '';
+				imagesOnlyGrid.style.display = 'none';
+				grid.style.display = 'none';
+			}
+			else if (view == "cards")
+			{
+				setCardView();
+			}
+
+			document.getElementById("splash-button").disabled = (view == "splash");
+			document.getElementById("cards-button").disabled = (view == "cards");
+		}
+
 		function setCardView() {
 			displayStyle = document.getElementById("display").value;
 
+			splash.style.display = 'none';
 			imagesOnlyGrid.style.display = displayStyle == "cards-only" ? '' : 'none';
 			grid.style.display = displayStyle == "cards-only" ? 'none' : '';
 
@@ -278,13 +355,23 @@
 			}
 
 			let set_cards = [];
-			let set_tokens_basics = [];
+			let set_basics = [];
+			let set_tokens = [];
+			let set_mp = [];
 
 			for (const card of set_list_arrayified)
 			{
-				if (card.shape.includes("token") || card.type.includes("Basic"))
+				if (card.rarity.includes("masterpiece"))
 				{
-					set_tokens_basics.push(card);
+					set_mp.push(card);
+				}
+				else if (card.shape.includes("token"))
+				{
+					set_tokens.push(card);
+				}
+				else if (card.type.includes("Basic"))
+				{
+					set_basics.push(card);
 				}
 				else
 				{
@@ -293,13 +380,17 @@
 			}
 
 			set_cards.sort(compareFunction);
-			set_tokens_basics.sort(compareFunction);
+			set_basics.sort(compareFunction);
+			set_tokens.sort(compareFunction);
+			set_mp.sort(compareFunction);
 			if (document.getElementById("sort-order").value == "descending")
 			{
 				set_cards.reverse();
-				set_tokens_basics.reverse();
+				set_basics.reverse();
+				set_tokens.reverse();
+				set_mp.reverse();
 			}
-			set_list_sorted = set_cards.concat(set_tokens_basics);
+			set_list_sorted = set_cards.concat(set_basics).concat(set_tokens).concat(set_mp);
 			cardGrid.innerHTML = "";
 
 			for (const card of set_list_sorted)
@@ -310,6 +401,16 @@
 
 		function compareFunction(a, b) {
 			const sortMode = document.getElementById("sort-by").value;
+
+			if (a.rarity.includes("masterpiece") && !b.rarity.includes("masterpiece"))
+			{
+				return 1;
+			}
+
+			if (!a.rarity.includes("masterpiece") && b.rarity.includes("masterpiece"))
+			{
+				return -1;
+			}
 
 			if (a.shape.includes("token") && !b.shape.includes("token"))
 			{
@@ -512,18 +613,18 @@
 			return str;
 		}
 
-		function gridifyCard(card_stats) {
+		function gridifyCard(card_stats, card_text = false, rotate_card = false, designer_notes = false) {
 			const card_name = card_stats.card_name;
 
 			if (displayStyle == "cards-only")
 			{
-				return buildImgContainer(card_stats, true);
+				return buildImgContainer(card_stats, true, rotate_card);
 			}
 
 			const grid = document.createElement("div");
 			grid.className = "image-grid";
 
-			grid.appendChild(buildImgContainer(card_stats));
+			grid.appendChild(buildImgContainer(card_stats, false, rotate_card));
 			
 			const text = document.createElement("div");
 			text.className = "card-text";
@@ -566,6 +667,15 @@
 				loyalty.className = "pt";
 				loyalty.textContent = "[" + card_stats.loyalty + "]";
 				text.appendChild(loyalty);
+			}
+
+			if(designer_notes && card_stats.designer_notes != null)
+			{
+				const dnotes = document.createElement("div");
+				dnotes.className = "designer-notes";
+				dnotes.innerHTML = "<u><b>Designer Notes</b></u>";
+				dnotes.innerHTML = dnotes.innerHTML + card_stats.designer_notes;
+				text.appendChild(dnotes);
 			}
 
 			// 13-name	14-color	15-type	16-ci	17-cost	18-ability	19-pt	20-special-text	21-loyalty
@@ -616,7 +726,7 @@
 			return grid;
 		}
 
-		function buildImgContainer(card_stats, hidden_title=false) {
+		function buildImgContainer(card_stats, hidden_title = false, rotate_card = false) {
 			const imgContainer = document.createElement("div");
 			imgContainer.className = "img-container";
 			const id = card_stats.set + "-" + card_stats.number + "-" + document.getElementById("display").value;
@@ -625,23 +735,42 @@
 			img.className = "card-image";
 			img.id = id;
 			// (card_stats[13].includes("_") ? card_stats[13] : card_stats[0]) for posterity
-			img.src = "/sets/" + card_stats.set + "-files/img/" + card_stats.number + (card_stats.shape.includes("token") ? "t_" : "_") + card_stats.card_name + ((card_stats.shape.includes("double")) ? "_front" : "") + ".png";
+			img.src = "/sets/" + card_stats.set + "-files/img/" + card_stats.number + (card_stats.shape.includes("token") ? "t_" : "_") + card_stats.card_name + ((card_stats.shape.includes("double")) ? "_front" : "") + "." + card_stats.image_type;
 			
 			const link = document.createElement("a");
-			let card_name = card_stats.card_name;
-			for (const char of specialchars)
-			{
-				card_name = card_name.replaceAll(char, "");
+			
+			const url = new URL('card', window.location.origin);
+			const params = {
+				set: card_stats.set,
+				num: card_stats.number,
+				name: card_stats.card_name
 			}
-			link.href = "/cards/" + card_stats.set + "/" + card_stats.number + "_" + card_name;
+			for (const key in params) {
+				url.searchParams.append(key, params[key]);
+			}
+			link.href = url;
+
 			link.appendChild(img);
+
+			if ((card_stats.shape.includes("spli") || card_stats.type.includes("Battle")) && rotate_card)
+			{
+				const rotated_img = document.createElement("img");
+				rotated_img.className = "h-img";
+				rotated_img.id = "h-img";
+				rotated_img.src = img.src;
+				rotated_img.style.display = "block";
+				img.style.filter = "blur(2px) brightness(0.7)";
+
+				link.appendChild(rotated_img);
+			}
+
 			imgContainer.appendChild(link);
 
 			if (card_stats.shape.includes("double"))
 			{
 				const imgFlipBtn = document.createElement("button");
 				imgFlipBtn.className = "btn";
-				imgFlipBtn.onclick = function() { imgFlip(id); };
+				imgFlipBtn.onclick = function() { imgFlip(id, rotate_card); };
 				imgContainer.appendChild(imgFlipBtn);
 			}
 
@@ -656,11 +785,32 @@
 			return imgContainer;
 		}
 
-		function imgFlip(id) {
-			cardToFlip = document.getElementById(id);
-			cardName = cardToFlip.src;
+		function imgFlip(id, rotate_card = false) {
+			img = document.getElementById(id);
+			rotated_img = document.getElementById("h-img");
+
+			cardName = img.src;
 			
-			cardToFlip.src = cardName.includes("_front") ? cardName.replace("_front", "_back") : cardName.replace("_back", "_front");
+			if (cardName.includes("_front"))
+			{
+				img.src = cardName.replace("_front", "_back");
+
+				if (rotate_card)
+				{
+					rotated_img.style.display = "none";
+					img.style.filter = "";
+				}
+			}
+			else
+			{
+				img.src = cardName.replace("_back", "_front");
+
+				if (rotate_card)
+				{
+					rotated_img.style.display = "block";
+					img.style.filter = "blur(2px) brightness(0.7)";
+				}
+			}
 		}
 
 		function prettifyEffects(card_effects) {
@@ -695,18 +845,26 @@
 		});
 
 		function search() {
-			window.location = ("/search?search=" + document.getElementById("search").value);
+			const url = new URL('search', window.location.origin);
+			url.searchParams.append('search', document.getElementById("search").value);
+			window.location.href = url;
 		}
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-				let card_name = card_list_arrayified[i].card_name;
-				for (const char of specialchars)
-				{
-					card_name = card_name.replaceAll(char, "");
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
 				}
 
-				window.location = ('/cards/' + card_list_arrayified[i].set + '/' + card_list_arrayified[i].number + '_' + card_name);
+				window.location.href = url;
 			}
 	</script>
 </body>

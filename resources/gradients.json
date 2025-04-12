@@ -1,6 +1,11 @@
 {
 	"gradients":[
 	{
+		"name":" Voyager",
+		"color1":"#fda62b",
+		"color2":"#49b2e1"
+	},
+	{
 		"name":"Purple White",
 		"color1":"#ba5370",
 		"color2":"#f4e2d8"
