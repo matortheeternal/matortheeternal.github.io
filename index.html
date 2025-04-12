@@ -213,11 +213,11 @@
 										<div class="set-group"></div>
 							<div class="preview-container">
 		<div class="set-icon-container">
-									<a href="sets/DCO"><div class="set-icon"><img src="sets/DCO-files/icon.png" title="Dazon: Cosmic Outcasts"></img></div>
+									<a href="previews/DCO"><div class="set-icon"><img src="sets/DCO-files/icon.png" title="Dazon: Cosmic Outcasts"></img></div>
 									<div class="set-icon-name">Dazon: Cosmic Outcasts</div></a>
 								</div>
 				<div class="set-icon-container">
-									<a href="sets/SHS"><div class="set-icon"><img src="sets/SHS-files/icon.png" title="A Shattered Sword"></img></div>
+									<a href="previews/SHS"><div class="set-icon"><img src="sets/SHS-files/icon.png" title="A Shattered Sword"></img></div>
 									<div class="set-icon-name">A Shattered Sword</div></a>
 								</div>
 									</div>
@@ -304,7 +304,7 @@
 				img.id = "cotd";
 
 
-				img.src = '/previews/' + card_stats.set + '-files/img/' + card_stats.number + '_' + card_stats.card_name + (card_stats.shape.includes('double') ? '_front' : '') + '.' + card_stats.image_type;
+				img.src = '/sets/' + card_stats.set + '-files/img/' + card_stats.number + '_' + card_stats.card_name + (card_stats.shape.includes('double') ? '_front' : '') + '.' + card_stats.image_type;
 
 				a.append(img);
 				document.getElementById("cotd-image").append(a);

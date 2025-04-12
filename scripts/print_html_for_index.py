@@ -240,7 +240,7 @@ def generateHTML():
 							break
 
 				html_content += '''<div class="set-icon-container">
-									<a href="sets/''' + code + '''"><div class="set-icon"><img src="sets/''' + code + '''-files/icon.png" title="''' + set_name + '''"></img></div>
+									<a href="previews/''' + code + '''"><div class="set-icon"><img src="sets/''' + code + '''-files/icon.png" title="''' + set_name + '''"></img></div>
 									<div class="set-icon-name">''' + set_name + '''</div></a>
 								</div>
 				'''
@@ -323,7 +323,7 @@ def generateHTML():
 				img.id = "cotd";
 
 
-				img.src = '/previews/' + card_stats.set + '-files/img/' + card_stats.number + '_' + card_stats.card_name + (card_stats.shape.includes('double') ? '_front' : '') + '.' + card_stats.image_type;
+				img.src = '/sets/' + card_stats.set + '-files/img/' + card_stats.number + '_' + card_stats.card_name + (card_stats.shape.includes('double') ? '_front' : '') + '.' + card_stats.image_type;
 
 				a.append(img);
 				document.getElementById("cotd-image").append(a);
