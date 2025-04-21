@@ -26,12 +26,12 @@ def convertList(setCode):
 	#F: This gets any alt-arts in a single set and adds their card number to a list of cards to skip.
 	for i in range(len(cards)):
 		match = re.match(r'!group ([^ \n]+)', cards[i]['notes'])
-		if match and match.group(1) not in sort_groups:
-			sort_groups.append(match.group(1))
+		if match and match.group() not in sort_groups:
+			sort_groups.append(match.group())
 		for j in range(i):
 			if cards[i]['card_name'] == cards[j]['card_name'] and "token" not in cards[i]['shape'] and "Basic" not in cards[i]['type']:
 				skipdex.append(cards[j]['number'])
-	
+
 	final_list = []
 	cards_mono = []
 	cards_multi = []
@@ -94,7 +94,7 @@ def convertList(setCode):
 	}
 
 	for group in sort_groups:
-		cards_sorted['!group ' + group] = []
+		cards_sorted[group] = []
 
 	#F: now go over the cards again
 	for card in cards:
@@ -109,8 +109,8 @@ def convertList(setCode):
 		# sort types
 		if '!group' in card['notes']:
 			for group in sort_groups:
-				if '!group ' + group in card['notes']:
-					cards_sorted['!group ' + group].append(card)
+				if group in card['notes']:
+					cards_sorted[group].append(card)
 		elif 'token' in card['shape']:
 			cards_sorted['token'].append(card)
 		elif 'masterpiece' in card['rarity']: # masterpiece
@@ -162,7 +162,7 @@ def convertList(setCode):
 		if '!sort' in notes:
 			#F: notes = index of !sort + 6 to the end of the string
 			card['notes'] = notes[notes.index('!sort') + 6:]
-		elif '!last' not in notes:
+		else:
 			card['notes'] = 'zzz'
 
 		# clean shape
@@ -201,7 +201,7 @@ def convertList(setCode):
 				final_list.append('a->' + r['title'])
 			for x in range(len(cards_arr)):
 				if len(cards_arr[x]) > 0 and 'Basic' not in cards_arr[x][0]['type']:
-					if row_count == 1 and r['cards'][0] in sort_groups:
+					if len(r['cards']) == 1 and r['cards'][0] in sort_groups:
 						cards_arr[x] = sorted(cards_arr[x], key=lambda x : (x['notes'], x['rarity'], x['number']))
 					else:
 						cards_arr[x] = sorted(cards_arr[x], key=lambda x : (len(x['color']), x['rarity'], x['notes'], x['number'])) # start with len() for 3+c cards
