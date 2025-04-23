@@ -51,8 +51,24 @@ def generateFile(code):
 			"mana_cost": "''' + card['cost'] + '''",
 			"type": "''' + card['type'] + '''",
 			"collector_number": "''' + str(card['number']) + '''",
+	'''
+
+		if 'double' in card['shape']:
+			draft_string += '''		"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://''' + github_path + '''/sets/''' + code + '''-files/img/''' + str(card['number']) + '''_''' + card['card_name'] + '''_back.''' + set_data['image_type'] + '''"
+				}
+			},
 			"image_uris": {
-				"en": "https://''' + github_path + '''/sets/ATR-files/img/''' + str(card['number']) + '''_''' + card['card_name'] + '''.png"
+				"en": "https://''' + github_path + '''/sets/''' + code + '''-files/img/''' + str(card['number']) + '''_''' + card['card_name'] + '''_front.''' + set_data['image_type'] + '''"
+			}
+		},
+	'''
+		else:
+			draft_string += '''		"image_uris": {
+				"en": "https://''' + github_path + '''/sets/''' + code + '''-files/img/''' + str(card['number']) + '''_''' + card['card_name'] + '''.''' + set_data['image_type'] + '''"
 			}
 		},
 	'''
