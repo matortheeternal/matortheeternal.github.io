@@ -181,7 +181,7 @@ for code in set_codes:
 						changed_string += card['card_name'] + '\n'
 						for key in [ 'type', 'cost', 'rules_text', 'pt', 'special_text', 'loyalty' ]:
 							if card[key] != prev_card[key]:
-								changed_string += key + ': ' + prev_card[key] + ' => ' + card[key]
+								changed_string += key + ': ' + prev_card[key] + ' => ' + card[key] + '\n'
 						changed_string += '\n'
 			for name in prev_card_names:
 				if name != '':
