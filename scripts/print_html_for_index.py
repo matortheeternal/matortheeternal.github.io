@@ -270,6 +270,8 @@ def generateHTML():
 				}
 
 				gradients = raw_gradients.gradients;
+				if (localStorage.getItem('settings.gradient') == null) localStorage.setItem('settings.gradient', raw_gradients[0].name);
+				setGradient(localStorage.getItem('settings.gradient'));
 				prepareGradients();
 
 				'''
@@ -372,32 +374,41 @@ def generateHTML():
 			}
 
 			function prepareGradients() {
+				let defaultGradient = localStorage.getItem("settings.gradient").replace('-', ' ');
+				const opt = document.createElement("option");
+				opt.value = defaultGradient.replace(' ', '-');
+				opt.text = defaultGradient;
+				document.getElementById("color-select").appendChild(opt);
 				for (const gradient of gradients)
-				{
+				{	
 					const opt = document.createElement("option");
 					opt.value = gradient.name.replace(' ', '-');
 					opt.text = gradient.name;
-					document.getElementById("color-select").appendChild(opt);
+					if (gradient.name != defaultGradient) {
+						document.getElementById("color-select").appendChild(opt);
+					}
 				}
-
-				setGradient();
 			}
 
-			function setGradient() {
-				gradient = document.getElementById("color-select").value;
+			function setGradient(gradient=false) {
+				if (!gradient) { 
+					gradient = document.getElementById("color-select").value;
+				}
 
 				gradTop = "#000000";
 				gradBottom = "#FFFFFF";
 				for (const grad of gradients)
 				{
 					if (gradient == grad.name.replace(' ', '-'))
-					{
+					{ 	
 						gradTop = grad.color1;
 						gradBottom = grad.color2;
 					}
 				}
 
+				// console.log(`linear-gradient(to bottom, ${gradTop}, ${gradBottom})`);
 				document.body.style.backgroundImage = `linear-gradient(to bottom, ${gradTop}, ${gradBottom})`;
+				localStorage.setItem("settings.gradient", gradient);
 			}
 
 			function goToSets() {

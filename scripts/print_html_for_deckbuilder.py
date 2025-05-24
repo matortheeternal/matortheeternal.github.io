@@ -997,11 +997,22 @@ def generateHTML(codes):
 							del_btn = document.createElement("img");
 							del_btn.className = "icon";
 							del_btn.style.cursor = "pointer";
+
+							add_btn = document.createElement("img");
+							add_btn.className = "icon";
+							add_btn.style.cursor = "pointer";
+
 							if (key == "sideboard")
 							{
 								del_btn.src = "/img/sb-delete.png";
 								del_btn.onclick = function() {
 									sideboard.splice(sideboard.indexOf(card), 1);
+									processDeck();
+								}
+
+								add_btn.src = "/img/sb-add.png";
+								add_btn.onclick = function() {
+									sideboard.push(card);
 									processDeck();
 								}
 
@@ -1018,6 +1029,12 @@ def generateHTML(codes):
 									processDeck();
 								}
 
+								add_btn.src = "/img/add.png";
+								add_btn.onclick = function() {
+									deck.push(card);
+									processDeck();
+								}
+
 								card_in_deck.onclick = function() {
 									deck.splice(deck.indexOf(card), 1);
 									addCardToSideboard(card);
@@ -1027,6 +1044,10 @@ def generateHTML(codes):
 							db_container = document.createElement("div");
 							db_container.className = "card-fx";
 							db_container.appendChild(del_btn);
+
+							ab_container = document.createElement("div");
+							ab_container.className = "card-fx";
+							ab_container.appendChild(add_btn);
 
 							card_row.appendChild(db_container);
 							card_row.appendChild(card_in_deck);
@@ -1066,11 +1087,22 @@ def generateHTML(codes):
 							del_btn = document.createElement("img");
 							del_btn.className = "icon";
 							del_btn.style.cursor = "pointer";
+
+							add_btn = document.createElement("img");
+							add_btn.className = "icon";
+							add_btn.style.cursor = "pointer";
+
 							if (key == "sideboard")
 							{
 								del_btn.src = "/img/sb-delete.png";
 								del_btn.onclick = function() {
 									sideboard.splice(sideboard.indexOf(card), 1);
+									processDeck();
+								}
+
+								add_btn.src = "/img/sb-add.png";
+								add_btn.onclick = function() {
+									sideboard.push(card);
 									processDeck();
 								}
 
@@ -1087,6 +1119,12 @@ def generateHTML(codes):
 									processDeck();
 								}
 
+								add_btn.src = "/img/add.png";
+								add_btn.onclick = function() {
+									deck.push(card);
+									processDeck();
+								}
+
 								card_img.onclick = function() {
 									deck.splice(deck.indexOf(card), 1);
 									addCardToSideboard(card);
@@ -1096,6 +1134,11 @@ def generateHTML(codes):
 							db_container = document.createElement("div");
 							db_container.className = "card-fx";
 							db_container.appendChild(del_btn);
+
+							ab_container = document.createElement("div");
+							ab_container.className = "card-fx";
+							ab_container.appendChild(add_btn);
+
 							card_count.className = "card-fx";
 
 							card_img_container.appendChild(db_container);
