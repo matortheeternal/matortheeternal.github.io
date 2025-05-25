@@ -350,7 +350,7 @@ def generateHTML(codes):
 		height: 2.1vw;
 		max-height: 45px;
 		display: grid;
-		grid-template-columns: 1fr 2fr 12fr;
+		grid-template-columns: 1fr 1fr 2fr 12fr;
 		gap: 2px;
 		font-weight: bold;
 		line-height: 1;
@@ -1050,6 +1050,7 @@ def generateHTML(codes):
 							ab_container.appendChild(add_btn);
 
 							card_row.appendChild(db_container);
+							card_row.appendChild(ab_container);
 							card_row.appendChild(card_in_deck);
 							cards_ele.appendChild(card_row);
 						}
@@ -1142,6 +1143,7 @@ def generateHTML(codes):
 							card_count.className = "card-fx";
 
 							card_img_container.appendChild(db_container);
+							card_img_container.appendChild(ab_container);
 							card_img_container.appendChild(card_count);
 							card_img_container.appendChild(card_img);
 							cards_ele.appendChild(card_img_container);

@@ -270,8 +270,8 @@ def generateHTML():
 				}
 
 				gradients = raw_gradients.gradients;
-				if (localStorage.getItem('settings.gradient') == null) localStorage.setItem('settings.gradient', raw_gradients[0].name);
-				setGradient(localStorage.getItem('settings.gradient'));
+				if (localStorage.getItem('gradient') == null) localStorage.setItem('gradient', raw_gradients[0].name);
+				setGradient(localStorage.getItem('gradient').replaceAll(" ", "-"));
 				prepareGradients();
 
 				'''
@@ -374,7 +374,7 @@ def generateHTML():
 			}
 
 			function prepareGradients() {
-				let defaultGradient = localStorage.getItem("settings.gradient").replace('-', ' ');
+				let defaultGradient = localStorage.getItem("gradient").replace('-', ' ');
 				const opt = document.createElement("option");
 				opt.value = defaultGradient.replace(' ', '-');
 				opt.text = defaultGradient;
@@ -408,7 +408,7 @@ def generateHTML():
 
 				// console.log(`linear-gradient(to bottom, ${gradTop}, ${gradBottom})`);
 				document.body.style.backgroundImage = `linear-gradient(to bottom, ${gradTop}, ${gradBottom})`;
-				localStorage.setItem("settings.gradient", gradient);
+				localStorage.setItem("gradient", gradient);
 			}
 
 			function goToSets() {
