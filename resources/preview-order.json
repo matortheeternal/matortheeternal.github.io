@@ -12,5 +12,7 @@
 	{ "cards":  [ "L" ] },
 	{ "cards":  [ "basic" ] },
 	{ "title": "token", "cards":  [ "token" ] },
-	{ "title": "masterpiece", "cards":  [ "mp" ] }
+	{ "title": "masterpiece", "cards":  [ "mp" ] },
+	{ "cards":  [ "sort_group1" ] },
+	{ "cards":  [ "sort_group2" ] }
 ]

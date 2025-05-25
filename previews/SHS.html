@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/SHS-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>SHS visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;	background-image: url('/sets/SHS-files/bg.jpg');
+
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/SHS-files/logo.png" />
+	<img class="preload-hidden" src="/sets/DCO-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SHS-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="DCO"><img src="/sets/DCO-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SHS"><img src="/sets/SHS-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/SHS-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\SHS-files\img\8_Battle of the Tower.png" id="8_Battle of the Tower" data-flag="@X" onclick="openSidebar('8_Battle of the Tower',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\47_Lost From the World.png" id="47_Lost From the World" data-flag="@X" onclick="openSidebar('47_Lost From the World',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\72_Jklamdiel, Xirok's Chosen.png" id="72_Jklamdiel, Xiroks Chosen" data-flag="@X" onclick="openSidebar('72_Jklamdiel, Xiroks Chosen',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\89_Akali Lava Giant.png" id="89_Akali Lava Giant" data-flag="@X" onclick="openSidebar('89_Akali Lava Giant',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\147_Verdant Reclamation.png" id="147_Verdant Reclamation" data-flag="@X" onclick="openSidebar('147_Verdant Reclamation',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\21_Sacred Emissary.png" id="21_Sacred Emissary" data-flag="@X" onclick="openSidebar('21_Sacred Emissary',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\60_Zirlir, Prodigious Decipherer.png" id="60_Zirlir, Prodigious Decipherer" data-flag="@X" onclick="openSidebar('60_Zirlir, Prodigious Decipherer',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\75_Profane Emissary.png" id="75_Profane Emissary" data-flag="@X" onclick="openSidebar('75_Profane Emissary',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\110_The Night Riders' Bane.png" id="110_The Night Riders Bane" data-flag="@X" onclick="openSidebar('110_The Night Riders Bane',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\122_Brilliant Aurora.png" id="122_Brilliant Aurora" data-flag="@X" onclick="openSidebar('122_Brilliant Aurora',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\2_Allied Reinforcements.png" id="2_Allied Reinforcements" data-flag="@X" onclick="openSidebar('2_Allied Reinforcements',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\39_Drain the Lands.png" id="39_Drain the Lands" data-flag="@X" onclick="openSidebar('39_Drain the Lands',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\63_Cosmic Manipulator.png" id="63_Cosmic Manipulator" data-flag="@X" onclick="openSidebar('63_Cosmic Manipulator',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\93_Barbarian of the West.png" id="93_Barbarian of the West" data-flag="@X" onclick="openSidebar('93_Barbarian of the West',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\123_Chromatic Attunement.png" id="123_Chromatic Attunement" data-flag="@X" onclick="openSidebar('123_Chromatic Attunement',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SHS-files\img\7_Armored Windblade_back.png" alt="/sets\SHS-files\img\7_Armored Windblade_front.png" id="7_Armored Windblade" data-flag="@XD" onclick="openSidebar('7_Armored Windblade',false)"><button class="flip-btn" onclick="imgFlip('7_Armored Windblade')"></button></div>
+			<div class="container"><img alt="/sets\SHS-files\img\42_The Icelord.png" id="42_The Icelord" data-flag="@X" onclick="openSidebar('42_The Icelord',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\65_Deal With Ravens.png" id="65_Deal With Ravens" data-flag="@X" onclick="openSidebar('65_Deal With Ravens',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\94_Bloodstained Moon.png" id="94_Bloodstained Moon" data-flag="@X" onclick="openSidebar('94_Bloodstained Moon',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\129_Forest Giant.png" id="129_Forest Giant" data-flag="@X" onclick="openSidebar('129_Forest Giant',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\16_Journey's End.png" id="16_Journeys End" data-flag="@X" onclick="openSidebar('16_Journeys End',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\44_Kanil, Night Rider of Ice.png" id="44_Kanil, Night Rider of Ice" data-flag="@X" onclick="openSidebar('44_Kanil, Night Rider of Ice',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\66_Demonic Bloodlord.png" id="66_Demonic Bloodlord" data-flag="@X" onclick="openSidebar('66_Demonic Bloodlord',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\106_Lava Lance.png" id="106_Lava Lance" data-flag="@X" onclick="openSidebar('106_Lava Lance',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\130_In Search of Grandeur.png" id="130_In Search of Grandeur" data-flag="@X" onclick="openSidebar('130_In Search of Grandeur',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SHS-files\img\23_Shattered Sword Defender_back.png" alt="/sets\SHS-files\img\23_Shattered Sword Defender_front.png" id="23_Shattered Sword Defender" data-flag="@XD" onclick="openSidebar('23_Shattered Sword Defender',false)"><button class="flip-btn" onclick="imgFlip('23_Shattered Sword Defender')"></button></div>
+			<div class="container"><img alt="/sets\SHS-files\img\52_Seek Prosperity.png" id="52_Seek Prosperity" data-flag="@X" onclick="openSidebar('52_Seek Prosperity',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\69_Grand Warlock Talnir.png" id="69_Grand Warlock Talnir" data-flag="@X" onclick="openSidebar('69_Grand Warlock Talnir',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\108_Nebula's Impulse.png" id="108_Nebulas Impulse" data-flag="@X" onclick="openSidebar('108_Nebulas Impulse',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\131_Intrepid Rootwalla.png" id="131_Intrepid Rootwalla" data-flag="@X" onclick="openSidebar('131_Intrepid Rootwalla',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\27_Sunrise Savant.png" id="27_Sunrise Savant" data-flag="@X" onclick="openSidebar('27_Sunrise Savant',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\56_Whimsical Spellcaster.png" id="56_Whimsical Spellcaster" data-flag="@X" onclick="openSidebar('56_Whimsical Spellcaster',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\76_Seek the Depths.png" id="76_Seek the Depths" data-flag="@X" onclick="openSidebar('76_Seek the Depths',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\113_Southern Fireblade.png" id="113_Southern Fireblade" data-flag="@X" onclick="openSidebar('113_Southern Fireblade',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\137_Lost Forest Shrine.png" id="137_Lost Forest Shrine" data-flag="@X" onclick="openSidebar('137_Lost Forest Shrine',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\29_Thirak Commander.png" id="29_Thirak Commander" data-flag="@X" onclick="openSidebar('29_Thirak Commander',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\57_Wielder of Stars.png" id="57_Wielder of Stars" data-flag="@X" onclick="openSidebar('57_Wielder of Stars',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SHS-files\img\84_Villainous Fiend_back.png" alt="/sets\SHS-files\img\84_Villainous Fiend_front.png" id="84_Villainous Fiend" data-flag="@XD" onclick="openSidebar('84_Villainous Fiend',false)"><button class="flip-btn" onclick="imgFlip('84_Villainous Fiend')"></button></div>
+			<div class="container"><img alt="/sets\SHS-files\img\115_Take Back the Lands.png" id="115_Take Back the Lands" data-flag="@X" onclick="openSidebar('115_Take Back the Lands',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\140_Mountaineer Scout.png" id="140_Mountaineer Scout" data-flag="@X" onclick="openSidebar('140_Mountaineer Scout',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\4_Altar of Lost Light.png" id="4_Altar of Lost Light" data-flag="@X" onclick="openSidebar('4_Altar of Lost Light',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\59_Wizard of Aenir.png" id="59_Wizard of Aenir" data-flag="@X" onclick="openSidebar('59_Wizard of Aenir',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SHS-files\img\85_Warlock of Shadow Sorcery_back.png" alt="/sets\SHS-files\img\85_Warlock of Shadow Sorcery_front.png" id="85_Warlock of Shadow Sorcery" data-flag="@XD" onclick="openSidebar('85_Warlock of Shadow Sorcery',false)"><button class="flip-btn" onclick="imgFlip('85_Warlock of Shadow Sorcery')"></button></div>
+			<div class="container"><img alt="/sets\SHS-files\img\90_Altar of Lost Fire.png" id="90_Altar of Lost Fire" data-flag="@X" onclick="openSidebar('90_Altar of Lost Fire',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\145_Shifting Roots.png" id="145_Shifting Roots" data-flag="@X" onclick="openSidebar('145_Shifting Roots',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\5_Angel of Pure Faith.png" id="5_Angel of Pure Faith" data-flag="@X" onclick="openSidebar('5_Angel of Pure Faith',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\31_Adaptive Mage.png" id="31_Adaptive Mage" data-flag="@X" onclick="openSidebar('31_Adaptive Mage',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\61_Altar of Lost Shadows.png" id="61_Altar of Lost Shadows" data-flag="@X" onclick="openSidebar('61_Altar of Lost Shadows',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\92_Arid Forest Venturer.png" id="92_Arid Forest Venturer" data-flag="@X" onclick="openSidebar('92_Arid Forest Venturer',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\119_Alanar Forest Fighter.png" id="119_Alanar Forest Fighter" data-flag="@X" onclick="openSidebar('119_Alanar Forest Fighter',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SHS-files\img\11_Dark Thought-Thief_back.png" alt="/sets\SHS-files\img\11_Dark Thought-Thief_front.png" id="11_Dark Thought-Thief" data-flag="@XD" onclick="openSidebar('11_Dark Thought-Thief',false)"><button class="flip-btn" onclick="imgFlip('11_Dark Thought-Thief')"></button></div>
+			<div class="container"><img alt="/sets\SHS-files\img\33_Altar of Lost Curiosity.png" id="33_Altar of Lost Curiosity" data-flag="@X" onclick="openSidebar('33_Altar of Lost Curiosity',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\67_Demonic Studies.png" id="67_Demonic Studies" data-flag="@X" onclick="openSidebar('67_Demonic Studies',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\97_Conjurer of Lost Joy.png" id="97_Conjurer of Lost Joy" data-flag="@X" onclick="openSidebar('97_Conjurer of Lost Joy',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\120_Altar of Lost Colors.png" id="120_Altar of Lost Colors" data-flag="@X" onclick="openSidebar('120_Altar of Lost Colors',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\17_Lit Meteorite.png" id="17_Lit Meteorite" data-flag="@X" onclick="openSidebar('17_Lit Meteorite',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\35_Beyond the Tower.png" id="35_Beyond the Tower" data-flag="@X" onclick="openSidebar('35_Beyond the Tower',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\68_Destruction Circle.png" id="68_Destruction Circle" data-flag="@X" onclick="openSidebar('68_Destruction Circle',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\99_Desert Admiral.png" id="99_Desert Admiral" data-flag="@X" onclick="openSidebar('99_Desert Admiral',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\121_Blade of Verdant Exploration.png" id="121_Blade of Verdant Exploration" data-flag="@X" onclick="openSidebar('121_Blade of Verdant Exploration',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\18_Mind Healer.png" id="18_Mind Healer" data-flag="@X" onclick="openSidebar('18_Mind Healer',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\36_Corrupter of Magic.png" id="36_Corrupter of Magic" data-flag="@X" onclick="openSidebar('36_Corrupter of Magic',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\73_Lost Crypt.png" id="73_Lost Crypt" data-flag="@X" onclick="openSidebar('73_Lost Crypt',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\101_Firelight Duelist.png" id="101_Firelight Duelist" data-flag="@X" onclick="openSidebar('101_Firelight Duelist',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\124_Cloud Invocation.png" id="124_Cloud Invocation" data-flag="@X" onclick="openSidebar('124_Cloud Invocation',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\20_Recruit Trainer.png" id="20_Recruit Trainer" data-flag="@X" onclick="openSidebar('20_Recruit Trainer',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SHS-files\img\37_Dark Summoner_back.png" alt="/sets\SHS-files\img\37_Dark Summoner_front.png" id="37_Dark Summoner" data-flag="@XD" onclick="openSidebar('37_Dark Summoner',false)"><button class="flip-btn" onclick="imgFlip('37_Dark Summoner')"></button></div>
+			<div class="container"><img alt="/sets\SHS-files\img\74_One With Shadows.png" id="74_One With Shadows" data-flag="@X" onclick="openSidebar('74_One With Shadows',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\107_Mesa Spearman.png" id="107_Mesa Spearman" data-flag="@X" onclick="openSidebar('107_Mesa Spearman',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\128_Druid of Iriatu.png" id="128_Druid of Iriatu" data-flag="@X" onclick="openSidebar('128_Druid of Iriatu',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SHS-files\img\22_Shattered Sword Cleaver_back.png" alt="/sets\SHS-files\img\22_Shattered Sword Cleaver_front.png" id="22_Shattered Sword Cleaver" data-flag="@XD" onclick="openSidebar('22_Shattered Sword Cleaver',false)"><button class="flip-btn" onclick="imgFlip('22_Shattered Sword Cleaver')"></button></div>
+			<div class="container"><img alt="/sets\SHS-files\img\40_Dreams of Color.png" id="40_Dreams of Color" data-flag="@X" onclick="openSidebar('40_Dreams of Color',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SHS-files\img\78_Shattered Sword Assassin_back.png" alt="/sets\SHS-files\img\78_Shattered Sword Assassin_front.png" id="78_Shattered Sword Assassin" data-flag="@XD" onclick="openSidebar('78_Shattered Sword Assassin',false)"><button class="flip-btn" onclick="imgFlip('78_Shattered Sword Assassin')"></button></div>
+			<div class="container"><img alt="/sets\SHS-files\img\111_Rage of Fiery Darkness.png" id="111_Rage of Fiery Darkness" data-flag="@X" onclick="openSidebar('111_Rage of Fiery Darkness',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\139_Marsh Explorer.png" id="139_Marsh Explorer" data-flag="@X" onclick="openSidebar('139_Marsh Explorer',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\28_Thalur Recruiter.png" id="28_Thalur Recruiter" data-flag="@X" onclick="openSidebar('28_Thalur Recruiter',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\49_Oracle of Wisps.png" id="49_Oracle of Wisps" data-flag="@X" onclick="openSidebar('49_Oracle of Wisps',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\79_Shattered Sword Brainwasher.png" id="79_Shattered Sword Brainwasher" data-flag="@X" onclick="openSidebar('79_Shattered Sword Brainwasher',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\112_Shattered Sword Punisher.png" id="112_Shattered Sword Punisher" data-flag="@X" onclick="openSidebar('112_Shattered Sword Punisher',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\141_Reclaimer of Aenir.png" id="141_Reclaimer of Aenir" data-flag="@X" onclick="openSidebar('141_Reclaimer of Aenir',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SHS-files\img\30_Unchained Nightwatcher_back.png" alt="/sets\SHS-files\img\30_Unchained Nightwatcher_front.png" id="30_Unchained Nightwatcher" data-flag="@XD" onclick="openSidebar('30_Unchained Nightwatcher',false)"><button class="flip-btn" onclick="imgFlip('30_Unchained Nightwatcher')"></button></div>
+			<div class="container"><img alt="/sets\SHS-files\img\51_Sage of Aenir's Reclamation.png" id="51_Sage of Aenirs Reclamation" data-flag="@X" onclick="openSidebar('51_Sage of Aenirs Reclamation',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\87_Western Army Commander.png" id="87_Western Army Commander" data-flag="@X" onclick="openSidebar('87_Western Army Commander',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\91_Arid Attacker.png" id="91_Arid Attacker" data-flag="@X" onclick="openSidebar('91_Arid Attacker',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\143_Scout of Attunement.png" id="143_Scout of Attunement" data-flag="@X" onclick="openSidebar('143_Scout of Attunement',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\1_Alliance Medic.png" id="1_Alliance Medic" data-flag="@X" onclick="openSidebar('1_Alliance Medic',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\54_Shattered Sword Duplicator.png" id="54_Shattered Sword Duplicator" data-flag="@X" onclick="openSidebar('54_Shattered Sword Duplicator',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\62_Corrupted Grounds.png" id="62_Corrupted Grounds" data-flag="@X" onclick="openSidebar('62_Corrupted Grounds',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\95_Butcher of Graves.png" id="95_Butcher of Graves" data-flag="@X" onclick="openSidebar('95_Butcher of Graves',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\146_Undiscovered Depths Scout.png" id="146_Undiscovered Depths Scout" data-flag="@X" onclick="openSidebar('146_Undiscovered Depths Scout',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SHS-files\img\3_Alnak Blade Student_back.png" alt="/sets\SHS-files\img\3_Alnak Blade Student_front.png" id="3_Alnak Blade Student" data-flag="@XD" onclick="openSidebar('3_Alnak Blade Student',false)"><button class="flip-btn" onclick="imgFlip('3_Alnak Blade Student')"></button></div>
+			<div class="container"><img alt="/sets\SHS-files\img\32_Alanar Teacher.png" id="32_Alanar Teacher" data-flag="@X" onclick="openSidebar('32_Alanar Teacher',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\64_Darkmoon Aurora.png" id="64_Darkmoon Aurora" data-flag="@X" onclick="openSidebar('64_Darkmoon Aurora',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\96_Call of Answers.png" id="96_Call of Answers" data-flag="@X" onclick="openSidebar('96_Call of Answers',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\118_Aenir Expedition.png" id="118_Aenir Expedition" data-flag="@X" onclick="openSidebar('118_Aenir Expedition',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\6_Aqiman Charger.png" id="6_Aqiman Charger" data-flag="@X" onclick="openSidebar('6_Aqiman Charger',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\34_Answer Seeker.png" id="34_Answer Seeker" data-flag="@X" onclick="openSidebar('34_Answer Seeker',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\70_Horror of the Bog.png" id="70_Horror of the Bog" data-flag="@X" onclick="openSidebar('70_Horror of the Bog',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\98_Crimson Lights.png" id="98_Crimson Lights" data-flag="@X" onclick="openSidebar('98_Crimson Lights',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\125_Dark Forest Fighter.png" id="125_Dark Forest Fighter" data-flag="@X" onclick="openSidebar('125_Dark Forest Fighter',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SHS-files\img\9_Corrupted Kirali_back.png" alt="/sets\SHS-files\img\9_Corrupted Kirali_front.png" id="9_Corrupted Kirali" data-flag="@XD" onclick="openSidebar('9_Corrupted Kirali',false)"><button class="flip-btn" onclick="imgFlip('9_Corrupted Kirali')"></button></div>
+			<div class="container"><img alt="/sets\SHS-files\img\38_Darkness Searcher.png" id="38_Darkness Searcher" data-flag="@X" onclick="openSidebar('38_Darkness Searcher',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\71_Irkian Mindrender.png" id="71_Irkian Mindrender" data-flag="@X" onclick="openSidebar('71_Irkian Mindrender',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\100_Fellfire Restoration.png" id="100_Fellfire Restoration" data-flag="@X" onclick="openSidebar('100_Fellfire Restoration',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\126_Dark Forest Surveyor.png" id="126_Dark Forest Surveyor" data-flag="@X" onclick="openSidebar('126_Dark Forest Surveyor',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\10_Crafty Escape.png" id="10_Crafty Escape" data-flag="@X" onclick="openSidebar('10_Crafty Escape',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\41_Enchanting of Stones.png" id="41_Enchanting of Stones" data-flag="@X" onclick="openSidebar('41_Enchanting of Stones',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\77_Shadow Duplication.png" id="77_Shadow Duplication" data-flag="@X" onclick="openSidebar('77_Shadow Duplication',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\102_Icefire Ally.png" id="102_Icefire Ally" data-flag="@X" onclick="openSidebar('102_Icefire Ally',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\127_Deep-Jungle Bear.png" id="127_Deep-Jungle Bear" data-flag="@X" onclick="openSidebar('127_Deep-Jungle Bear',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\12_Desert Commander.png" id="12_Desert Commander" data-flag="@X" onclick="openSidebar('12_Desert Commander',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\43_Icy Aurora.png" id="43_Icy Aurora" data-flag="@X" onclick="openSidebar('43_Icy Aurora',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SHS-files\img\80_Shattered Sword Soldier_back.png" alt="/sets\SHS-files\img\80_Shattered Sword Soldier_front.png" id="80_Shattered Sword Soldier" data-flag="@XD" onclick="openSidebar('80_Shattered Sword Soldier',false)"><button class="flip-btn" onclick="imgFlip('80_Shattered Sword Soldier')"></button></div>
+			<div class="container"><img alt="/sets\SHS-files\img\103_Irkian Flagbearer.png" id="103_Irkian Flagbearer" data-flag="@X" onclick="openSidebar('103_Irkian Flagbearer',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\133_Iriatu Healer.png" id="133_Iriatu Healer" data-flag="@X" onclick="openSidebar('133_Iriatu Healer',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\13_Frostpath Soldier.png" id="13_Frostpath Soldier" data-flag="@X" onclick="openSidebar('13_Frostpath Soldier',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\45_Learn Through Repetition.png" id="45_Learn Through Repetition" data-flag="@X" onclick="openSidebar('45_Learn Through Repetition',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\81_Shattered Sword Warlock.png" id="81_Shattered Sword Warlock" data-flag="@X" onclick="openSidebar('81_Shattered Sword Warlock',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\104_Jungle Adept.png" id="104_Jungle Adept" data-flag="@X" onclick="openSidebar('104_Jungle Adept',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\134_Jungle Scout.png" id="134_Jungle Scout" data-flag="@X" onclick="openSidebar('134_Jungle Scout',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SHS-files\img\14_Frostpath Traveler_back.png" alt="/sets\SHS-files\img\14_Frostpath Traveler_front.png" id="14_Frostpath Traveler" data-flag="@XD" onclick="openSidebar('14_Frostpath Traveler',false)"><button class="flip-btn" onclick="imgFlip('14_Frostpath Traveler')"></button></div>
+			<div class="container"><img data-alt_src="/sets\SHS-files\img\46_Lightning Retort_back.png" alt="/sets\SHS-files\img\46_Lightning Retort_front.png" id="46_Lightning Retort" data-flag="@XD" onclick="openSidebar('46_Lightning Retort',false)"><button class="flip-btn" onclick="imgFlip('46_Lightning Retort')"></button></div>
+			<div class="container"><img data-alt_src="/sets\SHS-files\img\82_Soul Whisperer_back.png" alt="/sets\SHS-files\img\82_Soul Whisperer_front.png" id="82_Soul Whisperer" data-flag="@XD" onclick="openSidebar('82_Soul Whisperer',false)"><button class="flip-btn" onclick="imgFlip('82_Soul Whisperer')"></button></div>
+			<div class="container"><img alt="/sets\SHS-files\img\105_Kangal Martyr.png" id="105_Kangal Martyr" data-flag="@X" onclick="openSidebar('105_Kangal Martyr',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\135_Last Watch of Alanar.png" id="135_Last Watch of Alanar" data-flag="@X" onclick="openSidebar('135_Last Watch of Alanar',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\15_Head of Recruitment.png" id="15_Head of Recruitment" data-flag="@X" onclick="openSidebar('15_Head of Recruitment',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\48_Lost Servant.png" id="48_Lost Servant" data-flag="@X" onclick="openSidebar('48_Lost Servant',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\83_Undying Shadowblade.png" id="83_Undying Shadowblade" data-flag="@X" onclick="openSidebar('83_Undying Shadowblade',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\109_Night Rider of Fire.png" id="109_Night Rider of Fire" data-flag="@X" onclick="openSidebar('109_Night Rider of Fire',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\136_Lost Forest Relic.png" id="136_Lost Forest Relic" data-flag="@X" onclick="openSidebar('136_Lost Forest Relic',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\19_New Recruit.png" id="19_New Recruit" data-flag="@X" onclick="openSidebar('19_New Recruit',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SHS-files\img\50_Prophetic Crystal_back.png" alt="/sets\SHS-files\img\50_Prophetic Crystal_front.png" id="50_Prophetic Crystal" data-flag="@XD" onclick="openSidebar('50_Prophetic Crystal',false)"><button class="flip-btn" onclick="imgFlip('50_Prophetic Crystal')"></button></div>
+			<div class="container"><img alt="/sets\SHS-files\img\86_Warlock of the Tower.png" id="86_Warlock of the Tower" data-flag="@X" onclick="openSidebar('86_Warlock of the Tower',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\114_Spearman of the Alliance.png" id="114_Spearman of the Alliance" data-flag="@X" onclick="openSidebar('114_Spearman of the Alliance',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\142_Ruins of Decay.png" id="142_Ruins of Decay" data-flag="@X" onclick="openSidebar('142_Ruins of Decay',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\24_Shattered Swordbearer.png" id="24_Shattered Swordbearer" data-flag="@X" onclick="openSidebar('24_Shattered Swordbearer',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\53_Servant to Magius.png" id="53_Servant to Magius" data-flag="@X" onclick="openSidebar('53_Servant to Magius',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\88_Witch of Thirak.png" id="88_Witch of Thirak" data-flag="@X" onclick="openSidebar('88_Witch of Thirak',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\116_Thalur Firewizard.png" id="116_Thalur Firewizard" data-flag="@X" onclick="openSidebar('116_Thalur Firewizard',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\144_Scout of the West.png" id="144_Scout of the West" data-flag="@X" onclick="openSidebar('144_Scout of the West',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SHS-files\img\25_Shattered Swordsman_back.png" alt="/sets\SHS-files\img\25_Shattered Swordsman_front.png" id="25_Shattered Swordsman" data-flag="@XD" onclick="openSidebar('25_Shattered Swordsman',false)"><button class="flip-btn" onclick="imgFlip('25_Shattered Swordsman')"></button></div>
+			<div class="container"><img alt="/sets\SHS-files\img\55_Shattered Sword Iceblade.png" id="55_Shattered Sword Iceblade" data-flag="@X" onclick="openSidebar('55_Shattered Sword Iceblade',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\117_Warlock of Dark Fire.png" id="117_Warlock of Dark Fire" data-flag="@X" onclick="openSidebar('117_Warlock of Dark Fire',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\26_Spirit Strike.png" id="26_Spirit Strike" data-flag="@X" onclick="openSidebar('26_Spirit Strike',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\58_Window to Lost Souls.png" id="58_Window to Lost Souls" data-flag="@X" onclick="openSidebar('58_Window to Lost Souls',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="gold" class="anchor"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\152_Cave of Ice.png" id="152_Cave of Ice" data-flag="@X" onclick="openSidebar('152_Cave of Ice',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\170_Xirok, the Shattered One.png" id="170_Xirok, the Shattered One" data-flag="@X" onclick="openSidebar('170_Xirok, the Shattered One',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\158_Demonic Protector.png" id="158_Demonic Protector" data-flag="@X" onclick="openSidebar('158_Demonic Protector',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\150_Attuned Landscape.png" id="150_Attuned Landscape" data-flag="@X" onclick="openSidebar('150_Attuned Landscape',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\159_Drorix, Divine Outcast.png" id="159_Drorix, Divine Outcast" data-flag="@X" onclick="openSidebar('159_Drorix, Divine Outcast',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\163_Mind Thief.png" id="163_Mind Thief" data-flag="@X" onclick="openSidebar('163_Mind Thief',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\153_The Circle of Ash.png" id="153_The Circle of Ash" data-flag="@X" onclick="openSidebar('153_The Circle of Ash',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\160_Erki, Blade of Darkness.png" id="160_Erki, Blade of Darkness" data-flag="@X" onclick="openSidebar('160_Erki, Blade of Darkness',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\151_Autumn Mage.png" id="151_Autumn Mage" data-flag="@X" onclick="openSidebar('151_Autumn Mage',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\187_Unending Reinforcements.png" id="187_Unending Reinforcements" data-flag="@X" onclick="openSidebar('187_Unending Reinforcements',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\175_Call of Control.png" id="175_Call of Control" data-flag="@X" onclick="openSidebar('175_Call of Control',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\157_Darkness Unchained.png" id="157_Darkness Unchained" data-flag="@X" onclick="openSidebar('157_Darkness Unchained',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\156_Corrupter of Nature.png" id="156_Corrupter of Nature" data-flag="@X" onclick="openSidebar('156_Corrupter of Nature',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\149_Armored Recruiter.png" id="149_Armored Recruiter" data-flag="@X" onclick="openSidebar('149_Armored Recruiter',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\155_Corrupted Ritualist.png" id="155_Corrupted Ritualist" data-flag="@X" onclick="openSidebar('155_Corrupted Ritualist',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\176_Corrupting Fire.png" id="176_Corrupting Fire" data-flag="@X" onclick="openSidebar('176_Corrupting Fire',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\183_Search the Forest.png" id="183_Search the Forest" data-flag="@X" onclick="openSidebar('183_Search the Forest',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\181_Into the Cave.png" id="181_Into the Cave" data-flag="@X" onclick="openSidebar('181_Into the Cave',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\167_Return the Sword.png" id="167_Return the Sword" data-flag="@X" onclick="openSidebar('167_Return the Sword',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SHS-files\img\161_Galranok, Oracle of Magic_back.png" alt="/sets\SHS-files\img\161_Galranok, Oracle of Magic_front.png" id="161_Galranok, Oracle of Magic" data-flag="@XD" onclick="openSidebar('161_Galranok, Oracle of Magic',false)"><button class="flip-btn" onclick="imgFlip('161_Galranok, Oracle of Magic')"></button></div>
+			<div class="container"><img alt="/sets\SHS-files\img\165_Recoiling Regrowth.png" id="165_Recoiling Regrowth" data-flag="@X" onclick="openSidebar('165_Recoiling Regrowth',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\164_Raziq, Desert Hero.png" id="164_Raziq, Desert Hero" data-flag="@X" onclick="openSidebar('164_Raziq, Desert Hero',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\168_Valley of Paradise.png" id="168_Valley of Paradise" data-flag="@X" onclick="openSidebar('168_Valley of Paradise',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\162_Ironrun Soldier.png" id="162_Ironrun Soldier" data-flag="@X" onclick="openSidebar('162_Ironrun Soldier',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\166_Relive Rage.png" id="166_Relive Rage" data-flag="@X" onclick="openSidebar('166_Relive Rage',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\154_Corrupted Forester.png" id="154_Corrupted Forester" data-flag="@X" onclick="openSidebar('154_Corrupted Forester',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\148_Allied Commander.png" id="148_Allied Commander" data-flag="@X" onclick="openSidebar('148_Allied Commander',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\188_Verdant Discovery.png" id="188_Verdant Discovery" data-flag="@X" onclick="openSidebar('188_Verdant Discovery',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\172_Angel of Darkened Faith.png" id="172_Angel of Darkened Faith" data-flag="@X" onclick="openSidebar('172_Angel of Darkened Faith',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\169_Volcano Sage.png" id="169_Volcano Sage" data-flag="@X" onclick="openSidebar('169_Volcano Sage',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\177_Dark Dredging.png" id="177_Dark Dredging" data-flag="@X" onclick="openSidebar('177_Dark Dredging',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\173_Brave Strike.png" id="173_Brave Strike" data-flag="@X" onclick="openSidebar('173_Brave Strike',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\171_Alanar Water Mage.png" id="171_Alanar Water Mage" data-flag="@X" onclick="openSidebar('171_Alanar Water Mage',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\186_Soul Drain.png" id="186_Soul Drain" data-flag="@X" onclick="openSidebar('186_Soul Drain',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\185_Seek the World of Dreams.png" id="185_Seek the World of Dreams" data-flag="@X" onclick="openSidebar('185_Seek the World of Dreams',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\178_Explore the Depths.png" id="178_Explore the Depths" data-flag="@X" onclick="openSidebar('178_Explore the Depths',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\180_Immolating Smite.png" id="180_Immolating Smite" data-flag="@X" onclick="openSidebar('180_Immolating Smite',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\182_River Scout.png" id="182_River Scout" data-flag="@X" onclick="openSidebar('182_River Scout',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\179_Icefire Bolt.png" id="179_Icefire Bolt" data-flag="@X" onclick="openSidebar('179_Icefire Bolt',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\184_Seek Answers.png" id="184_Seek Answers" data-flag="@X" onclick="openSidebar('184_Seek Answers',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="colorless" class="anchor"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\191_Drorix's Sword.png" id="191_Drorixs Sword" data-flag="@X" onclick="openSidebar('191_Drorixs Sword',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\190_Attuned Spellcharger.png" id="190_Attuned Spellcharger" data-flag="@X" onclick="openSidebar('190_Attuned Spellcharger',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\192_Gate to the Tower.png" id="192_Gate to the Tower" data-flag="@X" onclick="openSidebar('192_Gate to the Tower',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\193_Stone of Darkness.png" id="193_Stone of Darkness" data-flag="@X" onclick="openSidebar('193_Stone of Darkness',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\196_The Ice Wastes.png" id="196_The Ice Wastes" data-flag="@X" onclick="openSidebar('196_The Ice Wastes',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\198_Kiral, Desert Village.png" id="198_Kiral, Desert Village" data-flag="@X" onclick="openSidebar('198_Kiral, Desert Village',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\194_The Corrupted Lands.png" id="194_The Corrupted Lands" data-flag="@X" onclick="openSidebar('194_The Corrupted Lands',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\201_Verdant Cliffside.png" id="201_Verdant Cliffside" data-flag="@X" onclick="openSidebar('201_Verdant Cliffside',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\197_Iriatu Falls.png" id="197_Iriatu Falls" data-flag="@X" onclick="openSidebar('197_Iriatu Falls',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\199_Lephyx's Crystal.png" id="199_Lephyxs Crystal" data-flag="@X" onclick="openSidebar('199_Lephyxs Crystal',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\200_Marraq.png" id="200_Marraq" data-flag="@X" onclick="openSidebar('200_Marraq',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\195_Evolving Wilds.png" id="195_Evolving Wilds" data-flag="@X" onclick="openSidebar('195_Evolving Wilds',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\202_Plains.png" id="202_Plains" data-flag="@X" onclick="openSidebar('202_Plains',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\203_Island.png" id="203_Island" data-flag="@X" onclick="openSidebar('203_Island',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\204_Swamp.png" id="204_Swamp" data-flag="@X" onclick="openSidebar('204_Swamp',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\205_Mountain.png" id="205_Mountain" data-flag="@X" onclick="openSidebar('205_Mountain',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\206_Forest.png" id="206_Forest" data-flag="@X" onclick="openSidebar('206_Forest',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="token" class="anchor"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\2t_Warlock.png" id="2t_Warlock" data-flag="@X" onclick="openSidebar('2t_Warlock',false)"></div>
+			<div class="container"><img alt="/sets\SHS-files\img\1t_Ally.png" id="1t_Ally" data-flag="@X" onclick="openSidebar('1t_Ally',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>

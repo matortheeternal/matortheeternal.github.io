@@ -293,9 +293,19 @@ def generateHTML(codes):
 			displayStyle = document.getElementById("display").value;
 			setCardView();
 
+			defaultSetting('settings.autosave', 'On');
+			defaultSetting('settings.searchalias', 'On');
+			defaultSetting('settings.exportcube', 'On');
+
 			// initial search on load
 			preSearch(false);
 		});
+
+		function defaultSetting(name, default_) {
+			if (localStorage.getItem(name) == null) {
+				localStorage.setItem(name, default_);
+			}
+		}
 
 		function displayChangeListener() {
 			displayStyle = document.getElementById("display").value;
@@ -477,7 +487,7 @@ def generateHTML(codes):
 	with open(os.path.join('resources', 'snippets', 'search-defs.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
-
+	
 	with open(os.path.join('resources', 'snippets', 'tokenize-symbolize.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet

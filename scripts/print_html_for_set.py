@@ -9,7 +9,7 @@ import re
 def generateHTML(code):
 	#F: /sets/SET.html
 	output_html_file = "sets/" + code + ".html"
-	
+
 	with open(os.path.join('lists', 'all-sets.json'), encoding='utf-8-sig') as f:
 		data = json.load(f)
 		for s in data['sets']:
@@ -39,10 +39,22 @@ def generateHTML(code):
 		overscroll-behavior: none;
 		margin: 0px;
 		background-color: #f3f3f3;
+		background-position: center;
+		background-attachment: fixed;
+		background-size: cover;
+	'''
+
+	if os.path.exists(os.path.join('sets', code + '-files', 'bg.png')):
+		html_content += f"\tbackground-image: url('/sets/{code}-files/bg.png');\n"
+	elif os.path.exists(os.path.join('sets', code + '-files', 'bg.jpg')):
+		html_content += f"\tbackground-image: url('/sets/{code}-files/bg.jpg');\n"
+
+	html_content += '''
 	}
 	.banner {
 		width: 100%;
 		background-color: #bbbbbb;
+		border-bottom: 3px solid black;
 	}
 	.banner-container {
 		width: 85%;
@@ -299,13 +311,13 @@ def generateHTML(code):
 		for img_name in re.findall(img_re, md_html):
 			img_name_re = r'%' + img_name + '%'
 			if img_name == 'logo' or img_name == 'icon':
-				img_path = '/'.join([ '/sets', code + '-files', img_name + '.png' ])
+				img_path = os.path.join('/sets', code + '-files', img_name + '.png')
 			else:
 				with open(os.path.join('sets', code + '-files', code + '.json'), encoding='utf-8-sig') as f:
 					set_json = json.load(f)
 				for card in set_json['cards']:
 					if card['card_name'] == img_name:
-						img_path = '/'.join([ '/sets', code + '-files', 'img', str(card['number']) + ('t' if 'token' in card['shape'] else '') + '_' + img_name + '.png' ])
+						img_path = os.path.join('/sets', code + '-files', 'img', str(card['number']) + ('t' if 'token' in card['shape'] else '') + '_' + img_name + '.png')
 						break
 					img_path = 'missing'
 			md_html = re.sub(img_name_re, img_path, md_html)

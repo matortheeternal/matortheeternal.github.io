@@ -100,6 +100,9 @@ def generateHTML():
 		font-size: 20px;
 		white-space: pre-wrap;
 	}
+	.name-cost {
+		font-family: beleren;
+	}
 	.card-text .type {
 		font-size: 16px;
 	}
