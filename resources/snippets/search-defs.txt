@@ -1,4 +1,4 @@
- function tokenizeTerms(searchTerms)
+function tokenizeTerms(searchTerms)
 		{
 			let tokenRegex = /-?\w*[!:<>=]?(([^ "\(\)\/“”]+)|(\".+?\")|(\(.+?\))|(\/.+?\/)|(\“.+?\”))/g;
 			let searchTokens = searchTerms.match(tokenRegex);
@@ -391,7 +391,7 @@
 				{
 					if (modifier == ":")
 					{
-						let regex = new RegExp(check.replaceAll("+","\\+"));
+						regex = new RegExp(check.replaceAll("+","\\+"));
 						return regex.test(card_oracle_text);
 					}
 					/* unsupported flows
@@ -527,10 +527,6 @@
 
 					} */
 				}
-				if (term == "alias") {
-					let regex = new RegExp(check.replaceAll("+","\\+"));
-					return regex.test(card_stats.special_text);
-				}
 				if (term == "f" || term=="format")
 				{
 					if (modifier == ":" || modifier == "!" || modifier == "=")
@@ -587,22 +583,6 @@
 							}
 							return false;
 						}
-						if (check == "sanctum") {
-							let regex = new RegExp("((P|p)athbound|(H|h)eir–)");
-							if (regex.test(card_oracle_text)) {
-								return true;
-							} else {
-								if (card_type.includes("wonder") || card_type.includes("erysite") || card_type.includes("realm") || card_type.includes("frontier")) {
-									return true;
-								} else {
-									if (card.special_text.includes("sanctum")) {
-										return true;
-									} else {
-										return false;
-									}
-								}
-							}						
-						}
 					}
 					/* unsupported flows
 					else if (modifier == "<")
@@ -629,14 +609,7 @@
 						return card_artist.includes(check);
 					}
 				}
-				if (term == "a" || term == "art" || term == "artist")
-				{
-					if (modifier == ":" || modifier == "=" || modifier == "!")
-					{
-						return card_artist.includes(check);
-					}
-				}
 			}
-			let regex = new RegExp(token.replaceAll("+","\\+"));
-			return (regex.test(card_stats.special_text) && (localStorage.getItem('settings.searchalias') == "On")) || card_name.includes(token);
+
+			return card_name.includes(token);
 		}

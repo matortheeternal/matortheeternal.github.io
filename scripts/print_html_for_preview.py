@@ -55,13 +55,7 @@ def generateHTML(setCode):
 			padding: 0;
 			overscroll-behavior: none;
 			background-size: cover;
-			background-attachment: fixed;'''
-	if os.path.exists(os.path.join('sets', setCode + '-files', 'bg.png')):
-		html_content += f"\tbackground-image: url('/sets/{setCode}-files/bg.png');\n"
-	print(os.path.join('sets', setCode + '-files', 'bg.jpg'))
-	if os.path.exists(os.path.join('sets', setCode + '-files', 'bg.jpg')):
-		html_content += f"\tbackground-image: url('/sets/{setCode}-files/bg.jpg');\n"
-	html_content += '''
+			background-attachment: fixed;
 		}
 		.main-content {
 			position: relative;
@@ -214,14 +208,10 @@ def generateHTML(setCode):
 		html_content += '''<img class="preload-hidden" src="/sets/''' + code + '''-files/icon.png" />
 		'''
 
-	# if os.path.exists(os.path.join('sets', setCode + '-files', 'bg.png')):
-	# 	html_content +='''<img class="preload-hidden" id="bg" src="/sets/''' + setCode + '''-files/bg.png" />
+	if os.path.exists(os.path.join('sets', setCode + '-files', 'bg.png')):
+		html_content +='''<img class="preload-hidden" id="bg" src="/sets/''' + setCode + '''-files/bg.png" />
 		
-	# 	'''
-	# if os.path.exists(os.path.join('sets', setCode + '-files', 'bg.jpg')):
-	# 	html_content +='''<img class="preload-hidden" id="bg" src="/sets/''' + setCode + '''-files/bg.jpg" />
-		
-	# 	'''
+		'''
 
 	#F: goes to resources/snippets/header.txt and gets a header, inserting it after everything so far
 	with open(os.path.join('resources', 'snippets', 'header.txt'), encoding='utf-8-sig') as f:
@@ -371,6 +361,8 @@ def generateHTML(setCode):
 
 	#F: sets/SET-files/bg.png
 	#F:
+	if os.path.exists(os.path.join('sets', setCode + '-files', 'bg.png')):
+		html_content += '''document.body.style.backgroundImage = 'url(' + document.getElementById("bg").src + ')';'''
 
 	#F: this is the point where the DOMContentLoaded bit ends
 	html_content += '''

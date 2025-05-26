@@ -31,6 +31,7 @@ def convertList(setCode):
 		for j in range(i):
 			if cards[i]['card_name'] == cards[j]['card_name'] and "token" not in cards[i]['shape'] and "Basic" not in cards[i]['type']:
 				skipdex.append(cards[j]['number'])
+
 	final_list = []
 	cards_mono = []
 	cards_multi = []
@@ -49,7 +50,6 @@ def convertList(setCode):
 		'B': [],
 		'R': [],
 		'G': [],
-		'I': [],
 		'WU': [],
 		'UB': [],
 		'BR': [],
@@ -60,11 +60,6 @@ def convertList(setCode):
 		'GU': [],
 		'UR': [],
 		'RW': [],
-		'IW': [],
-		'IU': [],
-		'IB': [],
-		'IR': [],
-		'IG': [],
 		'WUB': [],
 		'UBR': [],
 		'BRG': [],
@@ -75,16 +70,6 @@ def convertList(setCode):
 		'GUR': [],
 		'URW': [],
 		'RWB': [],
-		'IWU': [],
-		'IUB': [],
-		'IBR': [],
-		'IRG': [],
-		'IGW': [],
-		'IWB': [],
-		'IBG': [],
-		'IGU': [],
-		'IUR': [],
-		'IRW': [],
 		'gold': [],
 		'C': [],
 		'WL': [],
@@ -92,7 +77,6 @@ def convertList(setCode):
 		'BL': [],
 		'RL': [],
 		'GL': [],
-		'IL': [],
 		'WUL': [],
 		'UBL': [],
 		'BRL': [],
@@ -103,15 +87,6 @@ def convertList(setCode):
 		'GUL': [],
 		'URL': [],
 		'RWL': [],
-		'IWL': [],
-		'IUL': [],
-		'IBL': [],
-		'IRL': [],
-		'IGL': [],
-		'L': [],
-		'basic': [],
-		'token': [],
-		'mp': [],
 		'L': [],
 		'basic': [],
 		'token': [],
