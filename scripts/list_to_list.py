@@ -25,7 +25,7 @@ def convertList(setCode):
 	sort_groups = []
 	#F: This gets any alt-arts in a single set and adds their card number to a list of cards to skip.
 	for i in range(len(cards)):
-		match = re.match(r'!group ([^ \n]+)', cards[i]['notes'])
+		match = re.search(r'!group ([^ \n]+)', cards[i]['notes'])
 		if match and match.group() not in sort_groups:
 			sort_groups.append(match.group())
 		for j in range(i):

@@ -1104,7 +1104,7 @@ def generateHTML(codes):
 
 								add_btn.src = "/img/sb-add.png";
 								add_btn.onclick = function() {
-									sideboard.push(card);
+									sideboard.splice(sideboard.indexOf(card), 1);
 									processDeck();
 								}
 
@@ -1185,7 +1185,7 @@ def generateHTML(codes):
 			}
 			if (sideboard.length != 0)
 			{
-				deck_text += export_cod ? '\\t</zone>\\n\\t<zone name="sideboard">\\n' : "sideboard\\n";
+				deck_text += export_cod ? '\\t</zone>\\n\\t<zone name="side">\\n' : "sideboard\\n";
 				map = new Map([]);
 				for (const card of sideboard)
 				{
