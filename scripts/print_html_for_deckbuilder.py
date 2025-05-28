@@ -1104,12 +1104,12 @@ def generateHTML(codes):
 
 								add_btn.src = "/img/sb-add.png";
 								add_btn.onclick = function() {
-									sideboard.splice(sideboard.indexOf(card), 1);
+									sideboard.push(card);
 									processDeck();
 								}
 
 								card_img.onclick = function() {
-									sideboard.push(card);
+									sideboard.splice(sideboard.indexOf(card), 1);
 									addCardToDeck(card);
 								}
 							}
