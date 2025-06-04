@@ -1,6 +1,7 @@
 import os
 import sys
 import json
+import re
 
 #F = Fungustober's notes
 def filtered(card, filters):
@@ -34,6 +35,10 @@ def generateFile(code):
 	'''
 
 	for card in set_data['cards']:
+		# clean hybrids
+		h_pattern = r'\{([A-Z0-9])([A-Z])\}'
+		h_replace = r'{\1/\2}'
+
 		for slot in structure:
 			slot_name = slot['name']
 			if slot_name == 'wildcard' and not filtered(card, filters) and not 'Basic' in card['type'] and not 'token' in card['shape']:
@@ -47,8 +52,8 @@ def generateFile(code):
 
 		draft_string += '''	{
 			"name": "''' + card['card_name'] + '''",
-			"rarity": "''' + card['rarity'] + '''",
-			"mana_cost": "''' + card['cost'] + '''",
+			"rarity": "''' + ('special' if card['rarity'] == 'cube' else card['rarity']) + '''",
+			"mana_cost": "''' + re.sub(h_pattern, h_replace, card['cost']) + '''",
 			"type": "''' + card['type'] + '''",
 			"collector_number": "''' + str(card['number']) + '''",
 	'''
@@ -86,8 +91,6 @@ def generateFile(code):
 				match c['rarity']:
 					case 'mythic':
 						count = 1
-					case 'cube':
-						count = 1
 					case 'rare':
 						count = 2
 					case 'uncommon':
@@ -105,6 +108,8 @@ def generateFile(code):
 						count = 15
 					case 'common':
 						count = 6
+			elif slot['balanced'] == 'c': # cube distribution
+				count = 1
 			else:
 				count = 5
 
