@@ -34,7 +34,7 @@ Finally, in the bar along the top, select "Fetch origin" to pull the origin into
 
 > :memo: **Note:** This exporter uses the "Title" and "Set code" entered in the "Set info" tab of your MSE set. If those aren't set, the exporter will exhibit strange behavior.
 
-In the resources folder of your cloned repo, you'll find the "magic-egg-allinone" exporter. Copy that into the "data" folder of MSE, then open the program. Open a set you'd like to export, then click File => Export => HTML ... and select Egg's All-in-One. This will export all of your site files and a .txt file you can use to draft your set on Draftmancer.
+In the resources folder of your cloned repo, you'll find the "magic-egg-allinone" exporter. Copy that into the "data" folder of MSE, then open the program. Open a set you'd like to export, then click File => Export => HTML ... and select Egg's All-in-One. This will export all of your site files.
 
 The options you can select are as follows:
 - **Export images**: Defaults to "Yes". Only change this if for some reason you don't need images with your export.
