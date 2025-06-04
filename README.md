@@ -36,12 +36,13 @@ Finally, in the bar along the top, select "Fetch origin" to pull the origin into
 
 In the resources folder of your cloned repo, you'll find the "magic-egg-allinone" exporter. Copy that into the "data" folder of MSE, then open the program. Open a set you'd like to export, then click File => Export => HTML ... and select Egg's All-in-One. This will export all of your site files and a .txt file you can use to draft your set on Draftmancer.
 
-You can reference the [Draftmancer export guide](https://docs.google.com/document/d/1xPqa91WrBqJ7t7pFJvXFUgKUDgtPe-Yeem35IOq2Qcc/edit) for more detailed instructions on that half of the exporter, but I'll quickly go over each option:
-- **Export images**: Defaults to "yes". You should do this every time or you might get weird results with some of your site image pages.
-- **Export draft file**: Defaults to "yes". Only unselect this if your set is never meant to be drafted.
-- **Github repo**: The name of the repo you just forked, which should be in the format of \<gh-username>.github.io.
-- **Rares / Uncommons / Commons / Wildcards**: Number of cards at each rarity that show up in a draft booster of your set.
-- **Land slot**: Defaults to "no". If you are denoting cards in your set with the "!landslot" note, flip this to "yes" to assign those cards their own draft slot.
+The options you can select are as follows:
+- **Export images**: Defaults to "Yes". Only change this if for some reason you don't need images with your export.
+- **Image type**: Defaults to "Png". Github Pages sites can only host 1 GB of data before they start to error out, so if you're doing large exports, consider exporting some or all sets as "Jpg".
+- **Symbol rarity**: Defaults to "Rare". This is the rarity color that your symbol icons will export as.
+- **Draft structure**: Defaults to "Play booster". If your set is following a different booster structure, set it here. This is editable with a custom JSON while building the site.
+- **Formats**: This is a text field where you can enter any custom formats your set is a part of, which can be queried in your site's search.
+- **V mana replacement**: If you're using a custom V mana symbol, insert it here.
 
 Once each of these options is filled out, click OK and save the set file as "\<set_code>.txt". (This should match the "Set code" in your "Set info" tab.) This will take a second as the application exports all your images, and the end result is two outputs:
 - **\<code>.txt**, which is irrelevant.
