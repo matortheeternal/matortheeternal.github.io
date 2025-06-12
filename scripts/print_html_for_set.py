@@ -298,7 +298,7 @@ def generateHTML(code):
 		img_re = r'%([^%]*)%'
 		for img_name in re.findall(img_re, md_html):
 			img_name_re = r'%' + img_name + '%'
-			if img_name == 'logo' or img_name == 'icon':
+			if img_name == 'logo' or img_name == 'icon' or img_name == 'bg':
 				img_path = '/'.join([ '/sets', code + '-files', img_name + '.png' ])
 			else:
 				with open(os.path.join('sets', code + '-files', code + '.json'), encoding='utf-8-sig') as f:

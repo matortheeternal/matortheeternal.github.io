@@ -188,7 +188,6 @@ def generateHTML():
 	}
 	.set-icon-name {
 		min-height: 30px;
-		height: 100%;
 	}
 	@media ( max-width: 750px ) {
 		.item-container {
