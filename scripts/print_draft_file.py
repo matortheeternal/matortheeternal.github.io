@@ -128,5 +128,5 @@ def generateFile(code):
 				draft_string += '''	''' + str(count) + ''' ''' + c['card_name'] + '''
 '''
 
-	with open(os.path.join('sets', code + '-files', code + '-draft.txt'), 'w') as f:
+	with open(os.path.join('sets', code + '-files', code + '-draft.txt'), 'w', encoding='utf-8-sig') as f:
 		f.write(draft_string)
