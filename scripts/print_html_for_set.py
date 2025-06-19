@@ -419,11 +419,13 @@ def generateHTML(code):
 
 	html_content += '''
 
-			await fetch('/sets/''' + code + '''-files/''' + code + '''-p1p1.json')
-				.then(response => response.json())
-				.then(json => {
-					p1p1_cards = json;
+			await fetch('/sets/''' + code + '''-files/''' + code + '''-draft.txt')
+				.then(response => response.text())
+				.then(text => {
+					draft_file = text;
 			}).catch(error => console.error('Error:', error));
+
+			draftmancerToP1P1(draft_file);
 
 			for (let i = 0; i < card_list_arrayified.length; i++)
 			{
@@ -530,6 +532,67 @@ def generateHTML(code):
 			{
 				cardGrid.append(gridifyCard(card));
 			}
+		}
+
+		function draftmancerToP1P1(draft_file) { // comments in here by aanginer
+			let draft_slots = {};
+			let p1p1_object = [];
+			let result_json = [];
+			let card_map    = {};
+			let current_slot_index = 0;
+			let slot_indexes = {};
+			const draft_headers = draft_file.matchAll(/\\[(.*?)\\]/g); // match text between [ and ]
+			for (const result of draft_headers) {
+				if (result[1] == "CustomCards")
+					continue; // skip the CustomCards header
+
+				const copies = parseInt(result[0].match(/\\((.*?)\\)/g)[0].split("(")[1].split(")")[0]); // match text between ( and ) -- do the split thing bc js regex doesnt let me grab the group for some reason????????
+				// -- this is useless but if needed, const name = result.groups[0].match(/\\[(.*)\\(/g); // match text before (
+				draft_slots[result[0]] = copies;
+				slot_indexes[result[0]] = current_slot_index;
+				current_slot_index += copies;
+			}
+
+			console.log(slot_indexes);
+
+			for (let i = 0; i < current_slot_index; i++) { // the current index should be the total number
+				p1p1_object.push([]);
+			}
+
+			draft_slots["EOF"] = 0; // add this so when we check for the next slot in the final one we don't get an index error
+			for (let i = 0; i < Object.keys(draft_slots).length - 1; i++) {
+				const draft_slot = Object.keys(draft_slots)[i];
+				const next_slot  = Object.keys(draft_slots)[i + 1];
+				const slot_size  = draft_slots[draft_slot];
+
+				let card_lines = draft_file.split(draft_slot)[1].split(next_slot)[0].split("\\n"); // split between the 2 slots -- splitting by EOF shouldnt be a problem as thatll yield a 1 element list
+				for (const line of card_lines) {
+					const count = parseInt(line.substring(0, line.indexOf(' ')));
+					const card_name = line.substring(line.indexOf(' ') + 1).trim();
+
+					if (!card_map[card_name]) {
+						card_map[card_name] = {};
+					}
+
+					card_map[card_name][draft_slot] = card_map[card_name][draft_slot] ? card_map[card_name][draft_slot] + count : count; // fancy way to do a null check to decide between = and +=
+				}
+			}
+
+			for (const card of card_list_arrayified) { // grab the needed card data
+				if (Object.keys(card_map).includes(card.card_name)) {
+					const card_slots = card_map[card.card_name];
+					for (const slot in card_slots) {
+						const slot_copies = draft_slots[slot];
+						for (let i = 0; i < slot_copies; i++) {
+							for (let j = 0; j < card_slots[slot]; j++) {
+								p1p1_object[slot_indexes[slot] + i].push(card);
+							}
+						}
+					}
+				}
+			}
+
+			p1p1_cards = p1p1_object;
 		}
 
 		function packOnePickOne() {
