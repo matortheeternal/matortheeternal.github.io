@@ -82,7 +82,9 @@ def generateFile(code):
 
 '''
 	
+	p1p1 = []
 	for slot in structure:
+		slot_list = []
 		draft_string += '''[''' + slot['name'] + '''(''' + str(slot['count']) + ''')]
 '''
 		for c in booster[slot['name']]:
@@ -108,14 +110,38 @@ def generateFile(code):
 						count = 15
 					case 'common':
 						count = 6
+			elif slot['balanced'] == 'f': # foil distribution
+				# ditto, except 0.57 c / 0.35 u / 0.07 r / 0.01 m
+				match c['rarity']:
+					case 'mythic':
+						count = 1
+					case 'rare':
+						count = 2
+					case 'uncommon':
+						count = 6
+					case 'common':
+						count = 12
 			elif slot['balanced'] == 'c': # cube distribution
 				count = 1
 			else:
 				count = 5
 
 			if count > 0:
+				for x in range(count):
+					p1p1_card = {}
+					p1p1_card['set'] = c['set']
+					p1p1_card['number'] = c['number']
+					p1p1_card['card_name'] = c['card_name']
+					p1p1_card['shape'] = c['shape']
+					p1p1_card['image_type'] = set_data['image_type']
+					slot_list.append(p1p1_card)
 				draft_string += '''	''' + str(count) + ''' ''' + c['card_name'] + '''
 '''
+		for x in range(slot['count']):
+			p1p1.append(slot_list)
 
-	with open(os.path.join('sets', code + '-files', code + '-draft.txt'), 'w') as f:
+	with open(os.path.join('sets', code + '-files', code + '-draft.txt'), 'w', encoding='utf-8-sig') as f:
 		f.write(draft_string)
+
+	with open(os.path.join('sets', code + '-files', code + '-p1p1.json'), 'w', encoding='utf-8-sig') as f:
+		json.dump(p1p1, f, indent=4)
