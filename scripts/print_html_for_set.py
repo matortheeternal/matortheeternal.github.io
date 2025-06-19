@@ -341,11 +341,11 @@ def generateHTML(code):
 	#F: sets/SET-files/SET-draft.txt
 	if os.path.exists(os.path.join('sets', code + '-files', code + '-draft.txt')):
 		html_content += '''<div class="dot"> • </div><a href="/sets/''' + code + '''-files/''' + code + '''-draft.txt" download>Draft</a>
+		<div class="dot"> • </div><a onclick="packOnePickOne()">P1P1</a>
+		</div>
 		'''
 
 	html_content += '''
- 			<div class="dot"> • </div><a onclick="packOnePickOne()">P1P1</a>
-			</div>
 			<div class="select-text">Cards displayed as<select name="display" id="display"><option value="cards-only">Cards Only</option><option value="cards-text">Cards + Text</option></select>sorted by<select name="sort-by" id="sort-by"><option value="set-code">Set Number</option><option value="name">Name</option><option value="mv">Mana Value</option><option value="color">Color</option><option value="rarity">Rarity</option></select> : <select name="sort-order" id="sort-order"><option value="ascending">Asc</option><option value="descending">Desc</option></select></div>
 		</div>
 	</div>
