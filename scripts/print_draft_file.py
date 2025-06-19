@@ -82,6 +82,7 @@ def generateFile(code):
 
 '''
 	
+	p1p1 = []
 	for slot in structure:
 		slot_list = []
 		draft_string += '''[''' + slot['name'] + '''(''' + str(slot['count']) + ''')]
@@ -125,8 +126,12 @@ def generateFile(code):
 			else:
 				count = 5
 
+
 				draft_string += '''	''' + str(count) + ''' ''' + c['card_name'] + '''
 '''
+		for x in range(slot['count']):
+			p1p1.append(slot_list)
 
 	with open(os.path.join('sets', code + '-files', code + '-draft.txt'), 'w', encoding='utf-8-sig') as f:
 		f.write(draft_string)
+

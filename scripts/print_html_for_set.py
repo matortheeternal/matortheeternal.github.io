@@ -424,7 +424,7 @@ def generateHTML(code):
 			}).catch(error => console.error('Error:', error));
 
 			draftmancerToP1P1(draft_file);
-
+      
 			for (let i = 0; i < card_list_arrayified.length; i++)
 			{
 				if (card_list_arrayified[i].set == "''' + code + '''")
@@ -592,6 +592,7 @@ def generateHTML(code):
 
 			p1p1_cards = p1p1_object;
 		}
+
 
 		function packOnePickOne() {
 			img_list = [];
