@@ -599,6 +599,9 @@ def generateHTML(code):
 			used_cards = [];
 			for (const slot of p1p1_cards)
 			{
+				if (slot.length == 0) 
+					continue;
+
 				do {
 					rand_i = Math.floor(Math.random() * (slot.length));
 					card = slot[rand_i];
