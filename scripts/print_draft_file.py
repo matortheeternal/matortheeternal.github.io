@@ -34,7 +34,8 @@ def generateFile(code):
 	[
 	'''
 
-	for card in set_data['cards']:
+	for x in range(len(set_data['cards'])):
+		card = set_data['cards'][x]
 		# clean hybrids
 		h_pattern = r'\{([A-Z0-9])([A-Z])\}'
 		h_replace = r'{\1/\2}'
@@ -75,7 +76,7 @@ def generateFile(code):
 			draft_string += '''		"image_uris": {
 				"en": "https://''' + github_path + '''/sets/''' + code + '''-files/img/''' + str(card['number']) + '''_''' + card['card_name'] + '''.''' + set_data['image_type'] + '''"
 			}
-		},
+		}''' + (''',''' if x != len(set_data['cards']) - 1 else '''''') + '''
 	'''
 
 	draft_string += ''']
@@ -126,7 +127,7 @@ def generateFile(code):
 			else:
 				count = 5
 
-
+			if count > 0:
 				draft_string += '''	''' + str(count) + ''' ''' + c['card_name'] + '''
 '''
 		for x in range(slot['count']):

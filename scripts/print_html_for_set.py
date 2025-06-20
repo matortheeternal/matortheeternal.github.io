@@ -105,7 +105,7 @@ def generateHTML(code):
 		margin: auto;
 		padding: 15px 0 5px 0;
 		border-bottom: 2px solid #171717;
-		display: grid;
+		display: none;
 		grid-template-columns: 1fr 1fr;
 	}
 	.button-container button {
@@ -435,9 +435,10 @@ def generateHTML(code):
 			'''
 
 	if os.path.isfile(splashpath):
-		html_content += '''		switchView('splash');'''
+		html_content += '''		buttons.style.display = 'grid';
+				switchView('splash');'''
 	else:
-		html_content += '''		buttons.style.display = 'none';
+		html_content += '''
 		setCardView();'''
 
 	html_content += '''
@@ -539,10 +540,28 @@ def generateHTML(code):
 			let card_map    = {};
 			let current_slot_index = 0;
 			let slot_indexes = {};
+			let card_images = [];
+			let mapping = true;
+
 			const draft_headers = draft_file.matchAll(/\\[(.*?)\\]/g); // match text between [ and ]
 			for (const result of draft_headers) {
 				if (result[1] == "CustomCards")
 					continue; // skip the CustomCards header
+
+				if (mapping)
+				{
+					draft_json = JSON.parse(draft_file.substring(15, draft_file.indexOf(result[1]) - 1));
+
+					for (const card of draft_json)
+					{
+						card_images.push({
+							name: card.name,
+							url: card.image_uris.en
+						});
+					}
+
+					mapping = false;
+				}
 
 				const copies = parseInt(result[0].match(/\\((.*?)\\)/g)[0].split("(")[1].split(")")[0]); // match text between ( and ) -- do the split thing bc js regex doesnt let me grab the group for some reason????????
 				// -- this is useless but if needed, const name = result.groups[0].match(/\\[(.*)\\(/g); // match text before (
@@ -550,8 +569,6 @@ def generateHTML(code):
 				slot_indexes[result[0]] = current_slot_index;
 				current_slot_index += copies;
 			}
-
-			console.log(slot_indexes);
 
 			for (let i = 0; i < current_slot_index; i++) { // the current index should be the total number
 				p1p1_object.push([]);
@@ -564,6 +581,7 @@ def generateHTML(code):
 				const slot_size  = draft_slots[draft_slot];
 
 				let card_lines = draft_file.split(draft_slot)[1].split(next_slot)[0].split("\\n"); // split between the 2 slots -- splitting by EOF shouldnt be a problem as thatll yield a 1 element list
+
 				for (const line of card_lines) {
 					const count = parseInt(line.substring(0, line.indexOf(' ')));
 					const card_name = line.substring(line.indexOf(' ') + 1).trim();
@@ -576,9 +594,9 @@ def generateHTML(code):
 				}
 			}
 
-			for (const card of card_list_arrayified) { // grab the needed card data
-				if (Object.keys(card_map).includes(card.card_name)) {
-					const card_slots = card_map[card.card_name];
+			for (const card of card_images) { // grab the needed card data
+				if (Object.keys(card_map).includes(card.name)) {
+					const card_slots = card_map[card.name];
 					for (const slot in card_slots) {
 						const slot_copies = draft_slots[slot];
 						for (let i = 0; i < slot_copies; i++) {
@@ -607,7 +625,7 @@ def generateHTML(code):
 					card = slot[rand_i];
 				} while (used_cards.includes(card));
 
-				const img_url = '/sets/' + card.set + '-files/img/' + card.number + '_' + card.card_name + (card.shape.includes('double') ? '_front' : '') + '.' + card.image_type;
+				const img_url = card.url;
 
 				const image = new Image();
 				image.src = img_url;
@@ -627,7 +645,7 @@ def generateHTML(code):
 				img_list[i].onload = function() {
 					x_offset = 377 * (i % 5);
 					y_offset = 525 * Math.floor(i / 5);
-				    ctx.drawImage(img_list[i], x_offset, y_offset, 375, 523);
+					ctx.drawImage(img_list[i], x_offset, y_offset, 375, 523);
 				};
 			}
 
