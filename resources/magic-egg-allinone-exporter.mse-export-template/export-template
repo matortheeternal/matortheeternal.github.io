@@ -64,6 +64,13 @@ option field:
 	choice: yes
 	description: Export set description as splash page
 
+option field:
+	type: choice
+	name: unpreviewed card image
+	choice: card back
+	choice: empty
+	description: What should display on the preview gallery for unpreviewed cards
+
 script:
 	fix_tm := replace@(match:"™", replace:"TM")
 	remove_quotes := replace@(match:"\"", replace:"")
@@ -303,6 +310,7 @@ script:
 		"{q}trimmed{q}: {q}n{q}",
 		"{q}image_type{q}: {q}{options.image_type}{q}",
 		"{q}draft_structure{q}: {q}{options.draft_structure}{q}",
+		"{q}unpreviewed{q}: {q}{options.unpreviewed_card_image}{q}"
 		"{q}cards{q}: [{write_cards()}]"
 	]
 	write_text_file(file: adj_setcode() + ".json", "\{" + join(main_keys) + "}")
