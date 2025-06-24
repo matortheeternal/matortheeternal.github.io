@@ -205,7 +205,7 @@
 
 			for (let i = 0; i < card_effects.length; i++)
 			{
-				let styled_effect = card_effects[i].replace(/\[i\]([^\]]+)\[\/i\]/g, function(matched, _1) {
+				let styled_effect = card_effects[i].replace(/\[i\]([^\]]+)\[\/i\]/gs, function(matched, _1) {
 					return '<i>' + _1 + '</i>'
 				}).replace(/\[b\]([^\]]+)\[\/b\]/g, function(matched, _1) {
 					return '<b>' + _1 + '</b>'
