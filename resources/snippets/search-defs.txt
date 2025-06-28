@@ -115,7 +115,7 @@ function tokenizeTerms(searchTerms)
 			let card_loyalty = card_stats.loyalty;
 			let card_notes = card_stats.notes;
 			let card_artist = card_stats.artist;
-			let card_alias = card_stats.alias;
+			let card_alias = card_stats.alias ? card_stats.alias : ""; // do this so that we have backwards compatibility
 			let card_color_2 = "";
 			let card_cost_2 = "";
 			let card_power_2 = "";
