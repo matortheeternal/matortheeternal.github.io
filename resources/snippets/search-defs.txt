@@ -624,6 +624,10 @@ function tokenizeTerms(searchTerms)
 						return card_alias > check;
 					}
 				}
+				if (modifier == ":" || modifier == "=" || modifier == "!") {
+                    let regex = new RegExp(`!tag<${term}> ${check}\\b`);
+                    return regex.test(card_notes);
+                }
 			}
 
 			return card_name.includes(token);
