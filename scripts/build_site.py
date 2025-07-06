@@ -131,7 +131,7 @@ for code in set_codes:
 	set_dir = code + '-files'
 	with open(os.path.join('sets', code + '-files', code + '.json'), encoding='utf-8-sig') as f:
 		raw = json.load(f)
-	if 'draft_structure' in raw and not raw['draft_structure'] == 'none':
+	if 'draft_structure' in raw and not raw['draft_structure'] == 'none' and not os.path.isfile(os.path.join('sets', code + '-files', code + '-draft.txt')):
 		try:
 			print_draft_file.generateFile(code)
 			print('Generated draft file for {0}.'.format(code))
@@ -140,7 +140,7 @@ for code in set_codes:
 
 	#CE: this code is all for version history
 	if 'version' not in raw:
-		versions = glob.glob(os.path.join('sets', 'versions', '*' + code + '_*'))
+		versions = glob.glob(os.path.join('sets', 'versions', '*_' + code + '*'))
 		if len(versions) == 0:
 			shutil.copyfile(os.path.join('sets', code + '-files', code + '.json'), os.path.join('sets', 'versions', '1_' + code + '.json'))
 			prettifyJSON(os.path.join('sets', 'versions', '1_' + code + '.json'))
@@ -231,7 +231,8 @@ for code in set_codes:
 	#CE: moving this down after we create the 'set-order.json' file
 	if not os.path.exists(os.path.join('sets', code + '-files', 'ignore.txt')):
 		print_html_for_preview.generateHTML(code)
-	print_html_for_set.generateHTML(code)
+	if not os.path.exists(os.path.join('sets', code + '-files', 'previewed.txt')):	
+		print_html_for_set.generateHTML(code)
 
 print_html_for_sets_page.generateHTML()
 print_html_for_search.generateHTML(set_codes)

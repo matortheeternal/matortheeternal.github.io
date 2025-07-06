@@ -24,6 +24,7 @@ def convertList(setCode):
 	#CE: array of special sort groups
 	sort_groups = []
 	#F: This gets any alt-arts in a single set and adds their card number to a list of cards to skip.
+	#CE: And also appends all available groups to the set
 	for i in range(len(cards)):
 		match = re.search(r'!group ([^ \n]+)', cards[i]['notes'])
 		if match and match.group() not in sort_groups:
@@ -96,10 +97,17 @@ def convertList(setCode):
 	for group in sort_groups:
 		cards_sorted[group] = []
 
+	#CE: set up previews if necessary
+	if 'unpreviewed' in raw and raw['unpreviewed'] == 'empty':
+		previewed_path = os.path.join('sets', setCode + '-files', 'previewed.txt')
+		if os.path.isfile(previewed_path):
+			with open(previewed_path, encoding='utf-8-sig') as f:
+				previewed = f.read().split('\n')
+
 	#F: now go over the cards again
 	for card in cards:
 		#F: skip the card if it's in the skipdex
-		if card['number'] in skipdex:
+		if card['number'] in skipdex or ('previewed' in locals() and card['card_name'] not in previewed):
 			continue
 
 		#CE: fix for devoid cards
@@ -191,9 +199,31 @@ def convertList(setCode):
 	for r in list_order:
 		row_count = 0
 		cards_arr = []
-		for index in r['cards']:
-			row_count = max(row_count, len(cards_sorted[index]))
-			cards_arr.append(cards_sorted[index])
+		code = setCode
+		if 'set' in r:
+			if r['logo']:
+				final_list.append('l->' + r['set'])
+				for x in range(5):
+					final_list.append(blank2)
+			code = r['set']
+			external = os.path.join('sets', code + '-files', code + '.json')
+			ext_cards = []
+			with open(external, encoding='utf-8-sig') as j:
+				ext_js = json.load(j)
+			for card in ext_js['cards']:
+				if r['cards'][0] in card['notes']:
+					ext_cards.append(card)
+			cards_arr.append(ext_cards)
+			row_count = len(ext_cards)
+		elif 'html' in r:
+			final_list.append('h->' + r['html'])
+			for x in range(5):
+					final_list.append(blank2)
+			continue
+		else:
+			for index in r['cards']:
+				row_count = max(row_count, len(cards_sorted[index]))
+				cards_arr.append(cards_sorted[index])
 
 		if (row_count > 0):
 			if 'title' in r and len(final_list) > 0:
@@ -213,7 +243,7 @@ def convertList(setCode):
 						final_list.append(blank1)
 					else:
 						ca = arr[row]
-						final_list.append({'card_name':ca['card_name'],'number':ca['number'],'shape':ca['shape']})
+						final_list.append({'card_name':ca['card_name'],'number':ca['number'],'shape':ca['shape'],'set':code})
 
 			if len(r['cards']) == 1: # single-card categories
 				if not row_count % 5 == 0:
@@ -225,7 +255,7 @@ def convertList(setCode):
 
 	#F: lists/SET-list.txt finally comes into play
 	with open(outputList, 'w', encoding="utf-8-sig") as f:
-		json.dump(final_list, f)
+		json.dump(final_list, f, indent=4)
 
 def colorEquals(color, match):
 	return sorted("".join(dict.fromkeys(color))) == sorted("".join(dict.fromkeys(match)))

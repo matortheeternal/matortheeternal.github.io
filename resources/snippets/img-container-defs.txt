@@ -209,7 +209,9 @@
 
 			for (let i = 0; i < card_effects.length; i++)
 			{
+
 				HTML += card_effects[i];
+
 
 				if (i != card_effects.length - 1)
 				{
