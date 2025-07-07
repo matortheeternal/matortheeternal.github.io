@@ -115,11 +115,12 @@ function tokenizeTerms(searchTerms)
 			let card_loyalty = card_stats.loyalty;
 			let card_notes = card_stats.notes;
 			let card_artist = card_stats.artist;
+			let card_alias = card_stats.alias ? card_stats.alias : ""; // do this so that we have backwards compatibility
 			let card_color_2 = "";
 			let card_cost_2 = "";
 			let card_power_2 = "";
 			let card_toughness_2 = "";
-			let card_loyalty_2 = ""
+			let card_loyalty_2 = "";
 
 			let color_map = new Map([
 				["azorius", "wu"],
@@ -605,6 +606,28 @@ function tokenizeTerms(searchTerms)
 						return card_artist.includes(check);
 					}
 				}
+				if (term == "godzilla" || term == "alias") {
+					if (modifier == "!" || modifier == "=")
+					{
+						return card_alias == check;
+					}
+					else if (modifier == ":")
+					{
+						return card_alias.includes(check);
+					}
+					else if (modifier == "<")
+					{
+						return card_alias < check;
+					}
+					else if (modifier == ">")
+					{
+						return card_alias > check;
+					}
+				}
+				if (modifier == ":" || modifier == "=" || modifier == "!") {
+                    let regex = new RegExp(`!tag<${term}> ${check}\\b`);
+                    return regex.test(card_notes);
+                }
 			}
 
 			return card_name.includes(token);
