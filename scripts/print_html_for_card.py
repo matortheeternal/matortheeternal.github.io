@@ -230,7 +230,6 @@ def generateHTML():
 
 			document.getElementById("grid").appendChild(gridifyCard(card, false, true));
 
-
 			other_printings = [];
 			for (const c of card_list_arrayified)
 			{
