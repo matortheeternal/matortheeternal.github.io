@@ -22,7 +22,7 @@
 			let card_effects = "";
 			if (card_stats.rules_text != "")
 			{
-				card_effects = card_stats.rules_text + "\n" + (card_stats.flavor_text != "[i][/i]" ? "<hr class=\"ft-divider text-bg\"></div>" + card_stats.flavor_text : ""); // this expression looks cursed but what it does is check if the ft is empty, and if it isn't, insert a divider + the ft
+				card_effects = card_stats.rules_text + (card_stats.flavor_text != "[i][/i]" ? "\n" + "<hr class=\"ft-divider text-bg\">" + "\n" + card_stats.flavor_text.replace('\n','<br>') : ""); // this expression looks cursed but what it does is check if the ft is empty, and if it isn't, insert a divider + the ft
 			} else {
 				card_effects = "";
 			}
@@ -71,7 +71,7 @@
 				let card_effects_2 = "";
 				if (card_stats.rules_text2 != "")
 				{
-					card_effects_2 = card_stats.rules_text2 + "\n" + (card_stats.flavor_text2 != "[i][/i]" ? "<hr class=\"ft-divider text-bg\"></div>" + card_stats.flavor_text2 : "");
+					card_effects_2 = card_stats.rules_text2 + (card_stats.flavor_text2 != "[i][/i]" ? "\n" + "<hr class=\"ft-divider text-bg\">" + "\n" + card_stats.flavor_text2.replace('\n','<br>') : "");
 				} else {
 					card_effects_2 = "";
 				}
@@ -209,14 +209,7 @@
 
 			for (let i = 0; i < card_effects.length; i++)
 			{
-
-				HTML += card_effects[i];
-
-
-				if (i != card_effects.length - 1)
-				{
-					HTML += "<br>"
-				}
+				HTML += "<p>" + card_effects[i] + "</p>";
 			}
 			
 			let regexHTML = symbolize(HTML);
