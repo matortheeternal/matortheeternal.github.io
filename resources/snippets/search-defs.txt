@@ -174,11 +174,6 @@ function tokenizeTerms(searchTerms)
 				const term = token.substring(0, token.indexOf(modifier));
 				let check = token.substring(token.indexOf(modifier) + modifier.length);
 
-				if (color_map.has(check))
-				{
-					check = color_map.get(check);
-				}
-
 				// availableTokens = ["mv", "c", "ci", "t", "o", "pow", "tou", "r", "is"]
 
 				/* template
@@ -230,6 +225,10 @@ function tokenizeTerms(searchTerms)
 				}
 				if (term == "c" || term == "color")
 				{
+					if (color_map.has(check))
+					{
+						check = color_map.get(check);
+					}
 					if (!isNaN(check))
 					{
 						if (modifier == "!" || modifier == "=")
@@ -299,6 +298,10 @@ function tokenizeTerms(searchTerms)
 				}
 				if (term == "cost" || term == "mana")
 				{
+					if (color_map.has(check))
+					{
+						check = color_map.get(check);
+					}
 					if (modifier == "!" || modifier == "=" || modifier == ":")
 					{
 						card_cost_cleaned = card_cost.replaceAll('{', '').replaceAll('}', '');
@@ -307,6 +310,10 @@ function tokenizeTerms(searchTerms)
 				}
 				if (term == "ci" || term == "id")
 				{
+					if (color_map.has(check))
+					{
+						check = color_map.get(check);
+					}
 					if (!isNaN(check))
 					{
 						card_ci = card_ci == "c" ? "" : card_ci;
