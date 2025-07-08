@@ -137,7 +137,8 @@ def generateHTML(setCode):
 		.banner {
 			width: 100%;
 			height: auto;
-			padding: 50px 0;
+			padding-top: 80px;
+			padding-bottom: 50px;
 		}
 		.logo {
 			display: block;
