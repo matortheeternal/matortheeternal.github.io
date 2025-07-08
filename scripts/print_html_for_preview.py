@@ -182,6 +182,7 @@ def generateHTML(setCode):
 			padding: 5px 0;
 			display: flex;
 			flex-direction: column;
+			z-index: 3;
 		}
 		.dropdown .set-bar {
 			font-family: Beleren;
