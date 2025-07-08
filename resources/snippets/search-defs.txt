@@ -554,6 +554,13 @@ function tokenizeTerms(searchTerms)
 					}
 					return false;
 				}
+				if (term == "lore")
+				{
+					if (modifier == ":")
+					{
+						return card_name.includes(check) || card_ft.includes(check);
+					}
+				}
 				if (term == "is")
 				{
 					if (modifier == ":" || modifier == "!" || modifier == "=")
@@ -592,6 +599,10 @@ function tokenizeTerms(searchTerms)
 					{
 
 					} */
+				}
+				if (term == "not")
+				{
+					return !searchToken(card, token.replace("not:", "is:"));
 				}
 				if (term == "tag")
 				{
