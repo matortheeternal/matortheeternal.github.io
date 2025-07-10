@@ -17,13 +17,6 @@ file type: *.txt|*.txt|*.*|*.*
 
 option field:
 	type: choice
-	name: export images
-	choice: yes
-	choice: no
-	description: Export images
-
-option field:
-	type: choice
 	name: image type
 	choice: png
 	choice: jpg
@@ -316,7 +309,7 @@ script:
 		"{q}trimmed{q}: {q}n{q}",
 		"{q}image_type{q}: {q}{options.image_type}{q}",
 		"{q}draft_structure{q}: {q}{options.draft_structure}{q}",
-		"{q}unpreviewed{q}: {q}{options.unpreviewed_card_image}{q}"
+		"{q}unpreviewed{q}: {q}{options.unpreviewed_card_image}{q}",
 		"{q}cards{q}: [{write_cards()}]"
 	]
 	write_text_file(file: adj_setcode() + ".json", "\{" + join(main_keys) + "}")
@@ -327,5 +320,5 @@ script:
 	if options.export_description == "yes"
 		then write_text_file(file: "splash.md", set.description)
 
-	write_images := if options.export_images == "yes" then write_all_images() else ""
+	write_all_images()
 	"This file doesn't contain anything. Exported files can be found in the name-files folder with the same name you saved as."
