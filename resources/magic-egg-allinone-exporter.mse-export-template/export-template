@@ -281,7 +281,8 @@ script:
 			"{q}pt2{q}: {q}{sanitize(sanitize(card.pt_2))}{q}",
 			"{q}special_text2{q}: {q}{format_textbox(card.special_text_2)}{q}",
 			"{q}loyalty2{q}: {q}{sanitize(card.loyalty_2)}{q}",
-			"{q}artist2{q}: {q}{sanitize(card.illustrator_2)}{q}"
+			"{q}artist2{q}: {q}{sanitize(card.illustrator_2)}{q}",
+			"{q}alias2{q}: {q}{sanitize(card.alias_2)}{q}"
 		]
 		strings := strings + [
 			"{q}notes{q}: {q}{sanitize(card.notes)}{q}"
