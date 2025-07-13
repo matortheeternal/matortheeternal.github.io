@@ -122,7 +122,7 @@ def convertList(setCode):
 		if '!group' in card['notes']:
 			for group in sort_groups:
 				pattern = re.compile(re.escape(group) + r'(?:\n|$)')
-				if pattern.search(card['notes'])::
+				if pattern.search(card['notes']):
 					cards_sorted[group].append(card)
 		elif 'token' in card['shape']:
 			cards_sorted['token'].append(card)
