@@ -228,6 +228,9 @@ def convertList(setCode):
 			continue
 		else:
 			for index in r['cards']:
+				if index not in cards_sorted:
+					print(f'INFO: Group {index} not found in any card notes.')
+					index = ''
 				row_count = max(row_count, len(cards_sorted[index]))
 				cards_arr.append(cards_sorted[index])
 
