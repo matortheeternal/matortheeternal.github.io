@@ -91,7 +91,8 @@ def convertList(setCode):
 		'L': [],
 		'basic': [],
 		'token': [],
-		'mp': []
+		'mp': [],
+		'': []
 	}
 
 	for group in sort_groups:
