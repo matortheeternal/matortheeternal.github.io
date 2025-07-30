@@ -176,7 +176,14 @@ for code in set_codes:
 				else:
 					prev_card = previous_data['cards'][prev_card_names.index(card['card_name'])]
 					prev_card_names[prev_card_names.index(card['card_name'])] = ''
-					if card != prev_card:
+
+					# ignore card number, since that often changes for reasons unrelated to the card itself
+					card_copy = card.copy()
+					prev_card_copy = prev_card.copy()
+					card_copy.pop("number", None)
+					prev_card.pop("number", None)
+
+					if card_copy != prev_card_copy:
 						changed = True
 						changed_string += card['card_name'] + '\n'
 						for key in [ 'type', 'cost', 'rules_text', 'pt', 'special_text', 'loyalty' ]:
