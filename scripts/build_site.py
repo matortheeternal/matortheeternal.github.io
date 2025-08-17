@@ -181,7 +181,7 @@ for code in set_codes:
 					card_copy = card.copy()
 					prev_card_copy = prev_card.copy()
 					card_copy.pop("number", None)
-					prev_card.pop("number", None)
+					prev_card_copy.pop("number", None)
 
 					if card_copy != prev_card_copy:
 						changed = True
