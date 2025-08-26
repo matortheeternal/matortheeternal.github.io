@@ -26,6 +26,12 @@ def genAllCards(codes):
 	set_input = {'sets':[]}
 	#F: ...goes over all the set codes,
 	for code in codes:
+		#CE: check to see if the set is currently previewing
+		previewed_path = os.path.join('sets', code + '-files', 'previewed.txt')
+		previewed_cards = None
+		if os.path.exists(previewed_path):
+			with open(previewed_path, encoding='utf-8-sig') as f:
+				previewed_cards = f.read().split('\n')
 		#CE: non-indented JSON is driving me insane
 		prettifyJSON(os.path.join('sets', code + '-files', code + '.json'))	
 		#F: grabs the corresponding file,
@@ -46,7 +52,8 @@ def genAllCards(codes):
 				if os.path.exists(d_notes_path):
 					with open(d_notes_path, encoding='utf-8-sig') as md:
 						card['designer_notes'] = markdown.markdown(md.read())
-				card_input['cards'].append(card)
+				if previewed_cards == None or card['card_name'] in previewed_cards:
+					card_input['cards'].append(card)
 			set_data = {}
 			set_data['set_code'] = code
 			set_data['set_name'] = raw['name']
