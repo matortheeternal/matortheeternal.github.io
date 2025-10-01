@@ -269,7 +269,8 @@ script:
 			"{q}set{q}: {q}{adj_setcode()}{q}",
 			"{q}loyalty{q}: {q}{sanitize(card.loyalty)}{q}",
 			"{q}artist{q}: {q}{sanitize(card.illustrator)}{q}",
-			"{q}alias{q}: {q}{sanitize(card.alias)}{q}"
+			"{q}alias{q}: {q}{sanitize(card.alias)}{q}",
+			"{q}position{q}: {q}{position(of:card, in:set)}{q}"
 		]
 		if is_double_card(card.shape) then strings := strings + [
 			"{q}card_name2{q}: {q}{card_name_2()}{q}",
@@ -298,9 +299,9 @@ script:
 	write_all_images := {
 		for each card in cards do
 			if contains(card.shape, match:"double") then
-			if contains(card.type, match:"Battle") then write_image_file(crop(input: to_card_image(card), width: 523, height: 375, offset_x: 0, offset_y: 0), file: "img/" + card_number() + "_" + card_name() + "_front" + ".{options.image_type}") + write_image_file(crop(input: to_card_image(card), width: 375, height: 523, offset_x: 525, offset_y: 0), file: "img/" + card_number() + "_" + card_name() + "_back" + ".{options.image_type}")
-			else write_image_file(crop(input: to_card_image(card), width: 375, height: 523, offset_x: 0, offset_y: 0), file: "img/" + card_number() + "_" + card_name() + "_front" + ".{options.image_type}") + write_image_file(crop(input: to_card_image(card), width: 375, height: 523, offset_x: 377, offset_y: 0), file: "img/" + card_number() + "_" + card_name() + "_back" + ".{options.image_type}")
-			else write_image_file(card, file: "img/" + card_number() + (if contains(get_shape(), match:"token") then "t_" else "_") + card_name() + ".{options.image_type}")
+			if contains(card.type, match:"Battle") then write_image_file(crop(input: to_card_image(card), width: 523, height: 375, offset_x: 0, offset_y: 0), file: "img/" + position(of:card, in:set) + "_front" + ".{options.image_type}") + write_image_file(crop(input: to_card_image(card), width: 375, height: 523, offset_x: 525, offset_y: 0), file: "img/" + position(of:card, in:set) + "_back" + ".{options.image_type}")
+			else write_image_file(crop(input: to_card_image(card), width: 375, height: 523, offset_x: 0, offset_y: 0), file: "img/" + position(of:card, in:set) + "_front" + ".{options.image_type}") + write_image_file(crop(input: to_card_image(card), width: 375, height: 523, offset_x: 377, offset_y: 0), file: "img/" + position(of:card, in:set) + "_back" + ".{options.image_type}")
+			else write_image_file(card, file: "img/" + position(of:card, in:set) + ".{options.image_type}")
 	}
 
 	main_keys := [
@@ -310,6 +311,8 @@ script:
 		"{q}image_type{q}: {q}{options.image_type}{q}",
 		"{q}draft_structure{q}: {q}{options.draft_structure}{q}",
 		"{q}unpreviewed{q}: {q}{options.unpreviewed_card_image}{q}",
+		"{q}image_name{q}: {q}position{q}",
+		"{q}v_mana{q}: {q}{options.v_mana_replacement}{q}",
 		"{q}cards{q}: [{write_cards()}]"
 	]
 	write_text_file(file: adj_setcode() + ".json", "\{" + join(main_keys) + "}")
