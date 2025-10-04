@@ -1,0 +1,1536 @@
+﻿VERSION 4 CHANGELOG
+====================
+
+
+
+Blue-Eyes White Dragon
+
+Red-Eyes Black Dragon
+
+Time Wizard
+
+Obelisk the Tormentor
+
+The Winged Dragon of Ra
+
+Slifer the Sky Dragon
+
+Dark Magician
+
+Dark Magician Girl
+
+Raigeki
+
+Trap Hole
+
+Imperial Order
+
+Blue-Eyes Ultimate Dragon
+
+Pot of Greed
+
+Magic Cylinder
+
+Monster Reborn
+
+Polymerization
+
+Kuriboh
+
+Mirror Force
+
+Black Luster Soldier
+
+Black Luster Ritual
+
+Exodia the Forbbiden One
+
+Left Leg of the Forbidden One
+
+Right Leg of the Forbidden One
+
+Right Arm of the Forbidden One
+
+Left Arm of the Forbidden One
+
+Lava Golem
+
+Gearfried the Iron Knight
+
+Kojikocy
+
+Uraby
+
+Tainted Wisdom
+
+Skull Knight
+
+Beastking of the Swamps
+
+Sorcerer of Dark Magic
+
+Horn of Heaven
+
+Mystic Lamp
+
+Call of the Haunted
+
+Giant Rat
+
+Insect Imitation
+
+Shining Angel
+
+Catapult Turtle
+
+Rabid Horseman
+
+Battle Ox
+
+Mystic Horseman
+
+Armed Ninja
+
+Basic Insect
+
+Killer Needle
+
+Baby Dragon
+
+Drill Bug
+
+Robbin' Goblin
+
+Parasite Paracide
+
+Larvae Moth
+
+Cocoon of Evolution
+
+The Stern Mystic
+
+Gravity Bind
+
+Last Will
+
+Flying Kamakiri #1
+
+Hamburger Recipe
+
+Magical Hats
+
+Barrel Dragon
+
+Hiro's Shadow Scout
+
+Return of the Zombies
+
+Ultimate Offering
+
+Mad Sword Beast
+
+Tribute to the Doomed
+
+Buster Blader
+
+Witch of the Black Forest
+
+Jinzo
+
+Magic Jammer
+
+Vampire Lord
+
+Painful Choice
+
+Summoned Skull
+
+Hane-Hane
+
+Swords of Revealing Light
+
+Fissure
+
+Neo the Magic Swordsman
+
+Treeborn Frog
+
+Giant Soldier of Stone
+
+Trap Master
+
+Man-Eater Bug
+
+Dark Hole
+
+De-Spell
+
+Reinforcements
+
+Waboku
+
+Just Desserts
+
+D.D. Warrior Lady
+
+Dark Magician of Chaos
+
+Magician of Faith
+
+Sangan
+
+Chaos Emperor Dragon Envoy of the End
+
+Aqua Madoor
+
+Mystical Elf
+
+Harpie's Feather Duster
+
+Mystical Space Typhoon
+
+Delinquent Duo
+
+The Forceful Sentry
+
+Snatch Steal
+
+UFO Turtle
+
+Share the Pain
+
+Harpie Lady
+
+Thunder Dragon
+
+Twin-Headed Thunder Dragon
+
+Paralyzing Potion
+
+Versago the Destroyer
+
+Tremendous Fire
+
+Flame Swordsman
+
+Flame Manipulator
+
+Masaki the Legendary Swordsman
+
+Eatgaboon
+
+White Hole
+
+Flute of Summoning Dragon
+
+Lord of D.
+
+Thousand Dragon
+
+Relinquished
+
+Black Magic Ritual
+
+Solemn Judgment
+
+Acid Trap Hole
+
+Change of Heart
+
+Solemn Wishes
+
+Backup Soldier
+
+Michizure
+
+Seven Tools of the Bandit
+
+Cyber Jar
+
+Morphing Jar
+
+Reaper of the Cards
+
+Skull Servant
+
+Mask of Darkness
+
+Shadow Ghoul
+
+Dimensionhole
+
+Senju of the Thousand Hands
+
+Ookazi
+
+Big Eye
+
+Call of the Grave
+
+Confiscation
+
+Black Skull Dragon
+
+Masked Sorcerer
+
+Kairyu-Shin
+
+Sparks
+
+Thousand-Eyes Restrict
+
+Lady of Faith
+
+Musician King
+
+Humanoid Slime
+
+Roaring Ocean Snake
+
+Battle Steer
+
+Curse of Dragon
+
+Koumori Dragon
+
+Gaia the Fierce Knight
+
+Mammoth Graveyard
+
+Zombie Warrior
+
+Battle Warrior
+
+Rude Kaiser
+
+Dark Sage
+
+Brain Control
+
+Burning Land
+
+White Dragon Ritual
+
+Magician of Black Chaos
+
+Gaia the Dragon Champion
+
+Spellbinding Circle
+
+Kaibaman
+
+Paladin of White Dragon
+
+The White Stone of Legend
+
+Burst Stream of Destruction
+
+Red-Eyes Dark Dragoon
+
+Meteor Dragon
+
+Meteor Black Dragon
+
+Dark Magic Attack
+
+Magician's Rod
+
+Magician Navigation
+
+Dark Eradicator Warlock
+
+Thousand Knives
+
+Skilled Dark Magician
+
+Ring of Destruction
+
+Destined Rivals
+
+Blue-Eyes Abyss Dragon
+
+Strength in Unity
+
+Red-Eyes Zombie Dragon
+
+Cards of the Red Stone
+
+Black Dragon's Chick
+
+Red-Eyes Spirit
+
+Inferno Fire Blast
+
+Red-Eyes Black Metal Dragon
+
+The Black Stone of Legend
+
+Red-Eyes Wyvern
+
+Red-Eyes Darkness Dragon
+
+Petit Moth
+
+Great Moth
+
+Perfectly Ultimate Great Moth
+
+Hungry Burger
+
+Rescue Cat
+
+Card of Safe Return
+
+Rescue Rabbit
+
+Terraforming
+
+Black Illusion Ritual
+
+Metalmorph
+
+Thousand-Eyes Idol
+
+Flying Kamakiri #2
+
+Gokipon
+
+Multiplication of Ants
+
+Pinch Hopper
+
+Big Insect
+
+Doom Dozer
+
+Resonance Insect
+
+Ultimate Insect
+
+Arsenal Bug
+
+Metal Armored Bug
+
+Dreadscythe Harvester
+
+Insect Queen
+
+Howling Insect
+
+Celtic Guardian
+
+Nobleman of Crossout
+
+Ancient Brain
+
+La Jinn the Mystical Genie of the Lamp
+
+Hinotama
+
+Beaver Warrior
+
+Buster Blader, the Dragon Destroyer Swordsman
+
+King Tiger Wanghu
+
+Des Kangaroo
+
+Beast King Barbaros
+
+Prologue of the Destruction Swordsman
+
+Five-Headed Dragon
+
+Super Polymerization
+
+Blackland Fire Dragon
+
+One Day of Peace
+
+Upstart Goblin
+
+Scapegoat
+
+The Legendary Fisherman
+
+Ocean Dragon Lord — Neo-Daedalus
+
+Maiden of the Aqua
+
+Umi
+
+Forest Field
+
+Sogen
+
+Yami
+
+Mountain Field
+
+Impenetrable Formation
+
+Codarus
+
+Levia-Dragon — Daedalus
+
+Mermaid Knight
+
+Deepsea Warrior
+
+Mobius the Frost Monarch
+
+Caius the Shadow Monarch
+
+Erebus the Underworld Monarch
+
+Thestalos the Firestorm Monarch
+
+Zaborg the Thunder Monarch
+
+Raiza the Storm Monarch
+
+Kuraz the Light Monarch
+
+Granmarg the Rock Monarch
+
+Delg the Dark Monarch
+
+Angmarl the Fiendish Monarch
+
+Ehther the Heavenly Monarch
+
+Fusion Gate
+
+Zombie World
+
+Book of Life
+
+Lemuria, the Forgotten City
+
+Forgotten Temple of the Deep
+
+Umiiruka
+
+Return Zombie
+
+Molten Zombie
+
+Call of the Mummy
+
+Decayed Commander
+
+Zombiemeister
+
+Armored Zombie
+
+Bone Mouse
+
+Zombie Tiger
+
+Dragon Zombie
+
+Pyramid Turtle
+
+Clown Zombie
+
+Gernia
+
+Three-Legged Zombie
+
+Corroding Shark
+
+Bone Crusher
+
+The Lady in Wight
+
+Zombie Mammoth
+
+Magicians' Souls
+
+Mezuki
+
+Graceful Charity
+
+Spider's Lair
+
+Flame Swordsrealm
+
+Gateway to Chaos
+
+Dragon Ravine
+
+Closed Forest
+
+Fighting Flame Swordsman
+
+Flame Swordsdance
+
+Tornado Wall
+
+Abyss-Strom
+
+Rage of Kairyu-Shin
+
+M-Warrior #1
+
+M-Warrior #2
+
+Karbonala Warrior
+
+Turret Warrior
+
+Harpie Lady Sisters
+
+Gazelle the King of the Mythical Beasts
+
+Berfomet
+
+Bazoo the Soul-Eater
+
+Yellow Baboon, Archer of the Forest
+
+Green Baboon, Defender of the Forest
+
+Chimera the Flying Mythical Beast
+
+Beast Soul Swap
+
+Ancient One of the Deep Forest
+
+Garoozis
+
+Mystical Moon
+
+Vorse Raider
+
+Minoan Centaur
+
+Manticore of Darkness
+
+Akz, the Pumer
+
+Tiger Axe
+
+Spiritual Forest
+
+Butterfly Dagger — Elma
+
+Silent Insect
+
+Spider Egg
+
+Mother Spider
+
+Dark Magic Curtain
+
+Book of Taiyou
+
+Book of Moon
+
+Penguin Soldier
+
+Nightmare Penguin
+
+White Ninja
+
+Desertapir
+
+Needle Worm
+
+Worm Gulse
+
+Skelengel
+
+Soul Reversal
+
+Cyber Dragon
+
+Supply
+
+Magical Scientist
+
+Cyber-Stein
+
+Metamorphosis
+
+Summoner of Illusions
+
+Future Fusion
+
+Instant Fusion
+
+Petit Angel
+
+Mystical Sheep #2
+
+Mystical Sheep #1
+
+Enchanting Mermaid
+
+Fusionist
+
+Rare Fish
+
+Worm Bait
+
+Cyber Twin Dragon
+
+Totem Dragon
+
+Angel 07
+
+Overwhelm
+
+Escalation of the Monarchs
+
+March of the Monarchs
+
+Majesty of the White Dragons
+
+Marauding Captain
+
+Reinforce Truth
+
+Copy Knight
+
+Dragon Treasure
+
+Silver Bow and Arrow
+
+Steel Shell
+
+Dark Energy
+
+Salamandra
+
+Violet Crystal
+
+Insect Armor with Laser Cannon
+
+Cestus of Dagla
+
+Gravity Axe
+
+Electro-Whip
+
+Soul Exchange
+
+Dark Renewal
+
+The Ultimate Creature of Destruction
+
+Guardragon Cataclysm
+
+Dark Magical Circle
+
+Dedication Through Light and Darkness
+
+D.D. Crow
+
+Effect Veiler
+
+Ash Blossom & Joyous Spring
+
+Battle Fader
+
+Honest
+
+Dimension Shifter
+
+Droll and Lock Bird
+
+Swift Scarecrow
+
+Gorz the Emissary of Darkness
+
+Maxx C
+
+Nibiru, the Primal Being
+
+Kimodo Dragon
+
+Burst Breath
+
+The Thing in the Crater
+
+
+VERSION 3 CHANGELOG
+====================
+
+No changes.
+
+VERSION 2 CHANGELOG
+====================
+
+
+
+Blue-Eyes White Dragon
+
+Red-Eyes Black Dragon
+
+Time Wizard
+
+Obelisk the Tormentor
+
+The Winged Dragon of Ra
+
+Slifer the Sky Dragon
+
+Dark Magician
+
+Dark Magician Girl
+
+Raigeki
+
+Trap Hole
+
+Imperial Order
+
+Blue-Eyes Ultimate Dragon
+
+Pot of Greed
+
+Magic Cylinder
+
+Monster Reborn
+
+Polymerization
+
+Kuriboh
+
+Mirror Force
+
+Black Luster Soldier
+
+Black Luster Ritual
+
+Exodia the Forbbiden One
+
+Left Leg of the Forbidden One
+
+Right Leg of the Forbidden One
+
+Right Arm of the Forbidden One
+
+Left Arm of the Forbidden One
+
+Lava Golem
+
+Gearfried the Iron Knight
+
+Kojikocy
+
+Uraby
+
+Tainted Wisdom
+
+Skull Knight
+
+Beastking of the Swamps
+
+Sorcerer of Dark Magic
+
+Horn of Heaven
+
+Mystic Lamp
+
+Call of the Haunted
+
+Giant Rat
+
+Insect Imitation
+
+Shining Angel
+
+Catapult Turtle
+
+Rabid Horseman
+
+Battle Ox
+
+Mystic Horseman
+
+Armed Ninja
+
+Basic Insect
+
+Killer Needle
+
+Baby Dragon
+
+Drill Bug
+
+Robbin' Goblin
+
+Parasite Paracide
+
+Larvae Moth
+rules_text: You may sacrifice an Insect you control with power 2 or greater rather than pay this spell's mana cost.
+Ward {2} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)[/i]
+When this creature dies, create two 1/1 green Insect tokens. => You may sacrifice an Insect you control with power 2 or greater rather than pay this spell's mana cost.
+Ward {2} [i](Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays the ward cost.)[/i]
+When this creature dies, create two 1/1 green Insect tokens.
+
+Cocoon of Evolution
+
+The Stern Mystic
+
+Gravity Bind
+
+Last Will
+
+Flying Kamakiri #1
+
+Hamburger Recipe
+
+Magical Hats
+
+Barrel Dragon
+
+Hiro's Shadow Scout
+
+Return of the Zombies
+
+Ultimate Offering
+
+Mad Sword Beast
+
+Tribute to the Doomed
+
+Buster Blader
+
+Witch of the Black Forest
+
+Jinzo
+
+Magic Jammer
+
+Vampire Lord
+
+Painful Choice
+
+Summoned Skull
+
+Hane-Hane
+
+Swords of Revealing Light
+
+Fissure
+
+Neo the Magic Swordsman
+
+Treeborn Frog
+
+Giant Soldier of Stone
+
+Trap Master
+
+Man-Eater Bug
+
+Dark Hole
+
+De-Spell
+
+Reinforcements
+
+Waboku
+
+Just Desserts
+
+D.D. Warrior Lady
+
+Dark Magician of Chaos
+
+Magician of Faith
+
+Sangan
+
+Chaos Emperor Dragon Envoy of the End
+
+Aqua Madoor
+
+Mystical Elf
+
+Harpie's Feather Duster
+
+Mystical Space Typhoon
+
+Delinquent Duo
+
+The Forceful Sentry
+
+Snatch Steal
+
+UFO Turtle
+
+Share the Pain
+
+Harpie Lady
+
+Thunder Dragon
+
+Twin-Headed Thunder Dragon
+
+Paralyzing Potion
+
+Versago the Destroyer
+
+Tremendous Fire
+
+Flame Swordsman
+
+Flame Manipulator
+
+Masaki the Legendary Swordsman
+
+Eatgaboon
+
+White Hole
+
+Flute of Summoning Dragon
+
+Lord of D.
+
+Thousand Dragon
+
+Relinquished
+
+Black Magic Ritual
+
+Solemn Judgment
+
+Acid Trap Hole
+
+Change of Heart
+
+Solemn Wishes
+
+Backup Soldier
+
+Michizure
+
+Seven Tools of the Bandit
+
+Cyber Jar
+
+Morphing Jar
+
+Reaper of the Cards
+
+Skull Servant
+
+Mask of Darkness
+
+Shadow Ghoul
+
+Dimensionhole
+
+Senju of the Thousand Hands
+
+Ookazi
+
+Big Eye
+
+Call of the Grave
+
+Confiscation
+
+Black Skull Dragon
+
+Masked Sorcerer
+
+Kairyu-Shin
+
+Sparks
+
+Thousand-Eyes Restrict
+
+Lady of Faith
+
+Musician King
+
+Humanoid Slime
+
+Roaring Ocean Snake
+
+Battle Steer
+
+Curse of Dragon
+
+Koumori Dragon
+
+Gaia the Fierce Knight
+
+Mammoth Graveyard
+
+Zombie Warrior
+
+Battle Warrior
+
+Rude Kaiser
+
+Dark Sage
+
+Brain Control
+
+Burning Land
+
+White Dragon Ritual
+
+Magician of Black Chaos
+
+Gaia the Dragon Champion
+
+Spellbinding Circle
+
+Kaibaman
+
+Paladin of White Dragon
+
+The White Stone of Legend
+
+Burst Stream of Destruction
+
+Red-Eyes Dark Dragoon
+
+Meteor Dragon
+
+Meteor Black Dragon
+
+Dark Magic Attack
+
+Magician's Rod
+
+Magician Navigation
+
+Dark Eradicator Warlock
+
+Thousand Knives
+
+Skilled Dark Magician
+
+Ring of Destruction
+
+Destined Rivals
+
+Blue-Eyes Abyss Dragon
+
+Strength in Unity
+
+Red-Eyes Zombie Dragon
+
+Cards of the Red Stone
+
+Black Dragon's Chick
+
+Red-Eyes Spirit
+
+Inferno Fire Blast
+
+Red-Eyes Black Metal Dragon
+
+The Black Stone of Legend
+
+Red-Eyes Wyvern
+
+Red-Eyes Darkness Dragon
+
+Petit Moth
+
+Great Moth
+rules_text: You may sacrifice an Insect with power 4 or greater rather than pay this spells mana cost.
+Reach, ward {3} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.)[/i]
+When this creature dies, create four 1/1 green Insect tokens. => You may sacrifice an Insect with power 4 or greater rather than pay this spells mana cost.
+Reach, ward {3} [i](Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays the ward cost.)[/i]
+When this creature dies, create four 1/1 green Insect tokens.
+
+Perfectly Ultimate Great Moth
+
+Hungry Burger
+
+Rescue Cat
+
+Card of Safe Return
+
+Rescue Rabbit
+
+Terraforming
+
+Black Illusion Ritual
+
+Metalmorph
+
+Thousand-Eyes Idol
+
+Flying Kamakiri #2
+
+Gokipon
+
+Multiplication of Ants
+
+Pinch Hopper
+
+Big Insect
+
+Doom Dozer
+
+Resonance Insect
+
+Ultimate Insect
+
+Arsenal Bug
+
+Metal Armored Bug
+
+Dreadscythe Harvester
+
+Insect Queen
+
+Howling Insect
+
+Celtic Guardian
+
+Nobleman of Crossout
+
+Ancient Brain
+
+La Jinn the Mystical Genie of the Lamp
+
+Hinotama
+
+Beaver Warrior
+
+Buster Blader, the Dragon Destroyer Swordsman
+
+King Tiger Wanghu
+
+Des Kangaroo
+
+Beast King Barbaros
+
+Prologue of the Destruction Swordsman
+
+Five-Headed Dragon
+
+Super Polymerization
+
+Blackland Fire Dragon
+
+One Day of Peace
+
+Upstart Goblin
+
+Scapegoat
+
+The Legendary Fisherman
+
+Ocean Dragon Lord — Neo-Daedalus
+
+Maiden of the Aqua
+
+Umi
+
+Forest Field
+
+Sogen
+
+Yami
+
+Mountain Field
+
+Impenetrable Formation
+
+Codarus
+
+Levia-Dragon — Daedalus
+
+Mermaid Knight
+
+Deepsea Warrior
+
+Mobius the Frost Monarch
+
+Caius the Shadow Monarch
+
+Erebus the Underworld Monarch
+
+Thestalos the Firestorm Monarch
+
+Zaborg the Thunder Monarch
+
+Raiza the Storm Monarch
+
+Kuraz the Light Monarch
+
+Granmarg the Rock Monarch
+
+Delg the Dark Monarch
+
+Angmarl the Fiendish Monarch
+
+Ehther the Heavenly Monarch
+
+Fusion Gate
+
+Zombie World
+
+Book of Life
+
+Lemuria, the Forgotten City
+
+Forgotten Temple of the Deep
+
+Umiiruka
+
+Return Zombie
+
+Molten Zombie
+
+Call of the Mummy
+
+Decayed Commander
+
+Zombiemeister
+
+Armored Zombie
+
+Bone Mouse
+
+Zombie Tiger
+
+Dragon Zombie
+
+Pyramid Turtle
+
+Clown Zombie
+
+Gernia
+
+Three-Legged Zombie
+
+Corroding Shark
+
+Bone Crusher
+
+The Lady in Wight
+
+Zombie Mammoth
+
+Magicians' Souls
+
+Mezuki
+
+Graceful Charity
+
+Spider's Lair
+
+Flame Swordsrealm
+
+Gateway to Chaos
+
+Dragon Ravine
+
+Closed Forest
+
+Fighting Flame Swordsman
+
+Flame Swordsdance
+
+Tornado Wall
+
+Abyss-Strom
+
+Rage of Kairyu-Shin
+
+M-Warrior #1
+
+M-Warrior #2
+
+Karbonala Warrior
+
+Turret Warrior
+
+Harpie Lady Sisters
+
+Gazelle the King of the Mythical Beasts
+
+Berfomet
+
+Bazoo the Soul-Eater
+
+Yellow Baboon, Archer of the Forest
+
+Green Baboon, Defender of the Forest
+
+Chimera the Flying Mythical Beast
+
+Beast Soul Swap
+
+Ancient One of the Deep Forest
+
+Garoozis
+
+Mystical Moon
+
+Vorse Raider
+
+Minoan Centaur
+
+Manticore of Darkness
+
+Akz, the Pumer
+
+Tiger Axe
+
+Spiritual Forest
+
+Butterfly Dagger — Elma
+
+Silent Insect
+
+Spider Egg
+
+Mother Spider
+
+Dark Magic Curtain
+
+Book of Taiyou
+
+Book of Moon
+
+Penguin Soldier
+
+Nightmare Penguin
+
+White Ninja
+
+Desertapir
+
+Needle Worm
+
+Worm Gulse
+
+Skelengel
+
+Soul Reversal
+
+Cyber Dragon
+
+Supply
+
+Magical Scientist
+
+Cyber-Stein
+
+Metamorphosis
+
+Summoner of Illusions
+
+Future Fusion
+
+Instant Fusion
+
+Petit Angel
+
+Mystical Sheep #2
+
+Mystical Sheep #1
+
+Enchanting Mermaid
+
+Fusionist
+
+Rare Fish
+
+Worm Bait
+
+Cyber Twin Dragon
+
+Totem Dragon
+
+Angel 07
+
+Overwhelm
+
+Escalation of the Monarchs
+
+March of the Monarchs
+
+Majesty of the White Dragons
+
+Marauding Captain
+
+Reinforce Truth
+
+Copy Knight
+
+Dragon Treasure
+
+Silver Bow and Arrow
+
+Steel Shell
+
+Dark Energy
+rules_text: {T}, Pay 1 life: Add {U} or {B}. Activate only if this artifact is not attached to a creature.
+Equipped creature gets +1/+1, has prowess and ward {1}, and is a Wizard in addition to its other types. [i](Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)[/i]
+Equip {3}{U}{B} => {T}, Pay 1 life: Add {U} or {B}. Activate only if this artifact is not attached to a creature.
+Equipped creature gets +1/+1, has prowess and ward {1}, and is a Wizard in addition to its other types. [i](Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays the ward cost.)[/i]
+Equip {3}{U}{B}
+
+Salamandra
+
+Violet Crystal
+
+Insect Armor with Laser Cannon
+
+Cestus of Dagla
+
+Gravity Axe
+
+Electro-Whip
+
+Soul Exchange
+
+Dark Renewal
+
+The Ultimate Creature of Destruction
+
+Guardragon Cataclysm
+
+Dark Magical Circle
+
+Dedication Through Light and Darkness
+
+D.D. Crow
+
+Effect Veiler
+
+Ash Blossom & Joyous Spring
+
+Battle Fader
+
+Honest
+
+Dimension Shifter
+
+Droll and Lock Bird
+
+Swift Scarecrow
+
+Gorz the Emissary of Darkness
+
+Maxx C
+
+Nibiru, the Primal Being
+
+Kimodo Dragon
+
+Burst Breath
+
+The Thing in the Crater
+
+
+VERSION 1 CHANGELOG
+====================
+
+First version published.

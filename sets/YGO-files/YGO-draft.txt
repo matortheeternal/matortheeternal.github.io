@@ -1,0 +1,4839 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Blue-Eyes White Dragon",
+			"rarity": "uncommon",
+			"mana_cost": "{6}{W}{U}",
+			"type": "Creature — Dragon",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/0.jpg"
+			}
+		},
+		{
+			"name": "Red-Eyes Black Dragon",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{B}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "274",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/1.jpg"
+			}
+		},
+		{
+			"name": "Time Wizard",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact Creature — Construct Wizard",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/2.jpg"
+			}
+		},
+		{
+			"name": "Obelisk the Tormentor",
+			"rarity": "mythic",
+			"mana_cost": "{7}{B}{R}{G}",
+			"type": "Legendary Creature — God Warrior",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/3.jpg"
+			}
+		},
+		{
+			"name": "The Winged Dragon of Ra",
+			"rarity": "mythic",
+			"mana_cost": "{7}{R}{W}{B}",
+			"type": "Legendary Creature — Dragon God",
+			"collector_number": "295",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/4.jpg"
+			}
+		},
+		{
+			"name": "Slifer the Sky Dragon",
+			"rarity": "mythic",
+			"mana_cost": "{7}{U}{R}{W}",
+			"type": "Legendary Creature — Dragon God",
+			"collector_number": "285",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/5.jpg"
+			}
+		},
+		{
+			"name": "Dark Magician",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{U}{B}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/6.jpg"
+			}
+		},
+		{
+			"name": "Dark Magician Girl",
+			"rarity": "common",
+			"mana_cost": "{3}{U/B}{U/B}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "307",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/7.jpg"
+			}
+		},
+		{
+			"name": "Raigeki",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/8.jpg"
+			}
+		},
+		{
+			"name": "Trap Hole",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Instant — Trap",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/9.jpg"
+			}
+		},
+		{
+			"name": "Imperial Order",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/10.jpg"
+			}
+		},
+		{
+			"name": "Blue-Eyes Ultimate Dragon",
+			"rarity": "rare",
+			"mana_cost": "{6}{W}{W}{U}{U}",
+			"type": "Legendary Creature — Dragon",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/11.jpg"
+			}
+		},
+		{
+			"name": "Pot of Greed",
+			"rarity": "mythic",
+			"mana_cost": "{0}",
+			"type": "Artifact",
+			"collector_number": "339",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/12.jpg"
+			}
+		},
+		{
+			"name": "Magic Cylinder",
+			"rarity": "rare",
+			"mana_cost": "{R}{W}",
+			"type": "Instant — Trap",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/13.jpg"
+			}
+		},
+		{
+			"name": "Monster Reborn",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/14.jpg"
+			}
+		},
+		{
+			"name": "Polymerization",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Sorcery",
+			"collector_number": "271",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/15.jpg"
+			}
+		},
+		{
+			"name": "Kuriboh",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Beast",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/16.jpg"
+			}
+		},
+		{
+			"name": "Mirror Force",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Instant — Trap",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/17.jpg"
+			}
+		},
+		{
+			"name": "Black Luster Soldier",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{B}",
+			"type": "Creature — Human Warrior Soldier",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/18.jpg"
+			}
+		},
+		{
+			"name": "Black Luster Ritual",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Sorcery — Ritual",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/19.jpg"
+			}
+		},
+		{
+			"name": "Exodia the Forbbiden One",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — God Wizard",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/20.jpg"
+			}
+		},
+		{
+			"name": "Left Leg of the Forbidden One",
+			"rarity": "masterpiece",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Wizard",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/21.jpg"
+			}
+		},
+		{
+			"name": "Right Leg of the Forbidden One",
+			"rarity": "masterpiece",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Wizard",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/22.jpg"
+			}
+		},
+		{
+			"name": "Right Arm of the Forbidden One",
+			"rarity": "masterpiece",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Wizard",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/23.jpg"
+			}
+		},
+		{
+			"name": "Left Arm of the Forbidden One",
+			"rarity": "masterpiece",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Wizard",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/24.jpg"
+			}
+		},
+		{
+			"name": "Lava Golem",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Elemental Golem",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/25.jpg"
+			}
+		},
+		{
+			"name": "Gearfried the Iron Knight",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/26.jpg"
+			}
+		},
+		{
+			"name": "Kojikocy",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/27.jpg"
+			}
+		},
+		{
+			"name": "Uraby",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Dinosaur",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/28.jpg"
+			}
+		},
+		{
+			"name": "Tainted Wisdom",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Horror",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/29.jpg"
+			}
+		},
+		{
+			"name": "Skull Knight",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Creature — Demon Knight",
+			"collector_number": "284",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/30.jpg"
+			}
+		},
+		{
+			"name": "Beastking of the Swamps",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Shapeshifter",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/31.jpg"
+			}
+		},
+		{
+			"name": "Sorcerer of Dark Magic",
+			"rarity": "rare",
+			"mana_cost": "{6}{B}{B}{B}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/32.jpg"
+			}
+		},
+		{
+			"name": "Horn of Heaven",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/33.jpg"
+			}
+		},
+		{
+			"name": "Mystic Lamp",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact Creature — Construct Wizard",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/34.jpg"
+			}
+		},
+		{
+			"name": "Call of the Haunted",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/35.jpg"
+			}
+		},
+		{
+			"name": "Giant Rat",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Rat Beast",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/36.jpg"
+			}
+		},
+		{
+			"name": "Insect Imitation",
+			"rarity": "common",
+			"mana_cost": "{B/G}{B/G}",
+			"type": "Sorcery",
+			"collector_number": "311",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/37.jpg"
+			}
+		},
+		{
+			"name": "Shining Angel",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Angel",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/38.jpg"
+			}
+		},
+		{
+			"name": "Catapult Turtle",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Artifact Creature — Turtle Construct",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/39.jpg"
+			}
+		},
+		{
+			"name": "Rabid Horseman",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{R}{G}",
+			"type": "Creature — Beast Warrior",
+			"collector_number": "272",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/40.jpg"
+			}
+		},
+		{
+			"name": "Battle Ox",
+			"rarity": "common",
+			"mana_cost": "{1}{R/G}",
+			"type": "Creature — Beast Warrior",
+			"collector_number": "301",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/41.jpg"
+			}
+		},
+		{
+			"name": "Mystic Horseman",
+			"rarity": "common",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Beast Warrior",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/42.jpg"
+			}
+		},
+		{
+			"name": "Armed Ninja",
+			"rarity": "common",
+			"mana_cost": "{1}{G/U}{G/U}",
+			"type": "Creature — Human Ninja",
+			"collector_number": "300",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/43.jpg"
+			}
+		},
+		{
+			"name": "Basic Insect",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/44.jpg"
+			}
+		},
+		{
+			"name": "Killer Needle",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Insect",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/45.jpg"
+			}
+		},
+		{
+			"name": "Baby Dragon",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/46.jpg"
+			}
+		},
+		{
+			"name": "Drill Bug",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Insect",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/47.jpg"
+			}
+		},
+		{
+			"name": "Robbin' Goblin",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/48.jpg"
+			}
+		},
+		{
+			"name": "Parasite Paracide",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Insect",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/49.jpg"
+			}
+		},
+		{
+			"name": "Larvae Moth",
+			"rarity": "common",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/50.jpg"
+			}
+		},
+		{
+			"name": "Cocoon of Evolution",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/51.jpg"
+			}
+		},
+		{
+			"name": "The Stern Mystic",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Elf Wizard",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/52.jpg"
+			}
+		},
+		{
+			"name": "Gravity Bind",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Enchantment",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/53.jpg"
+			}
+		},
+		{
+			"name": "Last Will",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/54.jpg"
+			}
+		},
+		{
+			"name": "Flying Kamakiri #1",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Insect",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/55.jpg"
+			}
+		},
+		{
+			"name": "Hamburger Recipe",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Sorcery — Ritual",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/56.jpg"
+			}
+		},
+		{
+			"name": "Magical Hats",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Instant",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/57.jpg"
+			}
+		},
+		{
+			"name": "Barrel Dragon",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{R}{R}",
+			"type": "Artifact Creature — Dragon Construct",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/58.jpg"
+			}
+		},
+		{
+			"name": "Hiro's Shadow Scout",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Creature — Eye Horror",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/59.jpg"
+			}
+		},
+		{
+			"name": "Return of the Zombies",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/60.jpg"
+			}
+		},
+		{
+			"name": "Ultimate Offering",
+			"rarity": "mythic",
+			"mana_cost": "{6}{G}{G}",
+			"type": "Enchantment",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/61.jpg"
+			}
+		},
+		{
+			"name": "Mad Sword Beast",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Beast",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/62.jpg"
+			}
+		},
+		{
+			"name": "Tribute to the Doomed",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/63.jpg"
+			}
+		},
+		{
+			"name": "Buster Blader",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{R}{G}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/64.jpg"
+			}
+		},
+		{
+			"name": "Witch of the Black Forest",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Elf Wizard",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/65.jpg"
+			}
+		},
+		{
+			"name": "Jinzo",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}{U}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/66.jpg"
+			}
+		},
+		{
+			"name": "Magic Jammer",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/67.jpg"
+			}
+		},
+		{
+			"name": "Vampire Lord",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{B}",
+			"type": "Creature — Zombie Vampire",
+			"collector_number": "294",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/68.jpg"
+			}
+		},
+		{
+			"name": "Painful Choice",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/69.jpg"
+			}
+		},
+		{
+			"name": "Summoned Skull",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Demon",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/70.jpg"
+			}
+		},
+		{
+			"name": "Hane-Hane",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Beast Warrior",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/71.jpg"
+			}
+		},
+		{
+			"name": "Swords of Revealing Light",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/72.jpg"
+			}
+		},
+		{
+			"name": "Fissure",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/73.jpg"
+			}
+		},
+		{
+			"name": "Neo the Magic Swordsman",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{U}",
+			"type": "Legendary Creature — Human Wizard Warrior",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/74.jpg"
+			}
+		},
+		{
+			"name": "Treeborn Frog",
+			"rarity": "common",
+			"mana_cost": "{2}{G/U}",
+			"type": "Creature — Frog",
+			"collector_number": "328",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/75.jpg"
+			}
+		},
+		{
+			"name": "Giant Soldier of Stone",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Soldier Construct",
+			"collector_number": "336",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/76.jpg"
+			}
+		},
+		{
+			"name": "Trap Master",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Warrior Rogue",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/77.jpg"
+			}
+		},
+		{
+			"name": "Man-Eater Bug",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Creature — Insect",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/78.jpg"
+			}
+		},
+		{
+			"name": "Dark Hole",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/79.jpg"
+			}
+		},
+		{
+			"name": "De-Spell",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{U}",
+			"type": "Instant",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/80.jpg"
+			}
+		},
+		{
+			"name": "Reinforcements",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Instant — Trap",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/81.jpg"
+			}
+		},
+		{
+			"name": "Waboku",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Instant — Trap",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/82.jpg"
+			}
+		},
+		{
+			"name": "Just Desserts",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Instant — Trap",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/83.jpg"
+			}
+		},
+		{
+			"name": "D.D. Warrior Lady",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/84.jpg"
+			}
+		},
+		{
+			"name": "Dark Magician of Chaos",
+			"rarity": "common",
+			"mana_cost": "{6}{U/B}{U/B}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "308",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/85.jpg"
+			}
+		},
+		{
+			"name": "Magician of Faith",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Elf Wizard",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/86.jpg"
+			}
+		},
+		{
+			"name": "Sangan",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Beast",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/87.jpg"
+			}
+		},
+		{
+			"name": "Chaos Emperor Dragon Envoy of the End",
+			"rarity": "rare",
+			"mana_cost": "{6}{W}{B}",
+			"type": "Legendary Creature — Dragon",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/88.jpg"
+			}
+		},
+		{
+			"name": "Aqua Madoor",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Merfolk Wizard",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/89.jpg"
+			}
+		},
+		{
+			"name": "Mystical Elf",
+			"rarity": "common",
+			"mana_cost": "{G/W}{G/W}",
+			"type": "Creature — Elf Wizard",
+			"collector_number": "316",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/90.jpg"
+			}
+		},
+		{
+			"name": "Harpie's Feather Duster",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/91.jpg"
+			}
+		},
+		{
+			"name": "Mystical Space Typhoon",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Instant",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/92.jpg"
+			}
+		},
+		{
+			"name": "Delinquent Duo",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/93.jpg"
+			}
+		},
+		{
+			"name": "The Forceful Sentry",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Sorcery",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/94.jpg"
+			}
+		},
+		{
+			"name": "Snatch Steal",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/95.jpg"
+			}
+		},
+		{
+			"name": "UFO Turtle",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Artifact Creature — Turtle Construct",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/96.jpg"
+			}
+		},
+		{
+			"name": "Share the Pain",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/97.jpg"
+			}
+		},
+		{
+			"name": "Harpie Lady",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Bird Beast Warrior",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/98.jpg"
+			}
+		},
+		{
+			"name": "Thunder Dragon",
+			"rarity": "common",
+			"mana_cost": "{3}{R/W}{R/W}",
+			"type": "Creature — Dragon",
+			"collector_number": "327",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/99.jpg"
+			}
+		},
+		{
+			"name": "Twin-Headed Thunder Dragon",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}{W}{W}",
+			"type": "Creature — Dragon",
+			"collector_number": "292",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/100.jpg"
+			}
+		},
+		{
+			"name": "Paralyzing Potion",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/101.jpg"
+			}
+		},
+		{
+			"name": "Versago the Destroyer",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Shapeshifter",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/102.jpg"
+			}
+		},
+		{
+			"name": "Tremendous Fire",
+			"rarity": "common",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/103.jpg"
+			}
+		},
+		{
+			"name": "Flame Swordsman",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Human Wizard Warrior",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/104.jpg"
+			}
+		},
+		{
+			"name": "Flame Manipulator",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/105.jpg"
+			}
+		},
+		{
+			"name": "Masaki the Legendary Swordsman",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Samurai Warrior",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/106.jpg"
+			}
+		},
+		{
+			"name": "Eatgaboon",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant — Trap",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/107.jpg"
+			}
+		},
+		{
+			"name": "White Hole",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant — Trap",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/108.jpg"
+			}
+		},
+		{
+			"name": "Flute of Summoning Dragon",
+			"rarity": "rare",
+			"mana_cost": "{5}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/109.jpg"
+			}
+		},
+		{
+			"name": "Lord of D.",
+			"rarity": "common",
+			"mana_cost": "{R/W}{R/W}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "313",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/110.jpg"
+			}
+		},
+		{
+			"name": "Thousand Dragon",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}{R}{G}{G}",
+			"type": "Creature — Dragon",
+			"collector_number": "290",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/111.jpg"
+			}
+		},
+		{
+			"name": "Relinquished",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Creature — Illusion",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/112.jpg"
+			}
+		},
+		{
+			"name": "Black Magic Ritual",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Sorcery — Ritual",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/113.jpg"
+			}
+		},
+		{
+			"name": "Solemn Judgment",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Instant",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/114.jpg"
+			}
+		},
+		{
+			"name": "Acid Trap Hole",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant — Trap",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/115.jpg"
+			}
+		},
+		{
+			"name": "Change of Heart",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/116.jpg"
+			}
+		},
+		{
+			"name": "Solemn Wishes",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/117.jpg"
+			}
+		},
+		{
+			"name": "Backup Soldier",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Instant — Trap",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/118.jpg"
+			}
+		},
+		{
+			"name": "Michizure",
+			"rarity": "common",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Instant — Trap",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/119.jpg"
+			}
+		},
+		{
+			"name": "Seven Tools of the Bandit",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/120.jpg"
+			}
+		},
+		{
+			"name": "Cyber Jar",
+			"rarity": "mythic",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "332",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/121.jpg"
+			}
+		},
+		{
+			"name": "Morphing Jar",
+			"rarity": "rare",
+			"mana_cost": "{U}{R}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/122.jpg"
+			}
+		},
+		{
+			"name": "Reaper of the Cards",
+			"rarity": "common",
+			"mana_cost": "{2}{W/U}{W/U}",
+			"type": "Creature — Spirit",
+			"collector_number": "319",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/123.jpg"
+			}
+		},
+		{
+			"name": "Skull Servant",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Zombie Skeleton",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/124.jpg"
+			}
+		},
+		{
+			"name": "Mask of Darkness",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Spirit",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/125.jpg"
+			}
+		},
+		{
+			"name": "Shadow Ghoul",
+			"rarity": "common",
+			"mana_cost": "{1}{B/G}{B/G}",
+			"type": "Creature — Zombie",
+			"collector_number": "325",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/126.jpg"
+			}
+		},
+		{
+			"name": "Dimensionhole",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/127.jpg"
+			}
+		},
+		{
+			"name": "Senju of the Thousand Hands",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Faerie",
+			"collector_number": "341",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/128.jpg"
+			}
+		},
+		{
+			"name": "Ookazi",
+			"rarity": "common",
+			"mana_cost": "{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/129.jpg"
+			}
+		},
+		{
+			"name": "Big Eye",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Eye Horror",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/130.jpg"
+			}
+		},
+		{
+			"name": "Call of the Grave",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Instant — Trap",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/131.jpg"
+			}
+		},
+		{
+			"name": "Confiscation",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/132.jpg"
+			}
+		},
+		{
+			"name": "Black Skull Dragon",
+			"rarity": "rare",
+			"mana_cost": "{6}{B}{B}{R}{R}",
+			"type": "Creature — Demon Dragon",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/133.jpg"
+			}
+		},
+		{
+			"name": "Masked Sorcerer",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/134.jpg"
+			}
+		},
+		{
+			"name": "Kairyu-Shin",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Dragon Serpent",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/135.jpg"
+			}
+		},
+		{
+			"name": "Sparks",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/136.jpg"
+			}
+		},
+		{
+			"name": "Thousand-Eyes Restrict",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}{U}{U}",
+			"type": "Legendary Creature — Illusion Wizard",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/137.jpg"
+			}
+		},
+		{
+			"name": "Lady of Faith",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/138.jpg"
+			}
+		},
+		{
+			"name": "Musician King",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}{B}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/139.jpg"
+			}
+		},
+		{
+			"name": "Humanoid Slime",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Shapeshifter",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/140.jpg"
+			}
+		},
+		{
+			"name": "Roaring Ocean Snake",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Creature — Serpent",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/141.jpg"
+			}
+		},
+		{
+			"name": "Battle Steer",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Beast Warrior",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/142.jpg"
+			}
+		},
+		{
+			"name": "Curse of Dragon",
+			"rarity": "common",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Demon Dragon",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/143.jpg"
+			}
+		},
+		{
+			"name": "Koumori Dragon",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/144.jpg"
+			}
+		},
+		{
+			"name": "Gaia the Fierce Knight",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{R}{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/145.jpg"
+			}
+		},
+		{
+			"name": "Mammoth Graveyard",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Dinosaur Zombie",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/146.jpg"
+			}
+		},
+		{
+			"name": "Zombie Warrior",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{B}",
+			"type": "Creature — Zombie Warrior",
+			"collector_number": "298",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/147.jpg"
+			}
+		},
+		{
+			"name": "Battle Warrior",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/148.jpg"
+			}
+		},
+		{
+			"name": "Rude Kaiser",
+			"rarity": "common",
+			"mana_cost": "{3}{R/W}{R/W}",
+			"type": "Creature — Beast Warrior",
+			"collector_number": "324",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/149.jpg"
+			}
+		},
+		{
+			"name": "Dark Sage",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}{U}{B}{B}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/150.jpg"
+			}
+		},
+		{
+			"name": "Brain Control",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/151.jpg"
+			}
+		},
+		{
+			"name": "Burning Land",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/152.jpg"
+			}
+		},
+		{
+			"name": "White Dragon Ritual",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Sorcery — Ritual",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/153.jpg"
+			}
+		},
+		{
+			"name": "Magician of Black Chaos",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/154.jpg"
+			}
+		},
+		{
+			"name": "Gaia the Dragon Champion",
+			"rarity": "rare",
+			"mana_cost": "{6}{R}{W}",
+			"type": "Legendary Creature — Dragon Warrior",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/155.jpg"
+			}
+		},
+		{
+			"name": "Spellbinding Circle",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/156.jpg"
+			}
+		},
+		{
+			"name": "Kaibaman",
+			"rarity": "common",
+			"mana_cost": "{W}{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/157.jpg"
+			}
+		},
+		{
+			"name": "Paladin of White Dragon",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Dragon Warrior",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/158.jpg"
+			}
+		},
+		{
+			"name": "The White Stone of Legend",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Dragon Egg",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/159.jpg"
+			}
+		},
+		{
+			"name": "Burst Stream of Destruction",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/160.jpg"
+			}
+		},
+		{
+			"name": "Red-Eyes Dark Dragoon",
+			"rarity": "mythic",
+			"mana_cost": "{7}{U}{B}{R}",
+			"type": "Creature — Dragon Wizard",
+			"collector_number": "275",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/161.jpg"
+			}
+		},
+		{
+			"name": "Meteor Dragon",
+			"rarity": "common",
+			"mana_cost": "{5}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/162.jpg"
+			}
+		},
+		{
+			"name": "Meteor Black Dragon",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{B}{R}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/163.jpg"
+			}
+		},
+		{
+			"name": "Dark Magic Attack",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/164.jpg"
+			}
+		},
+		{
+			"name": "Magician's Rod",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Artifact",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/165.jpg"
+			}
+		},
+		{
+			"name": "Magician Navigation",
+			"rarity": "rare",
+			"mana_cost": "{5}{U}{B}",
+			"type": "Instant",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/166.jpg"
+			}
+		},
+		{
+			"name": "Dark Eradicator Warlock",
+			"rarity": "common",
+			"mana_cost": "{5}{U/B}{U/B}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "306",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/167.jpg"
+			}
+		},
+		{
+			"name": "Thousand Knives",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/168.jpg"
+			}
+		},
+		{
+			"name": "Skilled Dark Magician",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/169.jpg"
+			}
+		},
+		{
+			"name": "Ring of Destruction",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Instant",
+			"collector_number": "282",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/170.jpg"
+			}
+		},
+		{
+			"name": "Destined Rivals",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/171.jpg"
+			}
+		},
+		{
+			"name": "Blue-Eyes Abyss Dragon",
+			"rarity": "uncommon",
+			"mana_cost": "{6}{W}{U}",
+			"type": "Creature — Dragon",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/172.jpg"
+			}
+		},
+		{
+			"name": "Strength in Unity",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Enchantment",
+			"collector_number": "286",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/173.jpg"
+			}
+		},
+		{
+			"name": "Red-Eyes Zombie Dragon",
+			"rarity": "common",
+			"mana_cost": "{5}{B/R}{B/R}",
+			"type": "Creature — Dragon Zombie",
+			"collector_number": "322",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/174.jpg"
+			}
+		},
+		{
+			"name": "Cards of the Red Stone",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/175.jpg"
+			}
+		},
+		{
+			"name": "Black Dragon's Chick",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Dragon Egg",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/176.jpg"
+			}
+		},
+		{
+			"name": "Red-Eyes Spirit",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{R}",
+			"type": "Instant — Trap",
+			"collector_number": "277",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/177.jpg"
+			}
+		},
+		{
+			"name": "Inferno Fire Blast",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/178.jpg"
+			}
+		},
+		{
+			"name": "Red-Eyes Black Metal Dragon",
+			"rarity": "common",
+			"mana_cost": "{6}{B/R}{B/R}",
+			"type": "Artifact Creature — Dragon Construct",
+			"collector_number": "320",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/179.jpg"
+			}
+		},
+		{
+			"name": "The Black Stone of Legend",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Dragon Egg",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/180.jpg"
+			}
+		},
+		{
+			"name": "Red-Eyes Wyvern",
+			"rarity": "common",
+			"mana_cost": "{2}{B/R}{B/R}",
+			"type": "Creature — Dragon",
+			"collector_number": "321",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/181.jpg"
+			}
+		},
+		{
+			"name": "Red-Eyes Darkness Dragon",
+			"rarity": "rare",
+			"mana_cost": "{7}{B}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "276",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/182.jpg"
+			}
+		},
+		{
+			"name": "Petit Moth",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Insect",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/183.jpg"
+			}
+		},
+		{
+			"name": "Great Moth",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/184.jpg"
+			}
+		},
+		{
+			"name": "Perfectly Ultimate Great Moth",
+			"rarity": "rare",
+			"mana_cost": "{6}{B}{G}",
+			"type": "Legendary Creature — Insect",
+			"collector_number": "269",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/185.jpg"
+			}
+		},
+		{
+			"name": "Hungry Burger",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Artifact Creature — Food Horror",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/186.jpg"
+			}
+		},
+		{
+			"name": "Rescue Cat",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Creature — Cat",
+			"collector_number": "279",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/187.jpg"
+			}
+		},
+		{
+			"name": "Card of Safe Return",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Enchantment",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/188.jpg"
+			}
+		},
+		{
+			"name": "Rescue Rabbit",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{W}",
+			"type": "Creature — Rabbit",
+			"collector_number": "280",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/189.jpg"
+			}
+		},
+		{
+			"name": "Terraforming",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Sorcery",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/190.jpg"
+			}
+		},
+		{
+			"name": "Black Illusion Ritual",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Sorcery — Ritual",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/191.jpg"
+			}
+		},
+		{
+			"name": "Metalmorph",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/192.jpg"
+			}
+		},
+		{
+			"name": "Thousand-Eyes Idol",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Creature — Shapeshifter",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/193.jpg"
+			}
+		},
+		{
+			"name": "Flying Kamakiri #2",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/194.jpg"
+			}
+		},
+		{
+			"name": "Gokipon",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/195.jpg"
+			}
+		},
+		{
+			"name": "Multiplication of Ants",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/196.jpg"
+			}
+		},
+		{
+			"name": "Pinch Hopper",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/197.jpg"
+			}
+		},
+		{
+			"name": "Big Insect",
+			"rarity": "common",
+			"mana_cost": "{3}{B/G}",
+			"type": "Creature — Insect",
+			"collector_number": "302",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/198.jpg"
+			}
+		},
+		{
+			"name": "Doom Dozer",
+			"rarity": "uncommon",
+			"mana_cost": "{6}{B}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/199.jpg"
+			}
+		},
+		{
+			"name": "Resonance Insect",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "281",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/200.jpg"
+			}
+		},
+		{
+			"name": "Ultimate Insect",
+			"rarity": "rare",
+			"mana_cost": "{B}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "293",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/201.jpg"
+			}
+		},
+		{
+			"name": "Arsenal Bug",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Insect Warrior",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/202.jpg"
+			}
+		},
+		{
+			"name": "Metal Armored Bug",
+			"rarity": "common",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/203.jpg"
+			}
+		},
+		{
+			"name": "Dreadscythe Harvester",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Insect Warrior",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/204.jpg"
+			}
+		},
+		{
+			"name": "Insect Queen",
+			"rarity": "rare",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/205.jpg"
+			}
+		},
+		{
+			"name": "Howling Insect",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/206.jpg"
+			}
+		},
+		{
+			"name": "Celtic Guardian",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Elf Warrior",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/207.jpg"
+			}
+		},
+		{
+			"name": "Nobleman of Crossout",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Sorcery",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/208.jpg"
+			}
+		},
+		{
+			"name": "Ancient Brain",
+			"rarity": "common",
+			"mana_cost": "{U}{U}",
+			"type": "Creature — Horror Wizard",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/209.jpg"
+			}
+		},
+		{
+			"name": "La Jinn the Mystical Genie of the Lamp",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Djinn",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/210.jpg"
+			}
+		},
+		{
+			"name": "Hinotama",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/211.jpg"
+			}
+		},
+		{
+			"name": "Beaver Warrior",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Beaver Warrior",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/212.jpg"
+			}
+		},
+		{
+			"name": "Buster Blader, the Dragon Destroyer Swordsman",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{G}{W}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/213.jpg"
+			}
+		},
+		{
+			"name": "King Tiger Wanghu",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Legendary Creature — Cat Beast Warrior",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/214.jpg"
+			}
+		},
+		{
+			"name": "Des Kangaroo",
+			"rarity": "common",
+			"mana_cost": "{X}{X}{R/G}",
+			"type": "Creature — Beast Warrior",
+			"collector_number": "309",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/215.jpg"
+			}
+		},
+		{
+			"name": "Beast King Barbaros",
+			"rarity": "rare",
+			"mana_cost": "{6}{R}{G}",
+			"type": "Legendary Creature — Beast Warrior",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/216.jpg"
+			}
+		},
+		{
+			"name": "Prologue of the Destruction Swordsman",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Instant",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/217.jpg"
+			}
+		},
+		{
+			"name": "Five-Headed Dragon",
+			"rarity": "mythic",
+			"mana_cost": "{5}{W}{U}{B}{R}{G}",
+			"type": "Legendary Creature — Elder Dragon",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/218.jpg"
+			}
+		},
+		{
+			"name": "Super Polymerization",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{G}",
+			"type": "Sorcery",
+			"collector_number": "288",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/219.jpg"
+			}
+		},
+		{
+			"name": "Blackland Fire Dragon",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/220.jpg"
+			}
+		},
+		{
+			"name": "One Day of Peace",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/221.jpg"
+			}
+		},
+		{
+			"name": "Upstart Goblin",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/222.jpg"
+			}
+		},
+		{
+			"name": "Scapegoat",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/223.jpg"
+			}
+		},
+		{
+			"name": "The Legendary Fisherman",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Creature — Merfolk Warrior",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/224.jpg"
+			}
+		},
+		{
+			"name": "Ocean Dragon Lord — Neo-Daedalus",
+			"rarity": "rare",
+			"mana_cost": "{6}{U}{U}{U}",
+			"type": "Legendary Creature — Dragon Leviathan",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/225.jpg"
+			}
+		},
+		{
+			"name": "Maiden of the Aqua",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature Land — Merfolk Island",
+			"collector_number": "353",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/226.jpg"
+			}
+		},
+		{
+			"name": "Umi",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Legendary Land — Island",
+			"collector_number": "357",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/227.jpg"
+			}
+		},
+		{
+			"name": "Forest Field",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Legendary Land — Forest",
+			"collector_number": "348",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/228.jpg"
+			}
+		},
+		{
+			"name": "Sogen",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Legendary Land — Plains",
+			"collector_number": "355",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/229.jpg"
+			}
+		},
+		{
+			"name": "Yami",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Legendary Land — Swamp",
+			"collector_number": "359",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/230.jpg"
+			}
+		},
+		{
+			"name": "Mountain Field",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Legendary Land — Mountain",
+			"collector_number": "354",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/231.jpg"
+			}
+		},
+		{
+			"name": "Impenetrable Formation",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/232.jpg"
+			}
+		},
+		{
+			"name": "Codarus",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Leviathan",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/233.jpg"
+			}
+		},
+		{
+			"name": "Levia-Dragon — Daedalus",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Creature — Dragon Leviathan",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/234.jpg"
+			}
+		},
+		{
+			"name": "Mermaid Knight",
+			"rarity": "common",
+			"mana_cost": "{1}{W/U}{W/U}",
+			"type": "Creature — Merfolk Warrior",
+			"collector_number": "314",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/235.jpg"
+			}
+		},
+		{
+			"name": "Deepsea Warrior",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Creature — Merfolk Warrior",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/236.jpg"
+			}
+		},
+		{
+			"name": "Mobius the Frost Monarch",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}{U}",
+			"type": "Legendary Creature — Monarch Soldier",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/237.jpg"
+			}
+		},
+		{
+			"name": "Caius the Shadow Monarch",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{R}",
+			"type": "Legendary Creature — Monarch Demon",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/238.jpg"
+			}
+		},
+		{
+			"name": "Erebus the Underworld Monarch",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{G}",
+			"type": "Legendary Creature — Monarch Warlock",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/239.jpg"
+			}
+		},
+		{
+			"name": "Thestalos the Firestorm Monarch",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}{W}",
+			"type": "Legendary Creature — Monarch Shaman",
+			"collector_number": "289",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/240.jpg"
+			}
+		},
+		{
+			"name": "Zaborg the Thunder Monarch",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}{R}",
+			"type": "Legendary Creature — Monarch Wizard",
+			"collector_number": "297",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/241.jpg"
+			}
+		},
+		{
+			"name": "Raiza the Storm Monarch",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{U}",
+			"type": "Legendary Creature — Monarch Druid",
+			"collector_number": "273",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/242.jpg"
+			}
+		},
+		{
+			"name": "Kuraz the Light Monarch",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{W}",
+			"type": "Legendary Creature — Monarch Cleric",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/243.jpg"
+			}
+		},
+		{
+			"name": "Granmarg the Rock Monarch",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}{G}",
+			"type": "Legendary Creature — Monarch Warrior",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/244.jpg"
+			}
+		},
+		{
+			"name": "Delg the Dark Monarch",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}{B}",
+			"type": "Legendary Creature — Monarch Zombie",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/245.jpg"
+			}
+		},
+		{
+			"name": "Angmarl the Fiendish Monarch",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}{B}",
+			"type": "Legendary Creature — Monarch Horror",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/246.jpg"
+			}
+		},
+		{
+			"name": "Ehther the Heavenly Monarch",
+			"rarity": "mythic",
+			"mana_cost": "{W}{U}{B}{R}{G}",
+			"type": "Legendary Creature — Monarch God",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/247.jpg"
+			}
+		},
+		{
+			"name": "Fusion Gate",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Island Mountain",
+			"collector_number": "350",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/248.jpg"
+			}
+		},
+		{
+			"name": "Zombie World",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Plains Swamp",
+			"collector_number": "360",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/249.jpg"
+			}
+		},
+		{
+			"name": "Book of Life",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/250.jpg"
+			}
+		},
+		{
+			"name": "Lemuria, the Forgotten City",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Island Swamp",
+			"collector_number": "352",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/251.jpg"
+			}
+		},
+		{
+			"name": "Forgotten Temple of the Deep",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Plains Island",
+			"collector_number": "349",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/252.jpg"
+			}
+		},
+		{
+			"name": "Umiiruka",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Forest Island",
+			"collector_number": "358",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/253.jpg"
+			}
+		},
+		{
+			"name": "Return Zombie",
+			"rarity": "common",
+			"mana_cost": "{W/B}{W/B}",
+			"type": "Creature — Zombie",
+			"collector_number": "323",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/254.jpg"
+			}
+		},
+		{
+			"name": "Molten Zombie",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{B}",
+			"type": "Creature — Zombie Elemental",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/255.jpg"
+			}
+		},
+		{
+			"name": "Call of the Mummy",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Enchantment",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/256.jpg"
+			}
+		},
+		{
+			"name": "Decayed Commander",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Creature — Zombie Warrior",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/257.jpg"
+			}
+		},
+		{
+			"name": "Zombiemeister",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Creature — Zombie Cleric",
+			"collector_number": "299",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/258.jpg"
+			}
+		},
+		{
+			"name": "Armored Zombie",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Zombie Warrior",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/259.jpg"
+			}
+		},
+		{
+			"name": "Bone Mouse",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Mouse Zombie",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/260.jpg"
+			}
+		},
+		{
+			"name": "Zombie Tiger",
+			"rarity": "common",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Zombie Cat",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/261.jpg"
+			}
+		},
+		{
+			"name": "Dragon Zombie",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Dragon Zombie",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/262.jpg"
+			}
+		},
+		{
+			"name": "Pyramid Turtle",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Zombie Turtle",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/263.jpg"
+			}
+		},
+		{
+			"name": "Clown Zombie",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/264.jpg"
+			}
+		},
+		{
+			"name": "Gernia",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/265.jpg"
+			}
+		},
+		{
+			"name": "Three-Legged Zombie",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/266.jpg"
+			}
+		},
+		{
+			"name": "Corroding Shark",
+			"rarity": "common",
+			"mana_cost": "{1}{W/B}{W/B}",
+			"type": "Creature — Zombie Shark",
+			"collector_number": "305",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/267.jpg"
+			}
+		},
+		{
+			"name": "Bone Crusher",
+			"rarity": "common",
+			"mana_cost": "{1}{W/B}{W/B}",
+			"type": "Creature — Zombie Warrior",
+			"collector_number": "303",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/268.jpg"
+			}
+		},
+		{
+			"name": "The Lady in Wight",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Zombie Noble",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/269.jpg"
+			}
+		},
+		{
+			"name": "Zombie Mammoth",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/270.jpg"
+			}
+		},
+		{
+			"name": "Magicians' Souls",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Spirit Wizard",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/271.jpg"
+			}
+		},
+		{
+			"name": "Mezuki",
+			"rarity": "common",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Creature — Zombie Horse",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/272.jpg"
+			}
+		},
+		{
+			"name": "Graceful Charity",
+			"rarity": "mythic",
+			"mana_cost": "{U}",
+			"type": "Sorcery",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/273.jpg"
+			}
+		},
+		{
+			"name": "Spider's Lair",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Swamp Forest",
+			"collector_number": "356",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/274.jpg"
+			}
+		},
+		{
+			"name": "Flame Swordsrealm",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Mountain Plains",
+			"collector_number": "347",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/275.jpg"
+			}
+		},
+		{
+			"name": "Gateway to Chaos",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Forest Plains",
+			"collector_number": "351",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/276.jpg"
+			}
+		},
+		{
+			"name": "Dragon Ravine",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Swamp Mountain",
+			"collector_number": "346",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/277.jpg"
+			}
+		},
+		{
+			"name": "Closed Forest",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Mountain Forest",
+			"collector_number": "345",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/278.jpg"
+			}
+		},
+		{
+			"name": "Fighting Flame Swordsman",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/279.jpg"
+			}
+		},
+		{
+			"name": "Flame Swordsdance",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant — Trap",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/280.jpg"
+			}
+		},
+		{
+			"name": "Tornado Wall",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/281.jpg"
+			}
+		},
+		{
+			"name": "Abyss-Strom",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/282.jpg"
+			}
+		},
+		{
+			"name": "Rage of Kairyu-Shin",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/283.jpg"
+			}
+		},
+		{
+			"name": "M-Warrior #1",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Mutant Warrior",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/284.jpg"
+			}
+		},
+		{
+			"name": "M-Warrior #2",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Mutant Warrior",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/285.jpg"
+			}
+		},
+		{
+			"name": "Karbonala Warrior",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/286.jpg"
+			}
+		},
+		{
+			"name": "Turret Warrior",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Artifact Creature — Construct Warrior",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/287.jpg"
+			}
+		},
+		{
+			"name": "Harpie Lady Sisters",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Legendary Creature — Bird Beast Warrior",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/288.jpg"
+			}
+		},
+		{
+			"name": "Gazelle the King of the Mythical Beasts",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Legendary Creature — Beast",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/289.jpg"
+			}
+		},
+		{
+			"name": "Berfomet",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Beast",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/290.jpg"
+			}
+		},
+		{
+			"name": "Bazoo the Soul-Eater",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}",
+			"type": "Creature — Monkey Beast",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/291.jpg"
+			}
+		},
+		{
+			"name": "Yellow Baboon, Archer of the Forest",
+			"rarity": "common",
+			"mana_cost": "{1}{R/G}{R/G}",
+			"type": "Creature — Beast Warrior",
+			"collector_number": "329",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/292.jpg"
+			}
+		},
+		{
+			"name": "Green Baboon, Defender of the Forest",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{G}",
+			"type": "Creature — Beast Warrior",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/293.jpg"
+			}
+		},
+		{
+			"name": "Chimera the Flying Mythical Beast",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Legendary Creature — Beast",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/294.jpg"
+			}
+		},
+		{
+			"name": "Beast Soul Swap",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/295.jpg"
+			}
+		},
+		{
+			"name": "Ancient One of the Deep Forest",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Beast",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/296.jpg"
+			}
+		},
+		{
+			"name": "Garoozis",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Beast Warrior",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/297.jpg"
+			}
+		},
+		{
+			"name": "Mystical Moon",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/298.jpg"
+			}
+		},
+		{
+			"name": "Vorse Raider",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Beast Warrior",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/299.jpg"
+			}
+		},
+		{
+			"name": "Minoan Centaur",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Beast Warrior",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/300.jpg"
+			}
+		},
+		{
+			"name": "Manticore of Darkness",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Beast Warrior",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/301.jpg"
+			}
+		},
+		{
+			"name": "Akz, the Pumer",
+			"rarity": "rare",
+			"mana_cost": "{5}{R}{R}",
+			"type": "Legendary Creature — Beast Warrior",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/302.jpg"
+			}
+		},
+		{
+			"name": "Tiger Axe",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Beast Warrior",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/303.jpg"
+			}
+		},
+		{
+			"name": "Spiritual Forest",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Enchantment",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/304.jpg"
+			}
+		},
+		{
+			"name": "Butterfly Dagger — Elma",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/305.jpg"
+			}
+		},
+		{
+			"name": "Silent Insect",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/306.jpg"
+			}
+		},
+		{
+			"name": "Spider Egg",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Instant — Trap",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/307.jpg"
+			}
+		},
+		{
+			"name": "Mother Spider",
+			"rarity": "rare",
+			"mana_cost": "{6}{B}{G}",
+			"type": "Creature — Insect Spider",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/308.jpg"
+			}
+		},
+		{
+			"name": "Dark Magic Curtain",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Sorcery",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/309.jpg"
+			}
+		},
+		{
+			"name": "Book of Taiyou",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{U}",
+			"type": "Instant",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/310.jpg"
+			}
+		},
+		{
+			"name": "Book of Moon",
+			"rarity": "common",
+			"mana_cost": "{G/U}",
+			"type": "Instant",
+			"collector_number": "304",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/311.jpg"
+			}
+		},
+		{
+			"name": "Penguin Soldier",
+			"rarity": "rare",
+			"mana_cost": "{5}{G}{U}",
+			"type": "Creature — Penguin Soldier",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/312.jpg"
+			}
+		},
+		{
+			"name": "Nightmare Penguin",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Creature — Penguin",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/313.jpg"
+			}
+		},
+		{
+			"name": "White Ninja",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Creature — Human Ninja",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/314.jpg"
+			}
+		},
+		{
+			"name": "Desertapir",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Creature — Beast",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/315.jpg"
+			}
+		},
+		{
+			"name": "Needle Worm",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Creature — Insect",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/316.jpg"
+			}
+		},
+		{
+			"name": "Worm Gulse",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{U}",
+			"type": "Creature — Lizard Ooze",
+			"collector_number": "296",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/317.jpg"
+			}
+		},
+		{
+			"name": "Skelengel",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{U}",
+			"type": "Creature — Faerie Angel",
+			"collector_number": "283",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/318.jpg"
+			}
+		},
+		{
+			"name": "Soul Reversal",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/319.jpg"
+			}
+		},
+		{
+			"name": "Cyber Dragon",
+			"rarity": "rare",
+			"mana_cost": "{5}",
+			"type": "Artifact Creature — Dragon Construct",
+			"collector_number": "331",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/320.jpg"
+			}
+		},
+		{
+			"name": "Supply",
+			"rarity": "common",
+			"mana_cost": "{U/R}{U/R}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "326",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/321.jpg"
+			}
+		},
+		{
+			"name": "Magical Scientist",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/322.jpg"
+			}
+		},
+		{
+			"name": "Cyber-Stein",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/323.jpg"
+			}
+		},
+		{
+			"name": "Metamorphosis",
+			"rarity": "common",
+			"mana_cost": "{1}{U/R}{U/R}",
+			"type": "Sorcery",
+			"collector_number": "315",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/324.jpg"
+			}
+		},
+		{
+			"name": "Summoner of Illusions",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "287",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/325.jpg"
+			}
+		},
+		{
+			"name": "Future Fusion",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Sorcery",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/326.jpg"
+			}
+		},
+		{
+			"name": "Instant Fusion",
+			"rarity": "common",
+			"mana_cost": "{U/R}{U/R}",
+			"type": "Instant",
+			"collector_number": "312",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/327.jpg"
+			}
+		},
+		{
+			"name": "Petit Angel",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Creature — Angel",
+			"collector_number": "270",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/328.jpg"
+			}
+		},
+		{
+			"name": "Mystical Sheep #2",
+			"rarity": "common",
+			"mana_cost": "{1}{G/W}{G/W}",
+			"type": "Creature — Beast Shaman",
+			"collector_number": "317",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/329.jpg"
+			}
+		},
+		{
+			"name": "Mystical Sheep #1",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Shapeshifter",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/330.jpg"
+			}
+		},
+		{
+			"name": "Enchanting Mermaid",
+			"rarity": "common",
+			"mana_cost": "{2}{W/U}",
+			"type": "Creature — Merfolk",
+			"collector_number": "310",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/331.jpg"
+			}
+		},
+		{
+			"name": "Fusionist",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{W}",
+			"type": "Creature — Cat Angel",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/332.jpg"
+			}
+		},
+		{
+			"name": "Rare Fish",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Cat Fish",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/333.jpg"
+			}
+		},
+		{
+			"name": "Worm Bait",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/334.jpg"
+			}
+		},
+		{
+			"name": "Cyber Twin Dragon",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}{U}{R}{R}",
+			"type": "Artifact Creature — Dragon Construct",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/335.jpg"
+			}
+		},
+		{
+			"name": "Totem Dragon",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{W}",
+			"type": "Creature — Dragon",
+			"collector_number": "291",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/336.jpg"
+			}
+		},
+		{
+			"name": "Angel 07",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{G}{W}",
+			"type": "Creature — Angel",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/337.jpg"
+			}
+		},
+		{
+			"name": "Overwhelm",
+			"rarity": "common",
+			"mana_cost": "{2}{G/W}",
+			"type": "Instant",
+			"collector_number": "318",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/338.jpg"
+			}
+		},
+		{
+			"name": "Escalation of the Monarchs",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{W}",
+			"type": "Enchantment",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/339.jpg"
+			}
+		},
+		{
+			"name": "March of the Monarchs",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Enchantment",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/340.jpg"
+			}
+		},
+		{
+			"name": "Majesty of the White Dragons",
+			"rarity": "rare",
+			"mana_cost": "{X}{W}{U}",
+			"type": "Instant",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/341.jpg"
+			}
+		},
+		{
+			"name": "Marauding Captain",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/342.jpg"
+			}
+		},
+		{
+			"name": "Reinforce Truth",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{W}",
+			"type": "Instant",
+			"collector_number": "278",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/343.jpg"
+			}
+		},
+		{
+			"name": "Copy Knight",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Enchantment",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/344.jpg"
+			}
+		},
+		{
+			"name": "Dragon Treasure",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "334",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/345.jpg"
+			}
+		},
+		{
+			"name": "Silver Bow and Arrow",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "342",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/346.jpg"
+			}
+		},
+		{
+			"name": "Steel Shell",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "343",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/347.jpg"
+			}
+		},
+		{
+			"name": "Dark Energy",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "333",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/348.jpg"
+			}
+		},
+		{
+			"name": "Salamandra",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "340",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/349.jpg"
+			}
+		},
+		{
+			"name": "Violet Crystal",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "344",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/350.jpg"
+			}
+		},
+		{
+			"name": "Insect Armor with Laser Cannon",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "338",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/351.jpg"
+			}
+		},
+		{
+			"name": "Cestus of Dagla",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "330",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/352.jpg"
+			}
+		},
+		{
+			"name": "Gravity Axe",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "337",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/353.jpg"
+			}
+		},
+		{
+			"name": "Electro-Whip",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "335",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/354.jpg"
+			}
+		},
+		{
+			"name": "Soul Exchange",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/355.jpg"
+			}
+		},
+		{
+			"name": "Dark Renewal",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Instant — Trap",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/356.jpg"
+			}
+		},
+		{
+			"name": "The Ultimate Creature of Destruction",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/357.jpg"
+			}
+		},
+		{
+			"name": "Guardragon Cataclysm",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{W}{W}",
+			"type": "Instant",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/358.jpg"
+			}
+		},
+		{
+			"name": "Dark Magical Circle",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/359.jpg"
+			}
+		},
+		{
+			"name": "Dedication Through Light and Darkness",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/360.jpg"
+			}
+		},
+		{
+			"name": "D.D. Crow",
+			"rarity": "masterpiece",
+			"mana_cost": "{2}{W/B}",
+			"type": "Creature — Bird",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/361.jpg"
+			}
+		},
+		{
+			"name": "Effect Veiler",
+			"rarity": "masterpiece",
+			"mana_cost": "{1}{W/U}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/362.jpg"
+			}
+		},
+		{
+			"name": "Ash Blossom & Joyous Spring",
+			"rarity": "masterpiece",
+			"mana_cost": "{3}{U/B}",
+			"type": "Creature — Zombie",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/363.jpg"
+			}
+		},
+		{
+			"name": "Battle Fader",
+			"rarity": "masterpiece",
+			"mana_cost": "{3}{G/W}",
+			"type": "Artifact Creature — Demon Construct",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/364.jpg"
+			}
+		},
+		{
+			"name": "Honest",
+			"rarity": "masterpiece",
+			"mana_cost": "{2}{R/W}",
+			"type": "Creature — Angel",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/365.jpg"
+			}
+		},
+		{
+			"name": "Dimension Shifter",
+			"rarity": "masterpiece",
+			"mana_cost": "{4}{B/G}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/366.jpg"
+			}
+		},
+		{
+			"name": "Droll and Lock Bird",
+			"rarity": "masterpiece",
+			"mana_cost": "{2}{G/U}",
+			"type": "Creature — Bird Wizard",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/367.jpg"
+			}
+		},
+		{
+			"name": "Swift Scarecrow",
+			"rarity": "masterpiece",
+			"mana_cost": "{2}{R/G}",
+			"type": "Artifact Creature — Scarecrow",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/368.jpg"
+			}
+		},
+		{
+			"name": "Gorz the Emissary of Darkness",
+			"rarity": "masterpiece",
+			"mana_cost": "{5}{B/R}",
+			"type": "Creature — Demon Warrior",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/369.jpg"
+			}
+		},
+		{
+			"name": "Maxx C",
+			"rarity": "masterpiece",
+			"mana_cost": "{3}{U/R}",
+			"type": "Creature — Insect",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/370.jpg"
+			}
+		},
+		{
+			"name": "Nibiru, the Primal Being",
+			"rarity": "masterpiece",
+			"mana_cost": "{11}",
+			"type": "Legendary Artifact Creature — Construct",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/371.jpg"
+			}
+		},
+		{
+			"name": "Kimodo Dragon",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/372.jpg"
+			}
+		},
+		{
+			"name": "Burst Breath",
+			"rarity": "rare",
+			"mana_cost": "{X}{B}{R}{R}",
+			"type": "Instant",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/373.jpg"
+			}
+		},
+		{
+			"name": "The Thing in the Crater",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Shapeshifter",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/374.jpg"
+			}
+		}
+	]
+
+[rare(1)]
+	2 Time Wizard
+	1 Obelisk the Tormentor
+	1 The Winged Dragon of Ra
+	1 Slifer the Sky Dragon
+	2 Raigeki
+	2 Imperial Order
+	2 Blue-Eyes Ultimate Dragon
+	1 Pot of Greed
+	2 Magic Cylinder
+	1 Monster Reborn
+	2 Mirror Force
+	1 Exodia the Forbbiden One
+	2 Lava Golem
+	2 Gearfried the Iron Knight
+	2 Sorcerer of Dark Magic
+	2 Robbin' Goblin
+	2 Magical Hats
+	2 Return of the Zombies
+	1 Ultimate Offering
+	2 Vampire Lord
+	2 Painful Choice
+	2 Swords of Revealing Light
+	2 Dark Hole
+	2 Chaos Emperor Dragon Envoy of the End
+	2 Harpie's Feather Duster
+	2 Delinquent Duo
+	2 The Forceful Sentry
+	2 Snatch Steal
+	2 Twin-Headed Thunder Dragon
+	2 Flute of Summoning Dragon
+	2 Thousand Dragon
+	2 Solemn Judgment
+	1 Change of Heart
+	1 Cyber Jar
+	2 Morphing Jar
+	2 Confiscation
+	2 Black Skull Dragon
+	2 Thousand-Eyes Restrict
+	2 Dark Sage
+	2 Gaia the Dragon Champion
+	2 Burst Stream of Destruction
+	1 Red-Eyes Dark Dragoon
+	2 Magician Navigation
+	2 Strength in Unity
+	2 The Black Stone of Legend
+	2 Red-Eyes Darkness Dragon
+	2 Perfectly Ultimate Great Moth
+	2 Rescue Cat
+	2 Card of Safe Return
+	2 Rescue Rabbit
+	2 Ultimate Insect
+	2 Insect Queen
+	1 Buster Blader, the Dragon Destroyer Swordsman
+	2 Beast King Barbaros
+	2 Prologue of the Destruction Swordsman
+	1 Five-Headed Dragon
+	2 Super Polymerization
+	2 Ocean Dragon Lord — Neo-Daedalus
+	1 Umi
+	1 Forest Field
+	1 Sogen
+	1 Yami
+	1 Mountain Field
+	2 Levia-Dragon — Daedalus
+	1 Ehther the Heavenly Monarch
+	2 Call of the Mummy
+	1 Graceful Charity
+	2 Chimera the Flying Mythical Beast
+	2 Beast Soul Swap
+	2 Minoan Centaur
+	2 Akz, the Pumer
+	2 Spiritual Forest
+	2 Silent Insect
+	2 Mother Spider
+	2 Dark Magic Curtain
+	2 Penguin Soldier
+	2 Nightmare Penguin
+	2 Worm Gulse
+	2 Cyber Dragon
+	2 Magical Scientist
+	2 Rare Fish
+	2 March of the Monarchs
+	2 Majesty of the White Dragons
+	2 The Ultimate Creature of Destruction
+	2 Burst Breath
+[uncommon(3)]
+	4 Blue-Eyes White Dragon
+	4 Red-Eyes Black Dragon
+	4 Dark Magician
+	4 Polymerization
+	4 Black Luster Soldier
+	4 Black Luster Ritual
+	4 Tainted Wisdom
+	4 Skull Knight
+	4 Call of the Haunted
+	4 Giant Rat
+	4 Shining Angel
+	4 Catapult Turtle
+	4 Rabid Horseman
+	4 Drill Bug
+	4 Parasite Paracide
+	4 The Stern Mystic
+	4 Gravity Bind
+	4 Last Will
+	4 Flying Kamakiri #1
+	4 Hamburger Recipe
+	4 Barrel Dragon
+	4 Hiro's Shadow Scout
+	4 Buster Blader
+	4 Witch of the Black Forest
+	4 Jinzo
+	4 Magic Jammer
+	4 Summoned Skull
+	4 Neo the Magic Swordsman
+	4 Giant Soldier of Stone
+	4 Man-Eater Bug
+	4 De-Spell
+	4 Waboku
+	4 Just Desserts
+	4 D.D. Warrior Lady
+	4 Sangan
+	4 UFO Turtle
+	4 Flame Swordsman
+	4 Masaki the Legendary Swordsman
+	4 White Hole
+	4 Relinquished
+	4 Black Magic Ritual
+	4 Senju of the Thousand Hands
+	4 Call of the Grave
+	4 Kairyu-Shin
+	4 Musician King
+	4 Roaring Ocean Snake
+	4 Koumori Dragon
+	4 Gaia the Fierce Knight
+	4 Zombie Warrior
+	4 Brain Control
+	4 Burning Land
+	4 White Dragon Ritual
+	4 Magician of Black Chaos
+	4 Paladin of White Dragon
+	4 The White Stone of Legend
+	4 Meteor Black Dragon
+	4 Magician's Rod
+	4 Skilled Dark Magician
+	4 Ring of Destruction
+	4 Destined Rivals
+	4 Blue-Eyes Abyss Dragon
+	4 Cards of the Red Stone
+	4 Red-Eyes Spirit
+	4 Great Moth
+	4 Hungry Burger
+	4 Black Illusion Ritual
+	4 Flying Kamakiri #2
+	4 Pinch Hopper
+	4 Doom Dozer
+	4 Resonance Insect
+	4 Arsenal Bug
+	4 Dreadscythe Harvester
+	4 Howling Insect
+	4 Beaver Warrior
+	4 King Tiger Wanghu
+	4 Blackland Fire Dragon
+	4 Scapegoat
+	4 The Legendary Fisherman
+	4 Mobius the Frost Monarch
+	4 Caius the Shadow Monarch
+	4 Erebus the Underworld Monarch
+	4 Thestalos the Firestorm Monarch
+	4 Zaborg the Thunder Monarch
+	4 Raiza the Storm Monarch
+	4 Kuraz the Light Monarch
+	4 Granmarg the Rock Monarch
+	4 Delg the Dark Monarch
+	4 Angmarl the Fiendish Monarch
+	4 Fusion Gate
+	4 Zombie World
+	4 Book of Life
+	4 Lemuria, the Forgotten City
+	4 Forgotten Temple of the Deep
+	4 Umiiruka
+	4 Molten Zombie
+	4 Decayed Commander
+	4 Zombiemeister
+	4 Pyramid Turtle
+	4 The Lady in Wight
+	4 Magicians' Souls
+	4 Spider's Lair
+	4 Flame Swordsrealm
+	4 Gateway to Chaos
+	4 Dragon Ravine
+	4 Closed Forest
+	4 Fighting Flame Swordsman
+	4 Tornado Wall
+	4 Rage of Kairyu-Shin
+	4 Karbonala Warrior
+	4 Harpie Lady Sisters
+	4 Gazelle the King of the Mythical Beasts
+	4 Berfomet
+	4 Bazoo the Soul-Eater
+	4 Green Baboon, Defender of the Forest
+	4 Ancient One of the Deep Forest
+	4 Garoozis
+	4 Manticore of Darkness
+	4 Butterfly Dagger — Elma
+	4 Spider Egg
+	4 Book of Taiyou
+	4 Desertapir
+	4 Needle Worm
+	4 Skelengel
+	4 Cyber-Stein
+	4 Summoner of Illusions
+	4 Future Fusion
+	4 Petit Angel
+	4 Fusionist
+	4 Worm Bait
+	4 Cyber Twin Dragon
+	4 Totem Dragon
+	4 Angel 07
+	4 Escalation of the Monarchs
+	4 Marauding Captain
+	4 Reinforce Truth
+	4 Copy Knight
+	4 Soul Exchange
+	4 Dark Renewal
+	4 Guardragon Cataclysm
+	4 Dark Magical Circle
+	4 Dedication Through Light and Darkness
+	4 Kimodo Dragon
+[common(7)]
+	8 Dark Magician Girl
+	8 Trap Hole
+	8 Kuriboh
+	8 Kojikocy
+	8 Uraby
+	8 Beastking of the Swamps
+	8 Horn of Heaven
+	8 Mystic Lamp
+	8 Insect Imitation
+	8 Battle Ox
+	8 Mystic Horseman
+	8 Armed Ninja
+	8 Basic Insect
+	8 Killer Needle
+	8 Baby Dragon
+	8 Larvae Moth
+	8 Cocoon of Evolution
+	8 Mad Sword Beast
+	8 Tribute to the Doomed
+	8 Hane-Hane
+	8 Fissure
+	8 Treeborn Frog
+	8 Trap Master
+	8 Reinforcements
+	8 Dark Magician of Chaos
+	8 Magician of Faith
+	8 Aqua Madoor
+	8 Mystical Elf
+	8 Mystical Space Typhoon
+	8 Share the Pain
+	8 Harpie Lady
+	8 Thunder Dragon
+	8 Paralyzing Potion
+	8 Versago the Destroyer
+	8 Tremendous Fire
+	8 Flame Manipulator
+	8 Eatgaboon
+	8 Lord of D.
+	8 Acid Trap Hole
+	8 Solemn Wishes
+	8 Backup Soldier
+	8 Michizure
+	8 Seven Tools of the Bandit
+	8 Reaper of the Cards
+	8 Skull Servant
+	8 Mask of Darkness
+	8 Shadow Ghoul
+	8 Dimensionhole
+	8 Ookazi
+	8 Big Eye
+	8 Masked Sorcerer
+	8 Sparks
+	8 Lady of Faith
+	8 Humanoid Slime
+	8 Battle Steer
+	8 Curse of Dragon
+	8 Mammoth Graveyard
+	8 Battle Warrior
+	8 Rude Kaiser
+	8 Spellbinding Circle
+	8 Kaibaman
+	8 Meteor Dragon
+	8 Dark Magic Attack
+	8 Dark Eradicator Warlock
+	8 Thousand Knives
+	8 Red-Eyes Zombie Dragon
+	8 Black Dragon's Chick
+	8 Inferno Fire Blast
+	8 Red-Eyes Black Metal Dragon
+	8 Red-Eyes Wyvern
+	8 Petit Moth
+	8 Terraforming
+	8 Metalmorph
+	8 Thousand-Eyes Idol
+	8 Gokipon
+	8 Multiplication of Ants
+	8 Big Insect
+	8 Metal Armored Bug
+	8 Celtic Guardian
+	8 Nobleman of Crossout
+	8 Ancient Brain
+	8 La Jinn the Mystical Genie of the Lamp
+	8 Hinotama
+	8 Des Kangaroo
+	8 One Day of Peace
+	8 Upstart Goblin
+	8 Maiden of the Aqua
+	8 Impenetrable Formation
+	8 Codarus
+	8 Mermaid Knight
+	8 Deepsea Warrior
+	8 Return Zombie
+	8 Armored Zombie
+	8 Bone Mouse
+	8 Zombie Tiger
+	8 Dragon Zombie
+	8 Clown Zombie
+	8 Gernia
+	8 Three-Legged Zombie
+	8 Corroding Shark
+	8 Bone Crusher
+	8 Zombie Mammoth
+	8 Mezuki
+	8 Flame Swordsdance
+	8 Abyss-Strom
+	8 M-Warrior #1
+	8 M-Warrior #2
+	8 Turret Warrior
+	8 Yellow Baboon, Archer of the Forest
+	8 Mystical Moon
+	8 Vorse Raider
+	8 Tiger Axe
+	8 Book of Moon
+	8 White Ninja
+	8 Soul Reversal
+	8 Supply
+	8 Metamorphosis
+	8 Instant Fusion
+	8 Mystical Sheep #2
+	8 Mystical Sheep #1
+	8 Enchanting Mermaid
+	8 Overwhelm
+	8 Dragon Treasure
+	8 Silver Bow and Arrow
+	8 Steel Shell
+	8 Dark Energy
+	8 Salamandra
+	8 Violet Crystal
+	8 Insect Armor with Laser Cannon
+	8 Cestus of Dagla
+	8 Gravity Axe
+	8 Electro-Whip
+	8 The Thing in the Crater
+[foil(1)]
+	6 Blue-Eyes White Dragon
+	6 Red-Eyes Black Dragon
+	2 Time Wizard
+	1 Obelisk the Tormentor
+	1 The Winged Dragon of Ra
+	1 Slifer the Sky Dragon
+	6 Dark Magician
+	12 Dark Magician Girl
+	2 Raigeki
+	12 Trap Hole
+	2 Imperial Order
+	2 Blue-Eyes Ultimate Dragon
+	1 Pot of Greed
+	2 Magic Cylinder
+	1 Monster Reborn
+	6 Polymerization
+	12 Kuriboh
+	2 Mirror Force
+	6 Black Luster Soldier
+	6 Black Luster Ritual
+	1 Exodia the Forbbiden One
+	2 Lava Golem
+	2 Gearfried the Iron Knight
+	12 Kojikocy
+	12 Uraby
+	6 Tainted Wisdom
+	6 Skull Knight
+	12 Beastking of the Swamps
+	2 Sorcerer of Dark Magic
+	12 Horn of Heaven
+	12 Mystic Lamp
+	6 Call of the Haunted
+	6 Giant Rat
+	12 Insect Imitation
+	6 Shining Angel
+	6 Catapult Turtle
+	6 Rabid Horseman
+	12 Battle Ox
+	12 Mystic Horseman
+	12 Armed Ninja
+	12 Basic Insect
+	12 Killer Needle
+	12 Baby Dragon
+	6 Drill Bug
+	2 Robbin' Goblin
+	6 Parasite Paracide
+	12 Larvae Moth
+	12 Cocoon of Evolution
+	6 The Stern Mystic
+	6 Gravity Bind
+	6 Last Will
+	6 Flying Kamakiri #1
+	6 Hamburger Recipe
+	2 Magical Hats
+	6 Barrel Dragon
+	6 Hiro's Shadow Scout
+	2 Return of the Zombies
+	1 Ultimate Offering
+	12 Mad Sword Beast
+	12 Tribute to the Doomed
+	6 Buster Blader
+	6 Witch of the Black Forest
+	6 Jinzo
+	6 Magic Jammer
+	2 Vampire Lord
+	2 Painful Choice
+	6 Summoned Skull
+	12 Hane-Hane
+	2 Swords of Revealing Light
+	12 Fissure
+	6 Neo the Magic Swordsman
+	12 Treeborn Frog
+	6 Giant Soldier of Stone
+	12 Trap Master
+	6 Man-Eater Bug
+	2 Dark Hole
+	6 De-Spell
+	12 Reinforcements
+	6 Waboku
+	6 Just Desserts
+	6 D.D. Warrior Lady
+	12 Dark Magician of Chaos
+	12 Magician of Faith
+	6 Sangan
+	2 Chaos Emperor Dragon Envoy of the End
+	12 Aqua Madoor
+	12 Mystical Elf
+	2 Harpie's Feather Duster
+	12 Mystical Space Typhoon
+	2 Delinquent Duo
+	2 The Forceful Sentry
+	2 Snatch Steal
+	6 UFO Turtle
+	12 Share the Pain
+	12 Harpie Lady
+	12 Thunder Dragon
+	2 Twin-Headed Thunder Dragon
+	12 Paralyzing Potion
+	12 Versago the Destroyer
+	12 Tremendous Fire
+	6 Flame Swordsman
+	12 Flame Manipulator
+	6 Masaki the Legendary Swordsman
+	12 Eatgaboon
+	6 White Hole
+	2 Flute of Summoning Dragon
+	12 Lord of D.
+	2 Thousand Dragon
+	6 Relinquished
+	6 Black Magic Ritual
+	2 Solemn Judgment
+	12 Acid Trap Hole
+	1 Change of Heart
+	12 Solemn Wishes
+	12 Backup Soldier
+	12 Michizure
+	12 Seven Tools of the Bandit
+	1 Cyber Jar
+	2 Morphing Jar
+	12 Reaper of the Cards
+	12 Skull Servant
+	12 Mask of Darkness
+	12 Shadow Ghoul
+	12 Dimensionhole
+	6 Senju of the Thousand Hands
+	12 Ookazi
+	12 Big Eye
+	6 Call of the Grave
+	2 Confiscation
+	2 Black Skull Dragon
+	12 Masked Sorcerer
+	6 Kairyu-Shin
+	12 Sparks
+	2 Thousand-Eyes Restrict
+	12 Lady of Faith
+	6 Musician King
+	12 Humanoid Slime
+	6 Roaring Ocean Snake
+	12 Battle Steer
+	12 Curse of Dragon
+	6 Koumori Dragon
+	6 Gaia the Fierce Knight
+	12 Mammoth Graveyard
+	6 Zombie Warrior
+	12 Battle Warrior
+	12 Rude Kaiser
+	2 Dark Sage
+	6 Brain Control
+	6 Burning Land
+	6 White Dragon Ritual
+	6 Magician of Black Chaos
+	2 Gaia the Dragon Champion
+	12 Spellbinding Circle
+	12 Kaibaman
+	6 Paladin of White Dragon
+	6 The White Stone of Legend
+	2 Burst Stream of Destruction
+	1 Red-Eyes Dark Dragoon
+	12 Meteor Dragon
+	6 Meteor Black Dragon
+	12 Dark Magic Attack
+	6 Magician's Rod
+	2 Magician Navigation
+	12 Dark Eradicator Warlock
+	12 Thousand Knives
+	6 Skilled Dark Magician
+	6 Ring of Destruction
+	6 Destined Rivals
+	6 Blue-Eyes Abyss Dragon
+	2 Strength in Unity
+	12 Red-Eyes Zombie Dragon
+	6 Cards of the Red Stone
+	12 Black Dragon's Chick
+	6 Red-Eyes Spirit
+	12 Inferno Fire Blast
+	12 Red-Eyes Black Metal Dragon
+	2 The Black Stone of Legend
+	12 Red-Eyes Wyvern
+	2 Red-Eyes Darkness Dragon
+	12 Petit Moth
+	6 Great Moth
+	2 Perfectly Ultimate Great Moth
+	6 Hungry Burger
+	2 Rescue Cat
+	2 Card of Safe Return
+	2 Rescue Rabbit
+	12 Terraforming
+	6 Black Illusion Ritual
+	12 Metalmorph
+	12 Thousand-Eyes Idol
+	6 Flying Kamakiri #2
+	12 Gokipon
+	12 Multiplication of Ants
+	6 Pinch Hopper
+	12 Big Insect
+	6 Doom Dozer
+	6 Resonance Insect
+	2 Ultimate Insect
+	6 Arsenal Bug
+	12 Metal Armored Bug
+	6 Dreadscythe Harvester
+	2 Insect Queen
+	6 Howling Insect
+	12 Celtic Guardian
+	12 Nobleman of Crossout
+	12 Ancient Brain
+	12 La Jinn the Mystical Genie of the Lamp
+	12 Hinotama
+	6 Beaver Warrior
+	1 Buster Blader, the Dragon Destroyer Swordsman
+	6 King Tiger Wanghu
+	12 Des Kangaroo
+	2 Beast King Barbaros
+	2 Prologue of the Destruction Swordsman
+	1 Five-Headed Dragon
+	2 Super Polymerization
+	6 Blackland Fire Dragon
+	12 One Day of Peace
+	12 Upstart Goblin
+	6 Scapegoat
+	6 The Legendary Fisherman
+	2 Ocean Dragon Lord — Neo-Daedalus
+	12 Maiden of the Aqua
+	1 Umi
+	1 Forest Field
+	1 Sogen
+	1 Yami
+	1 Mountain Field
+	12 Impenetrable Formation
+	12 Codarus
+	2 Levia-Dragon — Daedalus
+	12 Mermaid Knight
+	12 Deepsea Warrior
+	6 Mobius the Frost Monarch
+	6 Caius the Shadow Monarch
+	6 Erebus the Underworld Monarch
+	6 Thestalos the Firestorm Monarch
+	6 Zaborg the Thunder Monarch
+	6 Raiza the Storm Monarch
+	6 Kuraz the Light Monarch
+	6 Granmarg the Rock Monarch
+	6 Delg the Dark Monarch
+	6 Angmarl the Fiendish Monarch
+	1 Ehther the Heavenly Monarch
+	6 Fusion Gate
+	6 Zombie World
+	6 Book of Life
+	6 Lemuria, the Forgotten City
+	6 Forgotten Temple of the Deep
+	6 Umiiruka
+	12 Return Zombie
+	6 Molten Zombie
+	2 Call of the Mummy
+	6 Decayed Commander
+	6 Zombiemeister
+	12 Armored Zombie
+	12 Bone Mouse
+	12 Zombie Tiger
+	12 Dragon Zombie
+	6 Pyramid Turtle
+	12 Clown Zombie
+	12 Gernia
+	12 Three-Legged Zombie
+	12 Corroding Shark
+	12 Bone Crusher
+	6 The Lady in Wight
+	12 Zombie Mammoth
+	6 Magicians' Souls
+	12 Mezuki
+	1 Graceful Charity
+	6 Spider's Lair
+	6 Flame Swordsrealm
+	6 Gateway to Chaos
+	6 Dragon Ravine
+	6 Closed Forest
+	6 Fighting Flame Swordsman
+	12 Flame Swordsdance
+	6 Tornado Wall
+	12 Abyss-Strom
+	6 Rage of Kairyu-Shin
+	12 M-Warrior #1
+	12 M-Warrior #2
+	6 Karbonala Warrior
+	12 Turret Warrior
+	6 Harpie Lady Sisters
+	6 Gazelle the King of the Mythical Beasts
+	6 Berfomet
+	6 Bazoo the Soul-Eater
+	12 Yellow Baboon, Archer of the Forest
+	6 Green Baboon, Defender of the Forest
+	2 Chimera the Flying Mythical Beast
+	2 Beast Soul Swap
+	6 Ancient One of the Deep Forest
+	6 Garoozis
+	12 Mystical Moon
+	12 Vorse Raider
+	2 Minoan Centaur
+	6 Manticore of Darkness
+	2 Akz, the Pumer
+	12 Tiger Axe
+	2 Spiritual Forest
+	6 Butterfly Dagger — Elma
+	2 Silent Insect
+	6 Spider Egg
+	2 Mother Spider
+	2 Dark Magic Curtain
+	6 Book of Taiyou
+	12 Book of Moon
+	2 Penguin Soldier
+	2 Nightmare Penguin
+	12 White Ninja
+	6 Desertapir
+	6 Needle Worm
+	2 Worm Gulse
+	6 Skelengel
+	12 Soul Reversal
+	2 Cyber Dragon
+	12 Supply
+	2 Magical Scientist
+	6 Cyber-Stein
+	12 Metamorphosis
+	6 Summoner of Illusions
+	6 Future Fusion
+	12 Instant Fusion
+	6 Petit Angel
+	12 Mystical Sheep #2
+	12 Mystical Sheep #1
+	12 Enchanting Mermaid
+	6 Fusionist
+	2 Rare Fish
+	6 Worm Bait
+	6 Cyber Twin Dragon
+	6 Totem Dragon
+	6 Angel 07
+	12 Overwhelm
+	6 Escalation of the Monarchs
+	2 March of the Monarchs
+	2 Majesty of the White Dragons
+	6 Marauding Captain
+	6 Reinforce Truth
+	6 Copy Knight
+	12 Dragon Treasure
+	12 Silver Bow and Arrow
+	12 Steel Shell
+	12 Dark Energy
+	12 Salamandra
+	12 Violet Crystal
+	12 Insect Armor with Laser Cannon
+	12 Cestus of Dagla
+	12 Gravity Axe
+	12 Electro-Whip
+	6 Soul Exchange
+	6 Dark Renewal
+	2 The Ultimate Creature of Destruction
+	6 Guardragon Cataclysm
+	6 Dark Magical Circle
+	6 Dedication Through Light and Darkness
+	6 Kimodo Dragon
+	2 Burst Breath
+	12 The Thing in the Crater
+[wildcard(1)]
+	15 Blue-Eyes White Dragon
+	15 Red-Eyes Black Dragon
+	7 Time Wizard
+	4 Obelisk the Tormentor
+	4 The Winged Dragon of Ra
+	4 Slifer the Sky Dragon
+	15 Dark Magician
+	6 Dark Magician Girl
+	7 Raigeki
+	6 Trap Hole
+	7 Imperial Order
+	7 Blue-Eyes Ultimate Dragon
+	4 Pot of Greed
+	7 Magic Cylinder
+	4 Monster Reborn
+	15 Polymerization
+	6 Kuriboh
+	7 Mirror Force
+	15 Black Luster Soldier
+	15 Black Luster Ritual
+	4 Exodia the Forbbiden One
+	7 Lava Golem
+	7 Gearfried the Iron Knight
+	6 Kojikocy
+	6 Uraby
+	15 Tainted Wisdom
+	15 Skull Knight
+	6 Beastking of the Swamps
+	7 Sorcerer of Dark Magic
+	6 Horn of Heaven
+	6 Mystic Lamp
+	15 Call of the Haunted
+	15 Giant Rat
+	6 Insect Imitation
+	15 Shining Angel
+	15 Catapult Turtle
+	15 Rabid Horseman
+	6 Battle Ox
+	6 Mystic Horseman
+	6 Armed Ninja
+	6 Basic Insect
+	6 Killer Needle
+	6 Baby Dragon
+	15 Drill Bug
+	7 Robbin' Goblin
+	15 Parasite Paracide
+	6 Larvae Moth
+	6 Cocoon of Evolution
+	15 The Stern Mystic
+	15 Gravity Bind
+	15 Last Will
+	15 Flying Kamakiri #1
+	15 Hamburger Recipe
+	7 Magical Hats
+	15 Barrel Dragon
+	15 Hiro's Shadow Scout
+	7 Return of the Zombies
+	4 Ultimate Offering
+	6 Mad Sword Beast
+	6 Tribute to the Doomed
+	15 Buster Blader
+	15 Witch of the Black Forest
+	15 Jinzo
+	15 Magic Jammer
+	7 Vampire Lord
+	7 Painful Choice
+	15 Summoned Skull
+	6 Hane-Hane
+	7 Swords of Revealing Light
+	6 Fissure
+	15 Neo the Magic Swordsman
+	6 Treeborn Frog
+	15 Giant Soldier of Stone
+	6 Trap Master
+	15 Man-Eater Bug
+	7 Dark Hole
+	15 De-Spell
+	6 Reinforcements
+	15 Waboku
+	15 Just Desserts
+	15 D.D. Warrior Lady
+	6 Dark Magician of Chaos
+	6 Magician of Faith
+	15 Sangan
+	7 Chaos Emperor Dragon Envoy of the End
+	6 Aqua Madoor
+	6 Mystical Elf
+	7 Harpie's Feather Duster
+	6 Mystical Space Typhoon
+	7 Delinquent Duo
+	7 The Forceful Sentry
+	7 Snatch Steal
+	15 UFO Turtle
+	6 Share the Pain
+	6 Harpie Lady
+	6 Thunder Dragon
+	7 Twin-Headed Thunder Dragon
+	6 Paralyzing Potion
+	6 Versago the Destroyer
+	6 Tremendous Fire
+	15 Flame Swordsman
+	6 Flame Manipulator
+	15 Masaki the Legendary Swordsman
+	6 Eatgaboon
+	15 White Hole
+	7 Flute of Summoning Dragon
+	6 Lord of D.
+	7 Thousand Dragon
+	15 Relinquished
+	15 Black Magic Ritual
+	7 Solemn Judgment
+	6 Acid Trap Hole
+	4 Change of Heart
+	6 Solemn Wishes
+	6 Backup Soldier
+	6 Michizure
+	6 Seven Tools of the Bandit
+	4 Cyber Jar
+	7 Morphing Jar
+	6 Reaper of the Cards
+	6 Skull Servant
+	6 Mask of Darkness
+	6 Shadow Ghoul
+	6 Dimensionhole
+	15 Senju of the Thousand Hands
+	6 Ookazi
+	6 Big Eye
+	15 Call of the Grave
+	7 Confiscation
+	7 Black Skull Dragon
+	6 Masked Sorcerer
+	15 Kairyu-Shin
+	6 Sparks
+	7 Thousand-Eyes Restrict
+	6 Lady of Faith
+	15 Musician King
+	6 Humanoid Slime
+	15 Roaring Ocean Snake
+	6 Battle Steer
+	6 Curse of Dragon
+	15 Koumori Dragon
+	15 Gaia the Fierce Knight
+	6 Mammoth Graveyard
+	15 Zombie Warrior
+	6 Battle Warrior
+	6 Rude Kaiser
+	7 Dark Sage
+	15 Brain Control
+	15 Burning Land
+	15 White Dragon Ritual
+	15 Magician of Black Chaos
+	7 Gaia the Dragon Champion
+	6 Spellbinding Circle
+	6 Kaibaman
+	15 Paladin of White Dragon
+	15 The White Stone of Legend
+	7 Burst Stream of Destruction
+	4 Red-Eyes Dark Dragoon
+	6 Meteor Dragon
+	15 Meteor Black Dragon
+	6 Dark Magic Attack
+	15 Magician's Rod
+	7 Magician Navigation
+	6 Dark Eradicator Warlock
+	6 Thousand Knives
+	15 Skilled Dark Magician
+	15 Ring of Destruction
+	15 Destined Rivals
+	15 Blue-Eyes Abyss Dragon
+	7 Strength in Unity
+	6 Red-Eyes Zombie Dragon
+	15 Cards of the Red Stone
+	6 Black Dragon's Chick
+	15 Red-Eyes Spirit
+	6 Inferno Fire Blast
+	6 Red-Eyes Black Metal Dragon
+	7 The Black Stone of Legend
+	6 Red-Eyes Wyvern
+	7 Red-Eyes Darkness Dragon
+	6 Petit Moth
+	15 Great Moth
+	7 Perfectly Ultimate Great Moth
+	15 Hungry Burger
+	7 Rescue Cat
+	7 Card of Safe Return
+	7 Rescue Rabbit
+	6 Terraforming
+	15 Black Illusion Ritual
+	6 Metalmorph
+	6 Thousand-Eyes Idol
+	15 Flying Kamakiri #2
+	6 Gokipon
+	6 Multiplication of Ants
+	15 Pinch Hopper
+	6 Big Insect
+	15 Doom Dozer
+	15 Resonance Insect
+	7 Ultimate Insect
+	15 Arsenal Bug
+	6 Metal Armored Bug
+	15 Dreadscythe Harvester
+	7 Insect Queen
+	15 Howling Insect
+	6 Celtic Guardian
+	6 Nobleman of Crossout
+	6 Ancient Brain
+	6 La Jinn the Mystical Genie of the Lamp
+	6 Hinotama
+	15 Beaver Warrior
+	4 Buster Blader, the Dragon Destroyer Swordsman
+	15 King Tiger Wanghu
+	6 Des Kangaroo
+	7 Beast King Barbaros
+	7 Prologue of the Destruction Swordsman
+	4 Five-Headed Dragon
+	7 Super Polymerization
+	15 Blackland Fire Dragon
+	6 One Day of Peace
+	6 Upstart Goblin
+	15 Scapegoat
+	15 The Legendary Fisherman
+	7 Ocean Dragon Lord — Neo-Daedalus
+	6 Maiden of the Aqua
+	4 Umi
+	4 Forest Field
+	4 Sogen
+	4 Yami
+	4 Mountain Field
+	6 Impenetrable Formation
+	6 Codarus
+	7 Levia-Dragon — Daedalus
+	6 Mermaid Knight
+	6 Deepsea Warrior
+	15 Mobius the Frost Monarch
+	15 Caius the Shadow Monarch
+	15 Erebus the Underworld Monarch
+	15 Thestalos the Firestorm Monarch
+	15 Zaborg the Thunder Monarch
+	15 Raiza the Storm Monarch
+	15 Kuraz the Light Monarch
+	15 Granmarg the Rock Monarch
+	15 Delg the Dark Monarch
+	15 Angmarl the Fiendish Monarch
+	4 Ehther the Heavenly Monarch
+	15 Fusion Gate
+	15 Zombie World
+	15 Book of Life
+	15 Lemuria, the Forgotten City
+	15 Forgotten Temple of the Deep
+	15 Umiiruka
+	6 Return Zombie
+	15 Molten Zombie
+	7 Call of the Mummy
+	15 Decayed Commander
+	15 Zombiemeister
+	6 Armored Zombie
+	6 Bone Mouse
+	6 Zombie Tiger
+	6 Dragon Zombie
+	15 Pyramid Turtle
+	6 Clown Zombie
+	6 Gernia
+	6 Three-Legged Zombie
+	6 Corroding Shark
+	6 Bone Crusher
+	15 The Lady in Wight
+	6 Zombie Mammoth
+	15 Magicians' Souls
+	6 Mezuki
+	4 Graceful Charity
+	15 Spider's Lair
+	15 Flame Swordsrealm
+	15 Gateway to Chaos
+	15 Dragon Ravine
+	15 Closed Forest
+	15 Fighting Flame Swordsman
+	6 Flame Swordsdance
+	15 Tornado Wall
+	6 Abyss-Strom
+	15 Rage of Kairyu-Shin
+	6 M-Warrior #1
+	6 M-Warrior #2
+	15 Karbonala Warrior
+	6 Turret Warrior
+	15 Harpie Lady Sisters
+	15 Gazelle the King of the Mythical Beasts
+	15 Berfomet
+	15 Bazoo the Soul-Eater
+	6 Yellow Baboon, Archer of the Forest
+	15 Green Baboon, Defender of the Forest
+	7 Chimera the Flying Mythical Beast
+	7 Beast Soul Swap
+	15 Ancient One of the Deep Forest
+	15 Garoozis
+	6 Mystical Moon
+	6 Vorse Raider
+	7 Minoan Centaur
+	15 Manticore of Darkness
+	7 Akz, the Pumer
+	6 Tiger Axe
+	7 Spiritual Forest
+	15 Butterfly Dagger — Elma
+	7 Silent Insect
+	15 Spider Egg
+	7 Mother Spider
+	7 Dark Magic Curtain
+	15 Book of Taiyou
+	6 Book of Moon
+	7 Penguin Soldier
+	7 Nightmare Penguin
+	6 White Ninja
+	15 Desertapir
+	15 Needle Worm
+	7 Worm Gulse
+	15 Skelengel
+	6 Soul Reversal
+	7 Cyber Dragon
+	6 Supply
+	7 Magical Scientist
+	15 Cyber-Stein
+	6 Metamorphosis
+	15 Summoner of Illusions
+	15 Future Fusion
+	6 Instant Fusion
+	15 Petit Angel
+	6 Mystical Sheep #2
+	6 Mystical Sheep #1
+	6 Enchanting Mermaid
+	15 Fusionist
+	7 Rare Fish
+	15 Worm Bait
+	15 Cyber Twin Dragon
+	15 Totem Dragon
+	15 Angel 07
+	6 Overwhelm
+	15 Escalation of the Monarchs
+	7 March of the Monarchs
+	7 Majesty of the White Dragons
+	15 Marauding Captain
+	15 Reinforce Truth
+	15 Copy Knight
+	6 Dragon Treasure
+	6 Silver Bow and Arrow
+	6 Steel Shell
+	6 Dark Energy
+	6 Salamandra
+	6 Violet Crystal
+	6 Insect Armor with Laser Cannon
+	6 Cestus of Dagla
+	6 Gravity Axe
+	6 Electro-Whip
+	15 Soul Exchange
+	15 Dark Renewal
+	7 The Ultimate Creature of Destruction
+	15 Guardragon Cataclysm
+	15 Dark Magical Circle
+	15 Dedication Through Light and Darkness
+	15 Kimodo Dragon
+	7 Burst Breath
+	6 The Thing in the Crater

@@ -44,10 +44,13 @@ def get_sort_code(x):
 	return "Z_" + x['type']
 
 def sort_type(x):
-	logging.debug(f"{x['card_name']}: {[get_sort_code(x), cmc(x), 'A' if is_legendary(x) else 'B']}")
+	# logging.debug(f"{x['card_name']}: {[get_sort_code(x), cmc(x), 'A' if is_legendary(x) else 'B']}")
 	return [get_sort_code(x), cmc(x), 'A' if is_legendary(x) else 'B']
 
 def convertList(setCode):
+	# use mator's preview page sort order if --order=mator is provided
+	use_order_mator = '--order=mator' in sys.argv
+	logging.info("Using mator's preview page sort order.") if use_order_mator else 0
 	#F: inputList = sets/SET-files/SET.json
 	inputList = os.path.join('sets', setCode + '-files', setCode + '.json')
 	#F: outputList = lists/SET-list.json
@@ -294,8 +297,10 @@ def convertList(setCode):
 				if len(cards_arr[x]) > 0 and 'Basic' not in cards_arr[x][0]['type']:
 					if len(r['cards']) == 1 and r['cards'][0] in sort_groups:
 						cards_arr[x] = sorted(cards_arr[x], key=lambda x : (x['notes'], x['rarity'], x['number']))
+					elif use_order_mator:
+						cards_arr[x] = sorted(cards_arr[x], key=lambda x : (len(x['color']), x['rarity'], *sort_type(x), x['number']))
 					else:
-						cards_arr[x] = sorted(cards_arr[x], key=lambda x : (len(x['color']), x['rarity'], x['notes'], *sort_type(x), x['number'])) # start with len() for 3+c cards
+						cards_arr[x] = sorted(cards_arr[x], key=lambda x : (len(x['color']), x['rarity'], x['notes'], x['number'])) # start with len() for 3+c cards
 					# otherwise, preserve order of basics from set file
 
 			for row in range(row_count):
