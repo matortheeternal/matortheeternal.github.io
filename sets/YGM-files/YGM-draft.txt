@@ -362,7 +362,7 @@
 		},
 		{
 			"name": "Judge Man",
-			"rarity": "uncommon",
+			"rarity": "rare",
 			"mana_cost": "{4}{B}{R}",
 			"type": "Creature — Demon Warrior",
 			"collector_number": "216",
@@ -1949,7 +1949,7 @@
 		},
 		{
 			"name": "Shield & Sword",
-			"rarity": "common",
+			"rarity": "uncommon",
 			"mana_cost": "{W}{U}",
 			"type": "Instant",
 			"collector_number": "234",
@@ -3670,6 +3670,7 @@
 	2 Ameba
 	2 Giant Germ
 	2 Guardian Sphinx
+	2 Judge Man
 	2 Warrior of Tradition
 	1 Gate Guardian
 	1 Exxod, Master of the Guard
@@ -3780,7 +3781,6 @@
 	4 Queen's Double
 	4 Beautiful Headhuntress
 	4 Kagemusha of the Blue Flame
-	4 Judge Man
 	4 Shifting Shadows
 	4 Criosphinx
 	4 Sand Moth
@@ -3829,6 +3829,7 @@
 	4 United We Stand
 	4 Rock Bombardment
 	4 Release from Stone
+	4 Shield & Sword
 	4 Enchanted Javelin
 	4 Ekibyo Drakmord
 	4 Neo Aqua Madoor
@@ -3947,7 +3948,6 @@
 	8 Leogun
 	8 Goddess with the Third Eye
 	8 Protector of the Throne
-	8 Shield & Sword
 	8 Spiral Serpent
 	8 Metal Fish
 	8 Spike Seadra
@@ -4027,7 +4027,7 @@
 	2 Ameba
 	2 Giant Germ
 	2 Guardian Sphinx
-	6 Judge Man
+	2 Judge Man
 	2 Warrior of Tradition
 	12 Dark Blade
 	1 Gate Guardian
@@ -4177,7 +4177,7 @@
 	6 United We Stand
 	6 Rock Bombardment
 	6 Release from Stone
-	12 Shield & Sword
+	6 Shield & Sword
 	6 Enchanted Javelin
 	6 Ekibyo Drakmord
 	6 Neo Aqua Madoor
@@ -4356,7 +4356,7 @@
 	7 Ameba
 	7 Giant Germ
 	7 Guardian Sphinx
-	15 Judge Man
+	7 Judge Man
 	7 Warrior of Tradition
 	6 Dark Blade
 	4 Gate Guardian
@@ -4506,7 +4506,7 @@
 	15 United We Stand
 	15 Rock Bombardment
 	15 Release from Stone
-	6 Shield & Sword
+	15 Shield & Sword
 	15 Enchanted Javelin
 	15 Ekibyo Drakmord
 	15 Neo Aqua Madoor

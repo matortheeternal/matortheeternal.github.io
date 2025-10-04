@@ -1,4 +1,23 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+
+
+Judge Man
+rules_text: Haste
+{B}{R}, {T}, Sacrifice another creature: Judge Man deals damage equal to that creature's mana value to target creature an opponent controls. => Haste
+{T}, Sacrifice another creature: Judge Man deals damage equal to that creature's mana value to target creature an opponent controls.
+
+
+VERSION 2 CHANGELOG
+====================
+
+
+
+Shield & Sword
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

@@ -731,12 +731,12 @@
         {
             "card_name": "Judge Man",
             "color": "BR",
-            "rarity": "uncommon",
+            "rarity": "rare",
             "type": "Creature \u2014 Demon Warrior",
             "number": 216,
             "color_identity": "BR",
             "cost": "{4}{B}{R}",
-            "rules_text": "Haste\n{B}{R}, {T}, Sacrifice another creature: Judge Man deals damage equal to that creature's mana value to target creature an opponent controls.",
+            "rules_text": "Haste\n{T}, Sacrifice another creature: Judge Man deals damage equal to that creature's mana value to target creature an opponent controls.",
             "flavor_text": "[i]This club-wielding warrior battles to the end and will never surrender.[/i]",
             "pt": "5/4",
             "special_text": "",
@@ -3902,7 +3902,7 @@
         {
             "card_name": "Shield & Sword",
             "color": "WU",
-            "rarity": "common",
+            "rarity": "uncommon",
             "type": "Instant",
             "number": 234,
             "color_identity": "WU",
