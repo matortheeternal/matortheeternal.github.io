@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/YGM-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>YGM visual preview</title>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('/resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/YGM-files/logo.png" />
+	<img class="preload-hidden" src="/sets/YGM-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="YGM"><img src="/sets/YGM-files/icon.png">Yugioh: Mystical Monsters</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/YGM-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\217.jpg" id="217" data-flag="@X" onclick="openSidebar('217',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\317.jpg" id="317" data-flag="@X" onclick="openSidebar('317',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\128.jpg" id="128" data-flag="@X" onclick="openSidebar('128',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\105.jpg" id="105" data-flag="@X" onclick="openSidebar('105',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\268.jpg" id="268" data-flag="@X" onclick="openSidebar('268',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\127.jpg" id="127" data-flag="@X" onclick="openSidebar('127',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\216.jpg" id="216" data-flag="@X" onclick="openSidebar('216',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\271.jpg" id="271" data-flag="@X" onclick="openSidebar('271',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\270.jpg" id="270" data-flag="@X" onclick="openSidebar('270',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\230.jpg" id="230" data-flag="@X" onclick="openSidebar('230',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\208.jpg" id="208" data-flag="@X" onclick="openSidebar('208',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\164.jpg" id="164" data-flag="@X" onclick="openSidebar('164',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\162.jpg" id="162" data-flag="@X" onclick="openSidebar('162',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\106.jpg" id="106" data-flag="@X" onclick="openSidebar('106',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\163.jpg" id="163" data-flag="@X" onclick="openSidebar('163',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\24.jpg" id="24" data-flag="@X" onclick="openSidebar('24',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\52.jpg" id="52" data-flag="@X" onclick="openSidebar('52',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\232.jpg" id="232" data-flag="@X" onclick="openSidebar('232',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\221.jpg" id="221" data-flag="@X" onclick="openSidebar('221',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\339.jpg" id="339" data-flag="@X" onclick="openSidebar('339',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\195.jpg" id="195" data-flag="@X" onclick="openSidebar('195',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\26.jpg" id="26" data-flag="@X" onclick="openSidebar('26',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\28.jpg" id="28" data-flag="@X" onclick="openSidebar('28',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\29.jpg" id="29" data-flag="@X" onclick="openSidebar('29',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\31.jpg" id="31" data-flag="@X" onclick="openSidebar('31',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\14.jpg" id="14" data-flag="@X" onclick="openSidebar('14',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\17.jpg" id="17" data-flag="@X" onclick="openSidebar('17',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\27.jpg" id="27" data-flag="@X" onclick="openSidebar('27',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\311.jpg" id="311" data-flag="@X" onclick="openSidebar('311',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\183.jpg" id="183" data-flag="@X" onclick="openSidebar('183',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\119.jpg" id="119" data-flag="@X" onclick="openSidebar('119',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\203.jpg" id="203" data-flag="@X" onclick="openSidebar('203',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\74.jpg" id="74" data-flag="@X" onclick="openSidebar('74',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\218.jpg" id="218" data-flag="@X" onclick="openSidebar('218',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\86.jpg" id="86" data-flag="@X" onclick="openSidebar('86',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\23.jpg" id="23" data-flag="@X" onclick="openSidebar('23',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\44.jpg" id="44" data-flag="@X" onclick="openSidebar('44',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\63.jpg" id="63" data-flag="@X" onclick="openSidebar('63',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\94.jpg" id="94" data-flag="@X" onclick="openSidebar('94',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\184.jpg" id="184" data-flag="@X" onclick="openSidebar('184',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\48.jpg" id="48" data-flag="@X" onclick="openSidebar('48',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\277.jpg" id="277" data-flag="@X" onclick="openSidebar('277',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\156.jpg" id="156" data-flag="@X" onclick="openSidebar('156',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\92.jpg" id="92" data-flag="@X" onclick="openSidebar('92',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\227.jpg" id="227" data-flag="@X" onclick="openSidebar('227',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\112.jpg" id="112" data-flag="@X" onclick="openSidebar('112',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\140.jpg" id="140" data-flag="@X" onclick="openSidebar('140',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\109.jpg" id="109" data-flag="@X" onclick="openSidebar('109',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\102.jpg" id="102" data-flag="@X" onclick="openSidebar('102',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\228.jpg" id="228" data-flag="@X" onclick="openSidebar('228',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\158.jpg" id="158" data-flag="@X" onclick="openSidebar('158',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\181.jpg" id="181" data-flag="@X" onclick="openSidebar('181',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\130.jpg" id="130" data-flag="@X" onclick="openSidebar('130',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\159.jpg" id="159" data-flag="@X" onclick="openSidebar('159',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\223.jpg" id="223" data-flag="@X" onclick="openSidebar('223',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\69.jpg" id="69" data-flag="@X" onclick="openSidebar('69',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\196.jpg" id="196" data-flag="@X" onclick="openSidebar('196',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\129.jpg" id="129" data-flag="@X" onclick="openSidebar('129',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\15.jpg" id="15" data-flag="@X" onclick="openSidebar('15',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\30.jpg" id="30" data-flag="@X" onclick="openSidebar('30',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\191.jpg" id="191" data-flag="@X" onclick="openSidebar('191',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\134.jpg" id="134" data-flag="@X" onclick="openSidebar('134',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\79.jpg" id="79" data-flag="@X" onclick="openSidebar('79',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\316.jpg" id="316" data-flag="@X" onclick="openSidebar('316',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\142.jpg" id="142" data-flag="@X" onclick="openSidebar('142',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\205.jpg" id="205" data-flag="@X" onclick="openSidebar('205',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\138.jpg" id="138" data-flag="@X" onclick="openSidebar('138',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\212.jpg" id="212" data-flag="@X" onclick="openSidebar('212',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\98.jpg" id="98" data-flag="@X" onclick="openSidebar('98',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\322.jpg" id="322" data-flag="@X" onclick="openSidebar('322',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\110.jpg" id="110" data-flag="@X" onclick="openSidebar('110',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\197.jpg" id="197" data-flag="@X" onclick="openSidebar('197',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\214.jpg" id="214" data-flag="@X" onclick="openSidebar('214',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\240.jpg" id="240" data-flag="@X" onclick="openSidebar('240',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\267.jpg" id="267" data-flag="@X" onclick="openSidebar('267',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\108.jpg" id="108" data-flag="@X" onclick="openSidebar('108',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\25.jpg" id="25" data-flag="@X" onclick="openSidebar('25',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\304.jpg" id="304" data-flag="@X" onclick="openSidebar('304',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\287.jpg" id="287" data-flag="@X" onclick="openSidebar('287',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\231.jpg" id="231" data-flag="@X" onclick="openSidebar('231',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\145.jpg" id="145" data-flag="@X" onclick="openSidebar('145',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\301.jpg" id="301" data-flag="@X" onclick="openSidebar('301',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\306.jpg" id="306" data-flag="@X" onclick="openSidebar('306',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\219.jpg" id="219" data-flag="@X" onclick="openSidebar('219',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\234.jpg" id="234" data-flag="@X" onclick="openSidebar('234',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\189.jpg" id="189" data-flag="@X" onclick="openSidebar('189',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\40.jpg" id="40" data-flag="@X" onclick="openSidebar('40',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\141.jpg" id="141" data-flag="@X" onclick="openSidebar('141',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\182.jpg" id="182" data-flag="@X" onclick="openSidebar('182',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\286.jpg" id="286" data-flag="@X" onclick="openSidebar('286',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\42.jpg" id="42" data-flag="@X" onclick="openSidebar('42',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\180.jpg" id="180" data-flag="@X" onclick="openSidebar('180',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\201.jpg" id="201" data-flag="@X" onclick="openSidebar('201',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\235.jpg" id="235" data-flag="@X" onclick="openSidebar('235',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\225.jpg" id="225" data-flag="@X" onclick="openSidebar('225',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\188.jpg" id="188" data-flag="@X" onclick="openSidebar('188',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\150.jpg" id="150" data-flag="@X" onclick="openSidebar('150',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\211.jpg" id="211" data-flag="@X" onclick="openSidebar('211',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\70.jpg" id="70" data-flag="@X" onclick="openSidebar('70',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\292.jpg" id="292" data-flag="@X" onclick="openSidebar('292',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\206.jpg" id="206" data-flag="@X" onclick="openSidebar('206',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\300.jpg" id="300" data-flag="@X" onclick="openSidebar('300',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\68.jpg" id="68" data-flag="@X" onclick="openSidebar('68',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\13.jpg" id="13" data-flag="@X" onclick="openSidebar('13',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\338.jpg" id="338" data-flag="@X" onclick="openSidebar('338',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\190.jpg" id="190" data-flag="@X" onclick="openSidebar('190',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\276.jpg" id="276" data-flag="@X" onclick="openSidebar('276',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\124.jpg" id="124" data-flag="@X" onclick="openSidebar('124',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\93.jpg" id="93" data-flag="@X" onclick="openSidebar('93',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\224.jpg" id="224" data-flag="@X" onclick="openSidebar('224',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\309.jpg" id="309" data-flag="@X" onclick="openSidebar('309',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\202.jpg" id="202" data-flag="@X" onclick="openSidebar('202',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\152.jpg" id="152" data-flag="@X" onclick="openSidebar('152',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\323.jpg" id="323" data-flag="@X" onclick="openSidebar('323',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\161.jpg" id="161" data-flag="@X" onclick="openSidebar('161',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\67.jpg" id="67" data-flag="@X" onclick="openSidebar('67',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\165.jpg" id="165" data-flag="@X" onclick="openSidebar('165',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\51.jpg" id="51" data-flag="@X" onclick="openSidebar('51',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\220.jpg" id="220" data-flag="@X" onclick="openSidebar('220',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\170.jpg" id="170" data-flag="@X" onclick="openSidebar('170',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\115.jpg" id="115" data-flag="@X" onclick="openSidebar('115',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\144.jpg" id="144" data-flag="@X" onclick="openSidebar('144',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\215.jpg" id="215" data-flag="@X" onclick="openSidebar('215',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\90.jpg" id="90" data-flag="@X" onclick="openSidebar('90',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\222.jpg" id="222" data-flag="@X" onclick="openSidebar('222',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\122.jpg" id="122" data-flag="@X" onclick="openSidebar('122',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\199.jpg" id="199" data-flag="@X" onclick="openSidebar('199',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\149.jpg" id="149" data-flag="@X" onclick="openSidebar('149',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\89.jpg" id="89" data-flag="@X" onclick="openSidebar('89',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\284.jpg" id="284" data-flag="@X" onclick="openSidebar('284',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\204.jpg" id="204" data-flag="@X" onclick="openSidebar('204',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\143.jpg" id="143" data-flag="@X" onclick="openSidebar('143',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\104.jpg" id="104" data-flag="@X" onclick="openSidebar('104',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\185.jpg" id="185" data-flag="@X" onclick="openSidebar('185',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\303.jpg" id="303" data-flag="@X" onclick="openSidebar('303',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\78.jpg" id="78" data-flag="@X" onclick="openSidebar('78',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\239.jpg" id="239" data-flag="@X" onclick="openSidebar('239',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\260.jpg" id="260" data-flag="@X" onclick="openSidebar('260',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\50.jpg" id="50" data-flag="@X" onclick="openSidebar('50',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\213.jpg" id="213" data-flag="@X" onclick="openSidebar('213',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\88.jpg" id="88" data-flag="@X" onclick="openSidebar('88',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\233.jpg" id="233" data-flag="@X" onclick="openSidebar('233',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\111.jpg" id="111" data-flag="@X" onclick="openSidebar('111',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\168.jpg" id="168" data-flag="@X" onclick="openSidebar('168',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\169.jpg" id="169" data-flag="@X" onclick="openSidebar('169',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\340.jpg" id="340" data-flag="@X" onclick="openSidebar('340',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\148.jpg" id="148" data-flag="@X" onclick="openSidebar('148',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\321.jpg" id="321" data-flag="@X" onclick="openSidebar('321',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\91.jpg" id="91" data-flag="@X" onclick="openSidebar('91',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\269.jpg" id="269" data-flag="@X" onclick="openSidebar('269',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\200.jpg" id="200" data-flag="@X" onclick="openSidebar('200',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\160.jpg" id="160" data-flag="@X" onclick="openSidebar('160',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\238.jpg" id="238" data-flag="@X" onclick="openSidebar('238',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\229.jpg" id="229" data-flag="@X" onclick="openSidebar('229',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\198.jpg" id="198" data-flag="@X" onclick="openSidebar('198',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\166.jpg" id="166" data-flag="@X" onclick="openSidebar('166',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\146.jpg" id="146" data-flag="@X" onclick="openSidebar('146',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\226.jpg" id="226" data-flag="@X" onclick="openSidebar('226',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\118.jpg" id="118" data-flag="@X" onclick="openSidebar('118',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\97.jpg" id="97" data-flag="@X" onclick="openSidebar('97',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\32.jpg" id="32" data-flag="@X" onclick="openSidebar('32',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\41.jpg" id="41" data-flag="@X" onclick="openSidebar('41',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\136.jpg" id="136" data-flag="@X" onclick="openSidebar('136',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\187.jpg" id="187" data-flag="@X" onclick="openSidebar('187',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\72.jpg" id="72" data-flag="@X" onclick="openSidebar('72',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\87.jpg" id="87" data-flag="@X" onclick="openSidebar('87',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\53.jpg" id="53" data-flag="@X" onclick="openSidebar('53',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\275.jpg" id="275" data-flag="@X" onclick="openSidebar('275',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\319.jpg" id="319" data-flag="@X" onclick="openSidebar('319',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\318.jpg" id="318" data-flag="@X" onclick="openSidebar('318',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\254.jpg" id="254" data-flag="@X" onclick="openSidebar('254',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\35.jpg" id="35" data-flag="@X" onclick="openSidebar('35',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="/sets\YGM-files\img\131_back.jpg" alt="/sets\YGM-files\img\131_front.jpg" id="131" data-flag="@XD" onclick="openSidebar('131',false)"><button class="flip-btn" onclick="imgFlip('131')"></button></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\101.jpg" id="101" data-flag="@X" onclick="openSidebar('101',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\34.jpg" id="34" data-flag="@X" onclick="openSidebar('34',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\288.jpg" id="288" data-flag="@X" onclick="openSidebar('288',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\272.jpg" id="272" data-flag="@X" onclick="openSidebar('272',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\262.jpg" id="262" data-flag="@X" onclick="openSidebar('262',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\255.jpg" id="255" data-flag="@X" onclick="openSidebar('255',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\313.jpg" id="313" data-flag="@X" onclick="openSidebar('313',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\114.jpg" id="114" data-flag="@X" onclick="openSidebar('114',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\49.jpg" id="49" data-flag="@X" onclick="openSidebar('49',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\76.jpg" id="76" data-flag="@X" onclick="openSidebar('76',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\137.jpg" id="137" data-flag="@X" onclick="openSidebar('137',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\256.jpg" id="256" data-flag="@X" onclick="openSidebar('256',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\350.jpg" id="350" data-flag="@X" onclick="openSidebar('350',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\264.jpg" id="264" data-flag="@X" onclick="openSidebar('264',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\315.jpg" id="315" data-flag="@X" onclick="openSidebar('315',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\296.jpg" id="296" data-flag="@X" onclick="openSidebar('296',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\314.jpg" id="314" data-flag="@X" onclick="openSidebar('314',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\65.jpg" id="65" data-flag="@X" onclick="openSidebar('65',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\273.jpg" id="273" data-flag="@X" onclick="openSidebar('273',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\274.jpg" id="274" data-flag="@X" onclick="openSidebar('274',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\36.jpg" id="36" data-flag="@X" onclick="openSidebar('36',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\71.jpg" id="71" data-flag="@X" onclick="openSidebar('71',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\293.jpg" id="293" data-flag="@X" onclick="openSidebar('293',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\194.jpg" id="194" data-flag="@X" onclick="openSidebar('194',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\263.jpg" id="263" data-flag="@X" onclick="openSidebar('263',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\210.jpg" id="210" data-flag="@X" onclick="openSidebar('210',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\299.jpg" id="299" data-flag="@X" onclick="openSidebar('299',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\117.jpg" id="117" data-flag="@X" onclick="openSidebar('117',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\154.jpg" id="154" data-flag="@X" onclick="openSidebar('154',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\139.jpg" id="139" data-flag="@X" onclick="openSidebar('139',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\38.jpg" id="38" data-flag="@X" onclick="openSidebar('38',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\155.jpg" id="155" data-flag="@X" onclick="openSidebar('155',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\82.jpg" id="82" data-flag="@X" onclick="openSidebar('82',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\171.jpg" id="171" data-flag="@X" onclick="openSidebar('171',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\135.jpg" id="135" data-flag="@X" onclick="openSidebar('135',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\157.jpg" id="157" data-flag="@X" onclick="openSidebar('157',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\84.jpg" id="84" data-flag="@X" onclick="openSidebar('84',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\120.jpg" id="120" data-flag="@X" onclick="openSidebar('120',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\244.jpg" id="244" data-flag="@X" onclick="openSidebar('244',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\80.jpg" id="80" data-flag="@X" onclick="openSidebar('80',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\245.jpg" id="245" data-flag="@X" onclick="openSidebar('245',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\175.jpg" id="175" data-flag="@X" onclick="openSidebar('175',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\308.jpg" id="308" data-flag="@X" onclick="openSidebar('308',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\33.jpg" id="33" data-flag="@X" onclick="openSidebar('33',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\64.jpg" id="64" data-flag="@X" onclick="openSidebar('64',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\236.jpg" id="236" data-flag="@X" onclick="openSidebar('236',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\282.jpg" id="282" data-flag="@X" onclick="openSidebar('282',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\349.jpg" id="349" data-flag="@X" onclick="openSidebar('349',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\257.jpg" id="257" data-flag="@X" onclick="openSidebar('257',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\18.jpg" id="18" data-flag="@X" onclick="openSidebar('18',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\347.jpg" id="347" data-flag="@X" onclick="openSidebar('347',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\85.jpg" id="85" data-flag="@X" onclick="openSidebar('85',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\107.jpg" id="107" data-flag="@X" onclick="openSidebar('107',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\295.jpg" id="295" data-flag="@X" onclick="openSidebar('295',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\307.jpg" id="307" data-flag="@X" onclick="openSidebar('307',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\310.jpg" id="310" data-flag="@X" onclick="openSidebar('310',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\289.jpg" id="289" data-flag="@X" onclick="openSidebar('289',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\123.jpg" id="123" data-flag="@X" onclick="openSidebar('123',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\103.jpg" id="103" data-flag="@X" onclick="openSidebar('103',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\37.jpg" id="37" data-flag="@X" onclick="openSidebar('37',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\280.jpg" id="280" data-flag="@X" onclick="openSidebar('280',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\283.jpg" id="283" data-flag="@X" onclick="openSidebar('283',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\327.jpg" id="327" data-flag="@X" onclick="openSidebar('327',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\95.jpg" id="95" data-flag="@X" onclick="openSidebar('95',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\291.jpg" id="291" data-flag="@X" onclick="openSidebar('291',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\297.jpg" id="297" data-flag="@X" onclick="openSidebar('297',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\253.jpg" id="253" data-flag="@X" onclick="openSidebar('253',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\305.jpg" id="305" data-flag="@X" onclick="openSidebar('305',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\290.jpg" id="290" data-flag="@X" onclick="openSidebar('290',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\261.jpg" id="261" data-flag="@X" onclick="openSidebar('261',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\192.jpg" id="192" data-flag="@X" onclick="openSidebar('192',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\252.jpg" id="252" data-flag="@X" onclick="openSidebar('252',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\351.jpg" id="351" data-flag="@X" onclick="openSidebar('351',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\298.jpg" id="298" data-flag="@X" onclick="openSidebar('298',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\66.jpg" id="66" data-flag="@X" onclick="openSidebar('66',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\279.jpg" id="279" data-flag="@X" onclick="openSidebar('279',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\186.jpg" id="186" data-flag="@X" onclick="openSidebar('186',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\121.jpg" id="121" data-flag="@X" onclick="openSidebar('121',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\147.jpg" id="147" data-flag="@X" onclick="openSidebar('147',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\77.jpg" id="77" data-flag="@X" onclick="openSidebar('77',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\100.jpg" id="100" data-flag="@X" onclick="openSidebar('100',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\174.jpg" id="174" data-flag="@X" onclick="openSidebar('174',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\113.jpg" id="113" data-flag="@X" onclick="openSidebar('113',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\96.jpg" id="96" data-flag="@X" onclick="openSidebar('96',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\75.jpg" id="75" data-flag="@X" onclick="openSidebar('75',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\358.jpg" id="358" data-flag="@X" onclick="openSidebar('358',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\173.jpg" id="173" data-flag="@X" onclick="openSidebar('173',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\39.jpg" id="39" data-flag="@X" onclick="openSidebar('39',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\126.jpg" id="126" data-flag="@X" onclick="openSidebar('126',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\125.jpg" id="125" data-flag="@X" onclick="openSidebar('125',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\132.jpg" id="132" data-flag="@X" onclick="openSidebar('132',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\151.jpg" id="151" data-flag="@X" onclick="openSidebar('151',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\294.jpg" id="294" data-flag="@X" onclick="openSidebar('294',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\133.jpg" id="133" data-flag="@X" onclick="openSidebar('133',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\246.jpg" id="246" data-flag="@X" onclick="openSidebar('246',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\176.jpg" id="176" data-flag="@X" onclick="openSidebar('176',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\326.jpg" id="326" data-flag="@X" onclick="openSidebar('326',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\285.jpg" id="285" data-flag="@X" onclick="openSidebar('285',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\54.jpg" id="54" data-flag="@X" onclick="openSidebar('54',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\278.jpg" id="278" data-flag="@X" onclick="openSidebar('278',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\243.jpg" id="243" data-flag="@X" onclick="openSidebar('243',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\8.jpg" id="8" data-flag="@X" onclick="openSidebar('8',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\265.jpg" id="265" data-flag="@X" onclick="openSidebar('265',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\237.jpg" id="237" data-flag="@X" onclick="openSidebar('237',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\10.jpg" id="10" data-flag="@X" onclick="openSidebar('10',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\302.jpg" id="302" data-flag="@X" onclick="openSidebar('302',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\11.jpg" id="11" data-flag="@X" onclick="openSidebar('11',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\266.jpg" id="266" data-flag="@X" onclick="openSidebar('266',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\9.jpg" id="9" data-flag="@X" onclick="openSidebar('9',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\7.jpg" id="7" data-flag="@X" onclick="openSidebar('7',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\6.jpg" id="6" data-flag="@X" onclick="openSidebar('6',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\56.jpg" id="56" data-flag="@X" onclick="openSidebar('56',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\1.jpg" id="1" data-flag="@X" onclick="openSidebar('1',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\0.jpg" id="0" data-flag="@X" onclick="openSidebar('0',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\16.jpg" id="16" data-flag="@X" onclick="openSidebar('16',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\324.jpg" id="324" data-flag="@X" onclick="openSidebar('324',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\19.jpg" id="19" data-flag="@X" onclick="openSidebar('19',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\2.jpg" id="2" data-flag="@X" onclick="openSidebar('2',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\281.jpg" id="281" data-flag="@X" onclick="openSidebar('281',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\312.jpg" id="312" data-flag="@X" onclick="openSidebar('312',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\249.jpg" id="249" data-flag="@X" onclick="openSidebar('249',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\5.jpg" id="5" data-flag="@X" onclick="openSidebar('5',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\250.jpg" id="250" data-flag="@X" onclick="openSidebar('250',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\241.jpg" id="241" data-flag="@X" onclick="openSidebar('241',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\242.jpg" id="242" data-flag="@X" onclick="openSidebar('242',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\247.jpg" id="247" data-flag="@X" onclick="openSidebar('247',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\47.jpg" id="47" data-flag="@X" onclick="openSidebar('47',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\251.jpg" id="251" data-flag="@X" onclick="openSidebar('251',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\248.jpg" id="248" data-flag="@X" onclick="openSidebar('248',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\12.jpg" id="12" data-flag="@X" onclick="openSidebar('12',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\46.jpg" id="46" data-flag="@X" onclick="openSidebar('46',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\3.jpg" id="3" data-flag="@X" onclick="openSidebar('3',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\320.jpg" id="320" data-flag="@X" onclick="openSidebar('320',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\4.jpg" id="4" data-flag="@X" onclick="openSidebar('4',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="land" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\179.jpg" id="179" data-flag="@X" onclick="openSidebar('179',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\57.jpg" id="57" data-flag="@X" onclick="openSidebar('57',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\58.jpg" id="58" data-flag="@X" onclick="openSidebar('58',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\59.jpg" id="59" data-flag="@X" onclick="openSidebar('59',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\21.jpg" id="21" data-flag="@X" onclick="openSidebar('21',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\60.jpg" id="60" data-flag="@X" onclick="openSidebar('60',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\22.jpg" id="22" data-flag="@X" onclick="openSidebar('22',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\62.jpg" id="62" data-flag="@X" onclick="openSidebar('62',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\61.jpg" id="61" data-flag="@X" onclick="openSidebar('61',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\325.jpg" id="325" data-flag="@X" onclick="openSidebar('325',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\20.jpg" id="20" data-flag="@X" onclick="openSidebar('20',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\177.jpg" id="177" data-flag="@X" onclick="openSidebar('177',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\178.jpg" id="178" data-flag="@X" onclick="openSidebar('178',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\359.jpg" id="359" data-flag="@X" onclick="openSidebar('359',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\328.jpg" id="328" data-flag="@X" onclick="openSidebar('328',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\362.jpg" id="362" data-flag="@X" onclick="openSidebar('362',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\361.jpg" id="361" data-flag="@X" onclick="openSidebar('361',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\363.jpg" id="363" data-flag="@X" onclick="openSidebar('363',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\334.jpg" id="334" data-flag="@X" onclick="openSidebar('334',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\336.jpg" id="336" data-flag="@X" onclick="openSidebar('336',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\329.jpg" id="329" data-flag="@X" onclick="openSidebar('329',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\331.jpg" id="331" data-flag="@X" onclick="openSidebar('331',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\330.jpg" id="330" data-flag="@X" onclick="openSidebar('330',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\332.jpg" id="332" data-flag="@X" onclick="openSidebar('332',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\333.jpg" id="333" data-flag="@X" onclick="openSidebar('333',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\335.jpg" id="335" data-flag="@X" onclick="openSidebar('335',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\337.jpg" id="337" data-flag="@X" onclick="openSidebar('337',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\364.jpg" id="364" data-flag="@X" onclick="openSidebar('364',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\341.jpg" id="341" data-flag="@X" onclick="openSidebar('341',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\342.jpg" id="342" data-flag="@X" onclick="openSidebar('342',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\344.jpg" id="344" data-flag="@X" onclick="openSidebar('344',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\345.jpg" id="345" data-flag="@X" onclick="openSidebar('345',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\346.jpg" id="346" data-flag="@X" onclick="openSidebar('346',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\348.jpg" id="348" data-flag="@X" onclick="openSidebar('348',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\352.jpg" id="352" data-flag="@X" onclick="openSidebar('352',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\360.jpg" id="360" data-flag="@X" onclick="openSidebar('360',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\353.jpg" id="353" data-flag="@X" onclick="openSidebar('353',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\354.jpg" id="354" data-flag="@X" onclick="openSidebar('354',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\355.jpg" id="355" data-flag="@X" onclick="openSidebar('355',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\343.jpg" id="343" data-flag="@X" onclick="openSidebar('343',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\356.jpg" id="356" data-flag="@X" onclick="openSidebar('356',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\YGM-files\img\357.jpg" id="357" data-flag="@X" onclick="openSidebar('357',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>
