@@ -35,11 +35,11 @@
         "position": "268"
     },
     {
-        "card_name": "Barrier Statue of the Heavens",
-        "number": 4,
+        "card_name": "Monster Reborn",
+        "number": 19,
         "shape": "normal",
         "set": "YGM",
-        "position": "127"
+        "position": "258"
     },
     {
         "card_name": "Water Dragon",
@@ -70,11 +70,11 @@
         "position": "230"
     },
     {
-        "card_name": "Ray of Hope",
-        "number": 22,
+        "card_name": "Barrier Statue of the Heavens",
+        "number": 4,
         "shape": "normal",
         "set": "YGM",
-        "position": "208"
+        "position": "127"
     },
     {
         "card_name": "Barrier Statue of the Torrent",
@@ -105,11 +105,11 @@
         "position": "163"
     },
     {
-        "card_name": "Sanga of the Thunder",
-        "number": 27,
+        "card_name": "Ray of Hope",
+        "number": 22,
         "shape": "normal",
         "set": "YGM",
-        "position": "24"
+        "position": "208"
     },
     {
         "card_name": "Creature Swap",
@@ -140,11 +140,11 @@
         "position": "339"
     },
     {
-        "card_name": "Enchanted Javelin",
-        "number": 5,
+        "card_name": "Sanga of the Thunder",
+        "number": 27,
         "shape": "normal",
         "set": "YGM",
-        "position": "195"
+        "position": "24"
     },
     {
         "card_name": "Suijin",
@@ -175,11 +175,11 @@
         "position": "31"
     },
     {
-        "card_name": "Gradius",
-        "number": 9,
+        "card_name": "Enchanted Javelin",
+        "number": 5,
         "shape": "normal",
         "set": "YGM",
-        "position": "14"
+        "position": "195"
     },
     {
         "card_name": "Amphibious Bugroth MK-3",
@@ -210,11 +210,11 @@
         "position": "183"
     },
     {
-        "card_name": "Guardian Angel Joan",
-        "number": 11,
+        "card_name": "Gradius",
+        "number": 9,
         "shape": "normal",
         "set": "YGM",
-        "position": "119"
+        "position": "14"
     },
     {
         "card_name": "Buster Rancher",
@@ -245,11 +245,11 @@
         "position": "86"
     },
     {
-        "card_name": "Millenium Shield",
-        "number": 16,
+        "card_name": "Guardian Angel Joan",
+        "number": 11,
         "shape": "normal",
         "set": "YGM",
-        "position": "23"
+        "position": "119"
     },
     {
         "card_name": "Criosphinx",
@@ -280,11 +280,11 @@
         "position": "184"
     },
     {
-        "card_name": "Moai Interceptor Cannons",
-        "number": 18,
+        "card_name": "Happy Lover",
+        "number": 12,
         "shape": "normal",
         "set": "YGM",
-        "position": "48"
+        "position": "259"
     },
     {
         "card_name": "Cyber Shark",
@@ -315,11 +315,11 @@
         "position": "227"
     },
     {
-        "card_name": "Soul of Purity and Light",
-        "number": 29,
+        "card_name": "Millenium Shield",
+        "number": 16,
         "shape": "normal",
         "set": "YGM",
-        "position": "112"
+        "position": "23"
     },
     {
         "card_name": "Dark Jeroid",
@@ -350,11 +350,11 @@
         "position": "228"
     },
     {
-        "card_name": "Swordsman of Landstar",
-        "number": 31,
+        "card_name": "Moai Interceptor Cannons",
+        "number": 18,
         "shape": "normal",
         "set": "YGM",
-        "position": "158"
+        "position": "48"
     },
     {
         "card_name": "Dupe Frog",
@@ -385,11 +385,11 @@
         "position": "223"
     },
     {
-        "card_name": "Thousand Needles",
-        "number": 32,
+        "card_name": "Release from Stone",
+        "number": 24,
         "shape": "normal",
         "set": "YGM",
-        "position": "69"
+        "position": "193"
     },
     {
         "card_name": "Ekibyo Drakmord",
@@ -420,11 +420,11 @@
         "position": "30"
     },
     {
-        "card_name": "United We Stand",
-        "number": 34,
+        "card_name": "Sand Moth",
+        "number": 25,
         "shape": "normal",
         "set": "YGM",
-        "position": "191"
+        "position": "45"
     },
     {
         "card_name": "Jowls of Dark Demise",
@@ -455,11 +455,11 @@
         "position": "142"
     },
     {
-        "card_name": "White Hole",
-        "number": 36,
+        "card_name": "Soul of Purity and Light",
+        "number": 29,
         "shape": "normal",
         "set": "YGM",
-        "position": "205"
+        "position": "112"
     },
     {
         "card_name": "The Little Swordsman of Aile",
@@ -490,11 +490,11 @@
         "position": "322"
     },
     {
-        "card_name": "Wingweaver",
-        "number": 37,
+        "card_name": "Swordsman of Landstar",
+        "number": 31,
         "shape": "normal",
         "set": "YGM",
-        "position": "110"
+        "position": "158"
     },
     {
         "card_name": "Neo Aqua Madoor",
@@ -525,11 +525,11 @@
         "position": "267"
     },
     {
-        "card_name": "The Forgiving Maiden",
-        "number": 6,
+        "card_name": "Thousand Needles",
+        "number": 32,
         "shape": "normal",
         "set": "YGM",
-        "position": "108"
+        "position": "69"
     },
     {
         "card_name": "Queen's Double",
@@ -560,11 +560,11 @@
         "position": "231"
     },
     {
-        "card_name": "Garnecia Elefantis",
-        "number": 7,
+        "card_name": "United We Stand",
+        "number": 34,
         "shape": "normal",
         "set": "YGM",
-        "position": "145"
+        "position": "191"
     },
     {
         "card_name": "Rain Storm",
@@ -595,11 +595,11 @@
         "position": "234"
     },
     {
-        "card_name": "Goddess with the Third Eye",
-        "number": 8,
+        "card_name": "White Hole",
+        "number": 36,
         "shape": "normal",
         "set": "YGM",
-        "position": "189"
+        "position": "205"
     },
     {
         "card_name": "Shifting Shadows",
@@ -630,11 +630,11 @@
         "position": "286"
     },
     {
-        "card_name": "Great Spirit",
-        "number": 10,
+        "card_name": "Wingweaver",
+        "number": 37,
         "shape": "normal",
         "set": "YGM",
-        "position": "42"
+        "position": "110"
     },
     {
         "card_name": "7 Colored Fish",
@@ -665,11 +665,11 @@
         "position": "225"
     },
     {
-        "card_name": "Leogun",
-        "number": 15,
+        "card_name": "The Forgiving Maiden",
+        "number": 6,
         "shape": "normal",
         "set": "YGM",
-        "position": "188"
+        "position": "108"
     },
     {
         "card_name": "Change Slime",
@@ -700,11 +700,11 @@
         "position": "292"
     },
     {
-        "card_name": "Nobleman of Crossout",
-        "number": 20,
+        "card_name": "Garnecia Elefantis",
+        "number": 7,
         "shape": "normal",
         "set": "YGM",
-        "position": "206"
+        "position": "145"
     },
     {
         "card_name": "Forced Back",
@@ -735,11 +735,11 @@
         "position": "338"
     },
     {
-        "card_name": "Protector of the Throne",
-        "number": 21,
+        "card_name": "Goddess with the Third Eye",
+        "number": 8,
         "shape": "normal",
         "set": "YGM",
-        "position": "190"
+        "position": "189"
     },
     {
         "card_name": "Great White",
@@ -770,11 +770,11 @@
         "position": "224"
     },
     {
-        "card_name": "Sand Stone",
-        "number": 26,
+        "card_name": "Great Spirit",
+        "number": 10,
         "shape": "normal",
         "set": "YGM",
-        "position": "309"
+        "position": "42"
     },
     {
         "card_name": "Humanoid Slime",
@@ -805,11 +805,11 @@
         "position": "161"
     },
     {
-        "card_name": "Silver Fang",
-        "number": 28,
+        "card_name": "Hieracosphinx",
+        "number": 13,
         "shape": "normal",
         "set": "YGM",
-        "position": "67"
+        "position": "43"
     },
     {
         "card_name": "Hyozanryu",
@@ -840,11 +840,11 @@
         "position": "170"
     },
     {
-        "card_name": "Spirit of the Harp",
-        "number": 30,
+        "card_name": "Impenetrable Formation",
+        "number": 14,
         "shape": "normal",
         "set": "YGM",
-        "position": "115"
+        "position": "207"
     },
     {
         "card_name": "Illusionist Faceless Mage",
@@ -875,11 +875,11 @@
         "position": "222"
     },
     {
-        "card_name": "Watapon",
-        "number": 35,
+        "card_name": "Leogun",
+        "number": 15,
         "shape": "normal",
         "set": "YGM",
-        "position": "122"
+        "position": "188"
     },
     {
         "card_name": "Metal Fish",
@@ -910,7 +910,11 @@
         "position": "284"
     },
     {
-        "card_name": "e"
+        "card_name": "Nobleman of Crossout",
+        "number": 20,
+        "shape": "normal",
+        "set": "YGM",
+        "position": "206"
     },
     {
         "card_name": "Reload",
@@ -941,7 +945,11 @@
         "position": "185"
     },
     {
-        "card_name": "e"
+        "card_name": "Protector of the Throne",
+        "number": 21,
+        "shape": "normal",
+        "set": "YGM",
+        "position": "190"
     },
     {
         "card_name": "Royal Surrender",
@@ -972,7 +980,11 @@
         "position": "260"
     },
     {
-        "card_name": "e"
+        "card_name": "Reinforcements",
+        "number": 23,
+        "shape": "normal",
+        "set": "YGM",
+        "position": "209"
     },
     {
         "card_name": "Shien's Spy",
@@ -1003,7 +1015,11 @@
         "position": "233"
     },
     {
-        "card_name": "e"
+        "card_name": "Sand Stone",
+        "number": 26,
+        "shape": "normal",
+        "set": "YGM",
+        "position": "309"
     },
     {
         "card_name": "Sinister Serpent",
@@ -1034,7 +1050,11 @@
         "position": "340"
     },
     {
-        "card_name": "e"
+        "card_name": "Silver Fang",
+        "number": 28,
+        "shape": "normal",
+        "set": "YGM",
+        "position": "67"
     },
     {
         "card_name": "Space Mambo",
@@ -1065,7 +1085,11 @@
         "position": "269"
     },
     {
-        "card_name": "e"
+        "card_name": "Spirit of the Harp",
+        "number": 30,
+        "shape": "normal",
+        "set": "YGM",
+        "position": "115"
     },
     {
         "card_name": "Spike Seadra",
@@ -1096,7 +1120,11 @@
         "position": "229"
     },
     {
-        "card_name": "e"
+        "card_name": "Trap Hole",
+        "number": 33,
+        "shape": "normal",
+        "set": "YGM",
+        "position": "167"
     },
     {
         "card_name": "Spiral Serpent",
@@ -1127,7 +1155,11 @@
         "position": "226"
     },
     {
-        "card_name": "e"
+        "card_name": "Watapon",
+        "number": 35,
+        "shape": "normal",
+        "set": "YGM",
+        "position": "122"
     },
     {
         "card_name": "e"
@@ -2462,6 +2494,13 @@
         "position": "363"
     },
     {
+        "card_name": "Fairy King Truesdale",
+        "number": 13,
+        "shape": "token",
+        "set": "YGM",
+        "position": "83"
+    },
+    {
         "card_name": "Dupe Frog",
         "number": 7,
         "shape": "token",
@@ -2532,6 +2571,20 @@
         "position": "364"
     },
     {
+        "card_name": "Big Koala",
+        "number": 12,
+        "shape": "token",
+        "set": "YGM",
+        "position": "73"
+    },
+    {
+        "card_name": "Nimble Momonga",
+        "number": 14,
+        "shape": "token",
+        "set": "YGM",
+        "position": "55"
+    },
+    {
         "card_name": "Plant",
         "number": 15,
         "shape": "token",
@@ -2560,6 +2613,13 @@
         "position": "345"
     },
     {
+        "card_name": "Burning Algae",
+        "number": 19,
+        "shape": "token",
+        "set": "YGM",
+        "position": "99"
+    },
+    {
         "card_name": "Giant Germ",
         "number": 20,
         "shape": "token",
@@ -2572,6 +2632,27 @@
         "shape": "token",
         "set": "YGM",
         "position": "348"
+    },
+    {
+        "card_name": "Souls of the Forgotten",
+        "number": 23,
+        "shape": "token",
+        "set": "YGM",
+        "position": "153"
+    },
+    {
+        "card_name": "Spirit of the Breeze",
+        "number": 24,
+        "shape": "token",
+        "set": "YGM",
+        "position": "116"
+    },
+    {
+        "card_name": "Abyss Flower",
+        "number": 25,
+        "shape": "token",
+        "set": "YGM",
+        "position": "81"
     },
     {
         "card_name": "The All-Seeing White Tiger",
@@ -2628,6 +2709,19 @@
         "shape": "token",
         "set": "YGM",
         "position": "357"
+    },
+    {
+        "card_name": "Volcanic Rat",
+        "number": 33,
+        "shape": "token",
+        "set": "YGM",
+        "position": "172"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
     },
     {
         "card_name": "e"

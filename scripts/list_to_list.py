@@ -2,15 +2,21 @@ import os
 import sys
 import re
 import json
+import logging
 
 #F = Fungustober's notes
+
+logging.basicConfig(
+    level=logging.DEBUG,  # Set to DEBUG to capture all messages
+    format='%(asctime)s - %(levelname)s - %(message)s'  # Customize the log format
+)
 
 def convertList(setCode):
 	#F: inputList = sets/SET-files/SET.json
 	inputList = os.path.join('sets', setCode + '-files', setCode + '.json')
 	#F: outputList = lists/SET-list.json
 	outputList = os.path.join('lists', setCode + '-list.json')
-	
+
 	#create the two blanks as dictionaries so we can fit them into the JSON structure
 	blank1 = {'card_name':'e'}
 	blank2 = {'card_name':'er'}
@@ -29,8 +35,11 @@ def convertList(setCode):
 		match = re.search(r'!group ([^ \n]+)', cards[i]['notes'])
 		if match and match.group() not in sort_groups:
 			sort_groups.append(match.group())
+		if "token" in cards[i]['shape'] or "Basic" in cards[i]['type']:
+			continue
 		for j in range(i):
-			if cards[i]['card_name'] == cards[j]['card_name'] and "token" not in cards[i]['shape'] and "Basic" not in cards[i]['type']:
+			if cards[i]['card_name'] == cards[j]['card_name'] and "token" not in cards[j]['shape'] and "Basic" not in cards[j]['type']:
+				logging.debug(f"Adding Card #{cards[j]['number']}, {cards[j]['card_name']} to skipdex, found non-token, non-basic land duplicate at index {i}")
 				skipdex.append(cards[j]['number'])
 
 	final_list = []
@@ -108,7 +117,10 @@ def convertList(setCode):
 	#F: now go over the cards again
 	for card in cards:
 		#F: skip the card if it's in the skipdex
-		if card['number'] in skipdex or ('previewed' in locals() and card['card_name'] not in previewed):
+		if card['number'] in skipdex:
+			logger
+			continue
+		if ('previewed' in locals() and card['card_name'] not in previewed):
 			continue
 
 		#CE: fix for devoid cards
