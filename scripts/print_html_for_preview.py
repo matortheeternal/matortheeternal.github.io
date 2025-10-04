@@ -28,7 +28,7 @@ def generateHTML(setCode):
 	set_img_dir = os.path.join('sets', setCode + '-files', 'img')
 	card_image_names = [f
 	   if f.endswith(('_front', '_back')) and re.sub(r'^\d+_', '', f) in ['front', 'back']
-	   else re.sub(r'^\d+_', '', f) 
+	   else re.sub(r'^\d+_', '', f)
 	   for f in (file[:-4].replace(u'\ufeff', '') for file in os.listdir(set_img_dir))
 	]
 
@@ -78,7 +78,6 @@ def generateHTML(setCode):
 			width: 100%;
 			float: left;
 			z-index: 2;
-			justify-items: center;
 		}
 		.sidebar {
 			position: sticky;
@@ -131,6 +130,7 @@ def generateHTML(setCode):
 			padding-bottom: 1%;
 			justify-items: center;
 			max-width: 1200px;
+			margin: auto;
 		}
 		.grid-container img {
 			width: 100%;
@@ -252,7 +252,7 @@ def generateHTML(setCode):
 
 	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	'''
-	
+
 	count = 0
 	html_content += f'''
 		<a class="set-bar" href="{setCode}"><img src="/sets/{setCode}-files/icon.png">{set_name}</a>
@@ -609,7 +609,7 @@ def generateHTML(setCode):
 	}
 
 		'''
-	
+
 	#F: /resources/snippets/random-card.txt
 	#F: code that lets you go to a random card
 	with open(os.path.join('scripts', 'snippets', 'random-card.txt'), encoding='utf-8-sig') as f:
