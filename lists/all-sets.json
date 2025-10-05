@@ -1,11 +1,6 @@
 ﻿{
     "sets": [
         {
-            "set_code": "YGM",
-            "set_name": "Yugioh: Mystical Monsters",
-            "formats": ""
-        },
-        {
             "set_code": "YGO",
             "set_name": "Yugioh as MTG",
             "formats": ""
