@@ -72,6 +72,8 @@ def generateHTML(setCode):
 			overscroll-behavior: none;
 			background-size: cover;
 			background-attachment: fixed;
+			background: #222;
+			color: #fff;
 		}
 		.main-content {
 			position: relative;
@@ -104,6 +106,7 @@ def generateHTML(setCode):
 		.sidebar-img {
 			vertical-align: middle;
 			width: 100%;
+			border-radius: 5.1%;
 		}
 		.close-btn {
 			background: url('/img/close.png') no-repeat;
@@ -124,12 +127,12 @@ def generateHTML(setCode):
 		.grid-container {
 			display: grid;
 			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-			gap: 2px;
+			gap: 5px;
 			padding-left: 5%;
 			padding-right: 5%;
 			padding-bottom: 1%;
 			justify-items: center;
-			max-width: 1200px;
+			max-width: 1220px;
 			margin: auto;
 		}
 		.grid-container img {
@@ -138,6 +141,7 @@ def generateHTML(setCode):
 			display: block;
 			visibility: hidden;
 			cursor: pointer;
+			border-radius: 5.1%;
 		}
 		.banner {
 			width: 100%;
@@ -158,6 +162,7 @@ def generateHTML(setCode):
 		.container img {
 			width: 100%;
 			height: auto;
+			border-radius: 5.1%;
 		}
 		.flip-btn {
 			background: url('/img/flip.png') no-repeat;
@@ -557,7 +562,7 @@ def generateHTML(setCode):
 			delete document.getElementById('sidebar_img').dataset.alt_src;
 			document.getElementById('sidebar-flip-btn').style.display = 'none';
 		}
-		document.getElementById('main-content').style.width = '60%';
+		document.getElementById('main-content').style.width = '71%';
 
 		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
 		window.scrollTo(window.scrollX, scroll_pos);

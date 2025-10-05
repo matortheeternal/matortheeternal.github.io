@@ -25,7 +25,8 @@ def generateHTML(codes):
 		font-family: 'Helvetica', 'Arial', sans-serif;
 		overscroll-behavior: none;
 		margin: 0px;
-		background-color: #f3f3f3;
+		background-color: #222;
+		color: #fff;
 	}
 	.button-grid {
 		width: 70%;
@@ -114,7 +115,7 @@ def generateHTML(codes):
 	}
 	@media ( max-width: 750px ) {
 		.image-grid-container {
-			grid-template-columns: 1fr 1fr;	
+			grid-template-columns: 1fr 1fr;
 		}
 	}
 	.image-grid {
@@ -138,11 +139,11 @@ def generateHTML(codes):
 	.card-text {
 		padding-top: 20px;
 		padding-bottom: 20px;
-		background: #fcfcfc;
+		background: #111;
 		width: 100%;
 		border: 1px solid #d5d9d9;
-		border-top: 3px solid #171717;
-		border-bottom: 3px solid #171717;
+		border-top: 3px solid #ffcc00;
+		border-bottom: 3px solid #ffcc00;
 		border-radius: 6px;
 		height: fit-content;
 		min-height: 75%;
@@ -156,6 +157,7 @@ def generateHTML(codes):
 	.img-container img {
 		width: 100%;
 		height: auto;
+		border-radius: 5.1%;
 	}
 	.img-container .btn {
 		background: url('img/flip.png') no-repeat;
@@ -196,7 +198,7 @@ def generateHTML(codes):
 
 	html_content += '''
 	<div class="button-grid">
-		<div class="select-text"><div class="results-text" id="results-text">Loading ...</div>Cards displayed as<select name="display" id="display"><option value="cards-only">Cards Only</option><option value="cards-text">Cards + Text</option></select>sorted by<select name="sort-by" id="sort-by"><option value="name">Name</option><option value="set-code">Set / Number</option><option value="mv">Mana Value</option><option value="color">Color</option><option value="rarity">Rarity</option><option value="cube">Cube</option></select> : <select name="sort-order" id="sort-order"><option value="ascending">Asc</option><option value="descending">Desc</option></select></div>		
+		<div class="select-text"><div class="results-text" id="results-text">Loading ...</div>Cards displayed as<select name="display" id="display"><option value="cards-only">Cards Only</option><option value="cards-text">Cards + Text</option></select>sorted by<select name="sort-by" id="sort-by"><option value="name">Name</option><option value="set-code">Set / Number</option><option value="mv">Mana Value</option><option value="color">Color</option><option value="rarity">Rarity</option><option value="cube">Cube</option></select> : <select name="sort-order" id="sort-order"><option value="ascending">Asc</option><option value="descending">Desc</option></select></div>
 		<div class="prev-next-btns">
 			<button type="submit" onclick="previousPage()" id="prevBtn" disabled>< Previous</button>
 			<button type="submit" onclick="nextPage()" id="nextBtn">Next 30 ></button>
@@ -237,7 +239,7 @@ def generateHTML(codes):
 			await fetch('/lists/all-sets.json')
 					.then(response => response.json())
 					.then(data => {
-						sets_json = data; 
+						sets_json = data;
 				}).catch(error => console.error('Error:', error));
 
 			card_list_arrayified = card_list.cards;
@@ -260,11 +262,11 @@ def generateHTML(codes):
 
 			if (sessionStorage.getItem("sortMethod"))
 			{
-				document.getElementById("sort-by").value = sessionStorage.getItem("sortMethod");				
+				document.getElementById("sort-by").value = sessionStorage.getItem("sortMethod");
 			}
 			if (sessionStorage.getItem("display"))
 			{
-				document.getElementById("display").value = sessionStorage.getItem("display");				
+				document.getElementById("display").value = sessionStorage.getItem("display");
 			}
 
 			displayStyle = document.getElementById("display").value;
@@ -557,7 +559,7 @@ def generateHTML(codes):
 
 		function nextPage() {
 			page = page + 1;
-			
+
 			let url = (window.location.href.indexOf("page=") == -1 ? new URL(window.location.href) : new URL(window.location.href.substring(0, window.location.href.indexOf("page="))));
 			let params = new URLSearchParams(url.search);
 			params.append("page", page + 1);

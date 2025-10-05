@@ -10,7 +10,7 @@ def generateHTML(code):
 	#F: /sets/SET.html
 	output_html_file = "sets/" + code + ".html"
 	previewing = os.path.exists(os.path.join('sets', code + '-files', 'previewed.txt'))
-	
+
 	with open(os.path.join('lists', 'all-sets.json'), encoding='utf-8-sig') as f:
 		data = json.load(f)
 		for s in data['sets']:
@@ -40,7 +40,8 @@ def generateHTML(code):
 		font-family: 'Helvetica', 'Arial', sans-serif;
 		overscroll-behavior: none;
 		margin: 0px;
-		background-color: #f3f3f3;
+		background-color: #222;
+		color: #fff;
 	}
 	.banner {
 		width: 100%;
@@ -160,7 +161,7 @@ def generateHTML(code):
 	}
 	@media ( max-width: 750px ) {
 		.image-grid-container {
-			grid-template-columns: 1fr 1fr;  
+			grid-template-columns: 1fr 1fr;
 		}
 	}
 	.image-grid {
@@ -184,11 +185,11 @@ def generateHTML(code):
 	.card-text {
 		padding-top: 20px;
 		padding-bottom: 20px;
-		background: #fcfcfc;
+		background: #111;
 		width: 100%;
 		border: 1px solid #d5d9d9;
-		border-top: 3px solid #171717;
-		border-bottom: 3px solid #171717;
+		border-top: 3px solid #ffcc00;
+		border-bottom: 3px solid #ffcc00;
 		border-radius: 6px;
 		height: fit-content;
 		min-height: 75%;
@@ -202,6 +203,7 @@ def generateHTML(code):
 	.img-container img {
 		width: 100%;
 		height: auto;
+		border-radius: 5.1%;
 	}
 	.img-container .btn {
 		background: url('/img/flip.png') no-repeat;
@@ -321,7 +323,7 @@ def generateHTML(code):
 </style>
 <body>
 	'''
-	
+
 	#F: /resources/snippets/header.txt
 	with open(os.path.join('scripts', 'snippets', 'header.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
@@ -429,7 +431,7 @@ def generateHTML(code):
 			}).catch(error => console.error('Error:', error));
 
 			draftmancerToP1P1(draft_file);
-      
+
 			for (let i = 0; i < card_list_arrayified.length; i++)
 			{
 				if (card_list_arrayified[i].set == "''' + code + '''")
@@ -452,7 +454,7 @@ def generateHTML(code):
 		document.getElementById("sort-by").onchange = displayChangeListener;
 		document.getElementById("display").onchange = displayChangeListener;
 		document.getElementById("sort-order").onchange = displayChangeListener;
-  
+
 		function displayChangeListener() {
 			setCardView();
 		}
@@ -498,7 +500,7 @@ def generateHTML(code):
 			{
 				let text1 = document.createElement("div");
 				let text2 = document.createElement("div");
-				
+
 				text1.innerText = "Currently Previewing";
 				text2.innerText = "check back soon";
 
@@ -640,7 +642,7 @@ def generateHTML(code):
 			used_cards = [];
 			for (const slot of p1p1_cards)
 			{
-				if (slot.length == 0) 
+				if (slot.length == 0)
 					continue;
 
 				do {
@@ -714,7 +716,7 @@ def generateHTML(code):
 	with open(os.path.join('scripts', 'snippets', 'tokenize-symbolize.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
-	
+
 	html_content += '''
 
 		function gridifyCard(card_stats, card_text = false, rotate_card = false, designer_notes = false) {

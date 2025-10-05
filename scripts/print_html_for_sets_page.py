@@ -26,13 +26,14 @@ def generateHTML():
 			font-family: 'Helvetica', 'Arial', sans-serif;
 			overscroll-behavior: none;
 			margin: 0px;
-			background-color: #f3f3f3;
+			background-color: #222;
+			color: #fff;
 			font-size: 20px;
 			padding-bottom: 30px;
 		}
 		a {
 			text-decoration: none;
-			color: #171717;
+			color: #ffcc00;
 		}
 		.set-table {
 			width: 60%;
@@ -57,16 +58,16 @@ def generateHTML():
 			grid-template-columns: 0.5fr 2.5fr 0.5fr 0.5fr;
 			gap: 5px;
 			align-items: center;
-			border-top: 1px solid #171717;
+			border-top: 1px solid #eee;
 		}
 		.set-row:hover {
-			background-color: #fafafa;
+			background-color: #555;
 		}
 		.set-row:nth-child(2n) {
-		  background-color: #dedede;
+		  background-color: #333;
 		}
 		.set-row:nth-child(2n):hover {
-			background-color: #e6e6e6;
+			background-color: #444;
 		}
 		.set-row img {
 			width: 70%;
@@ -129,7 +130,7 @@ def generateHTML():
 						set_count += 1
 
 			html_content += '''
-			<a href="/sets/''' + code + '''" class="set-row"> 
+			<a href="/sets/''' + code + '''" class="set-row">
 				<img src="/sets/''' + code + '''-files/icon.png">
 				<div class="set-title">''' + set_name + '''</div>
 				<div>''' + code + '''</div>

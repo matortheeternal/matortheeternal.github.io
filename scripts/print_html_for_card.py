@@ -6,7 +6,7 @@ import json
 
 def generateHTML():
 	output_html_file = "card.html"
-	
+
 	# Start creating the HTML file content
 	html_content = '''<html>
 <head>
@@ -25,7 +25,8 @@ def generateHTML():
 		font-family: 'Helvetica', 'Arial', sans-serif;
 		overscroll-behavior: none;
 		margin: 0px;
-		background-color: #f3f3f3;
+		background-color: #222;
+		color: #fff;
 	}
 	a {
 		text-decoration: none;
@@ -76,11 +77,11 @@ def generateHTML():
 	.card-text {
 		padding-top: 20px;
 		padding-bottom: 20px;
-		background: #fcfcfc;
+		background: #111;
 		width: 100%;
 		border: 1px solid #d5d9d9;
-		border-top: 3px solid #171717;
-		border-bottom: 3px solid #171717;
+		border-top: 3px solid #ffcc00;
+		border-bottom: 3px solid #ffcc00;
 		border-radius: 6px;
 		height: fit-content;
 		min-height: 75%;
@@ -115,6 +116,7 @@ def generateHTML():
 	.img-container img {
 		width: 100%;
 		height: auto;
+		border-radius: 5.1%;
 	}
 	.img-container .btn {
 		background: url('/img/flip.png') no-repeat;
@@ -184,7 +186,7 @@ def generateHTML():
 	with open(os.path.join('scripts', 'snippets', 'load-files.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
-	
+
 	html_content += '''
 			await fetch('/lists/all-sets.json')
 					.then(response => response.json())
@@ -226,7 +228,7 @@ def generateHTML():
 					banner_title.innerHTML = set_stats.set_name;
 					break;
 				}
-			}			
+			}
 
 			document.getElementById("grid").appendChild(gridifyCard(card, false, true));
 
@@ -279,7 +281,7 @@ def generateHTML():
 		});
 
 		'''
-	
+
 	with open(os.path.join('scripts', 'snippets', 'tokenize-symbolize.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet
@@ -291,7 +293,7 @@ def generateHTML():
 			const card_name = card_stats.card_name;
 
 		'''
-	
+
 	with open(os.path.join('scripts', 'snippets', 'img-container-defs.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
 		html_content += snippet

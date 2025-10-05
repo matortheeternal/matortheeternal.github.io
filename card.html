@@ -15,7 +15,8 @@
 		font-family: 'Helvetica', 'Arial', sans-serif;
 		overscroll-behavior: none;
 		margin: 0px;
-		background-color: #f3f3f3;
+		background-color: #222;
+		color: #fff;
 	}
 	a {
 		text-decoration: none;
@@ -66,11 +67,11 @@
 	.card-text {
 		padding-top: 20px;
 		padding-bottom: 20px;
-		background: #fcfcfc;
+		background: #111;
 		width: 100%;
 		border: 1px solid #d5d9d9;
-		border-top: 3px solid #171717;
-		border-bottom: 3px solid #171717;
+		border-top: 3px solid #ffcc00;
+		border-bottom: 3px solid #ffcc00;
 		border-radius: 6px;
 		height: fit-content;
 		min-height: 75%;
@@ -105,6 +106,7 @@
 	.img-container img {
 		width: 100%;
 		height: auto;
+		border-radius: 5.1%;
 	}
 	.img-container .btn {
 		background: url('/img/flip.png') no-repeat;
@@ -226,7 +228,7 @@
 					banner_title.innerHTML = set_stats.set_name;
 					break;
 				}
-			}			
+			}
 
 			document.getElementById("grid").appendChild(gridifyCard(card, false, true));
 

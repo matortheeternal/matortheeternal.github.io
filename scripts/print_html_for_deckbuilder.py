@@ -151,7 +151,7 @@ def generateHTML(codes):
 	}
 	@media ( max-width: 750px ) {
 		.image-grid {
-			grid-template-columns: 1fr 1fr;	
+			grid-template-columns: 1fr 1fr;
 		}
 	}
 	.image-grid {
@@ -188,6 +188,7 @@ def generateHTML(codes):
 	.img-container img {
 		width: 100%;
 		height: auto;
+		border-radius: 5.1%;
 	}
 	.img-container .btn {
 		background: url('img/flip.png') no-repeat;
@@ -537,7 +538,7 @@ def generateHTML(codes):
 			await fetch('/lists/all-sets.json')
 					.then(response => response.json())
 					.then(data => {
-						sets_json = data; 
+						sets_json = data;
 				}).catch(error => console.error('Error:', error));
 
 			cardGrid = document.getElementById("imagesOnlyGrid");
@@ -641,7 +642,7 @@ def generateHTML(codes):
 									{
 										addCardToDeck(card);
 									}
-								}						
+								}
 							}
 						}
 					}
@@ -814,7 +815,7 @@ def generateHTML(codes):
 
 			if (!card_text)
 			{
-				return buildImgContainer(card_stats, true, rotate_card);			
+				return buildImgContainer(card_stats, true, rotate_card);
 			}
 
 		'''
@@ -943,7 +944,7 @@ def generateHTML(codes):
 				{
 					outer_ele.style.display = "grid";
 					dsec_c_id = dsec_id + "-cards";
-					
+
 					dsec_t_id = dsec_id + "-title";
 					title_ele = document.getElementById(dsec_t_id);
 					let count = 0;
@@ -956,7 +957,7 @@ def generateHTML(codes):
 
 					cards_ele = document.getElementById(dsec_c_id);
 					cards_ele.innerHTML = "";
-					const cards_list = Array.from(map.keys()).sort();				
+					const cards_list = Array.from(map.keys()).sort();
 					for (const card of cards_list)
 					{
 						const display_style = document.getElementById("display-select").value;
@@ -967,7 +968,7 @@ def generateHTML(codes):
 						{
 							card_row = document.createElement("div");
 							card_row.className = "deck-line";
-							
+
 							card_in_deck = document.createElement("div");
 							card_in_deck.innerText += map.get(card) + " " + card_name + "\\n";
 							card_in_deck.style.cursor = "pointer";
