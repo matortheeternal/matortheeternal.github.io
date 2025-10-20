@@ -39,6 +39,8 @@ def generateFile(code):
 		# clean hybrids
 		h_pattern = r'\{([A-Z0-9])([A-Z])\}'
 		h_replace = r'{\1/\2}'
+		if re.search(r'token', card['type']):
+			continue
 
 		for slot in structure:
 			slot_name = slot['name']
