@@ -1,4 +1,924 @@
-﻿VERSION 4 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+Gozuki added.
+Gaia Power added.
+Darkfire Dragon added.
+Troop Dragon added.
+Penguin Knight added.
+Kidmodo Dragon added.
+Convulsion of Nature added.
+The Seal of Orichalcos added.
+Psuedo Space added.
+Mausoleum of the Emperor added.
+Heart of Clear Water added.
+D.D. Borderline added.
+Harpies' Hunting Ground added.
+Kaiser Colosseum added.
+Labyrinth of Nightmare added.
+Sanguine Swamp added.
+Skull Lair added.
+The Dark Door added.
+Pyramid of Wonders added.
+Spring of Rebirth added.
+Twin-Headed Behemoth added.
+Serpent Night Dragon added.
+Reload added.
+Advance Draw added.
+Rush Recklessly added.
+D. Tribe added.
+Monster Gate added.
+Fusion Recovery added.
+Different Dimension Gate added.
+Heart of the Underdog added.
+
+Zombie Mammoth removed.
+Gateway to Chaos removed.
+Minoan Centaur removed.
+Manticore of Darkness removed.
+Worm Gulse removed.
+D.D. Crow removed.
+Effect Veiler removed.
+Ash Blossom & Joyous Spring removed.
+Battle Fader removed.
+Honest removed.
+Dimension Shifter removed.
+Droll and Lock Bird removed.
+Swift Scarecrow removed.
+Gorz the Emissary of Darkness removed.
+Maxx C removed.
+Nibiru, the Primal Being removed.
+Kimodo Dragon removed.
+
+Blue-Eyes White Dragon
+
+Red-Eyes Black Dragon
+
+Time Wizard
+
+Obelisk the Tormentor
+
+The Winged Dragon of Ra
+
+Slifer the Sky Dragon
+
+Dark Magician
+
+Dark Magician Girl
+
+Raigeki
+
+Trap Hole
+
+Imperial Order
+
+Blue-Eyes Ultimate Dragon
+
+Pot of Greed
+
+Magic Cylinder
+
+Monster Reborn
+
+Polymerization
+
+Kuriboh
+
+Mirror Force
+
+Black Luster Soldier
+
+Black Luster Ritual
+
+Exodia the Forbbiden One
+
+Left Leg of the Forbidden One
+
+Right Leg of the Forbidden One
+
+Right Arm of the Forbidden One
+
+Left Arm of the Forbidden One
+
+Lava Golem
+
+Gearfried the Iron Knight
+
+Kojikocy
+
+Uraby
+
+Tainted Wisdom
+
+Skull Knight
+
+Beastking of the Swamps
+
+Sorcerer of Dark Magic
+
+Horn of Heaven
+
+Mystic Lamp
+rules_text: Vigilance
+This creature can't be blocked.
+{T}: Add {U}{U}. Spend this mana only to cast instant, sorcery, or wizard spells. => Vigilance
+This creature can't be blocked.
+{T}: Add {U}{U}. Spend this mana only to cast instant, sorcery, or Wizard spells.
+
+Call of the Haunted
+
+Giant Rat
+
+Insect Imitation
+
+Shining Angel
+
+Catapult Turtle
+
+Rabid Horseman
+
+Battle Ox
+
+Mystic Horseman
+
+Armed Ninja
+
+Basic Insect
+
+Killer Needle
+
+Baby Dragon
+
+Drill Bug
+rules_text: Deathtouch
+Whenever this creature deals combat damage to a player, search your library for an Insect card with mana value 1 or less and put it onto the battlefield tapped. Then shuffle. => Deathtouch
+Whenever this creature deals combat damage to a player, mill three cards, then you may return target creature card with mana value 1 or less from your graveyard to the battlefield tapped.
+
+Robbin' Goblin
+
+Parasite Paracide
+rules_text: Defense position {B} [i](You may cast this card face down as a 2/2 creature with defender for {1}. Turn it face up any time for its mana cost or for its Defense Position cost if it's blocking.)[/i]
+When this creature is turned face up, target opponent gains control of this creature.
+At the beginning of your upkeep, you lose 3 life. => When this card is put into your graveyard from your library, you may put it onto the battlefield under target player's control.
+At the beginning of your upkeep, you lose 3 life.
+pt: 2/3 => 3/3
+
+Larvae Moth
+
+Cocoon of Evolution
+
+The Stern Mystic
+
+Gravity Bind
+
+Last Will
+
+Flying Kamakiri #1
+
+Hamburger Recipe
+
+Magical Hats
+rules_text: Set target creature you control. Then Set the top two cards of your deck. [i](They are colorless 2/2 creatures with defender. They can be turned face up for their mana cost if they are creature cards.)[/i]
+Shuffle all face down creatures you control. If one was being targeted by a spell or ability, that spell or ability's owner chooses a new target. => Set target creature you control. Then set the top two cards of your library. [i](They are colorless 2/2 creatures with defender. They can be turned face up for their mana cost if they are creature cards.)[/i]
+Shuffle all face down creatures you control. If one was being targeted by a spell or ability, that spell or ability's owner chooses a new target.
+
+Barrel Dragon
+
+Hiro's Shadow Scout
+
+Return of the Zombies
+
+Ultimate Offering
+
+Mad Sword Beast
+
+Tribute to the Doomed
+
+Buster Blader
+
+Witch of the Black Forest
+
+Jinzo
+
+Magic Jammer
+
+Vampire Lord
+
+Painful Choice
+
+Summoned Skull
+
+Hane-Hane
+
+Swords of Revealing Light
+
+Fissure
+
+Neo the Magic Swordsman
+
+Treeborn Frog
+
+Giant Soldier of Stone
+
+Trap Master
+
+Man-Eater Bug
+
+Dark Hole
+
+De-Spell
+
+Reinforcements
+
+Waboku
+
+Just Desserts
+
+D.D. Warrior Lady
+
+Dark Magician of Chaos
+
+Magician of Faith
+
+Sangan
+
+Chaos Emperor Dragon Envoy of the End
+
+Aqua Madoor
+
+Mystical Elf
+rules_text: This creature enters with a shield counter on it. [i](If it would be dealt damage or destroyed, remove a shield counter from it instead.)[/i]
+When this creature dies, put its counters on the next creature that enters under your control this turn. => Creature tokens you control get +1/+1 and have vigilance and “You may treat this creature's mana value as though it were 2 greater.”
+
+Harpie's Feather Duster
+
+Mystical Space Typhoon
+
+Delinquent Duo
+
+The Forceful Sentry
+
+Snatch Steal
+
+UFO Turtle
+
+Share the Pain
+
+Harpie Lady
+
+Thunder Dragon
+
+Twin-Headed Thunder Dragon
+
+Paralyzing Potion
+
+Versago the Destroyer
+
+Tremendous Fire
+
+Flame Swordsman
+
+Flame Manipulator
+
+Masaki the Legendary Swordsman
+
+Eatgaboon
+
+White Hole
+
+Flute of Summoning Dragon
+
+Lord of D.
+
+Thousand Dragon
+
+Relinquished
+
+Black Magic Ritual
+
+Solemn Judgment
+
+Acid Trap Hole
+
+Change of Heart
+
+Solemn Wishes
+
+Backup Soldier
+
+Michizure
+
+Seven Tools of the Bandit
+
+Cyber Jar
+
+Morphing Jar
+
+Reaper of the Cards
+
+Skull Servant
+rules_text: When this creature enters, each player discards a card. => When this card is put into your graveyard from your library, you may put it onto the battlefield tapped.
+When this creature enters, each player discards a card.
+
+Mask of Darkness
+
+Shadow Ghoul
+rules_text: Trample
+Whenever another creature dies, put a +1/+1 counter on target creature. => Trample
+Whenever a creature card is put into your graveyard from anywhere, put a +1/+1 counter on target creature.
+pt: 3/2 => 2/2
+
+Dimensionhole
+
+Senju of the Thousand Hands
+
+Ookazi
+
+Big Eye
+
+Call of the Grave
+
+Confiscation
+
+Black Skull Dragon
+
+Masked Sorcerer
+
+Kairyu-Shin
+
+Sparks
+
+Thousand-Eyes Restrict
+cost: {4}{U}{U}{U} => {2}{U}{U}{U}{U}
+rules_text: Fusion {2}{U}{U}{U} — A Wizard and a blue creature [i](You may cast this spell from outside the game or from your command zone for its Fusion cost by sacrificing or discarding the noted fusion material cards.)[/i]
+When Thousand-Eyes Restrict enters, exile target creature you don't control until this leaves the battlefield.
+At the beginning of each combat, create a token that's a copy of the exiled card. It gains haste. Sacrifice it at the beginning of the next end step.
+Whenever a creature attacks, if it is tapped, put a stun counter on it. => Fusion {U}{U}{U}{U} — A Wizard and a blue creature [i](You may cast this spell from outside the game or from your command zone for its Fusion cost by sacrificing or discarding the noted fusion material cards.)[/i]
+When Thousand-Eyes Restrict enters, exile target creature you don't control until this leaves the battlefield.
+At the beginning of each combat, create a token that's a copy of the exiled card. It gains haste. Sacrifice it at the beginning of the next end step.
+Whenever a creature attacks, if it is tapped, put a stun counter on it.
+pt: 0/6 => 0/4
+
+Lady of Faith
+
+Musician King
+
+Humanoid Slime
+
+Roaring Ocean Snake
+
+Battle Steer
+
+Curse of Dragon
+pt: 3/5 => 3/4
+
+Koumori Dragon
+
+Gaia the Fierce Knight
+
+Mammoth Graveyard
+
+Zombie Warrior
+
+Battle Warrior
+
+Rude Kaiser
+cost: {3}{RW}{RW} => {X}{3}{RW}{RW}
+rules_text: Emerge {3}{RW} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Double strike => Emerge {X}{3}{RW} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Double strike
+When this creature enters, create X 1/1 white Warrior creature tokens.
+pt: 3/4 => 3/3
+
+Dark Sage
+
+Brain Control
+
+Burning Land
+
+White Dragon Ritual
+
+Magician of Black Chaos
+
+Gaia the Dragon Champion
+
+Spellbinding Circle
+
+Kaibaman
+
+Paladin of White Dragon
+
+The White Stone of Legend
+
+Burst Stream of Destruction
+
+Red-Eyes Dark Dragoon
+
+Meteor Dragon
+
+Meteor Black Dragon
+rules_text: Fusion {5}{BR} — Two Dragons [i](You may cast this spell from outside the game or from your command zone for its Fusion cost by sacrificing or discarding the noted fusion material cards.)[/i]
+Flying, menace
+Repeat the following process three times. Each opponent loses 3 life unless that player sacrifices a nonland permanent of their choice or discards a card. => Fusion {5}{BR} — Two Dragons [i](You may cast this spell from outside the game or from your command zone for its Fusion cost by sacrificing or discarding the noted fusion material cards.)[/i]
+Flying, menace
+When this creature enters, repeat the following process three times. Each opponent loses 3 life unless that player sacrifices a nonland permanent of their choice or discards a card.
+
+Dark Magic Attack
+
+Magician's Rod
+
+Magician Navigation
+
+Dark Eradicator Warlock
+
+Thousand Knives
+
+Skilled Dark Magician
+rules_text: Whenever you cast an instant, sorcery, or Wizard spell, put a +1/+1 counter on this creature.
+When this creature dies, if it had three or more +1/+1 counters on it, search your hand, library, and graveyard for a Wizard card with mana value 7 or less, put it onto the battlefield, then shuffle. => Whenever you cast an instant, sorcery, or Wizard spell, put a +1/+1 counter on this creature.
+When this creature dies, if it had three or more +1/+1 counters on it, you may exile it. When you do, search your hand, library, and graveyard for a Wizard card with mana value 7 or less, put it onto the battlefield, then shuffle.
+
+Ring of Destruction
+
+Destined Rivals
+
+Blue-Eyes Abyss Dragon
+
+Strength in Unity
+
+Red-Eyes Zombie Dragon
+
+Cards of the Red Stone
+
+Black Dragon's Chick
+
+Red-Eyes Spirit
+
+Inferno Fire Blast
+
+Red-Eyes Black Metal Dragon
+
+The Black Stone of Legend
+
+Red-Eyes Wyvern
+
+Red-Eyes Darkness Dragon
+
+Petit Moth
+
+Great Moth
+
+Perfectly Ultimate Great Moth
+
+Hungry Burger
+
+Rescue Cat
+
+Card of Safe Return
+rules_text: Whenever a creature enters from your graveyard, you may draw a card. => Whenever a creature enters from your graveyard or whenever you cast a creature spell from your graveyard, you may draw a card.
+
+Rescue Rabbit
+
+Terraforming
+
+Black Illusion Ritual
+
+Metalmorph
+
+Thousand-Eyes Idol
+
+Flying Kamakiri #2
+
+Gokipon
+
+Multiplication of Ants
+
+Pinch Hopper
+
+Big Insect
+
+Doom Dozer
+
+Resonance Insect
+
+Ultimate Insect
+
+Arsenal Bug
+
+Metal Armored Bug
+
+Dreadscythe Harvester
+
+Insect Queen
+
+Howling Insect
+
+Celtic Guardian
+
+Nobleman of Crossout
+
+Ancient Brain
+
+La Jinn the Mystical Genie of the Lamp
+
+Hinotama
+
+Beaver Warrior
+
+Buster Blader, the Dragon Destroyer Swordsman
+rules_text: Fusion {1}{R}{G}{W} — A Warrior with mana value 7 or greater and a Dragon [i](You may cast this spell from outside the game or from your command zone for its Fusion cost by sacrificing or discarding the noted fusion material cards.)[/i]
+Menace, protection from Dragons
+Dragons can't attack or block and their activated abilities can't be activated. => Fusion {2}{R}{G}{W} — A Warrior and a Dragon [i](You may cast this spell from outside the game or from your command zone for its Fusion cost by sacrificing or discarding the noted fusion material cards.)[/i]
+Menace, protection from Dragons
+Dragons can't attack or block and their activated abilities can't be activated.
+
+King Tiger Wanghu
+
+Des Kangaroo
+rules_text: Defense position {X}{RG} [i](You may cast this card face down as a 2/2 creature with defender for {1}. Turn it face up any time for its mana cost or for its Defense Position cost if it's blocking.)[/i]
+When this creature enters or is turned face up, put X +1/+1 counters on it.
+Whenever this creature is deals combat damage, it deals that much damage to any target. => Defense position {X}{RG} [i](You may cast this card face down as a 2/2 creature with defender for {1}. Turn it face up any time for its mana cost or for its Defense Position cost if it's blocking.)[/i]
+When this creature enters or is turned face up, put X +1/+1 counters on it.
+Whenever this creature deals combat damage, it deals that much damage to any target.
+
+Beast King Barbaros
+rules_text: Trample
+Whenever Beast King Barbaros enters or attacks, search your library for a basic land card, put it onto the battlefield tapped, then shuffle. When you do, Beast King Barbaros deals damage equal to the number of lands you control to target creature you don't control.
+Evoke {1}{R}{G} [i](You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters.)[/i] => Trample
+Whenever Beast King Barbaros enters or attacks, search your library for a basic land card, put it onto the battlefield tapped, then shuffle. When you do, Beast King Barbaros deals damage equal to the number of lands you control to target creature you don't control.
+Evoke {2}{R}{G} [i](You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters.)[/i]
+
+Prologue of the Destruction Swordsman
+
+Five-Headed Dragon
+
+Super Polymerization
+
+Blackland Fire Dragon
+
+One Day of Peace
+
+Upstart Goblin
+
+Scapegoat
+
+The Legendary Fisherman
+
+Ocean Dragon Lord — Neo-Daedalus
+
+Maiden of the Aqua
+
+Umi
+
+Forest Field
+
+Sogen
+
+Yami
+
+Mountain Field
+
+Impenetrable Formation
+
+Codarus
+
+Levia-Dragon — Daedalus
+
+Mermaid Knight
+
+Deepsea Warrior
+
+Mobius the Frost Monarch
+rules_text: Emerge {3}{W}{U} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Flash
+When Mobius enters, if you cast it for its emerge cost, counter up to one target instant or sorcery spell and destroy up to one target artifact or enchantment. => Emerge {3}{W}{U} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Flash
+When Mobius enters, if you cast it, counter up to one target instant or sorcery spell and destroy up to one target artifact or enchantment.
+
+Caius the Shadow Monarch
+rules_text: Emerge {3}{B}{R} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Menace
+When Caius enters, if you cast it for its emerge cost, exile target creature. Its controller loses 3 life. => Emerge {3}{B}{R} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Menace
+When Caius enters, if you cast it, exile target creature. Its controller loses 3 life.
+
+Erebus the Underworld Monarch
+rules_text: Emerge {3}{B}{G} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Deathtouch
+When Erebus enters, if its emerge cost was paid, each opponent sacrifices a creature and discards a card. => Emerge {3}{B}{G} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Deathtouch
+When Erebus enters, if you cast it, each opponent sacrifices a creature and discards a card.
+
+Thestalos the Firestorm Monarch
+rules_text: Emerge {3}{R}{W} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Lifelink
+When Thestalos enters, if you cast it for its emerge cost, you may discard a card. When you do, this creature deals damage to any target equal to the discarded card's mana value. => Emerge {3}{R}{W} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+First strike
+When Thestalos enters, if you cast it, you may discard a card. When you do, this creature deals damage to any target equal to the discarded card's mana value.
+
+Zaborg the Thunder Monarch
+rules_text: Emerge {3}{U}{R} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Prowess
+When Zaborg enters, if you cast it for its emerge cost, it deals 5 damage divided as you choose among any number of target creatures. => Emerge {3}{U}{R} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Prowess
+When Zaborg enters, if you cast it, it deals 5 damage divided as you choose among any number of target creatures.
+
+Raiza the Storm Monarch
+rules_text: Emerge {3}{G}{U} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Flying
+When Raiza enters, if you cast it for its emerge cost, put target permanent on top of its owner's library. => Emerge {3}{G}{U} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Flying
+When Raiza enters, if you cast it, put target permanent on top of its owner's library.
+
+Kuraz the Light Monarch
+rules_text: Emerge {3}{G}{W} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Vigilance
+When Kuraz enters, if you cast it for its emerge cost, destroy up to two target nonland permanents. For each permanent destroyed this way, its controller draws a card. => Emerge {3}{G}{W} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Vigilance
+When Kuraz enters, if you cast it, destroy up to two target nonland permanents. For each permanent destroyed this way, its controller draws a card.
+
+Granmarg the Rock Monarch
+rules_text: Emerge {3}{R}{G} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Trample
+When Granmarg enters, if you cast it for its emerge cost, destroy target noncreature permanent. Then each player may search their library for a basic land card and put it onto the battlefield tapped. If a player searched their library this way, they shuffle. => Emerge {3}{R}{G} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Trample
+When Granmarg enters, if you cast it, destroy target noncreature permanent. Then each player may search their library for a basic land card and put it onto the battlefield tapped. If a player searched their library this way, they shuffle.
+
+Delg the Dark Monarch
+rules_text: Emerge {3}{W}{B} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Lifelink
+When Delg enters, if you cast it for its emerge cost, target player mills 3 cards. Then you may put target creature card with mana value 3 or less from that player's graveyard onto the battlefield under your control. => Emerge {3}{W}{B} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Lifelink
+When Delg enters, if you cast it, target player mills 3 cards. Then you may put target creature card with mana value 3 or less from that player's graveyard onto the battlefield under your control.
+
+Angmarl the Fiendish Monarch
+rules_text: Emerge {3}{U}{B} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Ward—Pay 3 life
+When Angmarl enters, if you cast it for its emerge cost, search your library for an instant or sorcery card, reveal it, put it into your hand, then shuffle. => Emerge {3}{U}{B} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Ward—Pay 3 life
+When Angmarl enters, if you cast it, search your library for an instant or sorcery card, reveal it, put it into your hand, then shuffle.
+
+Ehther the Heavenly Monarch
+
+Fusion Gate
+
+Zombie World
+
+Book of Life
+
+Lemuria, the Forgotten City
+
+Forgotten Temple of the Deep
+
+Umiiruka
+
+Return Zombie
+
+Molten Zombie
+
+Call of the Mummy
+
+Decayed Commander
+
+Zombiemeister
+
+Armored Zombie
+
+Bone Mouse
+
+Zombie Tiger
+rules_text: Whenever this creature and at least two other creatures attack, target player discards a card at random. => When this creature enters, target player discards a card at random.
+{4}{B}: Return this card from your graveyard to the battlefield tapped with a finality counter on it.
+
+Dragon Zombie
+
+Pyramid Turtle
+
+Clown Zombie
+
+Gernia
+
+Three-Legged Zombie
+
+Corroding Shark
+
+Bone Crusher
+
+The Lady in Wight
+rules_text: Other Zombies you control have hexproof and indestructible. => Flash
+When this creature enters or dies, Zombies you control gain hexproof and indestructible until end of turn.
+{2}, Sacrifice this creature: Draw a card.
+pt: 0/5 => 1/5
+
+Magicians' Souls
+
+Mezuki
+
+Graceful Charity
+
+Spider's Lair
+
+Flame Swordsrealm
+
+Dragon Ravine
+
+Closed Forest
+
+Fighting Flame Swordsman
+cost: {3}{R} => {2}{R}
+pt: 4/3 => 3/2
+
+Flame Swordsdance
+
+Tornado Wall
+
+Abyss-Strom
+
+Rage of Kairyu-Shin
+
+M-Warrior #1
+
+M-Warrior #2
+
+Karbonala Warrior
+
+Turret Warrior
+
+Harpie Lady Sisters
+
+Gazelle the King of the Mythical Beasts
+
+Berfomet
+
+Bazoo the Soul-Eater
+rules_text: [i]Landfall[/i] — Whenever a land enters under your control, you may exile a creature card from your graveyard. If you do, put a +1/+1 counter on this creature. It gains trample until end of turn. => [i]Landfall[/i] — Whenever a land enters under your control, you may exile a card from a graveyard. If you exile a creature card this way, put a +1/+1 counter on this creature. It gains trample until end of turn.
+
+Yellow Baboon, Archer of the Forest
+
+Green Baboon, Defender of the Forest
+
+Chimera the Flying Mythical Beast
+
+Beast Soul Swap
+
+Ancient One of the Deep Forest
+
+Garoozis
+type: Creature — Beast Warrior => Creature — Dragon Warrior
+rules_text: Emerge {3}{R} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+When this creature enters, behold another Warrior and/or another Beast. If you beheld one or more creatures this way, put a +1/+1 counter on this creature. If you beheld two creatures this way, this creature gains haste. => Emerge {3}{R} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+When this creature enters, behold another Dragon or Warrior. If you beheld a Dragon this way, Garoozis deals 3 damage to any target. If you beheld a Warrior this way, create two tapped Treasure tokens.
+
+Mystical Moon
+
+Vorse Raider
+
+Akz, the Pumer
+
+Tiger Axe
+
+Spiritual Forest
+
+Butterfly Dagger — Elma
+
+Silent Insect
+cost: {1}{G} => {G}
+rules_text: Artifacts and enchantments lose all abilities. => {T}: Add {G} or {B}.
+{3}{G}, {T}, Sacrifice this creature: Destroy target artifact or enchantment.
+pt: 2/2 => 1/1
+
+Spider Egg
+
+Mother Spider
+
+Dark Magic Curtain
+
+Book of Taiyou
+
+Book of Moon
+
+Penguin Soldier
+
+Nightmare Penguin
+type: Creature — Penguin => Creature — Nightmare Penguin
+
+White Ninja
+
+Desertapir
+
+Needle Worm
+
+Skelengel
+
+Soul Reversal
+
+Cyber Dragon
+
+Supply
+
+Magical Scientist
+cost: {1}{U}{R} => {U}{R}
+rules_text: {U}{R}, Pay 3 life: Reveal a creature card you own from outside the game with fusion and mana value 6 or less. Put that creature onto the battlefield under your control. It gains defender. Exile it at the beginning of the next end step. => {U}{R}, Pay 3 life: Reveal a creature card you own from outside the game with fusion and mana value 6 or less. Put that creature onto the battlefield under your control. It gains defender. Sacrifice it at the beginning of the next end step.
+
+Cyber-Stein
+cost: {2}{U}{R} => {1}{U}{R}
+rules_text: {3}{U}{R}, Pay 10 life: Reveal a creature card you own from outside the game with fusion. Put that creature card onto the battlefield. => {2}{U}{R}, Pay 10 life: Reveal a creature card you own from outside the game with fusion. Put that creature card onto the battlefield.
+
+Metamorphosis
+
+Summoner of Illusions
+
+Future Fusion
+
+Instant Fusion
+
+Petit Angel
+rules_text: Flying, lifelink
+When this creature enters or dies, other creatures you control get +1/+1 and gain lifelink until end of turn. => Flying, lifelink
+When this creature enters or dies, look at the top five cards of your library. You may reveal a card with emerge from among them and put it into your hand. Then put the rest on the bottom of your library in a random order.
+
+Mystical Sheep #2
+rules_text: This creature enters with two +1/+1 counters and a vigilance counter on it.
+When this creature dies, put its counters on the next creature that enters under your control this turn. => Vigilance
+When this creature enters or dies, create two 0/1 white Sheep creature tokens.
+pt: 1/2 => 2/2
+
+Mystical Sheep #1
+
+Enchanting Mermaid
+
+Fusionist
+rules_text: Fusion {2}{GW} — A creature with mana value 3 or less and ac reature with mana value 3 or less [i](You may cast this spell from outside the game or from your command zone for its Fusion cost by sacrificing or discarding the noted fusion material cards.)[/i]
+Flying, vigilance, lifelink
+Whenever this creature attacks, other creatures you control get +1/+1 and gain flying and lifelink until end of turn. Untap them. => Fusion {2}{GW} — Two creatures with mana value 3 or less [i](You may cast this spell from outside the game or from your command zone for its Fusion cost by sacrificing or discarding the noted fusion material cards.)[/i]
+Flying, vigilance, lifelink
+Whenever this creature attacks, other creatures you control get +1/+1 and gain flying and lifelink until end of turn. Untap them.
+
+Rare Fish
+
+Worm Bait
+
+Cyber Twin Dragon
+
+Totem Dragon
+
+Angel 07
+
+Overwhelm
+
+Escalation of the Monarchs
+
+March of the Monarchs
+
+Majesty of the White Dragons
+
+Marauding Captain
+
+Reinforce Truth
+rules_text: Cast this spell only during your upkeep.
+Search your library for a Warrior card with mana value 2 or less and put it onto the battlefield, then shuffle.
+Creatures you control can't attack this turn. => Search your library for a Warrior card with mana value 2 or less and put it onto the battlefield, then shuffle.
+
+Copy Knight
+
+Dragon Treasure
+
+Silver Bow and Arrow
+
+Steel Shell
+
+Dark Energy
+
+Salamandra
+
+Violet Crystal
+
+Insect Armor with Laser Cannon
+
+Cestus of Dagla
+
+Gravity Axe
+
+Electro-Whip
+
+Soul Exchange
+
+Dark Renewal
+
+The Ultimate Creature of Destruction
+
+Guardragon Cataclysm
+
+Dark Magical Circle
+
+Dedication Through Light and Darkness
+
+Burst Breath
+
+The Thing in the Crater
+
+
+VERSION 4 CHANGELOG
 ====================
 
 

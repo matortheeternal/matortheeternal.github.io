@@ -1,213 +1,38 @@
 ﻿[
     {
         "card_name": "Monster Reborn",
-        "number": 26,
+        "number": 28,
         "shape": "normal",
         "set": "YGO",
         "position": "14"
     },
     {
         "card_name": "Graceful Charity",
-        "number": 54,
+        "number": 57,
         "shape": "normal",
         "set": "YGO",
         "position": "273"
     },
     {
         "card_name": "Exodia the Forbbiden One",
-        "number": 100,
+        "number": 104,
         "shape": "normal",
         "set": "YGO",
         "position": "20"
     },
     {
         "card_name": "Change of Heart",
-        "number": 134,
+        "number": 140,
         "shape": "normal",
         "set": "YGO",
         "position": "116"
     },
     {
         "card_name": "Ultimate Offering",
-        "number": 199,
+        "number": 209,
         "shape": "normal",
         "set": "YGO",
         "position": "61"
-    },
-    {
-        "card_name": "Time Wizard",
-        "number": 37,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "2"
-    },
-    {
-        "card_name": "Levia-Dragon \u2014 Daedalus",
-        "number": 62,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "234"
-    },
-    {
-        "card_name": "Sorcerer of Dark Magic",
-        "number": 113,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "32"
-    },
-    {
-        "card_name": "The Black Stone of Legend",
-        "number": 128,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "180"
-    },
-    {
-        "card_name": "Silent Insect",
-        "number": 193,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "306"
-    },
-    {
-        "card_name": "Imperial Order",
-        "number": 13,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "10"
-    },
-    {
-        "card_name": "Thousand-Eyes Restrict",
-        "number": 81,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "137"
-    },
-    {
-        "card_name": "Card of Safe Return",
-        "number": 89,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "188"
-    },
-    {
-        "card_name": "Lava Golem",
-        "number": 145,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "25"
-    },
-    {
-        "card_name": "Gearfried the Iron Knight",
-        "number": 176,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "26"
-    },
-    {
-        "card_name": "Swords of Revealing Light",
-        "number": 36,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "72"
-    },
-    {
-        "card_name": "Ocean Dragon Lord \u2014 Neo-Daedalus",
-        "number": 68,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "225"
-    },
-    {
-        "card_name": "Robbin' Goblin",
-        "number": 110,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "48"
-    },
-    {
-        "card_name": "Minoan Centaur",
-        "number": 151,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "300"
-    },
-    {
-        "card_name": "Chimera the Flying Mythical Beast",
-        "number": 171,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "294"
-    },
-    {
-        "card_name": "The Ultimate Creature of Destruction",
-        "number": 40,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "357"
-    },
-    {
-        "card_name": "Snatch Steal",
-        "number": 76,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "95"
-    },
-    {
-        "card_name": "Return of the Zombies",
-        "number": 109,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "60"
-    },
-    {
-        "card_name": "Rare Fish",
-        "number": 155,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "333"
-    },
-    {
-        "card_name": "Insect Queen",
-        "number": 182,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "205"
-    },
-    {
-        "card_name": "Mirror Force",
-        "number": 25,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "17"
-    },
-    {
-        "card_name": "Solemn Judgment",
-        "number": 77,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "114"
-    },
-    {
-        "card_name": "Confiscation",
-        "number": 91,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "132"
-    },
-    {
-        "card_name": "Akz, the Pumer",
-        "number": 123,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "302"
-    },
-    {
-        "card_name": "Spiritual Forest",
-        "number": 197,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "304"
     },
     {
         "card_name": "Burst Stream of Destruction",
@@ -218,101 +43,241 @@
     },
     {
         "card_name": "The Forceful Sentry",
-        "number": 53,
+        "number": 56,
         "shape": "normal",
         "set": "YGO",
         "position": "94"
     },
     {
-        "card_name": "Delinquent Duo",
-        "number": 97,
+        "card_name": "Card of Safe Return",
+        "number": 93,
         "shape": "normal",
         "set": "YGO",
-        "position": "93"
+        "position": "188"
     },
     {
-        "card_name": "Prologue of the Destruction Swordsman",
-        "number": 154,
+        "card_name": "Akz, the Pumer",
+        "number": 129,
         "shape": "normal",
         "set": "YGO",
-        "position": "217"
+        "position": "302"
     },
     {
         "card_name": "Beast Soul Swap",
-        "number": 167,
+        "number": 175,
         "shape": "normal",
         "set": "YGO",
         "position": "295"
     },
     {
+        "card_name": "Imperial Order",
+        "number": 15,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "10"
+    },
+    {
+        "card_name": "Levia-Dragon \u2014 Daedalus",
+        "number": 65,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "234"
+    },
+    {
+        "card_name": "Confiscation",
+        "number": 95,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "132"
+    },
+    {
+        "card_name": "The Black Stone of Legend",
+        "number": 134,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "180"
+    },
+    {
+        "card_name": "Chimera the Flying Mythical Beast",
+        "number": 179,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "294"
+    },
+    {
+        "card_name": "Mirror Force",
+        "number": 27,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "17"
+    },
+    {
+        "card_name": "Ocean Dragon Lord \u2014 Neo-Daedalus",
+        "number": 71,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "225"
+    },
+    {
+        "card_name": "Dark Hole",
+        "number": 97,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "79"
+    },
+    {
+        "card_name": "Darkfire Dragon",
+        "number": 141,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "300"
+    },
+    {
+        "card_name": "Gazelle the King of the Mythical Beasts",
+        "number": 184,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "289"
+    },
+    {
         "card_name": "Raigeki",
-        "number": 31,
+        "number": 33,
         "shape": "normal",
         "set": "YGO",
         "position": "8"
     },
     {
         "card_name": "Painful Choice",
-        "number": 69,
+        "number": 72,
         "shape": "normal",
         "set": "YGO",
         "position": "69"
     },
     {
-        "card_name": "Dark Hole",
-        "number": 93,
+        "card_name": "Delinquent Duo",
+        "number": 101,
         "shape": "normal",
         "set": "YGO",
-        "position": "79"
+        "position": "93"
     },
     {
         "card_name": "Flute of Summoning Dragon",
-        "number": 139,
+        "number": 146,
         "shape": "normal",
         "set": "YGO",
         "position": "109"
     },
     {
+        "card_name": "Gearfried the Iron Knight",
+        "number": 185,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "26"
+    },
+    {
+        "card_name": "Swords of Revealing Light",
+        "number": 38,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "72"
+    },
+    {
+        "card_name": "Snatch Steal",
+        "number": 80,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "95"
+    },
+    {
+        "card_name": "Return of the Zombies",
+        "number": 114,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "60"
+    },
+    {
+        "card_name": "Lava Golem",
+        "number": 153,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "25"
+    },
+    {
         "card_name": "Harpie's Feather Duster",
-        "number": 180,
+        "number": 189,
         "shape": "normal",
         "set": "YGO",
         "position": "91"
     },
     {
-        "card_name": "The White Stone of Legend",
-        "number": 43,
+        "card_name": "Time Wizard",
+        "number": 39,
         "shape": "normal",
         "set": "YGO",
-        "position": "159"
+        "position": "2"
     },
     {
-        "card_name": "Relinquished",
-        "number": 72,
+        "card_name": "Solemn Judgment",
+        "number": 81,
         "shape": "normal",
         "set": "YGO",
-        "position": "112"
+        "position": "114"
     },
     {
-        "card_name": "Parasite Paracide",
-        "number": 108,
+        "card_name": "Robbin' Goblin",
+        "number": 115,
         "shape": "normal",
         "set": "YGO",
-        "position": "49"
+        "position": "48"
     },
     {
-        "card_name": "Masaki the Legendary Swordsman",
-        "number": 147,
+        "card_name": "Prologue of the Destruction Swordsman",
+        "number": 161,
         "shape": "normal",
         "set": "YGO",
-        "position": "106"
+        "position": "217"
     },
     {
-        "card_name": "Man-Eater Bug",
-        "number": 185,
+        "card_name": "Insect Queen",
+        "number": 191,
         "shape": "normal",
         "set": "YGO",
-        "position": "78"
+        "position": "205"
+    },
+    {
+        "card_name": "The Ultimate Creature of Destruction",
+        "number": 42,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "357"
+    },
+    {
+        "card_name": "Thousand-Eyes Restrict",
+        "number": 85,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "137"
+    },
+    {
+        "card_name": "Sorcerer of Dark Magic",
+        "number": 119,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "32"
+    },
+    {
+        "card_name": "Rare Fish",
+        "number": 162,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "333"
+    },
+    {
+        "card_name": "Spiritual Forest",
+        "number": 207,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "304"
     },
     {
         "card_name": "Beaver Warrior",
@@ -322,452 +287,592 @@
         "position": "212"
     },
     {
-        "card_name": "Skilled Dark Magician",
-        "number": 75,
+        "card_name": "Advance Draw",
+        "number": 47,
         "shape": "normal",
         "set": "YGO",
-        "position": "169"
+        "position": "381"
     },
     {
-        "card_name": "Drill Bug",
-        "number": 99,
+        "card_name": "Book of Life",
+        "number": 90,
         "shape": "normal",
         "set": "YGO",
-        "position": "47"
+        "position": "250"
     },
     {
-        "card_name": "Koumori Dragon",
-        "number": 144,
+        "card_name": "Barrel Dragon",
+        "number": 131,
         "shape": "normal",
         "set": "YGO",
-        "position": "144"
+        "position": "58"
     },
     {
-        "card_name": "Arsenal Bug",
-        "number": 164,
+        "card_name": "Ancient One of the Deep Forest",
+        "number": 171,
         "shape": "normal",
         "set": "YGO",
-        "position": "202"
+        "position": "296"
     },
     {
-        "card_name": "The Lady in Wight",
-        "number": 18,
+        "card_name": "Different Dimension Gate",
+        "number": 8,
         "shape": "normal",
         "set": "YGO",
-        "position": "269"
+        "position": "386"
     },
     {
-        "card_name": "The Legendary Fisherman",
-        "number": 61,
+        "card_name": "Black Illusion Ritual",
+        "number": 51,
         "shape": "normal",
         "set": "YGO",
-        "position": "224"
+        "position": "191"
     },
     {
-        "card_name": "Molten Zombie",
-        "number": 107,
+        "card_name": "Call of the Grave",
+        "number": 91,
         "shape": "normal",
         "set": "YGO",
-        "position": "255"
+        "position": "131"
     },
     {
         "card_name": "Blackland Fire Dragon",
-        "number": 129,
+        "number": 135,
         "shape": "normal",
         "set": "YGO",
         "position": "220"
     },
     {
-        "card_name": "Howling Insect",
-        "number": 181,
+        "card_name": "Arsenal Bug",
+        "number": 172,
         "shape": "normal",
         "set": "YGO",
-        "position": "206"
+        "position": "202"
     },
     {
-        "card_name": "Sangan",
-        "number": 33,
+        "card_name": "Guardragon Cataclysm",
+        "number": 10,
         "shape": "normal",
         "set": "YGO",
-        "position": "87"
+        "position": "358"
     },
     {
-        "card_name": "Kairyu-Shin",
-        "number": 59,
+        "card_name": "Destined Rivals",
+        "number": 55,
         "shape": "normal",
         "set": "YGO",
-        "position": "135"
+        "position": "171"
     },
     {
-        "card_name": "Witch of the Black Forest",
-        "number": 120,
+        "card_name": "Call of the Haunted",
+        "number": 92,
         "shape": "normal",
         "set": "YGO",
-        "position": "65"
+        "position": "35"
     },
     {
-        "card_name": "Fighting Flame Swordsman",
-        "number": 135,
+        "card_name": "Brain Control",
+        "number": 136,
         "shape": "normal",
         "set": "YGO",
-        "position": "279"
-    },
-    {
-        "card_name": "Gazelle the King of the Mythical Beasts",
-        "number": 175,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "289"
-    },
-    {
-        "card_name": "Paladin of White Dragon",
-        "number": 29,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "158"
-    },
-    {
-        "card_name": "The Stern Mystic",
-        "number": 79,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "52"
-    },
-    {
-        "card_name": "Flying Kamakiri #1",
-        "number": 102,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "55"
-    },
-    {
-        "card_name": "Manticore of Darkness",
-        "number": 146,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "301"
+        "position": "151"
     },
     {
         "card_name": "Berfomet",
-        "number": 169,
+        "number": 177,
         "shape": "normal",
         "set": "YGO",
         "position": "290"
     },
     {
-        "card_name": "Pyramid Turtle",
-        "number": 30,
+        "card_name": "Harpie Lady Sisters",
+        "number": 12,
         "shape": "normal",
         "set": "YGO",
-        "position": "263"
-    },
-    {
-        "card_name": "Tainted Wisdom",
-        "number": 80,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "29"
-    },
-    {
-        "card_name": "Magicians' Souls",
-        "number": 105,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "271"
-    },
-    {
-        "card_name": "UFO Turtle",
-        "number": 160,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "96"
-    },
-    {
-        "card_name": "Giant Rat",
-        "number": 177,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "36"
-    },
-    {
-        "card_name": "Shining Angel",
-        "number": 35,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "38"
-    },
-    {
-        "card_name": "Roaring Ocean Snake",
-        "number": 73,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "141"
-    },
-    {
-        "card_name": "Summoned Skull",
-        "number": 115,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "70"
-    },
-    {
-        "card_name": "Catapult Turtle",
-        "number": 133,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "39"
-    },
-    {
-        "card_name": "Pinch Hopper",
-        "number": 192,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "197"
-    },
-    {
-        "card_name": "Karbonala Warrior",
-        "number": 15,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "286"
+        "position": "288"
     },
     {
         "card_name": "Hiro's Shadow Scout",
-        "number": 56,
+        "number": 59,
         "shape": "normal",
         "set": "YGO",
         "position": "59"
     },
     {
         "card_name": "Dark Magical Circle",
-        "number": 94,
+        "number": 98,
         "shape": "normal",
         "set": "YGO",
         "position": "359"
     },
     {
-        "card_name": "Flame Swordsman",
-        "number": 138,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "104"
-    },
-    {
-        "card_name": "Ancient One of the Deep Forest",
-        "number": 163,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "296"
-    },
-    {
-        "card_name": "Harpie Lady Sisters",
-        "number": 11,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "288"
-    },
-    {
-        "card_name": "Magician's Rod",
-        "number": 65,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "165"
-    },
-    {
-        "card_name": "Call of the Haunted",
-        "number": 88,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "35"
-    },
-    {
-        "card_name": "Garoozis",
-        "number": 140,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "297"
-    },
-    {
-        "card_name": "Dreadscythe Harvester",
-        "number": 173,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "204"
-    },
-    {
-        "card_name": "Last Will",
-        "number": 20,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "54"
-    },
-    {
-        "card_name": "Destined Rivals",
-        "number": 52,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "171"
-    },
-    {
-        "card_name": "Dedication Through Light and Darkness",
-        "number": 96,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "360"
-    },
-    {
-        "card_name": "Barrel Dragon",
-        "number": 125,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "58"
-    },
-    {
-        "card_name": "Great Moth",
-        "number": 179,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "184"
-    },
-    {
-        "card_name": "Scapegoat",
-        "number": 34,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "223"
-    },
-    {
-        "card_name": "Magic Jammer",
-        "number": 63,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "67"
-    },
-    {
-        "card_name": "Call of the Grave",
-        "number": 87,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "131"
-    },
-    {
         "card_name": "Burning Land",
-        "number": 131,
+        "number": 137,
         "shape": "normal",
         "set": "YGO",
         "position": "152"
     },
     {
         "card_name": "Butterfly Dagger \u2014 Elma",
-        "number": 170,
+        "number": 178,
         "shape": "normal",
         "set": "YGO",
         "position": "305"
     },
     {
-        "card_name": "White Hole",
-        "number": 42,
+        "card_name": "Heart of the Underdog",
+        "number": 13,
         "shape": "normal",
         "set": "YGO",
-        "position": "108"
+        "position": "387"
     },
     {
-        "card_name": "Rage of Kairyu-Shin",
-        "number": 71,
+        "card_name": "Kairyu-Shin",
+        "number": 62,
         "shape": "normal",
         "set": "YGO",
-        "position": "283"
+        "position": "135"
     },
     {
         "card_name": "Dark Renewal",
-        "number": 95,
+        "number": 99,
         "shape": "normal",
         "set": "YGO",
         "position": "356"
     },
     {
-        "card_name": "Just Desserts",
-        "number": 143,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "83"
-    },
-    {
-        "card_name": "Waboku",
-        "number": 201,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "82"
-    },
-    {
-        "card_name": "Guardragon Cataclysm",
-        "number": 9,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "358"
-    },
-    {
-        "card_name": "Tornado Wall",
-        "number": 82,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "281"
-    },
-    {
-        "card_name": "Soul Exchange",
-        "number": 114,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "355"
-    },
-    {
-        "card_name": "Brain Control",
-        "number": 130,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "151"
-    },
-    {
-        "card_name": "Spider Egg",
-        "number": 196,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "307"
-    },
-    {
-        "card_name": "White Dragon Ritual",
-        "number": 41,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "153"
-    },
-    {
-        "card_name": "Black Illusion Ritual",
-        "number": 48,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "191"
-    },
-    {
-        "card_name": "Book of Life",
-        "number": 86,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "250"
-    },
-    {
         "card_name": "Cards of the Red Stone",
-        "number": 132,
+        "number": 138,
         "shape": "normal",
         "set": "YGO",
         "position": "175"
     },
     {
-        "card_name": "Worm Bait",
+        "card_name": "D. Tribe",
+        "number": 181,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "383"
+    },
+    {
+        "card_name": "Karbonala Warrior",
+        "number": 17,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "286"
+    },
+    {
+        "card_name": "The Legendary Fisherman",
+        "number": 64,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "224"
+    },
+    {
+        "card_name": "Dedication Through Light and Darkness",
+        "number": 100,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "360"
+    },
+    {
+        "card_name": "Catapult Turtle",
+        "number": 139,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "39"
+    },
+    {
+        "card_name": "Dreadscythe Harvester",
+        "number": 182,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "204"
+    },
+    {
+        "card_name": "The Lady in Wight",
+        "number": 20,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "269"
+    },
+    {
+        "card_name": "Magic Jammer",
+        "number": 66,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "67"
+    },
+    {
+        "card_name": "Drill Bug",
+        "number": 103,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "47"
+    },
+    {
+        "card_name": "Fighting Flame Swordsman",
+        "number": 142,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "279"
+    },
+    {
+        "card_name": "Giant Rat",
+        "number": 186,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "36"
+    },
+    {
+        "card_name": "Last Will",
+        "number": 22,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "54"
+    },
+    {
+        "card_name": "Magician's Rod",
+        "number": 68,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "165"
+    },
+    {
+        "card_name": "Flying Kamakiri #1",
+        "number": 106,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "55"
+    },
+    {
+        "card_name": "Flame Swordsman",
+        "number": 145,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "104"
+    },
+    {
+        "card_name": "Great Moth",
+        "number": 188,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "184"
+    },
+    {
+        "card_name": "Paladin of White Dragon",
+        "number": 31,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "158"
+    },
+    {
+        "card_name": "Rage of Kairyu-Shin",
+        "number": 74,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "283"
+    },
+    {
+        "card_name": "Magicians' Souls",
+        "number": 110,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "271"
+    },
+    {
+        "card_name": "Fusion Recovery",
+        "number": 147,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "385"
+    },
+    {
+        "card_name": "Howling Insect",
+        "number": 190,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "206"
+    },
+    {
+        "card_name": "Pyramid Turtle",
+        "number": 32,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "263"
+    },
+    {
+        "card_name": "Relinquished",
+        "number": 75,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "112"
+    },
+    {
+        "card_name": "Molten Zombie",
+        "number": 112,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "255"
+    },
+    {
+        "card_name": "Garoozis",
+        "number": 148,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "297"
+    },
+    {
+        "card_name": "Man-Eater Bug",
+        "number": 194,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "78"
+    },
+    {
+        "card_name": "Sangan",
+        "number": 35,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "87"
+    },
+    {
+        "card_name": "Reload",
+        "number": 76,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "380"
+    },
+    {
+        "card_name": "Parasite Paracide",
+        "number": 113,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "49"
+    },
+    {
+        "card_name": "Just Desserts",
+        "number": 151,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "83"
+    },
+    {
+        "card_name": "Pinch Hopper",
+        "number": 201,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "197"
+    },
+    {
+        "card_name": "Scapegoat",
+        "number": 36,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "223"
+    },
+    {
+        "card_name": "Roaring Ocean Snake",
+        "number": 77,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "141"
+    },
+    {
+        "card_name": "Serpent Night Dragon",
+        "number": 116,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "379"
+    },
+    {
+        "card_name": "Koumori Dragon",
+        "number": 152,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "144"
+    },
+    {
+        "card_name": "Rush Recklessly",
         "number": 202,
         "shape": "normal",
         "set": "YGO",
+        "position": "382"
+    },
+    {
+        "card_name": "Shining Angel",
+        "number": 37,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "38"
+    },
+    {
+        "card_name": "Skilled Dark Magician",
+        "number": 79,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "169"
+    },
+    {
+        "card_name": "Soul Exchange",
+        "number": 120,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "355"
+    },
+    {
+        "card_name": "Masaki the Legendary Swordsman",
+        "number": 154,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "106"
+    },
+    {
+        "card_name": "Silent Insect",
+        "number": 203,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "306"
+    },
+    {
+        "card_name": "White Dragon Ritual",
+        "number": 43,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "153"
+    },
+    {
+        "card_name": "The Stern Mystic",
+        "number": 83,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "52"
+    },
+    {
+        "card_name": "Summoned Skull",
+        "number": 121,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "70"
+    },
+    {
+        "card_name": "Monster Gate",
+        "number": 158,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "384"
+    },
+    {
+        "card_name": "Spider Egg",
+        "number": 206,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "307"
+    },
+    {
+        "card_name": "White Hole",
+        "number": 44,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "108"
+    },
+    {
+        "card_name": "Tainted Wisdom",
+        "number": 84,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "29"
+    },
+    {
+        "card_name": "Twin-Headed Behemoth",
+        "number": 125,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "378"
+    },
+    {
+        "card_name": "Troop Dragon",
+        "number": 167,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "301"
+    },
+    {
+        "card_name": "Waboku",
+        "number": 211,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "82"
+    },
+    {
+        "card_name": "The White Stone of Legend",
+        "number": 45,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "159"
+    },
+    {
+        "card_name": "Tornado Wall",
+        "number": 86,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "281"
+    },
+    {
+        "card_name": "Witch of the Black Forest",
+        "number": 127,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "65"
+    },
+    {
+        "card_name": "UFO Turtle",
+        "number": 168,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "96"
+    },
+    {
+        "card_name": "Worm Bait",
+        "number": 212,
+        "shape": "normal",
+        "set": "YGO",
         "position": "334"
+    },
+    {
+        "card_name": "Armored Zombie",
+        "number": 4,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "259"
+    },
+    {
+        "card_name": "Abyss-Strom",
+        "number": 46,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "282"
+    },
+    {
+        "card_name": "Acid Trap Hole",
+        "number": 87,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "115"
+    },
+    {
+        "card_name": "Baby Dragon",
+        "number": 130,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "46"
+    },
+    {
+        "card_name": "Basic Insect",
+        "number": 173,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "44"
     },
     {
         "card_name": "Celtic Guardian",
@@ -778,623 +883,588 @@
     },
     {
         "card_name": "Ancient Brain",
-        "number": 45,
+        "number": 48,
         "shape": "normal",
         "set": "YGO",
         "position": "209"
     },
     {
+        "card_name": "Backup Soldier",
+        "number": 88,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "118"
+    },
+    {
+        "card_name": "Battle Warrior",
+        "number": 132,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "148"
+    },
+    {
+        "card_name": "Battle Steer",
+        "number": 174,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "142"
+    },
+    {
+        "card_name": "Dimensionhole",
+        "number": 9,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "127"
+    },
+    {
+        "card_name": "Aqua Madoor",
+        "number": 49,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "89"
+    },
+    {
         "card_name": "Bone Mouse",
-        "number": 85,
+        "number": 89,
         "shape": "normal",
         "set": "YGO",
         "position": "260"
     },
     {
         "card_name": "Black Dragon's Chick",
-        "number": 127,
+        "number": 133,
         "shape": "normal",
         "set": "YGO",
         "position": "176"
     },
     {
-        "card_name": "Petit Moth",
-        "number": 191,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "183"
-    },
-    {
-        "card_name": "Kojikocy",
-        "number": 16,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "27"
-    },
-    {
-        "card_name": "Humanoid Slime",
-        "number": 58,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "140"
-    },
-    {
-        "card_name": "Gernia",
-        "number": 103,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "265"
-    },
-    {
-        "card_name": "Vorse Raider",
-        "number": 162,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "299"
-    },
-    {
-        "card_name": "Basic Insect",
-        "number": 165,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "44"
-    },
-    {
-        "card_name": "Kuriboh",
-        "number": 17,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "16"
-    },
-    {
-        "card_name": "Masked Sorcerer",
-        "number": 66,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "134"
-    },
-    {
-        "card_name": "Killer Needle",
-        "number": 104,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "45"
-    },
-    {
-        "card_name": "Baby Dragon",
-        "number": 124,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "46"
-    },
-    {
         "card_name": "Beastking of the Swamps",
-        "number": 168,
+        "number": 176,
         "shape": "normal",
         "set": "YGO",
         "position": "31"
     },
     {
-        "card_name": "Armored Zombie",
-        "number": 4,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "259"
-    },
-    {
-        "card_name": "Aqua Madoor",
-        "number": 46,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "89"
-    },
-    {
-        "card_name": "Skull Servant",
-        "number": 112,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "124"
-    },
-    {
-        "card_name": "The Thing in the Crater",
-        "number": 157,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "374"
-    },
-    {
-        "card_name": "Cocoon of Evolution",
-        "number": 172,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "51"
-    },
-    {
         "card_name": "Harpie Lady",
-        "number": 10,
+        "number": 11,
         "shape": "normal",
         "set": "YGO",
         "position": "98"
     },
     {
-        "card_name": "Codarus",
-        "number": 49,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "233"
-    },
-    {
-        "card_name": "Clown Zombie",
-        "number": 90,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "264"
-    },
-    {
-        "card_name": "Uraby",
-        "number": 161,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "28"
-    },
-    {
-        "card_name": "Gokipon",
-        "number": 178,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "195"
-    },
-    {
-        "card_name": "Kaibaman",
-        "number": 14,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "157"
-    },
-    {
-        "card_name": "Deepsea Warrior",
-        "number": 51,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "236"
-    },
-    {
-        "card_name": "Versago the Destroyer",
-        "number": 119,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "102"
-    },
-    {
-        "card_name": "Battle Warrior",
-        "number": 126,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "148"
-    },
-    {
-        "card_name": "Larvae Moth",
-        "number": 183,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "50"
-    },
-    {
-        "card_name": "M-Warrior #1",
-        "number": 21,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "284"
-    },
-    {
-        "card_name": "Hane-Hane",
-        "number": 55,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "71"
-    },
-    {
-        "card_name": "Mammoth Graveyard",
-        "number": 106,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "146"
-    },
-    {
-        "card_name": "Flame Manipulator",
-        "number": 136,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "105"
-    },
-    {
-        "card_name": "Mystic Horseman",
-        "number": 188,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "42"
-    },
-    {
-        "card_name": "Mystical Sheep #1",
-        "number": 27,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "330"
-    },
-    {
-        "card_name": "Mystic Lamp",
-        "number": 67,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "34"
-    },
-    {
-        "card_name": "Three-Legged Zombie",
-        "number": 117,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "266"
-    },
-    {
-        "card_name": "Tiger Axe",
-        "number": 158,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "303"
-    },
-    {
-        "card_name": "Trap Master",
-        "number": 198,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "77"
-    },
-    {
-        "card_name": "M-Warrior #2",
-        "number": 22,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "285"
-    },
-    {
         "card_name": "Big Eye",
-        "number": 47,
+        "number": 50,
         "shape": "normal",
         "set": "YGO",
         "position": "130"
     },
     {
-        "card_name": "Zombie Tiger",
-        "number": 122,
+        "card_name": "Clown Zombie",
+        "number": 94,
         "shape": "normal",
         "set": "YGO",
-        "position": "261"
+        "position": "264"
     },
     {
-        "card_name": "Meteor Dragon",
-        "number": 149,
+        "card_name": "Flame Manipulator",
+        "number": 143,
         "shape": "normal",
         "set": "YGO",
-        "position": "162"
+        "position": "105"
     },
     {
-        "card_name": "Battle Steer",
-        "number": 166,
+        "card_name": "Cocoon of Evolution",
+        "number": 180,
         "shape": "normal",
         "set": "YGO",
-        "position": "142"
+        "position": "51"
     },
     {
-        "card_name": "Mask of Darkness",
-        "number": 23,
+        "card_name": "Impenetrable Formation",
+        "number": 14,
         "shape": "normal",
         "set": "YGO",
-        "position": "125"
+        "position": "232"
     },
     {
-        "card_name": "Magician of Faith",
-        "number": 64,
+        "card_name": "Codarus",
+        "number": 52,
         "shape": "normal",
         "set": "YGO",
-        "position": "86"
-    },
-    {
-        "card_name": "Zombie Mammoth",
-        "number": 121,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "270"
-    },
-    {
-        "card_name": "Metalmorph",
-        "number": 148,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "192"
-    },
-    {
-        "card_name": "Mad Sword Beast",
-        "number": 184,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "62"
-    },
-    {
-        "card_name": "Lady of Faith",
-        "number": 19,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "138"
-    },
-    {
-        "card_name": "La Jinn the Mystical Genie of the Lamp",
-        "number": 60,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "210"
+        "position": "233"
     },
     {
         "card_name": "Curse of Dragon",
-        "number": 92,
+        "number": 96,
         "shape": "normal",
         "set": "YGO",
         "position": "143"
     },
     {
-        "card_name": "Mystical Moon",
-        "number": 152,
+        "card_name": "Flame Swordsdance",
+        "number": 144,
         "shape": "normal",
         "set": "YGO",
-        "position": "298"
+        "position": "280"
     },
     {
-        "card_name": "Metal Armored Bug",
-        "number": 186,
+        "card_name": "Eatgaboon",
+        "number": 183,
         "shape": "normal",
         "set": "YGO",
-        "position": "203"
+        "position": "107"
     },
     {
-        "card_name": "Turret Warrior",
-        "number": 39,
+        "card_name": "Kaibaman",
+        "number": 16,
         "shape": "normal",
         "set": "YGO",
-        "position": "287"
+        "position": "157"
     },
     {
-        "card_name": "Spellbinding Circle",
-        "number": 78,
+        "card_name": "Dark Magic Attack",
+        "number": 53,
         "shape": "normal",
         "set": "YGO",
-        "position": "156"
+        "position": "164"
     },
     {
         "card_name": "Dragon Zombie",
-        "number": 98,
+        "number": 102,
         "shape": "normal",
         "set": "YGO",
         "position": "262"
     },
     {
         "card_name": "Hinotama",
-        "number": 141,
+        "number": 149,
         "shape": "normal",
         "set": "YGO",
         "position": "211"
     },
     {
-        "card_name": "Solemn Wishes",
-        "number": 194,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "117"
-    },
-    {
-        "card_name": "Mezuki",
-        "number": 24,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "272"
-    },
-    {
-        "card_name": "Paralyzing Potion",
-        "number": 70,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "101"
-    },
-    {
-        "card_name": "Acid Trap Hole",
-        "number": 83,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "115"
-    },
-    {
-        "card_name": "Sparks",
-        "number": 156,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "136"
-    },
-    {
-        "card_name": "Eatgaboon",
-        "number": 174,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "107"
-    },
-    {
-        "card_name": "Impenetrable Formation",
-        "number": 12,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "232"
-    },
-    {
-        "card_name": "Abyss-Strom",
-        "number": 44,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "282"
-    },
-    {
-        "card_name": "Backup Soldier",
-        "number": 84,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "118"
-    },
-    {
-        "card_name": "Flame Swordsdance",
-        "number": 137,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "280"
-    },
-    {
-        "card_name": "Soul Reversal",
-        "number": 195,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "319"
-    },
-    {
-        "card_name": "Dimensionhole",
-        "number": 8,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "127"
-    },
-    {
-        "card_name": "Seven Tools of the Bandit",
-        "number": 74,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "120"
-    },
-    {
-        "card_name": "Share the Pain",
-        "number": 111,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "97"
-    },
-    {
-        "card_name": "Michizure",
-        "number": 150,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "119"
-    },
-    {
-        "card_name": "Mystical Space Typhoon",
-        "number": 189,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "92"
-    },
-    {
-        "card_name": "Trap Hole",
-        "number": 38,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "9"
-    },
-    {
-        "card_name": "Dark Magic Attack",
-        "number": 50,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "164"
-    },
-    {
-        "card_name": "Thousand Knives",
-        "number": 116,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "168"
-    },
-    {
-        "card_name": "Ookazi",
-        "number": 153,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "129"
-    },
-    {
-        "card_name": "Multiplication of Ants",
+        "card_name": "Gokipon",
         "number": 187,
         "shape": "normal",
         "set": "YGO",
-        "position": "196"
+        "position": "195"
     },
     {
-        "card_name": "Reinforcements",
-        "number": 32,
+        "card_name": "Kojikocy",
+        "number": 18,
         "shape": "normal",
         "set": "YGO",
-        "position": "81"
+        "position": "27"
     },
     {
-        "card_name": "Horn of Heaven",
-        "number": 57,
+        "card_name": "Deepsea Warrior",
+        "number": 54,
         "shape": "normal",
         "set": "YGO",
-        "position": "33"
-    },
-    {
-        "card_name": "Tribute to the Doomed",
-        "number": 118,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "63"
-    },
-    {
-        "card_name": "Inferno Fire Blast",
-        "number": 142,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "178"
-    },
-    {
-        "card_name": "One Day of Peace",
-        "number": 190,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "221"
-    },
-    {
-        "card_name": "Nobleman of Crossout",
-        "number": 28,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "208"
-    },
-    {
-        "card_name": "Maiden of the Aqua",
-        "number": 353,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "226"
+        "position": "236"
     },
     {
         "card_name": "Fissure",
-        "number": 101,
+        "number": 105,
         "shape": "normal",
         "set": "YGO",
         "position": "73"
     },
     {
-        "card_name": "Tremendous Fire",
+        "card_name": "Inferno Fire Blast",
+        "number": 150,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "178"
+    },
+    {
+        "card_name": "Larvae Moth",
+        "number": 192,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "50"
+    },
+    {
+        "card_name": "Kuriboh",
+        "number": 19,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "16"
+    },
+    {
+        "card_name": "Hane-Hane",
+        "number": 58,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "71"
+    },
+    {
+        "card_name": "Gernia",
+        "number": 107,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "265"
+    },
+    {
+        "card_name": "Metalmorph",
+        "number": 155,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "192"
+    },
+    {
+        "card_name": "Mad Sword Beast",
+        "number": 193,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "62"
+    },
+    {
+        "card_name": "Lady of Faith",
+        "number": 21,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "138"
+    },
+    {
+        "card_name": "Horn of Heaven",
+        "number": 60,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "33"
+    },
+    {
+        "card_name": "Gozuki",
+        "number": 108,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "270"
+    },
+    {
+        "card_name": "Meteor Dragon",
+        "number": 156,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "162"
+    },
+    {
+        "card_name": "Metal Armored Bug",
+        "number": 195,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "203"
+    },
+    {
+        "card_name": "M-Warrior #1",
+        "number": 23,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "284"
+    },
+    {
+        "card_name": "Humanoid Slime",
+        "number": 61,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "140"
+    },
+    {
+        "card_name": "Killer Needle",
+        "number": 109,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "45"
+    },
+    {
+        "card_name": "Michizure",
+        "number": 157,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "119"
+    },
+    {
+        "card_name": "Multiplication of Ants",
+        "number": 196,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "196"
+    },
+    {
+        "card_name": "M-Warrior #2",
+        "number": 24,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "285"
+    },
+    {
+        "card_name": "La Jinn the Mystical Genie of the Lamp",
+        "number": 63,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "210"
+    },
+    {
+        "card_name": "Mammoth Graveyard",
+        "number": 111,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "146"
+    },
+    {
+        "card_name": "Mystical Moon",
         "number": 159,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "298"
+    },
+    {
+        "card_name": "Mystic Horseman",
+        "number": 197,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "42"
+    },
+    {
+        "card_name": "Mask of Darkness",
+        "number": 25,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "125"
+    },
+    {
+        "card_name": "Magician of Faith",
+        "number": 67,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "86"
+    },
+    {
+        "card_name": "Share the Pain",
+        "number": 117,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "97"
+    },
+    {
+        "card_name": "Ookazi",
+        "number": 160,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "129"
+    },
+    {
+        "card_name": "Mystical Space Typhoon",
+        "number": 198,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "92"
+    },
+    {
+        "card_name": "Mezuki",
+        "number": 26,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "272"
+    },
+    {
+        "card_name": "Masked Sorcerer",
+        "number": 69,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "134"
+    },
+    {
+        "card_name": "Skull Servant",
+        "number": 118,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "124"
+    },
+    {
+        "card_name": "Sparks",
+        "number": 163,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "136"
+    },
+    {
+        "card_name": "One Day of Peace",
+        "number": 199,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "221"
+    },
+    {
+        "card_name": "Mystical Sheep #1",
+        "number": 29,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "330"
+    },
+    {
+        "card_name": "Mystic Lamp",
+        "number": 70,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "34"
+    },
+    {
+        "card_name": "Thousand Knives",
+        "number": 122,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "168"
+    },
+    {
+        "card_name": "The Thing in the Crater",
+        "number": 164,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "363"
+    },
+    {
+        "card_name": "Petit Moth",
+        "number": 200,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "183"
+    },
+    {
+        "card_name": "Nobleman of Crossout",
+        "number": 30,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "208"
+    },
+    {
+        "card_name": "Paralyzing Potion",
+        "number": 73,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "101"
+    },
+    {
+        "card_name": "Three-Legged Zombie",
+        "number": 123,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "266"
+    },
+    {
+        "card_name": "Tiger Axe",
+        "number": 165,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "303"
+    },
+    {
+        "card_name": "Solemn Wishes",
+        "number": 204,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "117"
+    },
+    {
+        "card_name": "Reinforcements",
+        "number": 34,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "81"
+    },
+    {
+        "card_name": "Seven Tools of the Bandit",
+        "number": 78,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "120"
+    },
+    {
+        "card_name": "Tribute to the Doomed",
+        "number": 124,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "63"
+    },
+    {
+        "card_name": "Tremendous Fire",
+        "number": 166,
         "shape": "normal",
         "set": "YGO",
         "position": "103"
     },
     {
+        "card_name": "Soul Reversal",
+        "number": 205,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "319"
+    },
+    {
+        "card_name": "Trap Hole",
+        "number": 40,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "9"
+    },
+    {
+        "card_name": "Spellbinding Circle",
+        "number": 82,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "156"
+    },
+    {
+        "card_name": "Versago the Destroyer",
+        "number": 126,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "102"
+    },
+    {
+        "card_name": "Uraby",
+        "number": 169,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "28"
+    },
+    {
+        "card_name": "Trap Master",
+        "number": 208,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "77"
+    },
+    {
+        "card_name": "Turret Warrior",
+        "number": 41,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "287"
+    },
+    {
+        "card_name": "Maiden of the Aqua",
+        "number": 356,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "226"
+    },
+    {
+        "card_name": "Zombie Tiger",
+        "number": 128,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "261"
+    },
+    {
+        "card_name": "Vorse Raider",
+        "number": 170,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "299"
+    },
+    {
         "card_name": "Upstart Goblin",
-        "number": 200,
+        "number": 210,
         "shape": "normal",
         "set": "YGO",
         "position": "222"
@@ -1414,420 +1484,420 @@
     "a->gold",
     {
         "card_name": "Blue-Eyes Ultimate Dragon",
-        "number": 212,
+        "number": 222,
         "shape": "normal",
         "set": "YGO",
         "position": "11"
     },
     {
-        "card_name": "Dark Sage",
-        "number": 227,
+        "card_name": "Dark Magic Curtain",
+        "number": 235,
         "shape": "normal",
         "set": "YGO",
-        "position": "150"
+        "position": "309"
     },
     {
-        "card_name": "Red-Eyes Darkness Dragon",
-        "number": 276,
+        "card_name": "Black Skull Dragon",
+        "number": 220,
         "shape": "normal",
         "set": "YGO",
-        "position": "182"
+        "position": "133"
     },
     {
         "card_name": "Beast King Barbaros",
-        "number": 206,
+        "number": 216,
         "shape": "normal",
         "set": "YGO",
         "position": "216"
     },
     {
+        "card_name": "March of the Monarchs",
+        "number": 268,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "340"
+    },
+    {
+        "card_name": "Majesty of the White Dragons",
+        "number": 266,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "341"
+    },
+    {
+        "card_name": "Dark Sage",
+        "number": 237,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "150"
+    },
+    {
+        "card_name": "Burst Breath",
+        "number": 225,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "362"
+    },
+    {
+        "card_name": "Super Polymerization",
+        "number": 299,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "219"
+    },
+    {
         "card_name": "Rescue Cat",
-        "number": 279,
+        "number": 290,
         "shape": "normal",
         "set": "YGO",
         "position": "187"
     },
     {
         "card_name": "Strength in Unity",
-        "number": 286,
+        "number": 297,
         "shape": "normal",
         "set": "YGO",
         "position": "173"
     },
     {
         "card_name": "Magician Navigation",
-        "number": 254,
+        "number": 264,
         "shape": "normal",
         "set": "YGO",
         "position": "166"
     },
     {
-        "card_name": "Black Skull Dragon",
-        "number": 210,
+        "card_name": "Red-Eyes Darkness Dragon",
+        "number": 287,
         "shape": "normal",
         "set": "YGO",
-        "position": "133"
+        "position": "182"
     },
     {
         "card_name": "Thousand Dragon",
-        "number": 290,
+        "number": 301,
         "shape": "normal",
         "set": "YGO",
         "position": "111"
     },
     {
         "card_name": "Rescue Rabbit",
-        "number": 280,
+        "number": 291,
         "shape": "normal",
         "set": "YGO",
         "position": "189"
     },
     {
-        "card_name": "Majesty of the White Dragons",
-        "number": 256,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "341"
-    },
-    {
-        "card_name": "Dark Magic Curtain",
-        "number": 225,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "309"
-    },
-    {
-        "card_name": "Burst Breath",
-        "number": 215,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "373"
-    },
-    {
-        "card_name": "Super Polymerization",
-        "number": 288,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "219"
-    },
-    {
-        "card_name": "March of the Monarchs",
-        "number": 258,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "340"
-    },
-    {
-        "card_name": "Neo the Magic Swordsman",
-        "number": 265,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "74"
-    },
-    {
-        "card_name": "Magician of Black Chaos",
-        "number": 255,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "154"
-    },
-    {
-        "card_name": "Kimodo Dragon",
-        "number": 248,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "372"
-    },
-    {
-        "card_name": "Bazoo the Soul-Eater",
-        "number": 205,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "291"
-    },
-    {
-        "card_name": "Totem Dragon",
-        "number": 291,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "336"
-    },
-    {
-        "card_name": "Mobius the Frost Monarch",
-        "number": 260,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "237"
-    },
-    {
-        "card_name": "Skull Knight",
-        "number": 284,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "30"
-    },
-    {
-        "card_name": "Caius the Shadow Monarch",
-        "number": 218,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "238"
-    },
-    {
-        "card_name": "King Tiger Wanghu",
-        "number": 249,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "214"
-    },
-    {
-        "card_name": "Petit Angel",
-        "number": 270,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "328"
-    },
-    {
-        "card_name": "Jinzo",
-        "number": 247,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "66"
-    },
-    {
-        "card_name": "Angmarl the Fiendish Monarch",
-        "number": 204,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "246"
-    },
-    {
-        "card_name": "Red-Eyes Black Dragon",
-        "number": 274,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "1"
-    },
-    {
-        "card_name": "Green Baboon, Defender of the Forest",
-        "number": 244,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "293"
-    },
-    {
-        "card_name": "Fusionist",
-        "number": 238,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "332"
-    },
-    {
         "card_name": "Blue-Eyes Abyss Dragon",
-        "number": 211,
+        "number": 221,
         "shape": "normal",
         "set": "YGO",
         "position": "172"
     },
     {
-        "card_name": "Musician King",
-        "number": 263,
+        "card_name": "Angmarl the Fiendish Monarch",
+        "number": 214,
         "shape": "normal",
         "set": "YGO",
-        "position": "139"
+        "position": "246"
+    },
+    {
+        "card_name": "Caius the Shadow Monarch",
+        "number": 228,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "238"
+    },
+    {
+        "card_name": "Bazoo the Soul-Eater",
+        "number": 215,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "291"
+    },
+    {
+        "card_name": "Angel 07",
+        "number": 213,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "337"
+    },
+    {
+        "card_name": "Blue-Eyes White Dragon",
+        "number": 223,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "0"
+    },
+    {
+        "card_name": "Black Magic Ritual",
+        "number": 219,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "113"
+    },
+    {
+        "card_name": "Kidmodo Dragon",
+        "number": 258,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "361"
+    },
+    {
+        "card_name": "Buster Blader",
+        "number": 226,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "64"
+    },
+    {
+        "card_name": "Escalation of the Monarchs",
+        "number": 245,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "339"
+    },
+    {
+        "card_name": "Gravity Bind",
+        "number": 253,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "53"
+    },
+    {
+        "card_name": "Dark Magician",
+        "number": 236,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "6"
     },
     {
         "card_name": "Meteor Black Dragon",
-        "number": 259,
+        "number": 269,
         "shape": "normal",
         "set": "YGO",
         "position": "163"
     },
     {
         "card_name": "Granmarg the Rock Monarch",
-        "number": 242,
+        "number": 252,
         "shape": "normal",
         "set": "YGO",
         "position": "244"
     },
     {
+        "card_name": "Fusionist",
+        "number": 248,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "332"
+    },
+    {
+        "card_name": "Jinzo",
+        "number": 257,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "66"
+    },
+    {
+        "card_name": "Magician of Black Chaos",
+        "number": 265,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "154"
+    },
+    {
+        "card_name": "Red-Eyes Black Dragon",
+        "number": 285,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "1"
+    },
+    {
+        "card_name": "Green Baboon, Defender of the Forest",
+        "number": 254,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "293"
+    },
+    {
         "card_name": "Kuraz the Light Monarch",
-        "number": 250,
+        "number": 260,
         "shape": "normal",
         "set": "YGO",
         "position": "243"
     },
     {
-        "card_name": "Blue-Eyes White Dragon",
-        "number": 213,
+        "card_name": "Mobius the Frost Monarch",
+        "number": 270,
         "shape": "normal",
         "set": "YGO",
-        "position": "0"
+        "position": "237"
     },
     {
-        "card_name": "Dark Magician",
-        "number": 226,
+        "card_name": "Musician King",
+        "number": 273,
         "shape": "normal",
         "set": "YGO",
-        "position": "6"
-    },
-    {
-        "card_name": "Ring of Destruction",
-        "number": 282,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "170"
-    },
-    {
-        "card_name": "Buster Blader",
-        "number": 216,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "64"
-    },
-    {
-        "card_name": "Angel 07",
-        "number": 203,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "337"
-    },
-    {
-        "card_name": "Gravity Bind",
-        "number": 243,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "53"
-    },
-    {
-        "card_name": "Black Magic Ritual",
-        "number": 209,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "113"
+        "position": "139"
     },
     {
         "card_name": "Red-Eyes Spirit",
-        "number": 277,
+        "number": 288,
         "shape": "normal",
         "set": "YGO",
         "position": "177"
     },
     {
+        "card_name": "King Tiger Wanghu",
+        "number": 259,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "214"
+    },
+    {
+        "card_name": "Petit Angel",
+        "number": 281,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "328"
+    },
+    {
+        "card_name": "Neo the Magic Swordsman",
+        "number": 275,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "74"
+    },
+    {
+        "card_name": "Skull Knight",
+        "number": 295,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "30"
+    },
+    {
+        "card_name": "Ring of Destruction",
+        "number": 293,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "170"
+    },
+    {
         "card_name": "Rabid Horseman",
-        "number": 272,
+        "number": 283,
         "shape": "normal",
         "set": "YGO",
         "position": "40"
     },
     {
-        "card_name": "Escalation of the Monarchs",
-        "number": 235,
+        "card_name": "Totem Dragon",
+        "number": 302,
         "shape": "normal",
         "set": "YGO",
-        "position": "339"
+        "position": "336"
     },
     {
         "card_name": "Enchanting Mermaid",
-        "number": 310,
+        "number": 320,
         "shape": "normal",
         "set": "YGO",
         "position": "331"
     },
     {
-        "card_name": "Dark Magician Girl",
-        "number": 307,
+        "card_name": "Dark Eradicator Warlock",
+        "number": 316,
         "shape": "normal",
         "set": "YGO",
-        "position": "7"
+        "position": "167"
     },
     {
-        "card_name": "Red-Eyes Wyvern",
-        "number": 321,
+        "card_name": "Red-Eyes Black Metal Dragon",
+        "number": 330,
         "shape": "normal",
         "set": "YGO",
-        "position": "181"
+        "position": "179"
     },
     {
         "card_name": "Battle Ox",
-        "number": 301,
+        "number": 311,
         "shape": "normal",
         "set": "YGO",
         "position": "41"
     },
     {
         "card_name": "Mystical Elf",
-        "number": 316,
+        "number": 326,
         "shape": "normal",
         "set": "YGO",
         "position": "90"
     },
     {
         "card_name": "Mermaid Knight",
-        "number": 314,
+        "number": 324,
         "shape": "normal",
         "set": "YGO",
         "position": "235"
     },
     {
-        "card_name": "Dark Eradicator Warlock",
-        "number": 306,
+        "card_name": "Dark Magician Girl",
+        "number": 317,
         "shape": "normal",
         "set": "YGO",
-        "position": "167"
+        "position": "7"
     },
     {
-        "card_name": "Red-Eyes Zombie Dragon",
-        "number": 322,
+        "card_name": "Red-Eyes Wyvern",
+        "number": 331,
         "shape": "normal",
         "set": "YGO",
-        "position": "174"
+        "position": "181"
     },
     {
         "card_name": "Des Kangaroo",
-        "number": 309,
+        "number": 319,
         "shape": "normal",
         "set": "YGO",
         "position": "215"
     },
     {
         "card_name": "Mystical Sheep #2",
-        "number": 317,
+        "number": 327,
         "shape": "normal",
         "set": "YGO",
         "position": "329"
     },
     {
         "card_name": "Reaper of the Cards",
-        "number": 319,
+        "number": 329,
         "shape": "normal",
         "set": "YGO",
         "position": "123"
     },
     {
         "card_name": "Dark Magician of Chaos",
-        "number": 308,
+        "number": 318,
         "shape": "normal",
         "set": "YGO",
         "position": "85"
     },
     {
-        "card_name": "Red-Eyes Black Metal Dragon",
-        "number": 320,
+        "card_name": "Red-Eyes Zombie Dragon",
+        "number": 332,
         "shape": "normal",
         "set": "YGO",
-        "position": "179"
+        "position": "174"
     },
     {
         "card_name": "Yellow Baboon, Archer of the Forest",
-        "number": 329,
+        "number": 339,
         "shape": "normal",
         "set": "YGO",
         "position": "292"
     },
     {
         "card_name": "Overwhelm",
-        "number": 318,
+        "number": 328,
         "shape": "normal",
         "set": "YGO",
         "position": "338"
@@ -1848,424 +1918,424 @@
         "card_name": "er"
     },
     {
-        "card_name": "Vampire Lord",
-        "number": 294,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "68"
-    },
-    {
-        "card_name": "Morphing Jar",
-        "number": 261,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "122"
-    },
-    {
-        "card_name": "Ultimate Insect",
-        "number": 293,
-        "shape": "leveler",
-        "set": "YGO",
-        "position": "201"
-    },
-    {
-        "card_name": "Twin-Headed Thunder Dragon",
-        "number": 292,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "100"
-    },
-    {
-        "card_name": "Nightmare Penguin",
-        "number": 266,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "313"
-    },
-    {
-        "card_name": "Chaos Emperor Dragon Envoy of the End",
-        "number": 220,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "88"
-    },
-    {
-        "card_name": "Magical Scientist",
-        "number": 253,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "322"
-    },
-    {
-        "card_name": "Perfectly Ultimate Great Moth",
-        "number": 269,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "185"
-    },
-    {
-        "card_name": "Gaia the Dragon Champion",
-        "number": 240,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "155"
-    },
-    {
-        "card_name": "Worm Gulse",
-        "number": 296,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "317"
-    },
-    {
         "card_name": "Call of the Mummy",
-        "number": 219,
+        "number": 229,
         "shape": "normal",
         "set": "YGO",
         "position": "256"
     },
     {
         "card_name": "Magical Hats",
-        "number": 252,
+        "number": 262,
         "shape": "normal",
         "set": "YGO",
         "position": "57"
     },
     {
         "card_name": "Mother Spider",
-        "number": 262,
+        "number": 272,
         "shape": "normal",
         "set": "YGO",
         "position": "308"
     },
     {
+        "card_name": "Gaia the Dragon Champion",
+        "number": 250,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "155"
+    },
+    {
+        "card_name": "Nightmare Penguin",
+        "number": 276,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "313"
+    },
+    {
+        "card_name": "Chaos Emperor Dragon Envoy of the End",
+        "number": 230,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "88"
+    },
+    {
+        "card_name": "Magical Scientist",
+        "number": 263,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "322"
+    },
+    {
+        "card_name": "Perfectly Ultimate Great Moth",
+        "number": 280,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "185"
+    },
+    {
         "card_name": "Magic Cylinder",
-        "number": 251,
+        "number": 261,
         "shape": "normal",
         "set": "YGO",
         "position": "13"
     },
     {
+        "card_name": "Penguin Knight",
+        "number": 278,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "317"
+    },
+    {
+        "card_name": "Vampire Lord",
+        "number": 305,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "68"
+    },
+    {
+        "card_name": "Morphing Jar",
+        "number": 271,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "122"
+    },
+    {
+        "card_name": "Ultimate Insect",
+        "number": 304,
+        "shape": "leveler",
+        "set": "YGO",
+        "position": "201"
+    },
+    {
+        "card_name": "Twin-Headed Thunder Dragon",
+        "number": 303,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "100"
+    },
+    {
         "card_name": "Penguin Soldier",
-        "number": 268,
+        "number": 279,
         "shape": "normal",
         "set": "YGO",
         "position": "312"
     },
     {
-        "card_name": "Zombiemeister",
-        "number": 299,
+        "card_name": "Black Luster Ritual",
+        "number": 217,
         "shape": "normal",
         "set": "YGO",
-        "position": "258"
-    },
-    {
-        "card_name": "Cyber-Stein",
-        "number": 223,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "323"
-    },
-    {
-        "card_name": "Resonance Insect",
-        "number": 281,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "200"
-    },
-    {
-        "card_name": "Marauding Captain",
-        "number": 257,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "342"
-    },
-    {
-        "card_name": "Skelengel",
-        "number": 283,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "318"
-    },
-    {
-        "card_name": "Decayed Commander",
-        "number": 229,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "257"
-    },
-    {
-        "card_name": "Summoner of Illusions",
-        "number": 287,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "325"
-    },
-    {
-        "card_name": "Flying Kamakiri #2",
-        "number": 237,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "194"
-    },
-    {
-        "card_name": "D.D. Warrior Lady",
-        "number": 224,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "84"
-    },
-    {
-        "card_name": "Desertapir",
-        "number": 231,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "315"
-    },
-    {
-        "card_name": "Black Luster Soldier",
-        "number": 208,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "18"
-    },
-    {
-        "card_name": "Zaborg the Thunder Monarch",
-        "number": 297,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "241"
-    },
-    {
-        "card_name": "Hungry Burger",
-        "number": 246,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "186"
-    },
-    {
-        "card_name": "Thestalos the Firestorm Monarch",
-        "number": 289,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "240"
-    },
-    {
-        "card_name": "Needle Worm",
-        "number": 264,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "316"
-    },
-    {
-        "card_name": "Zombie Warrior",
-        "number": 298,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "147"
+        "position": "19"
     },
     {
         "card_name": "Cyber Twin Dragon",
-        "number": 222,
+        "number": 232,
         "shape": "normal",
         "set": "YGO",
         "position": "335"
     },
     {
-        "card_name": "Erebus the Underworld Monarch",
-        "number": 234,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "239"
-    },
-    {
-        "card_name": "Gaia the Fierce Knight",
-        "number": 241,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "145"
-    },
-    {
-        "card_name": "Raiza the Storm Monarch",
-        "number": 273,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "242"
-    },
-    {
-        "card_name": "Delg the Dark Monarch",
-        "number": 230,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "245"
-    },
-    {
-        "card_name": "Polymerization",
-        "number": 271,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "15"
-    },
-    {
         "card_name": "Doom Dozer",
-        "number": 232,
+        "number": 242,
         "shape": "normal",
         "set": "YGO",
         "position": "199"
     },
     {
         "card_name": "Copy Knight",
-        "number": 221,
+        "number": 231,
         "shape": "normal",
         "set": "YGO",
         "position": "344"
     },
     {
         "card_name": "Book of Taiyou",
-        "number": 214,
+        "number": 224,
         "shape": "normal",
         "set": "YGO",
         "position": "310"
     },
     {
-        "card_name": "Black Luster Ritual",
-        "number": 207,
+        "card_name": "Black Luster Soldier",
+        "number": 218,
         "shape": "normal",
         "set": "YGO",
-        "position": "19"
+        "position": "18"
     },
     {
-        "card_name": "Future Fusion",
-        "number": 239,
+        "card_name": "Cyber-Stein",
+        "number": 233,
         "shape": "normal",
         "set": "YGO",
-        "position": "326"
+        "position": "323"
     },
     {
-        "card_name": "Hamburger Recipe",
-        "number": 245,
+        "card_name": "Erebus the Underworld Monarch",
+        "number": 244,
         "shape": "normal",
         "set": "YGO",
-        "position": "56"
+        "position": "239"
     },
     {
-        "card_name": "Reinforce Truth",
-        "number": 278,
+        "card_name": "D.D. Warrior Lady",
+        "number": 234,
         "shape": "normal",
         "set": "YGO",
-        "position": "343"
+        "position": "84"
     },
     {
         "card_name": "De-Spell",
-        "number": 228,
+        "number": 238,
         "shape": "normal",
         "set": "YGO",
         "position": "80"
     },
     {
-        "card_name": "Return Zombie",
-        "number": 323,
+        "card_name": "Decayed Commander",
+        "number": 239,
         "shape": "normal",
         "set": "YGO",
-        "position": "254"
+        "position": "257"
     },
     {
-        "card_name": "Supply",
-        "number": 326,
+        "card_name": "Future Fusion",
+        "number": 249,
         "shape": "normal",
         "set": "YGO",
-        "position": "321"
+        "position": "326"
     },
     {
-        "card_name": "Shadow Ghoul",
-        "number": 325,
+        "card_name": "Flying Kamakiri #2",
+        "number": 247,
         "shape": "normal",
         "set": "YGO",
-        "position": "126"
+        "position": "194"
     },
     {
-        "card_name": "Lord of D.",
-        "number": 313,
+        "card_name": "Gaia the Fierce Knight",
+        "number": 251,
         "shape": "normal",
         "set": "YGO",
-        "position": "110"
+        "position": "145"
     },
     {
-        "card_name": "Armed Ninja",
+        "card_name": "Desertapir",
+        "number": 241,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "315"
+    },
+    {
+        "card_name": "Delg the Dark Monarch",
+        "number": 240,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "245"
+    },
+    {
+        "card_name": "Polymerization",
+        "number": 282,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "15"
+    },
+    {
+        "card_name": "Hamburger Recipe",
+        "number": 255,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "56"
+    },
+    {
+        "card_name": "Marauding Captain",
+        "number": 267,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "342"
+    },
+    {
+        "card_name": "Needle Worm",
+        "number": 274,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "316"
+    },
+    {
+        "card_name": "Zombie Warrior",
+        "number": 308,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "147"
+    },
+    {
+        "card_name": "Summoner of Illusions",
+        "number": 298,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "325"
+    },
+    {
+        "card_name": "Hungry Burger",
+        "number": 256,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "186"
+    },
+    {
+        "card_name": "Reinforce Truth",
+        "number": 289,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "343"
+    },
+    {
+        "card_name": "Raiza the Storm Monarch",
+        "number": 284,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "242"
+    },
+    {
+        "card_name": "Zombiemeister",
+        "number": 309,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "258"
+    },
+    {
+        "card_name": "Zaborg the Thunder Monarch",
+        "number": 307,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "241"
+    },
+    {
+        "card_name": "Resonance Insect",
+        "number": 292,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "200"
+    },
+    {
+        "card_name": "Thestalos the Firestorm Monarch",
         "number": 300,
         "shape": "normal",
         "set": "YGO",
-        "position": "43"
+        "position": "240"
+    },
+    {
+        "card_name": "Skelengel",
+        "number": 294,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "318"
     },
     {
         "card_name": "Bone Crusher",
-        "number": 303,
+        "number": 313,
         "shape": "normal",
         "set": "YGO",
         "position": "268"
     },
     {
         "card_name": "Instant Fusion",
-        "number": 312,
+        "number": 322,
         "shape": "normal",
         "set": "YGO",
         "position": "327"
     },
     {
         "card_name": "Big Insect",
-        "number": 302,
+        "number": 312,
         "shape": "normal",
         "set": "YGO",
         "position": "198"
     },
     {
-        "card_name": "Rude Kaiser",
-        "number": 324,
+        "card_name": "Lord of D.",
+        "number": 323,
         "shape": "normal",
         "set": "YGO",
-        "position": "149"
+        "position": "110"
     },
     {
-        "card_name": "Treeborn Frog",
-        "number": 328,
+        "card_name": "Armed Ninja",
+        "number": 310,
         "shape": "normal",
         "set": "YGO",
-        "position": "75"
+        "position": "43"
     },
     {
         "card_name": "Corroding Shark",
-        "number": 305,
+        "number": 315,
         "shape": "normal",
         "set": "YGO",
         "position": "267"
     },
     {
         "card_name": "Metamorphosis",
-        "number": 315,
+        "number": 325,
         "shape": "normal",
         "set": "YGO",
         "position": "324"
     },
     {
         "card_name": "Insect Imitation",
-        "number": 311,
+        "number": 321,
         "shape": "normal",
         "set": "YGO",
         "position": "37"
     },
     {
+        "card_name": "Rude Kaiser",
+        "number": 334,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "149"
+    },
+    {
+        "card_name": "Book of Moon",
+        "number": 314,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "311"
+    },
+    {
+        "card_name": "Return Zombie",
+        "number": 333,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "254"
+    },
+    {
+        "card_name": "Supply",
+        "number": 336,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "321"
+    },
+    {
+        "card_name": "Shadow Ghoul",
+        "number": 335,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "126"
+    },
+    {
         "card_name": "Thunder Dragon",
-        "number": 327,
+        "number": 337,
         "shape": "normal",
         "set": "YGO",
         "position": "99"
     },
     {
-        "card_name": "Book of Moon",
-        "number": 304,
+        "card_name": "Treeborn Frog",
+        "number": 338,
         "shape": "normal",
         "set": "YGO",
-        "position": "311"
+        "position": "75"
     },
     {
         "card_name": "er"
@@ -2284,49 +2354,49 @@
     },
     {
         "card_name": "Buster Blader, the Dragon Destroyer Swordsman",
-        "number": 217,
+        "number": 227,
         "shape": "normal",
         "set": "YGO",
         "position": "213"
     },
     {
         "card_name": "Obelisk the Tormentor",
-        "number": 267,
+        "number": 277,
         "shape": "normal",
         "set": "YGO",
         "position": "3"
     },
     {
+        "card_name": "Red-Eyes Dark Dragoon",
+        "number": 286,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "161"
+    },
+    {
         "card_name": "Slifer the Sky Dragon",
-        "number": 285,
+        "number": 296,
         "shape": "normal",
         "set": "YGO",
         "position": "5"
     },
     {
         "card_name": "The Winged Dragon of Ra",
-        "number": 295,
+        "number": 306,
         "shape": "normal",
         "set": "YGO",
         "position": "4"
     },
     {
-        "card_name": "Red-Eyes Dark Dragoon",
-        "number": 275,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "161"
-    },
-    {
         "card_name": "Ehther the Heavenly Monarch",
-        "number": 233,
+        "number": 243,
         "shape": "normal",
         "set": "YGO",
         "position": "247"
     },
     {
         "card_name": "Five-Headed Dragon",
-        "number": 236,
+        "number": 246,
         "shape": "normal",
         "set": "YGO",
         "position": "218"
@@ -2355,38 +2425,45 @@
     "a->colorless",
     {
         "card_name": "Cyber Jar",
-        "number": 332,
+        "number": 342,
         "shape": "normal",
         "set": "YGO",
         "position": "121"
     },
     {
         "card_name": "Pot of Greed",
-        "number": 339,
+        "number": 349,
         "shape": "normal",
         "set": "YGO",
         "position": "12"
     },
     {
         "card_name": "Cyber Dragon",
-        "number": 331,
+        "number": 341,
         "shape": "normal",
         "set": "YGO",
         "position": "320"
     },
     {
         "card_name": "Giant Soldier of Stone",
-        "number": 336,
+        "number": 346,
         "shape": "normal",
         "set": "YGO",
         "position": "76"
     },
     {
         "card_name": "Senju of the Thousand Hands",
-        "number": 341,
+        "number": 351,
         "shape": "normal",
         "set": "YGO",
         "position": "128"
+    },
+    {
+        "card_name": "Terraforming",
+        "number": 1,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "190"
     },
     {
         "card_name": "Thousand-Eyes Idol",
@@ -2404,80 +2481,73 @@
     },
     {
         "card_name": "Cestus of Dagla",
-        "number": 330,
+        "number": 340,
         "shape": "normal",
         "set": "YGO",
         "position": "352"
     },
     {
         "card_name": "Dark Energy",
-        "number": 333,
+        "number": 343,
         "shape": "normal",
         "set": "YGO",
         "position": "348"
     },
     {
         "card_name": "Dragon Treasure",
-        "number": 334,
+        "number": 344,
         "shape": "normal",
         "set": "YGO",
         "position": "345"
     },
     {
         "card_name": "Electro-Whip",
-        "number": 335,
+        "number": 345,
         "shape": "normal",
         "set": "YGO",
         "position": "354"
     },
     {
         "card_name": "Gravity Axe",
-        "number": 337,
+        "number": 347,
         "shape": "normal",
         "set": "YGO",
         "position": "353"
     },
     {
         "card_name": "Insect Armor with Laser Cannon",
-        "number": 338,
+        "number": 348,
         "shape": "normal",
         "set": "YGO",
         "position": "351"
     },
     {
         "card_name": "Salamandra",
-        "number": 340,
+        "number": 350,
         "shape": "normal",
         "set": "YGO",
         "position": "349"
     },
     {
         "card_name": "Silver Bow and Arrow",
-        "number": 342,
+        "number": 352,
         "shape": "normal",
         "set": "YGO",
         "position": "346"
     },
     {
         "card_name": "Steel Shell",
-        "number": 343,
+        "number": 353,
         "shape": "normal",
         "set": "YGO",
         "position": "347"
     },
     {
         "card_name": "Violet Crystal",
-        "number": 344,
+        "number": 354,
         "shape": "normal",
         "set": "YGO",
         "position": "350"
-    },
-    {
-        "card_name": "Terraforming",
-        "number": 1,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "190"
     },
     {
         "card_name": "e"
@@ -2500,35 +2570,35 @@
     "a->land",
     {
         "card_name": "Sogen",
-        "number": 355,
+        "number": 358,
         "shape": "normal",
         "set": "YGO",
         "position": "229"
     },
     {
         "card_name": "Umi",
-        "number": 357,
+        "number": 359,
         "shape": "normal",
         "set": "YGO",
         "position": "227"
     },
     {
         "card_name": "Yami",
-        "number": 359,
+        "number": 360,
         "shape": "normal",
         "set": "YGO",
         "position": "230"
     },
     {
         "card_name": "Mountain Field",
-        "number": 354,
+        "number": 357,
         "shape": "normal",
         "set": "YGO",
         "position": "231"
     },
     {
         "card_name": "Forest Field",
-        "number": 348,
+        "number": 355,
         "shape": "normal",
         "set": "YGO",
         "position": "228"
@@ -2545,113 +2615,174 @@
     {
         "card_name": "er"
     },
-    {
-        "card_name": "er"
-    },
-    {
-        "card_name": "Forgotten Temple of the Deep",
-        "number": 349,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "252"
-    },
-    {
-        "card_name": "Lemuria, the Forgotten City",
-        "number": 352,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "251"
-    },
-    {
-        "card_name": "Dragon Ravine",
-        "number": 346,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "277"
-    },
+    "a->masterpiece",
     {
         "card_name": "Closed Forest",
-        "number": 345,
+        "number": 5,
         "shape": "normal",
         "set": "YGO",
         "position": "278"
     },
     {
-        "card_name": "Gateway to Chaos",
-        "number": 351,
+        "card_name": "Convulsion of Nature",
+        "number": 6,
         "shape": "normal",
         "set": "YGO",
-        "position": "276"
+        "position": "364"
     },
     {
-        "card_name": "er"
-    },
-    {
-        "card_name": "er"
-    },
-    {
-        "card_name": "er"
-    },
-    {
-        "card_name": "er"
-    },
-    {
-        "card_name": "er"
-    },
-    {
-        "card_name": "Zombie World",
-        "number": 360,
+        "card_name": "D.D. Borderline",
+        "number": 7,
         "shape": "normal",
         "set": "YGO",
-        "position": "249"
+        "position": "369"
     },
     {
-        "card_name": "Fusion Gate",
-        "number": 350,
+        "card_name": "The Dark Door",
+        "number": 8,
         "shape": "normal",
         "set": "YGO",
-        "position": "248"
+        "position": "375"
     },
     {
-        "card_name": "Spider's Lair",
-        "number": 356,
+        "card_name": "Dragon Ravine",
+        "number": 9,
         "shape": "normal",
         "set": "YGO",
-        "position": "274"
+        "position": "277"
     },
     {
         "card_name": "Flame Swordsrealm",
-        "number": 347,
+        "number": 10,
         "shape": "normal",
         "set": "YGO",
         "position": "275"
     },
     {
+        "card_name": "Forgotten Temple of the Deep",
+        "number": 11,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "252"
+    },
+    {
+        "card_name": "Fusion Gate",
+        "number": 12,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "248"
+    },
+    {
+        "card_name": "Gaia Power",
+        "number": 13,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "276"
+    },
+    {
+        "card_name": "Harpies' Hunting Ground",
+        "number": 14,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "370"
+    },
+    {
+        "card_name": "Heart of Clear Water",
+        "number": 15,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "368"
+    },
+    {
+        "card_name": "Kaiser Colosseum",
+        "number": 16,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "371"
+    },
+    {
+        "card_name": "Labyrinth of Nightmare",
+        "number": 17,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "372"
+    },
+    {
+        "card_name": "Lemuria, the Forgotten City",
+        "number": 18,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "251"
+    },
+    {
+        "card_name": "Mausoleum of the Emperor",
+        "number": 19,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "367"
+    },
+    {
+        "card_name": "Psuedo Space",
+        "number": 20,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "366"
+    },
+    {
+        "card_name": "Pyramid of Wonders",
+        "number": 21,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "376"
+    },
+    {
+        "card_name": "Sanguine Swamp",
+        "number": 22,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "373"
+    },
+    {
+        "card_name": "The Seal of Orichalcos",
+        "number": 23,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "365"
+    },
+    {
+        "card_name": "Skull Lair",
+        "number": 24,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "374"
+    },
+    {
+        "card_name": "Spider's Lair",
+        "number": 25,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "274"
+    },
+    {
+        "card_name": "Spring of Rebirth",
+        "number": 26,
+        "shape": "normal",
+        "set": "YGO",
+        "position": "377"
+    },
+    {
         "card_name": "Umiiruka",
-        "number": 358,
+        "number": 27,
         "shape": "normal",
         "set": "YGO",
         "position": "253"
     },
     {
-        "card_name": "er"
-    },
-    {
-        "card_name": "er"
-    },
-    {
-        "card_name": "er"
-    },
-    {
-        "card_name": "er"
-    },
-    "a->masterpiece",
-    {
-        "card_name": "Nibiru, the Primal Being",
-        "number": 15,
+        "card_name": "Zombie World",
+        "number": 28,
         "shape": "normal",
         "set": "YGO",
-        "position": "371"
+        "position": "249"
     },
     {
         "card_name": "Left Arm of the Forbidden One",
@@ -2682,74 +2813,10 @@
         "position": "22"
     },
     {
-        "card_name": "Effect Veiler",
-        "number": 10,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "362"
+        "card_name": "e"
     },
     {
-        "card_name": "D.D. Crow",
-        "number": 7,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "361"
-    },
-    {
-        "card_name": "Droll and Lock Bird",
-        "number": 9,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "367"
-    },
-    {
-        "card_name": "Honest",
-        "number": 12,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "365"
-    },
-    {
-        "card_name": "Swift Scarecrow",
-        "number": 14,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "368"
-    },
-    {
-        "card_name": "Ash Blossom & Joyous Spring",
-        "number": 5,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "363"
-    },
-    {
-        "card_name": "Battle Fader",
-        "number": 6,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "364"
-    },
-    {
-        "card_name": "Maxx C",
-        "number": 13,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "370"
-    },
-    {
-        "card_name": "Dimension Shifter",
-        "number": 8,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "366"
-    },
-    {
-        "card_name": "Gorz the Emissary of Darkness",
-        "number": 11,
-        "shape": "normal",
-        "set": "YGO",
-        "position": "369"
+        "card_name": "e"
     },
     {
         "card_name": "er"

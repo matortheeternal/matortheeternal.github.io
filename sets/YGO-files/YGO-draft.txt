@@ -5,7 +5,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{6}{W}{U}",
 			"type": "Creature — Dragon",
-			"collector_number": "213",
+			"collector_number": "223",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/0.jpg"
 			}
@@ -15,7 +15,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{B}{R}",
 			"type": "Creature — Dragon",
-			"collector_number": "274",
+			"collector_number": "285",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/1.jpg"
 			}
@@ -25,7 +25,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Artifact Creature — Construct Wizard",
-			"collector_number": "37",
+			"collector_number": "39",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/2.jpg"
 			}
@@ -35,7 +35,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{7}{B}{R}{G}",
 			"type": "Legendary Creature — God Warrior",
-			"collector_number": "267",
+			"collector_number": "277",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/3.jpg"
 			}
@@ -45,7 +45,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{7}{R}{W}{B}",
 			"type": "Legendary Creature — Dragon God",
-			"collector_number": "295",
+			"collector_number": "306",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/4.jpg"
 			}
@@ -55,7 +55,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{7}{U}{R}{W}",
 			"type": "Legendary Creature — Dragon God",
-			"collector_number": "285",
+			"collector_number": "296",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/5.jpg"
 			}
@@ -65,7 +65,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{U}{B}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "226",
+			"collector_number": "236",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/6.jpg"
 			}
@@ -75,7 +75,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U/B}{U/B}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "307",
+			"collector_number": "317",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/7.jpg"
 			}
@@ -85,7 +85,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{W}{W}{W}",
 			"type": "Sorcery",
-			"collector_number": "31",
+			"collector_number": "33",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/8.jpg"
 			}
@@ -95,7 +95,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Instant — Trap",
-			"collector_number": "38",
+			"collector_number": "40",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/9.jpg"
 			}
@@ -105,7 +105,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Enchantment",
-			"collector_number": "13",
+			"collector_number": "15",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/10.jpg"
 			}
@@ -115,7 +115,7 @@
 			"rarity": "rare",
 			"mana_cost": "{6}{W}{W}{U}{U}",
 			"type": "Legendary Creature — Dragon",
-			"collector_number": "212",
+			"collector_number": "222",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/11.jpg"
 			}
@@ -125,7 +125,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{0}",
 			"type": "Artifact",
-			"collector_number": "339",
+			"collector_number": "349",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/12.jpg"
 			}
@@ -135,7 +135,7 @@
 			"rarity": "rare",
 			"mana_cost": "{R}{W}",
 			"type": "Instant — Trap",
-			"collector_number": "251",
+			"collector_number": "261",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/13.jpg"
 			}
@@ -145,7 +145,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{W}",
 			"type": "Sorcery",
-			"collector_number": "26",
+			"collector_number": "28",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/14.jpg"
 			}
@@ -155,7 +155,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{R}",
 			"type": "Sorcery",
-			"collector_number": "271",
+			"collector_number": "282",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/15.jpg"
 			}
@@ -165,7 +165,7 @@
 			"rarity": "common",
 			"mana_cost": "{W}",
 			"type": "Creature — Beast",
-			"collector_number": "17",
+			"collector_number": "19",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/16.jpg"
 			}
@@ -175,7 +175,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{W}{W}",
 			"type": "Instant — Trap",
-			"collector_number": "25",
+			"collector_number": "27",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/17.jpg"
 			}
@@ -185,7 +185,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}{B}",
 			"type": "Creature — Human Warrior Soldier",
-			"collector_number": "208",
+			"collector_number": "218",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/18.jpg"
 			}
@@ -195,7 +195,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Sorcery — Ritual",
-			"collector_number": "207",
+			"collector_number": "217",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/19.jpg"
 			}
@@ -205,7 +205,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{B}",
 			"type": "Legendary Creature — God Wizard",
-			"collector_number": "100",
+			"collector_number": "104",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/20.jpg"
 			}
@@ -255,7 +255,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Creature — Elemental Golem",
-			"collector_number": "145",
+			"collector_number": "153",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/25.jpg"
 			}
@@ -265,7 +265,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Legendary Creature — Human Warrior",
-			"collector_number": "176",
+			"collector_number": "185",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/26.jpg"
 			}
@@ -275,7 +275,7 @@
 			"rarity": "common",
 			"mana_cost": "{W}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "16",
+			"collector_number": "18",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/27.jpg"
 			}
@@ -285,7 +285,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Dinosaur",
-			"collector_number": "161",
+			"collector_number": "169",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/28.jpg"
 			}
@@ -295,7 +295,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Creature — Horror",
-			"collector_number": "80",
+			"collector_number": "84",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/29.jpg"
 			}
@@ -305,7 +305,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}{B}",
 			"type": "Creature — Demon Knight",
-			"collector_number": "284",
+			"collector_number": "295",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/30.jpg"
 			}
@@ -315,7 +315,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Shapeshifter",
-			"collector_number": "168",
+			"collector_number": "176",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/31.jpg"
 			}
@@ -325,7 +325,7 @@
 			"rarity": "rare",
 			"mana_cost": "{6}{B}{B}{B}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "113",
+			"collector_number": "119",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/32.jpg"
 			}
@@ -335,7 +335,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "57",
+			"collector_number": "60",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/33.jpg"
 			}
@@ -345,7 +345,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Artifact Creature — Construct Wizard",
-			"collector_number": "67",
+			"collector_number": "70",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/34.jpg"
 			}
@@ -355,7 +355,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Enchantment",
-			"collector_number": "88",
+			"collector_number": "92",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/35.jpg"
 			}
@@ -365,7 +365,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Creature — Rat Beast",
-			"collector_number": "177",
+			"collector_number": "186",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/36.jpg"
 			}
@@ -375,7 +375,7 @@
 			"rarity": "common",
 			"mana_cost": "{B/G}{B/G}",
 			"type": "Sorcery",
-			"collector_number": "311",
+			"collector_number": "321",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/37.jpg"
 			}
@@ -385,7 +385,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Creature — Angel",
-			"collector_number": "35",
+			"collector_number": "37",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/38.jpg"
 			}
@@ -395,7 +395,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Artifact Creature — Turtle Construct",
-			"collector_number": "133",
+			"collector_number": "139",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/39.jpg"
 			}
@@ -405,7 +405,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{R}{G}",
 			"type": "Creature — Beast Warrior",
-			"collector_number": "272",
+			"collector_number": "283",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/40.jpg"
 			}
@@ -415,7 +415,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R/G}",
 			"type": "Creature — Beast Warrior",
-			"collector_number": "301",
+			"collector_number": "311",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/41.jpg"
 			}
@@ -425,7 +425,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Creature — Beast Warrior",
-			"collector_number": "188",
+			"collector_number": "197",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/42.jpg"
 			}
@@ -435,7 +435,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G/U}{G/U}",
 			"type": "Creature — Human Ninja",
-			"collector_number": "300",
+			"collector_number": "310",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/43.jpg"
 			}
@@ -445,7 +445,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Insect",
-			"collector_number": "165",
+			"collector_number": "173",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/44.jpg"
 			}
@@ -455,7 +455,7 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Creature — Insect",
-			"collector_number": "104",
+			"collector_number": "109",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/45.jpg"
 			}
@@ -465,7 +465,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Dragon",
-			"collector_number": "124",
+			"collector_number": "130",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/46.jpg"
 			}
@@ -475,7 +475,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Insect",
-			"collector_number": "99",
+			"collector_number": "103",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/47.jpg"
 			}
@@ -485,7 +485,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Enchantment",
-			"collector_number": "110",
+			"collector_number": "115",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/48.jpg"
 			}
@@ -495,7 +495,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Creature — Insect",
-			"collector_number": "108",
+			"collector_number": "113",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/49.jpg"
 			}
@@ -505,7 +505,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}{G}",
 			"type": "Creature — Insect",
-			"collector_number": "183",
+			"collector_number": "192",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/50.jpg"
 			}
@@ -515,7 +515,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Insect",
-			"collector_number": "172",
+			"collector_number": "180",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/51.jpg"
 			}
@@ -525,7 +525,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{U}",
 			"type": "Creature — Elf Wizard",
-			"collector_number": "79",
+			"collector_number": "83",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/52.jpg"
 			}
@@ -535,7 +535,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{U}",
 			"type": "Enchantment",
-			"collector_number": "243",
+			"collector_number": "253",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/53.jpg"
 			}
@@ -545,7 +545,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "20",
+			"collector_number": "22",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/54.jpg"
 			}
@@ -555,7 +555,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Creature — Insect",
-			"collector_number": "102",
+			"collector_number": "106",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/55.jpg"
 			}
@@ -565,7 +565,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{G}",
 			"type": "Sorcery — Ritual",
-			"collector_number": "245",
+			"collector_number": "255",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/56.jpg"
 			}
@@ -575,7 +575,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{R}",
 			"type": "Instant",
-			"collector_number": "252",
+			"collector_number": "262",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/57.jpg"
 			}
@@ -585,7 +585,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{R}{R}",
 			"type": "Artifact Creature — Dragon Construct",
-			"collector_number": "125",
+			"collector_number": "131",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/58.jpg"
 			}
@@ -595,7 +595,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{U}{U}",
 			"type": "Creature — Eye Horror",
-			"collector_number": "56",
+			"collector_number": "59",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/59.jpg"
 			}
@@ -605,7 +605,7 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{B}{B}",
 			"type": "Enchantment",
-			"collector_number": "109",
+			"collector_number": "114",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/60.jpg"
 			}
@@ -615,7 +615,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{6}{G}{G}",
 			"type": "Enchantment",
-			"collector_number": "199",
+			"collector_number": "209",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/61.jpg"
 			}
@@ -625,7 +625,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{G}",
 			"type": "Creature — Beast",
-			"collector_number": "184",
+			"collector_number": "193",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/62.jpg"
 			}
@@ -635,7 +635,7 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "118",
+			"collector_number": "124",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/63.jpg"
 			}
@@ -645,7 +645,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{R}{G}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "216",
+			"collector_number": "226",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/64.jpg"
 			}
@@ -655,7 +655,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Elf Wizard",
-			"collector_number": "120",
+			"collector_number": "127",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/65.jpg"
 			}
@@ -665,7 +665,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{W}{U}",
 			"type": "Artifact Creature — Construct",
-			"collector_number": "247",
+			"collector_number": "257",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/66.jpg"
 			}
@@ -675,7 +675,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "63",
+			"collector_number": "66",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/67.jpg"
 			}
@@ -685,7 +685,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{W}{B}",
 			"type": "Creature — Zombie Vampire",
-			"collector_number": "294",
+			"collector_number": "305",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/68.jpg"
 			}
@@ -695,7 +695,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
 			"type": "Sorcery",
-			"collector_number": "69",
+			"collector_number": "72",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/69.jpg"
 			}
@@ -705,7 +705,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}{B}",
 			"type": "Creature — Demon",
-			"collector_number": "115",
+			"collector_number": "121",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/70.jpg"
 			}
@@ -715,7 +715,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Beast Warrior",
-			"collector_number": "55",
+			"collector_number": "58",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/71.jpg"
 			}
@@ -725,7 +725,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Enchantment",
-			"collector_number": "36",
+			"collector_number": "38",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/72.jpg"
 			}
@@ -735,7 +735,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "101",
+			"collector_number": "105",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/73.jpg"
 			}
@@ -745,7 +745,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}{U}",
 			"type": "Legendary Creature — Human Wizard Warrior",
-			"collector_number": "265",
+			"collector_number": "275",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/74.jpg"
 			}
@@ -755,7 +755,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G/U}",
 			"type": "Creature — Frog",
-			"collector_number": "328",
+			"collector_number": "338",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/75.jpg"
 			}
@@ -765,7 +765,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Artifact Creature — Soldier Construct",
-			"collector_number": "336",
+			"collector_number": "346",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/76.jpg"
 			}
@@ -775,7 +775,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{G}",
 			"type": "Creature — Warrior Rogue",
-			"collector_number": "198",
+			"collector_number": "208",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/77.jpg"
 			}
@@ -785,7 +785,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}",
 			"type": "Creature — Insect",
-			"collector_number": "185",
+			"collector_number": "194",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/78.jpg"
 			}
@@ -795,7 +795,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "93",
+			"collector_number": "97",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/79.jpg"
 			}
@@ -805,7 +805,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}{U}",
 			"type": "Instant",
-			"collector_number": "228",
+			"collector_number": "238",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/80.jpg"
 			}
@@ -815,7 +815,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{W}",
 			"type": "Instant — Trap",
-			"collector_number": "32",
+			"collector_number": "34",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/81.jpg"
 			}
@@ -825,7 +825,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Instant — Trap",
-			"collector_number": "201",
+			"collector_number": "211",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/82.jpg"
 			}
@@ -835,7 +835,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Instant — Trap",
-			"collector_number": "143",
+			"collector_number": "151",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/83.jpg"
 			}
@@ -845,7 +845,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{W}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "224",
+			"collector_number": "234",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/84.jpg"
 			}
@@ -855,7 +855,7 @@
 			"rarity": "common",
 			"mana_cost": "{6}{U/B}{U/B}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "308",
+			"collector_number": "318",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/85.jpg"
 			}
@@ -865,7 +865,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
 			"type": "Creature — Elf Wizard",
-			"collector_number": "64",
+			"collector_number": "67",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/86.jpg"
 			}
@@ -875,7 +875,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Beast",
-			"collector_number": "33",
+			"collector_number": "35",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/87.jpg"
 			}
@@ -885,7 +885,7 @@
 			"rarity": "rare",
 			"mana_cost": "{6}{W}{B}",
 			"type": "Legendary Creature — Dragon",
-			"collector_number": "220",
+			"collector_number": "230",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/88.jpg"
 			}
@@ -895,7 +895,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Merfolk Wizard",
-			"collector_number": "46",
+			"collector_number": "49",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/89.jpg"
 			}
@@ -905,7 +905,7 @@
 			"rarity": "common",
 			"mana_cost": "{G/W}{G/W}",
 			"type": "Creature — Elf Wizard",
-			"collector_number": "316",
+			"collector_number": "326",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/90.jpg"
 			}
@@ -915,7 +915,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Sorcery",
-			"collector_number": "180",
+			"collector_number": "189",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/91.jpg"
 			}
@@ -925,7 +925,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{G}",
 			"type": "Instant",
-			"collector_number": "189",
+			"collector_number": "198",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/92.jpg"
 			}
@@ -935,7 +935,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "97",
+			"collector_number": "101",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/93.jpg"
 			}
@@ -945,7 +945,7 @@
 			"rarity": "rare",
 			"mana_cost": "{U}",
 			"type": "Sorcery",
-			"collector_number": "53",
+			"collector_number": "56",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/94.jpg"
 			}
@@ -955,7 +955,7 @@
 			"rarity": "rare",
 			"mana_cost": "{U}{U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "76",
+			"collector_number": "80",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/95.jpg"
 			}
@@ -965,7 +965,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Artifact Creature — Turtle Construct",
-			"collector_number": "160",
+			"collector_number": "168",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/96.jpg"
 			}
@@ -975,7 +975,7 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "111",
+			"collector_number": "117",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/97.jpg"
 			}
@@ -985,7 +985,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Bird Beast Warrior",
-			"collector_number": "10",
+			"collector_number": "11",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/98.jpg"
 			}
@@ -995,7 +995,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R/W}{R/W}",
 			"type": "Creature — Dragon",
-			"collector_number": "327",
+			"collector_number": "337",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/99.jpg"
 			}
@@ -1005,7 +1005,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{R}{R}{W}{W}",
 			"type": "Creature — Dragon",
-			"collector_number": "292",
+			"collector_number": "303",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/100.jpg"
 			}
@@ -1015,7 +1015,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "70",
+			"collector_number": "73",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/101.jpg"
 			}
@@ -1025,7 +1025,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Shapeshifter",
-			"collector_number": "119",
+			"collector_number": "126",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/102.jpg"
 			}
@@ -1035,7 +1035,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "159",
+			"collector_number": "166",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/103.jpg"
 			}
@@ -1045,7 +1045,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Human Wizard Warrior",
-			"collector_number": "138",
+			"collector_number": "145",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/104.jpg"
 			}
@@ -1055,7 +1055,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "136",
+			"collector_number": "143",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/105.jpg"
 			}
@@ -1065,7 +1065,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Legendary Creature — Samurai Warrior",
-			"collector_number": "147",
+			"collector_number": "154",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/106.jpg"
 			}
@@ -1075,7 +1075,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Instant — Trap",
-			"collector_number": "174",
+			"collector_number": "183",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/107.jpg"
 			}
@@ -1085,7 +1085,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Instant — Trap",
-			"collector_number": "42",
+			"collector_number": "44",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/108.jpg"
 			}
@@ -1095,7 +1095,7 @@
 			"rarity": "rare",
 			"mana_cost": "{5}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "139",
+			"collector_number": "146",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/109.jpg"
 			}
@@ -1105,7 +1105,7 @@
 			"rarity": "common",
 			"mana_cost": "{R/W}{R/W}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "313",
+			"collector_number": "323",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/110.jpg"
 			}
@@ -1115,7 +1115,7 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{R}{R}{G}{G}",
 			"type": "Creature — Dragon",
-			"collector_number": "290",
+			"collector_number": "301",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/111.jpg"
 			}
@@ -1125,7 +1125,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Creature — Illusion",
-			"collector_number": "72",
+			"collector_number": "75",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/112.jpg"
 			}
@@ -1135,7 +1135,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{B}",
 			"type": "Sorcery — Ritual",
-			"collector_number": "209",
+			"collector_number": "219",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/113.jpg"
 			}
@@ -1145,7 +1145,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Instant",
-			"collector_number": "77",
+			"collector_number": "81",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/114.jpg"
 			}
@@ -1155,7 +1155,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Instant — Trap",
-			"collector_number": "83",
+			"collector_number": "87",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/115.jpg"
 			}
@@ -1165,7 +1165,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{R}",
 			"type": "Sorcery",
-			"collector_number": "134",
+			"collector_number": "140",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/116.jpg"
 			}
@@ -1175,7 +1175,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Enchantment",
-			"collector_number": "194",
+			"collector_number": "204",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/117.jpg"
 			}
@@ -1185,7 +1185,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Instant — Trap",
-			"collector_number": "84",
+			"collector_number": "88",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/118.jpg"
 			}
@@ -1195,7 +1195,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Instant — Trap",
-			"collector_number": "150",
+			"collector_number": "157",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/119.jpg"
 			}
@@ -1205,7 +1205,7 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "74",
+			"collector_number": "78",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/120.jpg"
 			}
@@ -1215,7 +1215,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}",
 			"type": "Artifact Creature — Construct",
-			"collector_number": "332",
+			"collector_number": "342",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/121.jpg"
 			}
@@ -1225,7 +1225,7 @@
 			"rarity": "rare",
 			"mana_cost": "{U}{R}",
 			"type": "Artifact Creature — Construct",
-			"collector_number": "261",
+			"collector_number": "271",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/122.jpg"
 			}
@@ -1235,7 +1235,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W/U}{W/U}",
 			"type": "Creature — Spirit",
-			"collector_number": "319",
+			"collector_number": "329",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/123.jpg"
 			}
@@ -1245,7 +1245,7 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Creature — Zombie Skeleton",
-			"collector_number": "112",
+			"collector_number": "118",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/124.jpg"
 			}
@@ -1255,7 +1255,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{W}",
 			"type": "Creature — Spirit",
-			"collector_number": "23",
+			"collector_number": "25",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/125.jpg"
 			}
@@ -1265,7 +1265,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B/G}{B/G}",
 			"type": "Creature — Zombie",
-			"collector_number": "325",
+			"collector_number": "335",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/126.jpg"
 			}
@@ -1275,7 +1275,7 @@
 			"rarity": "common",
 			"mana_cost": "{W}",
 			"type": "Instant",
-			"collector_number": "8",
+			"collector_number": "9",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/127.jpg"
 			}
@@ -1285,7 +1285,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Artifact Creature — Faerie",
-			"collector_number": "341",
+			"collector_number": "351",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/128.jpg"
 			}
@@ -1295,7 +1295,7 @@
 			"rarity": "common",
 			"mana_cost": "{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "153",
+			"collector_number": "160",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/129.jpg"
 			}
@@ -1305,7 +1305,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
 			"type": "Creature — Eye Horror",
-			"collector_number": "47",
+			"collector_number": "50",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/130.jpg"
 			}
@@ -1315,7 +1315,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Instant — Trap",
-			"collector_number": "87",
+			"collector_number": "91",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/131.jpg"
 			}
@@ -1325,7 +1325,7 @@
 			"rarity": "rare",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "91",
+			"collector_number": "95",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/132.jpg"
 			}
@@ -1335,7 +1335,7 @@
 			"rarity": "rare",
 			"mana_cost": "{6}{B}{B}{R}{R}",
 			"type": "Creature — Demon Dragon",
-			"collector_number": "210",
+			"collector_number": "220",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/133.jpg"
 			}
@@ -1345,7 +1345,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "66",
+			"collector_number": "69",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/134.jpg"
 			}
@@ -1355,7 +1355,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Creature — Dragon Serpent",
-			"collector_number": "59",
+			"collector_number": "62",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/135.jpg"
 			}
@@ -1365,7 +1365,7 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "156",
+			"collector_number": "163",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/136.jpg"
 			}
@@ -1373,9 +1373,9 @@
 		{
 			"name": "Thousand-Eyes Restrict",
 			"rarity": "rare",
-			"mana_cost": "{4}{U}{U}{U}",
+			"mana_cost": "{2}{U}{U}{U}{U}",
 			"type": "Legendary Creature — Illusion Wizard",
-			"collector_number": "81",
+			"collector_number": "85",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/137.jpg"
 			}
@@ -1385,7 +1385,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{W}",
 			"type": "Creature — Human Cleric",
-			"collector_number": "19",
+			"collector_number": "21",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/138.jpg"
 			}
@@ -1395,7 +1395,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{U}{B}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "263",
+			"collector_number": "273",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/139.jpg"
 			}
@@ -1405,7 +1405,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Shapeshifter",
-			"collector_number": "58",
+			"collector_number": "61",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/140.jpg"
 			}
@@ -1415,7 +1415,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{U}{U}",
 			"type": "Creature — Serpent",
-			"collector_number": "73",
+			"collector_number": "77",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/141.jpg"
 			}
@@ -1425,7 +1425,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Creature — Beast Warrior",
-			"collector_number": "166",
+			"collector_number": "174",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/142.jpg"
 			}
@@ -1435,7 +1435,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Creature — Demon Dragon",
-			"collector_number": "92",
+			"collector_number": "96",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/143.jpg"
 			}
@@ -1445,7 +1445,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Creature — Dragon",
-			"collector_number": "144",
+			"collector_number": "152",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/144.jpg"
 			}
@@ -1455,7 +1455,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{R}{W}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "241",
+			"collector_number": "251",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/145.jpg"
 			}
@@ -1465,7 +1465,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Dinosaur Zombie",
-			"collector_number": "106",
+			"collector_number": "111",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/146.jpg"
 			}
@@ -1475,7 +1475,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}{B}",
 			"type": "Creature — Zombie Warrior",
-			"collector_number": "298",
+			"collector_number": "308",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/147.jpg"
 			}
@@ -1485,7 +1485,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "126",
+			"collector_number": "132",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/148.jpg"
 			}
@@ -1493,9 +1493,9 @@
 		{
 			"name": "Rude Kaiser",
 			"rarity": "common",
-			"mana_cost": "{3}{R/W}{R/W}",
+			"mana_cost": "{X}{3}{R/W}{R/W}",
 			"type": "Creature — Beast Warrior",
-			"collector_number": "324",
+			"collector_number": "334",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/149.jpg"
 			}
@@ -1505,7 +1505,7 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{U}{U}{B}{B}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "227",
+			"collector_number": "237",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/150.jpg"
 			}
@@ -1515,7 +1515,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Sorcery",
-			"collector_number": "130",
+			"collector_number": "136",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/151.jpg"
 			}
@@ -1525,7 +1525,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Enchantment",
-			"collector_number": "131",
+			"collector_number": "137",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/152.jpg"
 			}
@@ -1535,7 +1535,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Sorcery — Ritual",
-			"collector_number": "41",
+			"collector_number": "43",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/153.jpg"
 			}
@@ -1545,7 +1545,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}{B}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "255",
+			"collector_number": "265",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/154.jpg"
 			}
@@ -1555,7 +1555,7 @@
 			"rarity": "rare",
 			"mana_cost": "{6}{R}{W}",
 			"type": "Legendary Creature — Dragon Warrior",
-			"collector_number": "240",
+			"collector_number": "250",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/155.jpg"
 			}
@@ -1565,7 +1565,7 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "78",
+			"collector_number": "82",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/156.jpg"
 			}
@@ -1575,7 +1575,7 @@
 			"rarity": "common",
 			"mana_cost": "{W}{W}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "14",
+			"collector_number": "16",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/157.jpg"
 			}
@@ -1585,7 +1585,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Creature — Dragon Warrior",
-			"collector_number": "29",
+			"collector_number": "31",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/158.jpg"
 			}
@@ -1595,7 +1595,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}",
 			"type": "Creature — Dragon Egg",
-			"collector_number": "43",
+			"collector_number": "45",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/159.jpg"
 			}
@@ -1615,7 +1615,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{7}{U}{B}{R}",
 			"type": "Creature — Dragon Wizard",
-			"collector_number": "275",
+			"collector_number": "286",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/161.jpg"
 			}
@@ -1625,7 +1625,7 @@
 			"rarity": "common",
 			"mana_cost": "{5}{R}",
 			"type": "Creature — Dragon",
-			"collector_number": "149",
+			"collector_number": "156",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/162.jpg"
 			}
@@ -1635,7 +1635,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}{B}{R}{R}",
 			"type": "Creature — Dragon",
-			"collector_number": "259",
+			"collector_number": "269",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/163.jpg"
 			}
@@ -1645,7 +1645,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "50",
+			"collector_number": "53",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/164.jpg"
 			}
@@ -1655,7 +1655,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}",
 			"type": "Artifact",
-			"collector_number": "65",
+			"collector_number": "68",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/165.jpg"
 			}
@@ -1665,7 +1665,7 @@
 			"rarity": "rare",
 			"mana_cost": "{5}{U}{B}",
 			"type": "Instant",
-			"collector_number": "254",
+			"collector_number": "264",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/166.jpg"
 			}
@@ -1675,7 +1675,7 @@
 			"rarity": "common",
 			"mana_cost": "{5}{U/B}{U/B}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "306",
+			"collector_number": "316",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/167.jpg"
 			}
@@ -1685,7 +1685,7 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "116",
+			"collector_number": "122",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/168.jpg"
 			}
@@ -1695,7 +1695,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "75",
+			"collector_number": "79",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/169.jpg"
 			}
@@ -1705,7 +1705,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Instant",
-			"collector_number": "282",
+			"collector_number": "293",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/170.jpg"
 			}
@@ -1715,7 +1715,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Enchantment",
-			"collector_number": "52",
+			"collector_number": "55",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/171.jpg"
 			}
@@ -1725,7 +1725,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{6}{W}{U}",
 			"type": "Creature — Dragon",
-			"collector_number": "211",
+			"collector_number": "221",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/172.jpg"
 			}
@@ -1735,7 +1735,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{U}",
 			"type": "Enchantment",
-			"collector_number": "286",
+			"collector_number": "297",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/173.jpg"
 			}
@@ -1745,7 +1745,7 @@
 			"rarity": "common",
 			"mana_cost": "{5}{B/R}{B/R}",
 			"type": "Creature — Dragon Zombie",
-			"collector_number": "322",
+			"collector_number": "332",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/174.jpg"
 			}
@@ -1755,7 +1755,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Sorcery",
-			"collector_number": "132",
+			"collector_number": "138",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/175.jpg"
 			}
@@ -1765,7 +1765,7 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Creature — Dragon Egg",
-			"collector_number": "127",
+			"collector_number": "133",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/176.jpg"
 			}
@@ -1775,7 +1775,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}{R}",
 			"type": "Instant — Trap",
-			"collector_number": "277",
+			"collector_number": "288",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/177.jpg"
 			}
@@ -1785,7 +1785,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "142",
+			"collector_number": "150",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/178.jpg"
 			}
@@ -1795,7 +1795,7 @@
 			"rarity": "common",
 			"mana_cost": "{6}{B/R}{B/R}",
 			"type": "Artifact Creature — Dragon Construct",
-			"collector_number": "320",
+			"collector_number": "330",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/179.jpg"
 			}
@@ -1805,7 +1805,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Dragon Egg",
-			"collector_number": "128",
+			"collector_number": "134",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/180.jpg"
 			}
@@ -1815,7 +1815,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B/R}{B/R}",
 			"type": "Creature — Dragon",
-			"collector_number": "321",
+			"collector_number": "331",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/181.jpg"
 			}
@@ -1825,7 +1825,7 @@
 			"rarity": "rare",
 			"mana_cost": "{7}{B}{R}",
 			"type": "Creature — Dragon",
-			"collector_number": "276",
+			"collector_number": "287",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/182.jpg"
 			}
@@ -1835,7 +1835,7 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Creature — Insect",
-			"collector_number": "191",
+			"collector_number": "200",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/183.jpg"
 			}
@@ -1845,7 +1845,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{G}{G}",
 			"type": "Creature — Insect",
-			"collector_number": "179",
+			"collector_number": "188",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/184.jpg"
 			}
@@ -1855,7 +1855,7 @@
 			"rarity": "rare",
 			"mana_cost": "{6}{B}{G}",
 			"type": "Legendary Creature — Insect",
-			"collector_number": "269",
+			"collector_number": "280",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/185.jpg"
 			}
@@ -1865,7 +1865,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{G}",
 			"type": "Artifact Creature — Food Horror",
-			"collector_number": "246",
+			"collector_number": "256",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/186.jpg"
 			}
@@ -1875,7 +1875,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{W}",
 			"type": "Creature — Cat",
-			"collector_number": "279",
+			"collector_number": "290",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/187.jpg"
 			}
@@ -1885,7 +1885,7 @@
 			"rarity": "rare",
 			"mana_cost": "{B}",
 			"type": "Enchantment",
-			"collector_number": "89",
+			"collector_number": "93",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/188.jpg"
 			}
@@ -1895,7 +1895,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{W}",
 			"type": "Creature — Rabbit",
-			"collector_number": "280",
+			"collector_number": "291",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/189.jpg"
 			}
@@ -1915,7 +1915,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Sorcery — Ritual",
-			"collector_number": "48",
+			"collector_number": "51",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/191.jpg"
 			}
@@ -1925,7 +1925,7 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Enchantment — Aura",
-			"collector_number": "148",
+			"collector_number": "155",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/192.jpg"
 			}
@@ -1945,7 +1945,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{G}",
 			"type": "Creature — Insect",
-			"collector_number": "237",
+			"collector_number": "247",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/194.jpg"
 			}
@@ -1955,7 +1955,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Insect",
-			"collector_number": "178",
+			"collector_number": "187",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/195.jpg"
 			}
@@ -1965,7 +1965,7 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Sorcery",
-			"collector_number": "187",
+			"collector_number": "196",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/196.jpg"
 			}
@@ -1975,7 +1975,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}",
 			"type": "Creature — Insect",
-			"collector_number": "192",
+			"collector_number": "201",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/197.jpg"
 			}
@@ -1985,7 +1985,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B/G}",
 			"type": "Creature — Insect",
-			"collector_number": "302",
+			"collector_number": "312",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/198.jpg"
 			}
@@ -1995,7 +1995,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{6}{B}{G}",
 			"type": "Creature — Insect",
-			"collector_number": "232",
+			"collector_number": "242",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/199.jpg"
 			}
@@ -2005,7 +2005,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{G}",
 			"type": "Creature — Insect",
-			"collector_number": "281",
+			"collector_number": "292",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/200.jpg"
 			}
@@ -2015,7 +2015,7 @@
 			"rarity": "rare",
 			"mana_cost": "{B}{G}",
 			"type": "Creature — Insect",
-			"collector_number": "293",
+			"collector_number": "304",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/201.jpg"
 			}
@@ -2025,7 +2025,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Insect Warrior",
-			"collector_number": "164",
+			"collector_number": "172",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/202.jpg"
 			}
@@ -2035,7 +2035,7 @@
 			"rarity": "common",
 			"mana_cost": "{5}{G}{G}",
 			"type": "Creature — Insect",
-			"collector_number": "186",
+			"collector_number": "195",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/203.jpg"
 			}
@@ -2045,7 +2045,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{G}{G}",
 			"type": "Creature — Insect Warrior",
-			"collector_number": "173",
+			"collector_number": "182",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/204.jpg"
 			}
@@ -2055,7 +2055,7 @@
 			"rarity": "rare",
 			"mana_cost": "{5}{G}{G}",
 			"type": "Creature — Insect",
-			"collector_number": "182",
+			"collector_number": "191",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/205.jpg"
 			}
@@ -2065,7 +2065,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{G}",
 			"type": "Creature — Insect",
-			"collector_number": "181",
+			"collector_number": "190",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/206.jpg"
 			}
@@ -2085,7 +2085,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{W}",
 			"type": "Sorcery",
-			"collector_number": "28",
+			"collector_number": "30",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/208.jpg"
 			}
@@ -2095,7 +2095,7 @@
 			"rarity": "common",
 			"mana_cost": "{U}{U}",
 			"type": "Creature — Horror Wizard",
-			"collector_number": "45",
+			"collector_number": "48",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/209.jpg"
 			}
@@ -2105,7 +2105,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{U}",
 			"type": "Creature — Djinn",
-			"collector_number": "60",
+			"collector_number": "63",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/210.jpg"
 			}
@@ -2115,7 +2115,7 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "141",
+			"collector_number": "149",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/211.jpg"
 			}
@@ -2135,7 +2135,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{R}{G}{W}",
 			"type": "Legendary Creature — Human Warrior",
-			"collector_number": "217",
+			"collector_number": "227",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/213.jpg"
 			}
@@ -2145,7 +2145,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{G}",
 			"type": "Legendary Creature — Cat Beast Warrior",
-			"collector_number": "249",
+			"collector_number": "259",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/214.jpg"
 			}
@@ -2155,7 +2155,7 @@
 			"rarity": "common",
 			"mana_cost": "{X}{X}{R/G}",
 			"type": "Creature — Beast Warrior",
-			"collector_number": "309",
+			"collector_number": "319",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/215.jpg"
 			}
@@ -2165,7 +2165,7 @@
 			"rarity": "rare",
 			"mana_cost": "{6}{R}{G}",
 			"type": "Legendary Creature — Beast Warrior",
-			"collector_number": "206",
+			"collector_number": "216",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/216.jpg"
 			}
@@ -2175,7 +2175,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{R}",
 			"type": "Instant",
-			"collector_number": "154",
+			"collector_number": "161",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/217.jpg"
 			}
@@ -2185,7 +2185,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{5}{W}{U}{B}{R}{G}",
 			"type": "Legendary Creature — Elder Dragon",
-			"collector_number": "236",
+			"collector_number": "246",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/218.jpg"
 			}
@@ -2195,7 +2195,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{R}{G}",
 			"type": "Sorcery",
-			"collector_number": "288",
+			"collector_number": "299",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/219.jpg"
 			}
@@ -2205,7 +2205,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}",
 			"type": "Creature — Dragon",
-			"collector_number": "129",
+			"collector_number": "135",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/220.jpg"
 			}
@@ -2215,7 +2215,7 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Sorcery",
-			"collector_number": "190",
+			"collector_number": "199",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/221.jpg"
 			}
@@ -2225,7 +2225,7 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Sorcery",
-			"collector_number": "200",
+			"collector_number": "210",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/222.jpg"
 			}
@@ -2235,7 +2235,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "34",
+			"collector_number": "36",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/223.jpg"
 			}
@@ -2245,7 +2245,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Legendary Creature — Merfolk Warrior",
-			"collector_number": "61",
+			"collector_number": "64",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/224.jpg"
 			}
@@ -2255,7 +2255,7 @@
 			"rarity": "rare",
 			"mana_cost": "{6}{U}{U}{U}",
 			"type": "Legendary Creature — Dragon Leviathan",
-			"collector_number": "68",
+			"collector_number": "71",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/225.jpg"
 			}
@@ -2265,7 +2265,7 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Creature Land — Merfolk Island",
-			"collector_number": "353",
+			"collector_number": "356",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/226.jpg"
 			}
@@ -2275,7 +2275,7 @@
 			"rarity": "mythic",
 			"mana_cost": "",
 			"type": "Legendary Land — Island",
-			"collector_number": "357",
+			"collector_number": "359",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/227.jpg"
 			}
@@ -2285,7 +2285,7 @@
 			"rarity": "mythic",
 			"mana_cost": "",
 			"type": "Legendary Land — Forest",
-			"collector_number": "348",
+			"collector_number": "355",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/228.jpg"
 			}
@@ -2295,7 +2295,7 @@
 			"rarity": "mythic",
 			"mana_cost": "",
 			"type": "Legendary Land — Plains",
-			"collector_number": "355",
+			"collector_number": "358",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/229.jpg"
 			}
@@ -2305,7 +2305,7 @@
 			"rarity": "mythic",
 			"mana_cost": "",
 			"type": "Legendary Land — Swamp",
-			"collector_number": "359",
+			"collector_number": "360",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/230.jpg"
 			}
@@ -2315,7 +2315,7 @@
 			"rarity": "mythic",
 			"mana_cost": "",
 			"type": "Legendary Land — Mountain",
-			"collector_number": "354",
+			"collector_number": "357",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/231.jpg"
 			}
@@ -2325,7 +2325,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Enchantment",
-			"collector_number": "12",
+			"collector_number": "14",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/232.jpg"
 			}
@@ -2335,7 +2335,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Leviathan",
-			"collector_number": "49",
+			"collector_number": "52",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/233.jpg"
 			}
@@ -2345,7 +2345,7 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{U}{U}",
 			"type": "Creature — Dragon Leviathan",
-			"collector_number": "62",
+			"collector_number": "65",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/234.jpg"
 			}
@@ -2355,7 +2355,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W/U}{W/U}",
 			"type": "Creature — Merfolk Warrior",
-			"collector_number": "314",
+			"collector_number": "324",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/235.jpg"
 			}
@@ -2365,7 +2365,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Creature — Merfolk Warrior",
-			"collector_number": "51",
+			"collector_number": "54",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/236.jpg"
 			}
@@ -2375,7 +2375,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{W}{U}",
 			"type": "Legendary Creature — Monarch Soldier",
-			"collector_number": "260",
+			"collector_number": "270",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/237.jpg"
 			}
@@ -2385,7 +2385,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}{R}",
 			"type": "Legendary Creature — Monarch Demon",
-			"collector_number": "218",
+			"collector_number": "228",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/238.jpg"
 			}
@@ -2395,7 +2395,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}{G}",
 			"type": "Legendary Creature — Monarch Warlock",
-			"collector_number": "234",
+			"collector_number": "244",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/239.jpg"
 			}
@@ -2405,7 +2405,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}{W}",
 			"type": "Legendary Creature — Monarch Shaman",
-			"collector_number": "289",
+			"collector_number": "300",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/240.jpg"
 			}
@@ -2415,7 +2415,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{U}{R}",
 			"type": "Legendary Creature — Monarch Wizard",
-			"collector_number": "297",
+			"collector_number": "307",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/241.jpg"
 			}
@@ -2425,7 +2425,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{G}{U}",
 			"type": "Legendary Creature — Monarch Druid",
-			"collector_number": "273",
+			"collector_number": "284",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/242.jpg"
 			}
@@ -2435,7 +2435,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{G}{W}",
 			"type": "Legendary Creature — Monarch Cleric",
-			"collector_number": "250",
+			"collector_number": "260",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/243.jpg"
 			}
@@ -2445,7 +2445,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}{G}",
 			"type": "Legendary Creature — Monarch Warrior",
-			"collector_number": "242",
+			"collector_number": "252",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/244.jpg"
 			}
@@ -2455,7 +2455,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{W}{B}",
 			"type": "Legendary Creature — Monarch Zombie",
-			"collector_number": "230",
+			"collector_number": "240",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/245.jpg"
 			}
@@ -2465,7 +2465,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{U}{B}",
 			"type": "Legendary Creature — Monarch Horror",
-			"collector_number": "204",
+			"collector_number": "214",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/246.jpg"
 			}
@@ -2475,27 +2475,27 @@
 			"rarity": "mythic",
 			"mana_cost": "{W}{U}{B}{R}{G}",
 			"type": "Legendary Creature — Monarch God",
-			"collector_number": "233",
+			"collector_number": "243",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/247.jpg"
 			}
 		},
 		{
 			"name": "Fusion Gate",
-			"rarity": "uncommon",
+			"rarity": "masterpiece",
 			"mana_cost": "",
 			"type": "Land — Island Mountain",
-			"collector_number": "350",
+			"collector_number": "12",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/248.jpg"
 			}
 		},
 		{
 			"name": "Zombie World",
-			"rarity": "uncommon",
+			"rarity": "masterpiece",
 			"mana_cost": "",
 			"type": "Land — Plains Swamp",
-			"collector_number": "360",
+			"collector_number": "28",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/249.jpg"
 			}
@@ -2505,37 +2505,37 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "86",
+			"collector_number": "90",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/250.jpg"
 			}
 		},
 		{
 			"name": "Lemuria, the Forgotten City",
-			"rarity": "uncommon",
+			"rarity": "masterpiece",
 			"mana_cost": "",
 			"type": "Land — Island Swamp",
-			"collector_number": "352",
+			"collector_number": "18",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/251.jpg"
 			}
 		},
 		{
 			"name": "Forgotten Temple of the Deep",
-			"rarity": "uncommon",
+			"rarity": "masterpiece",
 			"mana_cost": "",
 			"type": "Land — Plains Island",
-			"collector_number": "349",
+			"collector_number": "11",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/252.jpg"
 			}
 		},
 		{
 			"name": "Umiiruka",
-			"rarity": "uncommon",
+			"rarity": "masterpiece",
 			"mana_cost": "",
 			"type": "Land — Forest Island",
-			"collector_number": "358",
+			"collector_number": "27",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/253.jpg"
 			}
@@ -2545,7 +2545,7 @@
 			"rarity": "common",
 			"mana_cost": "{W/B}{W/B}",
 			"type": "Creature — Zombie",
-			"collector_number": "323",
+			"collector_number": "333",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/254.jpg"
 			}
@@ -2555,7 +2555,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}{B}",
 			"type": "Creature — Zombie Elemental",
-			"collector_number": "107",
+			"collector_number": "112",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/255.jpg"
 			}
@@ -2565,7 +2565,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Enchantment",
-			"collector_number": "219",
+			"collector_number": "229",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/256.jpg"
 			}
@@ -2575,7 +2575,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{B}",
 			"type": "Creature — Zombie Warrior",
-			"collector_number": "229",
+			"collector_number": "239",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/257.jpg"
 			}
@@ -2585,7 +2585,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}{B}",
 			"type": "Creature — Zombie Cleric",
-			"collector_number": "299",
+			"collector_number": "309",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/258.jpg"
 			}
@@ -2605,7 +2605,7 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Creature — Mouse Zombie",
-			"collector_number": "85",
+			"collector_number": "89",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/260.jpg"
 			}
@@ -2615,7 +2615,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Creature — Zombie Cat",
-			"collector_number": "122",
+			"collector_number": "128",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/261.jpg"
 			}
@@ -2625,7 +2625,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{B}",
 			"type": "Creature — Dragon Zombie",
-			"collector_number": "98",
+			"collector_number": "102",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/262.jpg"
 			}
@@ -2635,7 +2635,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}",
 			"type": "Creature — Zombie Turtle",
-			"collector_number": "30",
+			"collector_number": "32",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/263.jpg"
 			}
@@ -2645,7 +2645,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Zombie",
-			"collector_number": "90",
+			"collector_number": "94",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/264.jpg"
 			}
@@ -2655,7 +2655,7 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Creature — Zombie",
-			"collector_number": "103",
+			"collector_number": "107",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/265.jpg"
 			}
@@ -2665,7 +2665,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Zombie",
-			"collector_number": "117",
+			"collector_number": "123",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/266.jpg"
 			}
@@ -2675,7 +2675,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W/B}{W/B}",
 			"type": "Creature — Zombie Shark",
-			"collector_number": "305",
+			"collector_number": "315",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/267.jpg"
 			}
@@ -2685,7 +2685,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W/B}{W/B}",
 			"type": "Creature — Zombie Warrior",
-			"collector_number": "303",
+			"collector_number": "313",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/268.jpg"
 			}
@@ -2695,17 +2695,17 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Creature — Zombie Noble",
-			"collector_number": "18",
+			"collector_number": "20",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/269.jpg"
 			}
 		},
 		{
-			"name": "Zombie Mammoth",
+			"name": "Gozuki",
 			"rarity": "common",
-			"mana_cost": "{2}{B}{B}",
-			"type": "Creature — Zombie",
-			"collector_number": "121",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Zombie Minotaur",
+			"collector_number": "108",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/270.jpg"
 			}
@@ -2715,7 +2715,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}",
 			"type": "Creature — Spirit Wizard",
-			"collector_number": "105",
+			"collector_number": "110",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/271.jpg"
 			}
@@ -2725,7 +2725,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{W}{W}",
 			"type": "Creature — Zombie Horse",
-			"collector_number": "24",
+			"collector_number": "26",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/272.jpg"
 			}
@@ -2735,57 +2735,57 @@
 			"rarity": "mythic",
 			"mana_cost": "{U}",
 			"type": "Sorcery",
-			"collector_number": "54",
+			"collector_number": "57",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/273.jpg"
 			}
 		},
 		{
 			"name": "Spider's Lair",
-			"rarity": "uncommon",
+			"rarity": "masterpiece",
 			"mana_cost": "",
 			"type": "Land — Swamp Forest",
-			"collector_number": "356",
+			"collector_number": "25",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/274.jpg"
 			}
 		},
 		{
 			"name": "Flame Swordsrealm",
-			"rarity": "uncommon",
+			"rarity": "masterpiece",
 			"mana_cost": "",
 			"type": "Land — Mountain Plains",
-			"collector_number": "347",
+			"collector_number": "10",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/275.jpg"
 			}
 		},
 		{
-			"name": "Gateway to Chaos",
-			"rarity": "uncommon",
+			"name": "Gaia Power",
+			"rarity": "masterpiece",
 			"mana_cost": "",
 			"type": "Land — Forest Plains",
-			"collector_number": "351",
+			"collector_number": "13",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/276.jpg"
 			}
 		},
 		{
 			"name": "Dragon Ravine",
-			"rarity": "uncommon",
+			"rarity": "masterpiece",
 			"mana_cost": "",
 			"type": "Land — Swamp Mountain",
-			"collector_number": "346",
+			"collector_number": "9",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/277.jpg"
 			}
 		},
 		{
 			"name": "Closed Forest",
-			"rarity": "uncommon",
+			"rarity": "masterpiece",
 			"mana_cost": "",
 			"type": "Land — Mountain Forest",
-			"collector_number": "345",
+			"collector_number": "5",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/278.jpg"
 			}
@@ -2793,9 +2793,9 @@
 		{
 			"name": "Fighting Flame Swordsman",
 			"rarity": "uncommon",
-			"mana_cost": "{3}{R}",
+			"mana_cost": "{2}{R}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "135",
+			"collector_number": "142",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/279.jpg"
 			}
@@ -2805,7 +2805,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Instant — Trap",
-			"collector_number": "137",
+			"collector_number": "144",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/280.jpg"
 			}
@@ -2815,7 +2815,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Instant",
-			"collector_number": "82",
+			"collector_number": "86",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/281.jpg"
 			}
@@ -2825,7 +2825,7 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "44",
+			"collector_number": "46",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/282.jpg"
 			}
@@ -2835,7 +2835,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "71",
+			"collector_number": "74",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/283.jpg"
 			}
@@ -2845,7 +2845,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Mutant Warrior",
-			"collector_number": "21",
+			"collector_number": "23",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/284.jpg"
 			}
@@ -2855,7 +2855,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Mutant Warrior",
-			"collector_number": "22",
+			"collector_number": "24",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/285.jpg"
 			}
@@ -2865,7 +2865,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}{W}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "15",
+			"collector_number": "17",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/286.jpg"
 			}
@@ -2875,7 +2875,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{W}",
 			"type": "Artifact Creature — Construct Warrior",
-			"collector_number": "39",
+			"collector_number": "41",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/287.jpg"
 			}
@@ -2885,17 +2885,17 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{W}{W}",
 			"type": "Legendary Creature — Bird Beast Warrior",
-			"collector_number": "11",
+			"collector_number": "12",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/288.jpg"
 			}
 		},
 		{
 			"name": "Gazelle the King of the Mythical Beasts",
-			"rarity": "uncommon",
+			"rarity": "rare",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Legendary Creature — Beast",
-			"collector_number": "175",
+			"collector_number": "184",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/289.jpg"
 			}
@@ -2905,7 +2905,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}",
 			"type": "Creature — Beast",
-			"collector_number": "169",
+			"collector_number": "177",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/290.jpg"
 			}
@@ -2915,7 +2915,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}{G}",
 			"type": "Creature — Monkey Beast",
-			"collector_number": "205",
+			"collector_number": "215",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/291.jpg"
 			}
@@ -2925,7 +2925,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R/G}{R/G}",
 			"type": "Creature — Beast Warrior",
-			"collector_number": "329",
+			"collector_number": "339",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/292.jpg"
 			}
@@ -2935,7 +2935,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{G}",
 			"type": "Creature — Beast Warrior",
-			"collector_number": "244",
+			"collector_number": "254",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/293.jpg"
 			}
@@ -2945,7 +2945,7 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{G}{G}",
 			"type": "Legendary Creature — Beast",
-			"collector_number": "171",
+			"collector_number": "179",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/294.jpg"
 			}
@@ -2955,7 +2955,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}",
 			"type": "Instant",
-			"collector_number": "167",
+			"collector_number": "175",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/295.jpg"
 			}
@@ -2965,7 +2965,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{G}",
 			"type": "Creature — Beast",
-			"collector_number": "163",
+			"collector_number": "171",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/296.jpg"
 			}
@@ -2974,8 +2974,8 @@
 			"name": "Garoozis",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}",
-			"type": "Creature — Beast Warrior",
-			"collector_number": "140",
+			"type": "Creature — Dragon Warrior",
+			"collector_number": "148",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/297.jpg"
 			}
@@ -2985,7 +2985,7 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Enchantment — Aura",
-			"collector_number": "152",
+			"collector_number": "159",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/298.jpg"
 			}
@@ -2995,27 +2995,27 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Creature — Beast Warrior",
-			"collector_number": "162",
+			"collector_number": "170",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/299.jpg"
 			}
 		},
 		{
-			"name": "Minoan Centaur",
+			"name": "Darkfire Dragon",
 			"rarity": "rare",
 			"mana_cost": "{4}{R}{R}",
-			"type": "Creature — Beast Warrior",
-			"collector_number": "151",
+			"type": "Creature — Dragon Elemental",
+			"collector_number": "141",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/300.jpg"
 			}
 		},
 		{
-			"name": "Manticore of Darkness",
+			"name": "Troop Dragon",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{R}{R}",
-			"type": "Creature — Beast Warrior",
-			"collector_number": "146",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Dragon Warrior",
+			"collector_number": "167",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/301.jpg"
 			}
@@ -3025,7 +3025,7 @@
 			"rarity": "rare",
 			"mana_cost": "{5}{R}{R}",
 			"type": "Legendary Creature — Beast Warrior",
-			"collector_number": "123",
+			"collector_number": "129",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/302.jpg"
 			}
@@ -3035,7 +3035,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
 			"type": "Creature — Beast Warrior",
-			"collector_number": "158",
+			"collector_number": "165",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/303.jpg"
 			}
@@ -3045,7 +3045,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{G}",
 			"type": "Enchantment",
-			"collector_number": "197",
+			"collector_number": "207",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/304.jpg"
 			}
@@ -3055,17 +3055,17 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}",
 			"type": "Legendary Artifact — Equipment",
-			"collector_number": "170",
+			"collector_number": "178",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/305.jpg"
 			}
 		},
 		{
 			"name": "Silent Insect",
-			"rarity": "rare",
-			"mana_cost": "{1}{G}",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
 			"type": "Creature — Insect",
-			"collector_number": "193",
+			"collector_number": "203",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/306.jpg"
 			}
@@ -3075,7 +3075,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Instant — Trap",
-			"collector_number": "196",
+			"collector_number": "206",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/307.jpg"
 			}
@@ -3085,7 +3085,7 @@
 			"rarity": "rare",
 			"mana_cost": "{6}{B}{G}",
 			"type": "Creature — Insect Spider",
-			"collector_number": "262",
+			"collector_number": "272",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/308.jpg"
 			}
@@ -3095,7 +3095,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U}{B}",
 			"type": "Sorcery",
-			"collector_number": "225",
+			"collector_number": "235",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/309.jpg"
 			}
@@ -3105,7 +3105,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}{U}",
 			"type": "Instant",
-			"collector_number": "214",
+			"collector_number": "224",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/310.jpg"
 			}
@@ -3115,7 +3115,7 @@
 			"rarity": "common",
 			"mana_cost": "{G/U}",
 			"type": "Instant",
-			"collector_number": "304",
+			"collector_number": "314",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/311.jpg"
 			}
@@ -3125,7 +3125,7 @@
 			"rarity": "rare",
 			"mana_cost": "{5}{G}{U}",
 			"type": "Creature — Penguin Soldier",
-			"collector_number": "268",
+			"collector_number": "279",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/312.jpg"
 			}
@@ -3134,8 +3134,8 @@
 			"name": "Nightmare Penguin",
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{U}",
-			"type": "Creature — Penguin",
-			"collector_number": "266",
+			"type": "Creature — Nightmare Penguin",
+			"collector_number": "276",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/313.jpg"
 			}
@@ -3155,7 +3155,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{U}",
 			"type": "Creature — Beast",
-			"collector_number": "231",
+			"collector_number": "241",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/315.jpg"
 			}
@@ -3165,17 +3165,17 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}{U}",
 			"type": "Creature — Insect",
-			"collector_number": "264",
+			"collector_number": "274",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/316.jpg"
 			}
 		},
 		{
-			"name": "Worm Gulse",
+			"name": "Penguin Knight",
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{U}",
-			"type": "Creature — Lizard Ooze",
-			"collector_number": "296",
+			"type": "Creature — Penguin Knight",
+			"collector_number": "278",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/317.jpg"
 			}
@@ -3185,7 +3185,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}{U}",
 			"type": "Creature — Faerie Angel",
-			"collector_number": "283",
+			"collector_number": "294",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/318.jpg"
 			}
@@ -3195,7 +3195,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Instant",
-			"collector_number": "195",
+			"collector_number": "205",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/319.jpg"
 			}
@@ -3205,7 +3205,7 @@
 			"rarity": "rare",
 			"mana_cost": "{5}",
 			"type": "Artifact Creature — Dragon Construct",
-			"collector_number": "331",
+			"collector_number": "341",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/320.jpg"
 			}
@@ -3215,7 +3215,7 @@
 			"rarity": "common",
 			"mana_cost": "{U/R}{U/R}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "326",
+			"collector_number": "336",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/321.jpg"
 			}
@@ -3223,9 +3223,9 @@
 		{
 			"name": "Magical Scientist",
 			"rarity": "rare",
-			"mana_cost": "{1}{U}{R}",
+			"mana_cost": "{U}{R}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "253",
+			"collector_number": "263",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/322.jpg"
 			}
@@ -3233,9 +3233,9 @@
 		{
 			"name": "Cyber-Stein",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{U}{R}",
+			"mana_cost": "{1}{U}{R}",
 			"type": "Artifact Creature — Construct",
-			"collector_number": "223",
+			"collector_number": "233",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/323.jpg"
 			}
@@ -3245,7 +3245,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U/R}{U/R}",
 			"type": "Sorcery",
-			"collector_number": "315",
+			"collector_number": "325",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/324.jpg"
 			}
@@ -3255,7 +3255,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{R}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "287",
+			"collector_number": "298",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/325.jpg"
 			}
@@ -3265,7 +3265,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{R}",
 			"type": "Sorcery",
-			"collector_number": "239",
+			"collector_number": "249",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/326.jpg"
 			}
@@ -3275,7 +3275,7 @@
 			"rarity": "common",
 			"mana_cost": "{U/R}{U/R}",
 			"type": "Instant",
-			"collector_number": "312",
+			"collector_number": "322",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/327.jpg"
 			}
@@ -3285,7 +3285,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{W}",
 			"type": "Creature — Angel",
-			"collector_number": "270",
+			"collector_number": "281",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/328.jpg"
 			}
@@ -3295,7 +3295,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G/W}{G/W}",
 			"type": "Creature — Beast Shaman",
-			"collector_number": "317",
+			"collector_number": "327",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/329.jpg"
 			}
@@ -3305,7 +3305,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Shapeshifter",
-			"collector_number": "27",
+			"collector_number": "29",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/330.jpg"
 			}
@@ -3315,7 +3315,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W/U}",
 			"type": "Creature — Merfolk",
-			"collector_number": "310",
+			"collector_number": "320",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/331.jpg"
 			}
@@ -3325,7 +3325,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}{W}",
 			"type": "Creature — Cat Angel",
-			"collector_number": "238",
+			"collector_number": "248",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/332.jpg"
 			}
@@ -3335,7 +3335,7 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{R}{R}",
 			"type": "Creature — Cat Fish",
-			"collector_number": "155",
+			"collector_number": "162",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/333.jpg"
 			}
@@ -3345,7 +3345,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "202",
+			"collector_number": "212",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/334.jpg"
 			}
@@ -3355,7 +3355,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{U}{U}{R}{R}",
 			"type": "Artifact Creature — Dragon Construct",
-			"collector_number": "222",
+			"collector_number": "232",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/335.jpg"
 			}
@@ -3365,7 +3365,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}{W}",
 			"type": "Creature — Dragon",
-			"collector_number": "291",
+			"collector_number": "302",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/336.jpg"
 			}
@@ -3375,7 +3375,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{G}{W}",
 			"type": "Creature — Angel",
-			"collector_number": "203",
+			"collector_number": "213",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/337.jpg"
 			}
@@ -3385,7 +3385,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G/W}",
 			"type": "Instant",
-			"collector_number": "318",
+			"collector_number": "328",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/338.jpg"
 			}
@@ -3395,7 +3395,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}{W}",
 			"type": "Enchantment",
-			"collector_number": "235",
+			"collector_number": "245",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/339.jpg"
 			}
@@ -3405,7 +3405,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{W}",
 			"type": "Enchantment",
-			"collector_number": "258",
+			"collector_number": "268",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/340.jpg"
 			}
@@ -3415,7 +3415,7 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{W}{U}",
 			"type": "Instant",
-			"collector_number": "256",
+			"collector_number": "266",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/341.jpg"
 			}
@@ -3425,7 +3425,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{W}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "257",
+			"collector_number": "267",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/342.jpg"
 			}
@@ -3435,7 +3435,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}{W}",
 			"type": "Instant",
-			"collector_number": "278",
+			"collector_number": "289",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/343.jpg"
 			}
@@ -3445,7 +3445,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{W}",
 			"type": "Enchantment",
-			"collector_number": "221",
+			"collector_number": "231",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/344.jpg"
 			}
@@ -3455,7 +3455,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact — Equipment",
-			"collector_number": "334",
+			"collector_number": "344",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/345.jpg"
 			}
@@ -3465,7 +3465,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact — Equipment",
-			"collector_number": "342",
+			"collector_number": "352",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/346.jpg"
 			}
@@ -3475,7 +3475,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact — Equipment",
-			"collector_number": "343",
+			"collector_number": "353",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/347.jpg"
 			}
@@ -3485,7 +3485,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact — Equipment",
-			"collector_number": "333",
+			"collector_number": "343",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/348.jpg"
 			}
@@ -3495,7 +3495,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact — Equipment",
-			"collector_number": "340",
+			"collector_number": "350",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/349.jpg"
 			}
@@ -3505,7 +3505,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact — Equipment",
-			"collector_number": "344",
+			"collector_number": "354",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/350.jpg"
 			}
@@ -3515,7 +3515,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact — Equipment",
-			"collector_number": "338",
+			"collector_number": "348",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/351.jpg"
 			}
@@ -3525,7 +3525,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact — Equipment",
-			"collector_number": "330",
+			"collector_number": "340",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/352.jpg"
 			}
@@ -3535,7 +3535,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact — Equipment",
-			"collector_number": "337",
+			"collector_number": "347",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/353.jpg"
 			}
@@ -3545,7 +3545,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact — Equipment",
-			"collector_number": "335",
+			"collector_number": "345",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/354.jpg"
 			}
@@ -3555,7 +3555,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "114",
+			"collector_number": "120",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/355.jpg"
 			}
@@ -3565,7 +3565,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Instant — Trap",
-			"collector_number": "95",
+			"collector_number": "99",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/356.jpg"
 			}
@@ -3575,7 +3575,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "40",
+			"collector_number": "42",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/357.jpg"
 			}
@@ -3585,7 +3585,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{W}{W}",
 			"type": "Instant",
-			"collector_number": "9",
+			"collector_number": "10",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/358.jpg"
 			}
@@ -3595,7 +3595,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Enchantment",
-			"collector_number": "94",
+			"collector_number": "98",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/359.jpg"
 			}
@@ -3605,129 +3605,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Instant",
-			"collector_number": "96",
+			"collector_number": "100",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/360.jpg"
 			}
 		},
 		{
-			"name": "D.D. Crow",
-			"rarity": "masterpiece",
-			"mana_cost": "{2}{W/B}",
-			"type": "Creature — Bird",
-			"collector_number": "7",
-			"image_uris": {
-				"en": "https://matortheeternal.github.io/sets/YGO-files/img/361.jpg"
-			}
-		},
-		{
-			"name": "Effect Veiler",
-			"rarity": "masterpiece",
-			"mana_cost": "{1}{W/U}",
-			"type": "Creature — Human Cleric",
-			"collector_number": "10",
-			"image_uris": {
-				"en": "https://matortheeternal.github.io/sets/YGO-files/img/362.jpg"
-			}
-		},
-		{
-			"name": "Ash Blossom & Joyous Spring",
-			"rarity": "masterpiece",
-			"mana_cost": "{3}{U/B}",
-			"type": "Creature — Zombie",
-			"collector_number": "5",
-			"image_uris": {
-				"en": "https://matortheeternal.github.io/sets/YGO-files/img/363.jpg"
-			}
-		},
-		{
-			"name": "Battle Fader",
-			"rarity": "masterpiece",
-			"mana_cost": "{3}{G/W}",
-			"type": "Artifact Creature — Demon Construct",
-			"collector_number": "6",
-			"image_uris": {
-				"en": "https://matortheeternal.github.io/sets/YGO-files/img/364.jpg"
-			}
-		},
-		{
-			"name": "Honest",
-			"rarity": "masterpiece",
-			"mana_cost": "{2}{R/W}",
-			"type": "Creature — Angel",
-			"collector_number": "12",
-			"image_uris": {
-				"en": "https://matortheeternal.github.io/sets/YGO-files/img/365.jpg"
-			}
-		},
-		{
-			"name": "Dimension Shifter",
-			"rarity": "masterpiece",
-			"mana_cost": "{4}{B/G}",
-			"type": "Creature — Human Wizard",
-			"collector_number": "8",
-			"image_uris": {
-				"en": "https://matortheeternal.github.io/sets/YGO-files/img/366.jpg"
-			}
-		},
-		{
-			"name": "Droll and Lock Bird",
-			"rarity": "masterpiece",
-			"mana_cost": "{2}{G/U}",
-			"type": "Creature — Bird Wizard",
-			"collector_number": "9",
-			"image_uris": {
-				"en": "https://matortheeternal.github.io/sets/YGO-files/img/367.jpg"
-			}
-		},
-		{
-			"name": "Swift Scarecrow",
-			"rarity": "masterpiece",
-			"mana_cost": "{2}{R/G}",
-			"type": "Artifact Creature — Scarecrow",
-			"collector_number": "14",
-			"image_uris": {
-				"en": "https://matortheeternal.github.io/sets/YGO-files/img/368.jpg"
-			}
-		},
-		{
-			"name": "Gorz the Emissary of Darkness",
-			"rarity": "masterpiece",
-			"mana_cost": "{5}{B/R}",
-			"type": "Creature — Demon Warrior",
-			"collector_number": "11",
-			"image_uris": {
-				"en": "https://matortheeternal.github.io/sets/YGO-files/img/369.jpg"
-			}
-		},
-		{
-			"name": "Maxx C",
-			"rarity": "masterpiece",
-			"mana_cost": "{3}{U/R}",
-			"type": "Creature — Insect",
-			"collector_number": "13",
-			"image_uris": {
-				"en": "https://matortheeternal.github.io/sets/YGO-files/img/370.jpg"
-			}
-		},
-		{
-			"name": "Nibiru, the Primal Being",
-			"rarity": "masterpiece",
-			"mana_cost": "{11}",
-			"type": "Legendary Artifact Creature — Construct",
-			"collector_number": "15",
-			"image_uris": {
-				"en": "https://matortheeternal.github.io/sets/YGO-files/img/371.jpg"
-			}
-		},
-		{
-			"name": "Kimodo Dragon",
+			"name": "Kidmodo Dragon",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Creature — Dragon",
-			"collector_number": "248",
+			"collector_number": "258",
 			"image_uris": {
-				"en": "https://matortheeternal.github.io/sets/YGO-files/img/372.jpg"
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/361.jpg"
 			}
 		},
 		{
@@ -3735,9 +3625,9 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{B}{R}{R}",
 			"type": "Instant",
-			"collector_number": "215",
+			"collector_number": "225",
 			"image_uris": {
-				"en": "https://matortheeternal.github.io/sets/YGO-files/img/373.jpg"
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/362.jpg"
 			}
 		},
 		{
@@ -3745,9 +3635,249 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Shapeshifter",
-			"collector_number": "157",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/363.jpg"
+			}
+		},
+		{
+			"name": "Convulsion of Nature",
+			"rarity": "masterpiece",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/364.jpg"
+			}
+		},
+		{
+			"name": "The Seal of Orichalcos",
+			"rarity": "masterpiece",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/365.jpg"
+			}
+		},
+		{
+			"name": "Psuedo Space",
+			"rarity": "masterpiece",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/366.jpg"
+			}
+		},
+		{
+			"name": "Mausoleum of the Emperor",
+			"rarity": "masterpiece",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/367.jpg"
+			}
+		},
+		{
+			"name": "Heart of Clear Water",
+			"rarity": "masterpiece",
+			"mana_cost": "",
+			"type": "Land — Forest Island Mountain",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/368.jpg"
+			}
+		},
+		{
+			"name": "D.D. Borderline",
+			"rarity": "masterpiece",
+			"mana_cost": "",
+			"type": "Land — Island Mountain Plains",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/369.jpg"
+			}
+		},
+		{
+			"name": "Harpies' Hunting Ground",
+			"rarity": "masterpiece",
+			"mana_cost": "",
+			"type": "Land — Mountain Forest Plains",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/370.jpg"
+			}
+		},
+		{
+			"name": "Kaiser Colosseum",
+			"rarity": "masterpiece",
+			"mana_cost": "",
+			"type": "Land — Swamp Plains Mountain",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/371.jpg"
+			}
+		},
+		{
+			"name": "Labyrinth of Nightmare",
+			"rarity": "masterpiece",
+			"mana_cost": "",
+			"type": "Land — Plains Island Swamp",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/372.jpg"
+			}
+		},
+		{
+			"name": "Sanguine Swamp",
+			"rarity": "masterpiece",
+			"mana_cost": "",
+			"type": "Land — Swamp Mountain Forest",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/373.jpg"
+			}
+		},
+		{
+			"name": "Skull Lair",
+			"rarity": "masterpiece",
+			"mana_cost": "",
+			"type": "Land — Island Swamp Mountain",
+			"collector_number": "24",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGO-files/img/374.jpg"
+			}
+		},
+		{
+			"name": "The Dark Door",
+			"rarity": "masterpiece",
+			"mana_cost": "",
+			"type": "Land — Swamp Forest Island",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/375.jpg"
+			}
+		},
+		{
+			"name": "Pyramid of Wonders",
+			"rarity": "masterpiece",
+			"mana_cost": "",
+			"type": "Land — Plains Swamp Forest",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/376.jpg"
+			}
+		},
+		{
+			"name": "Spring of Rebirth",
+			"rarity": "masterpiece",
+			"mana_cost": "",
+			"type": "Land — Forest Plains Island",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/377.jpg"
+			}
+		},
+		{
+			"name": "Twin-Headed Behemoth",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Dragon",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/378.jpg"
+			}
+		},
+		{
+			"name": "Serpent Night Dragon",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{B}{B}",
+			"type": "Creature — Dragon",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/379.jpg"
+			}
+		},
+		{
+			"name": "Reload",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/380.jpg"
+			}
+		},
+		{
+			"name": "Advance Draw",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/381.jpg"
+			}
+		},
+		{
+			"name": "Rush Recklessly",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/382.jpg"
+			}
+		},
+		{
+			"name": "D. Tribe",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/383.jpg"
+			}
+		},
+		{
+			"name": "Monster Gate",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Instant",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/384.jpg"
+			}
+		},
+		{
+			"name": "Fusion Recovery",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/385.jpg"
+			}
+		},
+		{
+			"name": "Different Dimension Gate",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/386.jpg"
+			}
+		},
+		{
+			"name": "Heart of the Underdog",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://matortheeternal.github.io/sets/YGO-files/img/387.jpg"
 			}
 		}
 	]
@@ -3820,17 +3950,17 @@
 	1 Ehther the Heavenly Monarch
 	2 Call of the Mummy
 	1 Graceful Charity
+	2 Gazelle the King of the Mythical Beasts
 	2 Chimera the Flying Mythical Beast
 	2 Beast Soul Swap
-	2 Minoan Centaur
+	2 Darkfire Dragon
 	2 Akz, the Pumer
 	2 Spiritual Forest
-	2 Silent Insect
 	2 Mother Spider
 	2 Dark Magic Curtain
 	2 Penguin Soldier
 	2 Nightmare Penguin
-	2 Worm Gulse
+	2 Penguin Knight
 	2 Cyber Dragon
 	2 Magical Scientist
 	2 Rare Fish
@@ -3927,36 +4057,26 @@
 	4 Granmarg the Rock Monarch
 	4 Delg the Dark Monarch
 	4 Angmarl the Fiendish Monarch
-	4 Fusion Gate
-	4 Zombie World
 	4 Book of Life
-	4 Lemuria, the Forgotten City
-	4 Forgotten Temple of the Deep
-	4 Umiiruka
 	4 Molten Zombie
 	4 Decayed Commander
 	4 Zombiemeister
 	4 Pyramid Turtle
 	4 The Lady in Wight
 	4 Magicians' Souls
-	4 Spider's Lair
-	4 Flame Swordsrealm
-	4 Gateway to Chaos
-	4 Dragon Ravine
-	4 Closed Forest
 	4 Fighting Flame Swordsman
 	4 Tornado Wall
 	4 Rage of Kairyu-Shin
 	4 Karbonala Warrior
 	4 Harpie Lady Sisters
-	4 Gazelle the King of the Mythical Beasts
 	4 Berfomet
 	4 Bazoo the Soul-Eater
 	4 Green Baboon, Defender of the Forest
 	4 Ancient One of the Deep Forest
 	4 Garoozis
-	4 Manticore of Darkness
+	4 Troop Dragon
 	4 Butterfly Dagger — Elma
+	4 Silent Insect
 	4 Spider Egg
 	4 Book of Taiyou
 	4 Desertapir
@@ -3980,7 +4100,17 @@
 	4 Guardragon Cataclysm
 	4 Dark Magical Circle
 	4 Dedication Through Light and Darkness
-	4 Kimodo Dragon
+	4 Kidmodo Dragon
+	4 Twin-Headed Behemoth
+	4 Serpent Night Dragon
+	4 Reload
+	4 Advance Draw
+	4 Rush Recklessly
+	4 D. Tribe
+	4 Monster Gate
+	4 Fusion Recovery
+	4 Different Dimension Gate
+	4 Heart of the Underdog
 [common(7)]
 	8 Dark Magician Girl
 	8 Trap Hole
@@ -4083,7 +4213,7 @@
 	8 Three-Legged Zombie
 	8 Corroding Shark
 	8 Bone Crusher
-	8 Zombie Mammoth
+	8 Gozuki
 	8 Mezuki
 	8 Flame Swordsdance
 	8 Abyss-Strom
@@ -4360,12 +4490,7 @@
 	6 Delg the Dark Monarch
 	6 Angmarl the Fiendish Monarch
 	1 Ehther the Heavenly Monarch
-	6 Fusion Gate
-	6 Zombie World
 	6 Book of Life
-	6 Lemuria, the Forgotten City
-	6 Forgotten Temple of the Deep
-	6 Umiiruka
 	12 Return Zombie
 	6 Molten Zombie
 	2 Call of the Mummy
@@ -4382,15 +4507,10 @@
 	12 Corroding Shark
 	12 Bone Crusher
 	6 The Lady in Wight
-	12 Zombie Mammoth
+	12 Gozuki
 	6 Magicians' Souls
 	12 Mezuki
 	1 Graceful Charity
-	6 Spider's Lair
-	6 Flame Swordsrealm
-	6 Gateway to Chaos
-	6 Dragon Ravine
-	6 Closed Forest
 	6 Fighting Flame Swordsman
 	12 Flame Swordsdance
 	6 Tornado Wall
@@ -4401,7 +4521,7 @@
 	6 Karbonala Warrior
 	12 Turret Warrior
 	6 Harpie Lady Sisters
-	6 Gazelle the King of the Mythical Beasts
+	2 Gazelle the King of the Mythical Beasts
 	6 Berfomet
 	6 Bazoo the Soul-Eater
 	12 Yellow Baboon, Archer of the Forest
@@ -4412,13 +4532,13 @@
 	6 Garoozis
 	12 Mystical Moon
 	12 Vorse Raider
-	2 Minoan Centaur
-	6 Manticore of Darkness
+	2 Darkfire Dragon
+	6 Troop Dragon
 	2 Akz, the Pumer
 	12 Tiger Axe
 	2 Spiritual Forest
 	6 Butterfly Dagger — Elma
-	2 Silent Insect
+	6 Silent Insect
 	6 Spider Egg
 	2 Mother Spider
 	2 Dark Magic Curtain
@@ -4429,7 +4549,7 @@
 	12 White Ninja
 	6 Desertapir
 	6 Needle Worm
-	2 Worm Gulse
+	2 Penguin Knight
 	6 Skelengel
 	12 Soul Reversal
 	2 Cyber Dragon
@@ -4473,9 +4593,19 @@
 	6 Guardragon Cataclysm
 	6 Dark Magical Circle
 	6 Dedication Through Light and Darkness
-	6 Kimodo Dragon
+	6 Kidmodo Dragon
 	2 Burst Breath
 	12 The Thing in the Crater
+	6 Twin-Headed Behemoth
+	6 Serpent Night Dragon
+	6 Reload
+	6 Advance Draw
+	6 Rush Recklessly
+	6 D. Tribe
+	6 Monster Gate
+	6 Fusion Recovery
+	6 Different Dimension Gate
+	6 Heart of the Underdog
 [wildcard(1)]
 	15 Blue-Eyes White Dragon
 	15 Red-Eyes Black Dragon
@@ -4721,12 +4851,7 @@
 	15 Delg the Dark Monarch
 	15 Angmarl the Fiendish Monarch
 	4 Ehther the Heavenly Monarch
-	15 Fusion Gate
-	15 Zombie World
 	15 Book of Life
-	15 Lemuria, the Forgotten City
-	15 Forgotten Temple of the Deep
-	15 Umiiruka
 	6 Return Zombie
 	15 Molten Zombie
 	7 Call of the Mummy
@@ -4743,15 +4868,10 @@
 	6 Corroding Shark
 	6 Bone Crusher
 	15 The Lady in Wight
-	6 Zombie Mammoth
+	6 Gozuki
 	15 Magicians' Souls
 	6 Mezuki
 	4 Graceful Charity
-	15 Spider's Lair
-	15 Flame Swordsrealm
-	15 Gateway to Chaos
-	15 Dragon Ravine
-	15 Closed Forest
 	15 Fighting Flame Swordsman
 	6 Flame Swordsdance
 	15 Tornado Wall
@@ -4762,7 +4882,7 @@
 	15 Karbonala Warrior
 	6 Turret Warrior
 	15 Harpie Lady Sisters
-	15 Gazelle the King of the Mythical Beasts
+	7 Gazelle the King of the Mythical Beasts
 	15 Berfomet
 	15 Bazoo the Soul-Eater
 	6 Yellow Baboon, Archer of the Forest
@@ -4773,13 +4893,13 @@
 	15 Garoozis
 	6 Mystical Moon
 	6 Vorse Raider
-	7 Minoan Centaur
-	15 Manticore of Darkness
+	7 Darkfire Dragon
+	15 Troop Dragon
 	7 Akz, the Pumer
 	6 Tiger Axe
 	7 Spiritual Forest
 	15 Butterfly Dagger — Elma
-	7 Silent Insect
+	15 Silent Insect
 	15 Spider Egg
 	7 Mother Spider
 	7 Dark Magic Curtain
@@ -4790,7 +4910,7 @@
 	6 White Ninja
 	15 Desertapir
 	15 Needle Worm
-	7 Worm Gulse
+	7 Penguin Knight
 	15 Skelengel
 	6 Soul Reversal
 	7 Cyber Dragon
@@ -4834,6 +4954,16 @@
 	15 Guardragon Cataclysm
 	15 Dark Magical Circle
 	15 Dedication Through Light and Darkness
-	15 Kimodo Dragon
+	15 Kidmodo Dragon
 	7 Burst Breath
 	6 The Thing in the Crater
+	15 Twin-Headed Behemoth
+	15 Serpent Night Dragon
+	15 Reload
+	15 Advance Draw
+	15 Rush Recklessly
+	15 D. Tribe
+	15 Monster Gate
+	15 Fusion Recovery
+	15 Different Dimension Gate
+	15 Heart of the Underdog

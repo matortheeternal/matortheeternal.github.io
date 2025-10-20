@@ -1,4 +1,222 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+Mind Wipe added.
+Ceal, Shooting Star Bow added.
+Chain Energy added.
+Giga-Tech Wolf added.
+Robotic Knight added.
+Ancient Jar added.
+Legendary Sword added.
+Maha Vailo added.
+Sonic Bird added.
+Spear Cretin added.
+Mother Grizzly added.
+Firewing Pegasus added.
+Eternal Rest added.
+Cold Wave added.
+Fairy Meteor Crush added.
+Wingbeat of a Giant Dragon added.
+After the Struggle added.
+Cyber Soldier added.
+Performance of Sword added.
+Commencement Dance added.
+Arcane Barrier added.
+Mask of Weakness added.
+Pharaoh's Treasure added.
+Horror added.
+Mystik Wok added.
+Bait Doll added.
+
+Reload removed.
+Silver Bow and Arrow removed.
+Soul Demolition removed.
+
+Cosmic Compass
+rules_text: When Cosmic Compass enters, create X 0/1 colorless Construct artifact creature tokens named Compass with mana cost {1}. => When Cosmic Compass enters, create X 0/1 colorless Construct artifact creature tokens named Compass.
+
+Axe of Despair
+
+Judge Man
+rules_text: Haste
+{T}, Sacrifice another creature: Judge Man deals damage equal to that creature's mana value to target creature an opponent controls. => Haste
+{T}, Sacrifice another creature: Judge Man deals damage equal to that creature's mana value to any target.
+
+Curse of the Masked Beast
+rules_text: Ritual 8 — {B}{G}{U} [i](You may sacrifice creatures and discard creature cards whose mana values add up to 8 or more and pay {B}{G}{U} instead of this card's mana cost.)[/i]
+You may search your library for a creature card, put it into your hand, then shuffle. If you paid the Ritual cost, you may put The Masked Beast from your hand onto the battlefield tapped. => Ritual 8 — {2G}{2U}{2B} [i](You may sacrifice creatures and discard creature cards whose mana values add up to 8 or more and pay {2G}{2U}{2B} instead of this card's mana cost.)[/i]
+You may search your library for a creature card, reveal it, put it into your hand, then shuffle. If you paid the Ritual cost, you may put The Masked Beast from your hand onto the battlefield.
+
+Dark Elf
+
+Fear from the Dark
+rules_text: Fear [i](This creature can't be blocked except by artifact creatures and/or black creatures.)[/i]
+When Fear from the Dark is put into your graveyard from your library, you may put it into play. => Fear [i](This creature can't be blocked except by artifact creatures and/or black creatures.)[/i]
+When Fear from the Dark is put into your graveyard from your library, you may put it onto the battlefield.
+
+Protector of the Throne
+rules_text: {1}{W}, {T}: Creature a 1/1 white Warrior creature token. => {1}{W}, {T}: Create a 1/1 white Warrior creature token.
+
+Gift of the Mystical Elf
+cost: {2} => {1}{GW}
+rules_text: Gift of the Mystical Elf enters tapped.
+{T}: Add {G} or {W}.
+{4}{GW}, {T}, Sacrifice Gift of the Mystical Elf: Gain 1 life for each creature you control. => Gift of the Mystical Elf enters tapped.
+{T}: Add {G} or {W}.
+{1}{G}{W}, {T}, Sacrifice Gift of the Mystical Elf: Gain 1 life for each creature you control.
+
+Jar of Greed
+cost: {2} => {1}{UR}
+rules_text: Jar of Greed enters tapped.
+{T}: Add {U} or {R}.
+{1}{UR}, {T}, Sacrifice Jar of Greed: Draw draw a card. => Jar of Greed enters tapped.
+{T}: Add {U} or {R}.
+{1}{U}{R}, {T}, Sacrifice Jar of Greed: Draw a card.
+
+Blast with Chain
+cost: {2} => {1}{BR}
+rules_text: Blast with Chain enters tapped.
+{T}: Add {B} or {R}.
+{4}{BR}, {T}, Sacrifice Blast with Chain: Deal 5 damage to target creature an opponent controls. If that creature would die this turn, exile it instead. => Blast with Chain enters tapped.
+{T}: Add {B} or {R}.
+{3}{B}{R}, {T}, Sacrifice Blast with Chain: Deal 5 damage to target creature an opponent controls. If that creature would die this turn, exile it instead.
+
+Dark World Grimoire
+cost: {2} => {1}{WB}
+rules_text: Dark World Grimoire enters tapped.
+{T}: Add {W} or {B}.
+{4}{WB}, {T}, Sacrifice Dark World Grimoire: Return target creature from your graveyard to your hand. => Dark World Grimoire enters tapped.
+{T}: Add {W} or {B}.
+{3}{W}{B}, {T}, Sacrifice Dark World Grimoire: Return target creature from your graveyard to your hand.
+
+Jam Breeding Machine
+cost: {2} => {1}{GU}
+rules_text: Jam Breeding Machine enters tapped.
+{T}: Add {G} or {U}.
+{4}{GU}, {T}, Sacrifice Jam Breeding Machine: Create three 0/1 green and blue Slime creature tokens. => Jam Breeding Machine enters tapped.
+{T}: Add {G} or {U}.
+{1}{G}{U}, {T}, Sacrifice Jam Breeding Machine: Create three 0/1 green and blue Slime creature tokens.
+
+Lord Poison
+
+Human-Wave Tactics
+
+Sand Stone
+
+Castle Gate
+
+Blaze Accelerator
+
+Banner of Courage
+
+Gyaku-Gire Panda
+
+Twinheaded Beast
+
+Guarded Treasure
+
+Kaiser Glider
+
+Gather Your Mind
+
+A Feather of the Phoenix
+
+The Grave of Enkindling
+
+Raregold Armor
+
+The Tricky
+
+Magic Planter
+
+Dragon's Gunfire
+
+Patrol Robo
+
+Kaiser Colosseum
+
+Time Machine
+
+Token Thanksgiving
+
+Copy
+
+Angel
+
+Warrior
+
+Leogun
+
+Watapon
+
+Change Slime
+
+Dupe Frog
+
+Space Mambo
+
+Evil Thorn
+
+Invader from Another Dimension
+
+Big Koala
+
+Fairy King Truesdale
+
+Nimble Momonga
+
+Plant
+
+Wolf
+
+Mokey Mokey
+
+Ameba
+
+Bubonic Vermin
+
+Giant Germ
+
+Burning Algae
+
+Invasion of Flames
+
+Souls of the Forgotten
+
+Spirit of the Breeze
+
+Abyss Flower
+
+The All-Seeing White Tiger
+
+Anti-Aircraft Flower
+
+The Drdek
+
+Flame Viper
+
+Necro Fleur
+
+Slime Toad
+
+Volcanic Rat
+
+Compass
+cost: {X}{1} => 
+rules_text: [i](This token's mana cost is {1}.)[/i] => 
+
+Slime
+
+Robot
+
+Bat Construct
+
+Steel Scorpion
+
+Phyrexian Germ
+
+
+VERSION 3 CHANGELOG
 ====================
 
 
