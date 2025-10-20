@@ -1358,7 +1358,7 @@
     },
     {
         "card_name": "Dark Elf",
-        "number": 271,
+        "number": 272,
         "shape": "normal",
         "set": "YGM",
         "position": "137"
@@ -1400,7 +1400,7 @@
     },
     {
         "card_name": "Twinheaded Beast",
-        "number": 256,
+        "number": 257,
         "shape": "normal",
         "set": "YGM",
         "position": "313"
@@ -1476,11 +1476,11 @@
         "position": "317"
     },
     {
-        "card_name": "The All-Seeing White Tiger",
-        "number": 263,
+        "card_name": "Tricky Spell 4",
+        "number": 255,
         "shape": "normal",
         "set": "YGM",
-        "position": "65"
+        "position": "294"
     },
     {
         "card_name": "Maharaghi",
@@ -1511,11 +1511,11 @@
         "position": "71"
     },
     {
-        "card_name": "Multiply",
-        "number": 285,
+        "card_name": "The All-Seeing White Tiger",
+        "number": 264,
         "shape": "normal",
         "set": "YGM",
-        "position": "293"
+        "position": "65"
     },
     {
         "card_name": "Shield & Sword",
@@ -1540,52 +1540,52 @@
     },
     {
         "card_name": "Wild Nature's Release",
-        "number": 258,
+        "number": 259,
         "shape": "normal",
         "set": "YGM",
         "position": "299"
     },
     {
-        "card_name": "Anti-Aircraft Flower",
-        "number": 265,
+        "card_name": "Multiply",
+        "number": 286,
         "shape": "normal",
         "set": "YGM",
-        "position": "82"
+        "position": "293"
     },
     {
         "card_name": "Prisman",
-        "number": 291,
+        "number": 292,
         "shape": "normal",
         "set": "YGM",
         "position": "154"
     },
     {
         "card_name": "The Drdek",
-        "number": 273,
+        "number": 274,
         "shape": "normal",
         "set": "YGM",
         "position": "139"
     },
     {
         "card_name": "The Shadow Who Controls the Dark",
-        "number": 293,
+        "number": 294,
         "shape": "normal",
         "set": "YGM",
         "position": "157"
     },
     {
         "card_name": "Flame Viper",
-        "number": 274,
+        "number": 275,
         "shape": "normal",
         "set": "YGM",
         "position": "155"
     },
     {
-        "card_name": "Airknight Parshath",
-        "number": 262,
+        "card_name": "Anti-Aircraft Flower",
+        "number": 266,
         "shape": "normal",
         "set": "YGM",
-        "position": "117"
+        "position": "82"
     },
     {
         "card_name": "Wall of Illusion",
@@ -1596,62 +1596,66 @@
     },
     {
         "card_name": "Invitation to a Dark Sleep",
-        "number": 278,
+        "number": 279,
         "shape": "normal",
         "set": "YGM",
         "position": "135"
     },
     {
         "card_name": "Dark Blade",
-        "number": 270,
+        "number": 271,
         "shape": "normal",
         "set": "YGM",
         "position": "38"
     },
     {
         "card_name": "Queen of Autumn Leaves",
-        "number": 292,
+        "number": 293,
         "shape": "normal",
         "set": "YGM",
         "position": "84"
     },
     {
-        "card_name": "Gift of the Mystical Elf",
-        "number": 276,
+        "card_name": "Airknight Parshath",
+        "number": 263,
         "shape": "normal",
         "set": "YGM",
-        "position": "247"
+        "position": "117"
     },
     {
         "card_name": "Pharaoh's Treasure",
-        "number": 290,
+        "number": 291,
         "shape": "normal",
         "set": "YGM",
         "position": "384"
     },
     {
         "card_name": "Arcane Barrier",
-        "number": 266,
+        "number": 267,
         "shape": "normal",
         "set": "YGM",
         "position": "382"
     },
     {
         "card_name": "Blast with Chain",
-        "number": 269,
+        "number": 270,
         "shape": "normal",
         "set": "YGM",
         "position": "249"
     },
     {
         "card_name": "Bait Doll",
-        "number": 268,
+        "number": 269,
         "shape": "normal",
         "set": "YGM",
         "position": "387"
     },
     {
-        "card_name": "e"
+        "card_name": "Gift of the Mystical Elf",
+        "number": 277,
+        "shape": "normal",
+        "set": "YGM",
+        "position": "247"
     },
     {
         "card_name": "er"
@@ -1740,7 +1744,7 @@
     },
     {
         "card_name": "Mokey Mokey King",
-        "number": 284,
+        "number": 285,
         "shape": "normal",
         "set": "YGM",
         "position": "123"
@@ -1782,14 +1786,14 @@
     },
     {
         "card_name": "Twin-Headed Fire Dragon",
-        "number": 255,
+        "number": 256,
         "shape": "normal",
         "set": "YGM",
         "position": "95"
     },
     {
         "card_name": "Warrior of Tradition",
-        "number": 257,
+        "number": 258,
         "shape": "normal",
         "set": "YGM",
         "position": "37"
@@ -1838,14 +1842,14 @@
     },
     {
         "card_name": "The World Tree",
-        "number": 259,
+        "number": 260,
         "shape": "normal",
         "set": "YGM",
         "position": "283"
     },
     {
         "card_name": "Token Thanksgiving",
-        "number": 296,
+        "number": 297,
         "shape": "normal",
         "set": "YGM",
         "position": "326"
@@ -1859,7 +1863,7 @@
     },
     {
         "card_name": "Graydle Split",
-        "number": 277,
+        "number": 278,
         "shape": "normal",
         "set": "YGM",
         "position": "291"
@@ -1873,14 +1877,14 @@
     },
     {
         "card_name": "Zero Gravity",
-        "number": 260,
+        "number": 261,
         "shape": "normal",
         "set": "YGM",
         "position": "253"
     },
     {
         "card_name": "Abyss Flower",
-        "number": 261,
+        "number": 262,
         "shape": "normal",
         "set": "YGM",
         "position": "350"
@@ -1894,7 +1898,7 @@
     },
     {
         "card_name": "Flower Wolf",
-        "number": 275,
+        "number": 276,
         "shape": "normal",
         "set": "YGM",
         "position": "66"
@@ -1908,7 +1912,7 @@
     },
     {
         "card_name": "Armored Starfish",
-        "number": 267,
+        "number": 268,
         "shape": "normal",
         "set": "YGM",
         "position": "186"
@@ -1950,21 +1954,21 @@
     },
     {
         "card_name": "Mokey Mokey",
-        "number": 283,
+        "number": 284,
         "shape": "normal",
         "set": "YGM",
         "position": "121"
     },
     {
         "card_name": "Petit Dragon",
-        "number": 289,
+        "number": 290,
         "shape": "normal",
         "set": "YGM",
         "position": "96"
     },
     {
         "card_name": "Necro Fleur",
-        "number": 287,
+        "number": 288,
         "shape": "normal",
         "set": "YGM",
         "position": "77"
@@ -1978,77 +1982,77 @@
     },
     {
         "card_name": "Slime Toad",
-        "number": 294,
+        "number": 295,
         "shape": "normal",
         "set": "YGM",
         "position": "173"
     },
     {
         "card_name": "Ocubeam",
-        "number": 288,
+        "number": 289,
         "shape": "normal",
         "set": "YGM",
         "position": "113"
     },
     {
         "card_name": "Amphibian Beast",
-        "number": 264,
+        "number": 265,
         "shape": "normal",
         "set": "YGM",
         "position": "147"
     },
     {
         "card_name": "Trent",
-        "number": 297,
+        "number": 298,
         "shape": "normal",
         "set": "YGM",
         "position": "75"
     },
     {
         "card_name": "Solar Flare Dragon",
-        "number": 295,
+        "number": 296,
         "shape": "normal",
         "set": "YGM",
         "position": "100"
     },
     {
         "card_name": "Misairuzame",
-        "number": 282,
+        "number": 283,
         "shape": "normal",
         "set": "YGM",
         "position": "174"
     },
     {
         "card_name": "Dark World Grimoire",
-        "number": 272,
+        "number": 273,
         "shape": "normal",
         "set": "YGM",
         "position": "250"
     },
     {
         "card_name": "Jar of Greed",
-        "number": 280,
+        "number": 281,
         "shape": "normal",
         "set": "YGM",
         "position": "248"
     },
     {
         "card_name": "Mask of Weakness",
-        "number": 281,
+        "number": 282,
         "shape": "normal",
         "set": "YGM",
         "position": "383"
     },
     {
         "card_name": "Mystik Wok",
-        "number": 286,
+        "number": 287,
         "shape": "normal",
         "set": "YGM",
         "position": "386"
     },
     {
         "card_name": "Jam Breeding Machine",
-        "number": 279,
+        "number": 280,
         "shape": "normal",
         "set": "YGM",
         "position": "251"
@@ -2104,13 +2108,6 @@
         "position": "132"
     },
     {
-        "card_name": "Tricky Spell 4",
-        "number": 298,
-        "shape": "normal",
-        "set": "YGM",
-        "position": "294"
-    },
-    {
         "card_name": "Performance of Sword",
         "number": 239,
         "shape": "normal",
@@ -2130,6 +2127,9 @@
         "shape": "normal",
         "set": "YGM",
         "position": "133"
+    },
+    {
+        "card_name": "e"
     },
     {
         "card_name": "e"

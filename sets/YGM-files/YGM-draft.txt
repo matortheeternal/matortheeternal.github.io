@@ -375,7 +375,7 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{B}{G}",
 			"type": "Creature — Warrior",
-			"collector_number": "257",
+			"collector_number": "258",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/37.jpg"
 			}
@@ -385,7 +385,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{B/R}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "270",
+			"collector_number": "271",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/38.jpg"
 			}
@@ -655,7 +655,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G/W}",
 			"type": "Creature — Beast",
-			"collector_number": "263",
+			"collector_number": "264",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/65.jpg"
 			}
@@ -665,7 +665,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B/G}{B/G}",
 			"type": "Creature — Plant Beast",
-			"collector_number": "275",
+			"collector_number": "276",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/66.jpg"
 			}
@@ -755,7 +755,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{B/G}",
 			"type": "Creature — Plant",
-			"collector_number": "297",
+			"collector_number": "298",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/75.jpg"
 			}
@@ -775,7 +775,7 @@
 			"rarity": "common",
 			"mana_cost": "{B/G}",
 			"type": "Creature — Plant",
-			"collector_number": "287",
+			"collector_number": "288",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/77.jpg"
 			}
@@ -825,7 +825,7 @@
 			"rarity": "common",
 			"mana_cost": "{G/W}",
 			"type": "Creature — Plant",
-			"collector_number": "265",
+			"collector_number": "266",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/82.jpg"
 			}
@@ -845,7 +845,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R/G}",
 			"type": "Creature — Plant Noble",
-			"collector_number": "292",
+			"collector_number": "293",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/84.jpg"
 			}
@@ -955,7 +955,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{U}{R}{R}",
 			"type": "Creature — Dragon",
-			"collector_number": "255",
+			"collector_number": "256",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/95.jpg"
 			}
@@ -965,7 +965,7 @@
 			"rarity": "common",
 			"mana_cost": "{U/R}",
 			"type": "Creature — Dragon",
-			"collector_number": "289",
+			"collector_number": "290",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/96.jpg"
 			}
@@ -1005,7 +1005,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R/W}",
 			"type": "Creature — Dragon",
-			"collector_number": "295",
+			"collector_number": "296",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/100.jpg"
 			}
@@ -1135,7 +1135,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{W/B}",
 			"type": "Creature — Demon",
-			"collector_number": "288",
+			"collector_number": "289",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/113.jpg"
 			}
@@ -1175,7 +1175,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{G/W}",
 			"type": "Creature — Centaur Warrior",
-			"collector_number": "262",
+			"collector_number": "263",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/117.jpg"
 			}
@@ -1215,7 +1215,7 @@
 			"rarity": "common",
 			"mana_cost": "{W/B}",
 			"type": "Creature — Angel",
-			"collector_number": "283",
+			"collector_number": "284",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/121.jpg"
 			}
@@ -1235,7 +1235,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W/B}{W/B}{W/B}",
 			"type": "Legendary Creature — Angel",
-			"collector_number": "284",
+			"collector_number": "285",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/123.jpg"
 			}
@@ -1362,7 +1362,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{U/B}",
 			"type": "Creature — Demon Warlock",
-			"collector_number": "278",
+			"collector_number": "279",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/135.jpg"
 			}
@@ -1382,7 +1382,7 @@
 			"rarity": "rare",
 			"mana_cost": "{B/R}{B/R}",
 			"type": "Creature — Elf Warlock",
-			"collector_number": "271",
+			"collector_number": "272",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/137.jpg"
 			}
@@ -1402,7 +1402,7 @@
 			"rarity": "common",
 			"mana_cost": "{U/B}",
 			"type": "Creature — Horror",
-			"collector_number": "273",
+			"collector_number": "274",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/139.jpg"
 			}
@@ -1482,7 +1482,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{U/R}",
 			"type": "Creature — Fish Beast",
-			"collector_number": "264",
+			"collector_number": "265",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/147.jpg"
 			}
@@ -1552,7 +1552,7 @@
 			"rarity": "common",
 			"mana_cost": "{W/U}",
 			"type": "Artifact Creature — Golem",
-			"collector_number": "291",
+			"collector_number": "292",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/154.jpg"
 			}
@@ -1562,7 +1562,7 @@
 			"rarity": "common",
 			"mana_cost": "{R/G}",
 			"type": "Creature — Beast",
-			"collector_number": "274",
+			"collector_number": "275",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/155.jpg"
 			}
@@ -1582,7 +1582,7 @@
 			"rarity": "common",
 			"mana_cost": "{B/R}",
 			"type": "Creature — Demon Warlock",
-			"collector_number": "293",
+			"collector_number": "294",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/157.jpg"
 			}
@@ -1742,7 +1742,7 @@
 			"rarity": "common",
 			"mana_cost": "{G/U}",
 			"type": "Creature — Ooze",
-			"collector_number": "294",
+			"collector_number": "295",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/173.jpg"
 			}
@@ -1752,7 +1752,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{G/U}",
 			"type": "Creature — Fish",
-			"collector_number": "282",
+			"collector_number": "283",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/174.jpg"
 			}
@@ -1872,7 +1872,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G/U}",
 			"type": "Creature — Starfish",
-			"collector_number": "267",
+			"collector_number": "268",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/186.jpg"
 			}
@@ -2482,7 +2482,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G/W}",
 			"type": "Artifact",
-			"collector_number": "276",
+			"collector_number": "277",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/247.jpg"
 			}
@@ -2492,7 +2492,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U/R}",
 			"type": "Artifact",
-			"collector_number": "280",
+			"collector_number": "281",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/248.jpg"
 			}
@@ -2502,7 +2502,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B/R}",
 			"type": "Artifact",
-			"collector_number": "269",
+			"collector_number": "270",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/249.jpg"
 			}
@@ -2512,7 +2512,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W/B}",
 			"type": "Artifact",
-			"collector_number": "272",
+			"collector_number": "273",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/250.jpg"
 			}
@@ -2522,7 +2522,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G/U}",
 			"type": "Artifact",
-			"collector_number": "279",
+			"collector_number": "280",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/251.jpg"
 			}
@@ -2542,7 +2542,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{U}",
 			"type": "Instant",
-			"collector_number": "260",
+			"collector_number": "261",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/253.jpg"
 			}
@@ -2842,7 +2842,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{U}",
 			"type": "Legendary Enchantment",
-			"collector_number": "259",
+			"collector_number": "260",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/283.jpg"
 			}
@@ -2922,7 +2922,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B/G}{B/G}",
 			"type": "Instant",
-			"collector_number": "277",
+			"collector_number": "278",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/291.jpg"
 			}
@@ -2942,7 +2942,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G/W}{G/W}",
 			"type": "Sorcery",
-			"collector_number": "285",
+			"collector_number": "286",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/293.jpg"
 			}
@@ -2950,9 +2950,9 @@
 		{
 			"name": "Tricky Spell 4",
 			"rarity": "rare",
-			"mana_cost": "{4}{G/U}{W}",
+			"mana_cost": "{4}{G}{W}",
 			"type": "Instant",
-			"collector_number": "298",
+			"collector_number": "255",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/294.jpg"
 			}
@@ -3002,7 +3002,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{G}",
 			"type": "Instant",
-			"collector_number": "258",
+			"collector_number": "259",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/299.jpg"
 			}
@@ -3142,7 +3142,7 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{R}{G}",
 			"type": "Creature — Beast",
-			"collector_number": "256",
+			"collector_number": "257",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/313.jpg"
 			}
@@ -3272,7 +3272,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W/B}{W/B}",
 			"type": "Sorcery",
-			"collector_number": "296",
+			"collector_number": "297",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/326.jpg"
 			}
@@ -3512,7 +3512,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W/B}{W/B}",
 			"type": "Creature — Plant",
-			"collector_number": "261",
+			"collector_number": "262",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/350.jpg"
 			}
@@ -3832,7 +3832,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U/B}",
 			"type": "Artifact",
-			"collector_number": "266",
+			"collector_number": "267",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/382.jpg"
 			}
@@ -3842,7 +3842,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B/G}",
 			"type": "Artifact",
-			"collector_number": "281",
+			"collector_number": "282",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/383.jpg"
 			}
@@ -3852,7 +3852,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W/U}",
 			"type": "Artifact",
-			"collector_number": "290",
+			"collector_number": "291",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/384.jpg"
 			}
@@ -3872,7 +3872,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R/W}",
 			"type": "Artifact",
-			"collector_number": "286",
+			"collector_number": "287",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/386.jpg"
 			}
@@ -3882,7 +3882,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R/G}",
 			"type": "Artifact",
-			"collector_number": "268",
+			"collector_number": "269",
 			"image_uris": {
 				"en": "https://matortheeternal.github.io/sets/YGM-files/img/387.jpg"
 			}
