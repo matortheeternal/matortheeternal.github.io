@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #111;
+  background:
+    linear-gradient(
+      rgba(228, 228, 228, 0.1),
+      rgba(0, 0, 0, 0.35)
+    ),
+    url('background.jpg') center / cover no-repeat fixed;
+}
+
+.viewport {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 1.5rem;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.92);
+  max-width: 36rem;
+  padding: 2rem 2.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.8);
+  margin: 0.5rem;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+h1 i {
+    font-weight: normal;
+    font-size: large;
+}
+
+.bio {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.nav-item {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: white;
+  font-weight: 600;
+  width: 20rem;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.5);
+  transition: box-shadow 300ms ease;
+}
+
+.nav-item:hover {
+    box-shadow:
+      0 0 0 3px rgba(255, 255, 255, 0.6),
+      0 6px 16px rgba(0, 128, 255, 0.8);
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 1.5rem;
+  }
+}
